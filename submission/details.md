@@ -27,3 +27,11 @@ This is an empirical reference-scale index, not distinct fire counts or burned a
 We acknowledge LANCE FIRMS, operated by NASA ESDIS with NASA Headquarters funding. NASA does not endorse the project. Code: MIT. Source datasets retain their own terms. OpenAI Codex assisted research, code, analysis and writing. Numerical claims come from the supplied reproducible pipeline and NASA input files, not generated example data.
 
 This text is a draft for the team to submit; it is not evidence that an official submission has been completed.
+
+## Additional validation and case study
+
+The revised app includes year-level diagnostics, five region-exclusion tests, whole-year bootstrap intervals, rolling three-year fits, independently evaluated empirical conversion ranges and six refitted grid/filter variants. These are additional diagnostics after the original national results were known, not an untouched final benchmark. NPP range coverage misses its nominal target, and some spatial transfer errors are large; both are exposed in the UI.
+
+The case is Kalimantan September 2019, outside NPP's 2013–2017 fit period, with the following year as a comparison. NASA Earth Observatory's “Smoke Blankets Borneo” supplies a separate Landsat 8 OLI observation dated 15 September 2019. It corroborates event occurrence, not complete count accuracy. The image is credited and displayed unchanged. An interactive test shows that above-median activity persists across six processing variants while the extreme label changes with the confidence filter.
+
+The season briefing now uses only the same-month Aqua 2003–2017 baseline, excluding the selected year. It compares the adjusted primary observation and concurrent Aqua category on that common scale. Historical categories are descriptive, not predictions or risk levels. A five-step guided route links the published event, the sensor comparison, the sensitivity test, the exportable briefing and the failed validation tests. See reports/validation-v2.md and reports/case-study.md.

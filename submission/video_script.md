@@ -1,11 +1,11 @@
 # Thirty-second demo script — draft
 
-**0–5s, concurrent-sensor chart:** “Did burning increase—or did the satellite change?”
+**0–6s, sensor comparison:** “Would changing the satellite change your conclusion? Unadjusted counts can make the same season look very different.”
 
-**5–12s, calendar and region selector:** “Fire Continuum connects 23 years of NASA hotspot observations across Indonesia. Choose a region and inspect its seasonal rhythm.”
+**6–14s, Landsat case and calendar:** “Fire Continuum connects NASA's fire record to a documented Borneo episode, with separate Landsat evidence.”
 
-**12–22s, validation panel:** “We calibrate sensor differences, then test on later years. NOAA-20 disagreement with Aqua drops to 13.5 percent—agreement between sensors, not accuracy against every fire.”
+**14–23s, processing variants:** “Change the grid and filters. Above-typical burning persists, but an extreme label depends on the choices. We show the tests that fail, too.”
 
-**22–30s, downloads and sources:** “Compare the original observations, inspect the limits, and download the evidence. One fire history. Different satellites.”
+**23–30s, briefing export:** “Choose a region, understand its season, and download the evidence. One fire history. Different satellites.”
 
-Approximately 75 spoken words. Record the actual app and rehearse to 30 seconds; no video has been recorded by this draft.
+Rehearse against the actual interface; no video has been recorded by this script.

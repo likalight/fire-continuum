@@ -1,0 +1,251 @@
+{
+  "configurations": [
+    {
+      "config": "grid_500m",
+      "grid_m": 500,
+      "filter": "base",
+      "sensors": {
+        "snpp": {
+          "months": 96,
+          "mae": 202.35033182607572,
+          "wape": 0.12019398619780637,
+          "relative_bias": 0.03009681897347657,
+          "correlation": 0.9918886005354629
+        },
+        "noaa20": {
+          "months": 48,
+          "mae": 223.46597288819757,
+          "wape": 0.15493589141617892,
+          "relative_bias": -0.09429215397191226,
+          "correlation": 0.9871728374211113
+        }
+      },
+      "case": [
+        {
+          "year": 2019,
+          "adjusted": 14557.634332451258,
+          "aqua": 14101,
+          "median": 6474.0,
+          "p90": 15185.199999999999,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        },
+        {
+          "year": 2020,
+          "adjusted": 856.3102891618039,
+          "aqua": 1081,
+          "median": 6474.0,
+          "p90": 15185.199999999999,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        }
+      ]
+    },
+    {
+      "config": "original_1000m",
+      "grid_m": 1000,
+      "filter": "base",
+      "sensors": {
+        "snpp": {
+          "months": 96,
+          "mae": 223.25830997752897,
+          "wape": 0.13695778543211654,
+          "relative_bias": 0.07101793810614412,
+          "correlation": 0.991277770398183
+        },
+        "noaa20": {
+          "months": 48,
+          "mae": 188.8082793070565,
+          "wape": 0.13453872222824012,
+          "relative_bias": -0.03181971729710949,
+          "correlation": 0.9910133222098206
+        }
+      },
+      "case": [
+        {
+          "year": 2019,
+          "adjusted": 12089.798380210812,
+          "aqua": 13503,
+          "median": 6269.0,
+          "p90": 14577.8,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        },
+        {
+          "year": 2020,
+          "adjusted": 940.8142547262019,
+          "aqua": 1042,
+          "median": 6269.0,
+          "p90": 14577.8,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        }
+      ]
+    },
+    {
+      "config": "grid_2000m",
+      "grid_m": 2000,
+      "filter": "base",
+      "sensors": {
+        "snpp": {
+          "months": 96,
+          "mae": 228.67439126586137,
+          "wape": 0.16205471200326796,
+          "relative_bias": 0.09650637724061122,
+          "correlation": 0.9880002530129903
+        },
+        "noaa20": {
+          "months": 48,
+          "mae": 170.08631682954322,
+          "wape": 0.13703975170487745,
+          "relative_bias": -0.01582161316261579,
+          "correlation": 0.9911346739225546
+        }
+      },
+      "case": [
+        {
+          "year": 2019,
+          "adjusted": 8989.878023133544,
+          "aqua": 10734,
+          "median": 5405.0,
+          "p90": 12195.8,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        },
+        {
+          "year": 2020,
+          "adjusted": 877.69610935857,
+          "aqua": 942,
+          "median": 5405.0,
+          "p90": 12195.8,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        }
+      ]
+    },
+    {
+      "config": "high_confidence",
+      "grid_m": 1000,
+      "filter": "high",
+      "sensors": {
+        "snpp": {
+          "months": 96,
+          "mae": 99.19117525904244,
+          "wape": 0.23264971475367882,
+          "relative_bias": 0.17034839213131064,
+          "correlation": 0.9941419067375945
+        },
+        "noaa20": {
+          "months": 48,
+          "mae": 57.039487169552956,
+          "wape": 0.1810298455526674,
+          "relative_bias": 0.030414127761490762,
+          "correlation": 0.9808484560793306
+        }
+      },
+      "case": [
+        {
+          "year": 2019,
+          "adjusted": 6099.175824175824,
+          "aqua": 5357,
+          "median": 1920.0,
+          "p90": 5150.2,
+          "adjusted_above_p90": true,
+          "aqua_above_p90": true
+        },
+        {
+          "year": 2020,
+          "adjusted": 176.83516483516482,
+          "aqua": 205,
+          "median": 1920.0,
+          "p90": 5150.2,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        }
+      ]
+    },
+    {
+      "config": "vegetation_only",
+      "grid_m": 1000,
+      "filter": "vegetation",
+      "sensors": {
+        "snpp": {
+          "months": 96,
+          "mae": 205.3532889823042,
+          "wape": 0.13348985815576278,
+          "relative_bias": 0.04130772315684317,
+          "correlation": 0.9913635924351126
+        },
+        "noaa20": {
+          "months": 48,
+          "mae": 174.38454976349442,
+          "wape": 0.13384167554601425,
+          "relative_bias": -0.030309514488350398,
+          "correlation": 0.9917103504160488
+        }
+      },
+      "case": [
+        {
+          "year": 2019,
+          "adjusted": 12034.399810505824,
+          "aqua": 13481,
+          "median": 6259.0,
+          "p90": 14399.199999999999,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        },
+        {
+          "year": 2020,
+          "adjusted": 921.3247567479542,
+          "aqua": 1037,
+          "median": 6259.0,
+          "p90": 14399.199999999999,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        }
+      ]
+    },
+    {
+      "config": "daytime_only",
+      "grid_m": 1000,
+      "filter": "day",
+      "sensors": {
+        "snpp": {
+          "months": 96,
+          "mae": 211.7726319602959,
+          "wape": 0.1476850236322246,
+          "relative_bias": 0.08582840241616509,
+          "correlation": 0.9876322568506944
+        },
+        "noaa20": {
+          "months": 48,
+          "mae": 178.28392983007862,
+          "wape": 0.13828499502042166,
+          "relative_bias": -0.026599529878179852,
+          "correlation": 0.9901094145319352
+        }
+      },
+      "case": [
+        {
+          "year": 2019,
+          "adjusted": 9250.952686725077,
+          "aqua": 9957,
+          "median": 5974.0,
+          "p90": 12272.199999999999,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        },
+        {
+          "year": 2020,
+          "adjusted": 1062.5287443747227,
+          "aqua": 1035,
+          "median": 5974.0,
+          "p90": 12272.199999999999,
+          "adjusted_above_p90": false,
+          "aqua_above_p90": false
+        }
+      ]
+    }
+  ],
+  "note": "Each variant is refitted on the original training years and tested on the original later years. Definitions differ, so lower disagreement does not establish a more accurate count of fires. Case classification uses the corresponding Aqua September 2003-2017 baseline."
+}

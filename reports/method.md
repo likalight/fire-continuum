@@ -35,7 +35,7 @@ The browser data was independently summed back to all 1,620 sector/month/sensor 
 
 ## Calendar, anomalies and exports
 
-The seasonal baseline is the median of each calendar month during 2003–2017, calculated in the chosen view and chosen area. The displayed anomaly is a ratio to that median. It is descriptive, not a forecast or statistical significance test. Anomalies in raw/unadjusted mode are confounded by changing sensors. Harmonized historical estimates still depend on the calibration's transferability. Calendar colors use a logarithmic scale over the displayed years. Map colors rescale per selected month and must not be compared visually across months as an absolute scale.
+The seasonal baseline now uses only Aqua observations for each calendar month during 2003–2017 in the chosen area, excluding the selected year. This replaces the original mixed-sensor baseline. Raw/unadjusted views no longer show a cross-sensor anomaly ratio. The displayed anomaly is a ratio to that median. It is descriptive, not a forecast or statistical significance test. The briefing always uses adjusted activity and the consistent Aqua baseline, regardless of the calendar view. Harmonized historical estimates still depend on the calibration's transferability. Calendar colors use a logarithmic scale over the displayed years. Map colors rescale per selected month and must not be compared visually across months as an absolute scale.
 
 User-selected rectangles snap outward to 0.25 degrees. Historical points are already assigned to Indonesia by FIRMS. Sector-level calibration has not been validated for every arbitrary small rectangle. Empty cells mean no retained detections in the available input, not verified absence of fire. The CSV analytics include source platform, raw count, cell-days, adjusted estimate, Aqua reference and selected bounds. The hotspot CSV contains filtered original observations from the primary platform for the selected month; it does not adjust individual point positions or intensities.
 
@@ -51,7 +51,11 @@ Annual history ends December 2025. The separately dated seven-day FIRMS NRT snap
 - No exact time-of-day matching; combining UTC-day detections only partially addresses sampling differences. Diurnal fire cycles remain a confounder.
 - Collection/version transitions, scan-angle effects, geolocation differences, fire size and intensity are not individually modeled.
 - Ratios can hide real differences in the small/low-intensity sources detected by VIIRS. They are a reference-scale index, not a reconstruction of every fire.
-- Quarter boundaries can produce artificial steps. No uncertainty intervals or per-AOI out-of-sample guarantees are claimed.
-- Global expansion, 2026 full-archive ingestion, independent fire-perimeter/ground validation, coverage normalization, a global-factor ablation and rolling-year transfer tests remain future work.
+- Quarter boundaries can produce artificial steps. Additional empirical conversion-range tests failed to establish universal nominal coverage; no per-AOI guarantee is claimed.
+- Global expansion, 2026 full-archive ingestion, independent fire-perimeter/ground validation and coverage normalization remain future work. Single-factor ablation, rolling temporal tests, spatial exclusion tests and six processing sensitivities are now reported in validation-v2.md / robustness.json / sensitivity.json.
 
 We acknowledge data from LANCE FIRMS, operated by NASA's Earth Science Data and Information System with funding from NASA Headquarters. Source data retain their source terms. NASA does not endorse this project.
+
+## Additional evidence and changed claims
+
+See [validation-v2.md](https://github.com/likalight/fire-continuum/blob/main/reports/validation-v2.md) for year-level, spatial-transfer, range-coverage and sensitivity results, including failures. The Kalimantan September 2019 case uses a separate NASA-published Landsat observation to corroborate event existence only. See [case-study.md](https://github.com/likalight/fire-continuum/blob/main/reports/case-study.md). The original harmonization coefficients remain unchanged.

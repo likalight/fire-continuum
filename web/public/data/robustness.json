@@ -1,0 +1,1144 @@
+{
+  "protocol": "validation_protocol_v2.json",
+  "sensors": {
+    "snpp": {
+      "test_years": [
+        2018,
+        2025
+      ],
+      "annual": [
+        {
+          "year": 2018,
+          "months": 12,
+          "mae": 177.50058063926397,
+          "wape": 0.09179481846540113,
+          "relative_bias": 0.09054896564929707,
+          "correlation": 0.9973711299719509
+        },
+        {
+          "year": 2019,
+          "months": 12,
+          "mae": 300.5484231654602,
+          "wape": 0.07412255334248971,
+          "relative_bias": 0.01359439023954507,
+          "correlation": 0.9980417576315989
+        },
+        {
+          "year": 2020,
+          "months": 12,
+          "mae": 323.3066048827898,
+          "wape": 0.43121921291469134,
+          "relative_bias": 0.42180464923085553,
+          "correlation": 0.7906969170463573
+        },
+        {
+          "year": 2021,
+          "months": 12,
+          "mae": 129.22551676703958,
+          "wape": 0.18746448273748487,
+          "relative_bias": 0.18746448273748487,
+          "correlation": 0.9935386625826894
+        },
+        {
+          "year": 2022,
+          "months": 12,
+          "mae": 179.36131583547026,
+          "wape": 0.30915481040299386,
+          "relative_bias": 0.21028767659797218,
+          "correlation": 0.9288216919599613
+        },
+        {
+          "year": 2023,
+          "months": 12,
+          "mae": 258.01006097566216,
+          "wape": 0.09544439507099313,
+          "relative_bias": 0.004601761589763284,
+          "correlation": 0.991102264190227
+        },
+        {
+          "year": 2024,
+          "months": 12,
+          "mae": 228.56710889380545,
+          "wape": 0.17530393114698106,
+          "relative_bias": -0.04821941952161416,
+          "correlation": 0.9718190875280405
+        },
+        {
+          "year": 2025,
+          "months": 12,
+          "mae": 189.54686866074027,
+          "wape": 0.1846985321907335,
+          "relative_bias": 0.17431082290784794,
+          "correlation": 0.9873711910814986
+        }
+      ],
+      "activity_thresholds": {
+        "training_q25": 532.5,
+        "training_q75": 4518.25
+      },
+      "strata": {
+        "quiet": {
+          "months": 49,
+          "mae": 69.98152234670667,
+          "wape": 0.21759595120176578,
+          "relative_bias": 0.1865940129239982,
+          "correlation": 0.8190390790183244
+        },
+        "middle": {
+          "months": 37,
+          "mae": 337.21224871132756,
+          "wape": 0.22611597169791262,
+          "relative_bias": 0.1374310546666577,
+          "correlation": 0.8607316075248826
+        },
+        "high": {
+          "months": 10,
+          "mae": 552.6849960535031,
+          "wape": 0.06460071955180391,
+          "relative_bias": 0.006895013149425021,
+          "correlation": 0.992194838011337
+        }
+      },
+      "year_block_bootstrap_wape_95": [
+        0.09693877409057068,
+        0.225818779470415
+      ],
+      "bootstrap_note": "Resampled whole test years; sampling variation of WAPE, not per-month prediction intervals.",
+      "spatial_holdouts": [
+        {
+          "region": "sumatra",
+          "bbox": [
+            95,
+            -6,
+            106,
+            6
+          ],
+          "months": 96,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 96,
+            "mae": 139.38223976930274,
+            "wape": 0.3588760900590871,
+            "relative_bias": -0.3354271393477287,
+            "correlation": 0.9831627910052873
+          }
+        },
+        {
+          "region": "kalimantan",
+          "bbox": [
+            108,
+            -5,
+            120,
+            4.5
+          ],
+          "months": 96,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 96,
+            "mae": 366.59245199998,
+            "wape": 0.5180222175250317,
+            "relative_bias": -0.5120010693467975,
+            "correlation": 0.9913940185078919
+          }
+        },
+        {
+          "region": "java",
+          "bbox": [
+            105,
+            -9,
+            116,
+            -5
+          ],
+          "months": 96,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 96,
+            "mae": 92.61664497300279,
+            "wape": 1.6098493422792446,
+            "relative_bias": 1.6063500408848654,
+            "correlation": 0.9459662294334501
+          }
+        },
+        {
+          "region": "papua",
+          "bbox": [
+            130,
+            -10,
+            142,
+            0.5
+          ],
+          "months": 96,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 96,
+            "mae": 35.7585921390505,
+            "wape": 0.2574103813248986,
+            "relative_bias": -0.170851979588065,
+            "correlation": 0.9883043698603882
+          }
+        },
+        {
+          "region": "sulawesi",
+          "bbox": [
+            119,
+            -6,
+            126,
+            2
+          ],
+          "months": 96,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 96,
+            "mae": 23.20435800407871,
+            "wape": 0.1802134429570064,
+            "relative_bias": 0.09768375291490736,
+            "correlation": 0.9835262431625819
+          }
+        }
+      ],
+      "empirical_range": {
+        "nominal": 0.9,
+        "calibration_years": [
+          2018,
+          2021
+        ],
+        "evaluation_years": [
+          2022,
+          2025
+        ],
+        "calibration_months": 48,
+        "evaluation_months": 48,
+        "q": 0.29707814138148714,
+        "observed_reference_coverage": 0.7916666666666666,
+        "mean_interval_width": 871.621029347758,
+        "mean_reference": 1403.375,
+        "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+      },
+      "regions": {
+        "sumatra": {
+          "bbox": [
+            95,
+            -6,
+            106,
+            6
+          ],
+          "frozen_test": {
+            "months": 96,
+            "mae": 62.41650844366458,
+            "wape": 0.1607076521548022,
+            "relative_bias": 0.01823095057590725,
+            "correlation": 0.9905477612467624
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2018,
+              2021
+            ],
+            "evaluation_years": [
+              2022,
+              2025
+            ],
+            "calibration_months": 48,
+            "evaluation_months": 48,
+            "q": 0.4650883664963993,
+            "observed_reference_coverage": 0.8125,
+            "mean_interval_width": 284.9913915342096,
+            "mean_reference": 298.3333333333333,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        },
+        "kalimantan": {
+          "bbox": [
+            108,
+            -5,
+            120,
+            4.5
+          ],
+          "frozen_test": {
+            "months": 96,
+            "mae": 116.48849155719726,
+            "wape": 0.16460684442190465,
+            "relative_bias": -0.08475456907701437,
+            "correlation": 0.9912947368672306
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2018,
+              2021
+            ],
+            "evaluation_years": [
+              2022,
+              2025
+            ],
+            "calibration_months": 48,
+            "evaluation_months": 48,
+            "q": 0.49037788764231455,
+            "observed_reference_coverage": 0.8958333333333334,
+            "mean_interval_width": 529.4224336550787,
+            "mean_reference": 620.375,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        },
+        "java": {
+          "bbox": [
+            105,
+            -9,
+            116,
+            -5
+          ],
+          "frozen_test": {
+            "months": 96,
+            "mae": 87.14115404842244,
+            "wape": 1.5146751382669843,
+            "relative_bias": 1.51079451347269,
+            "correlation": 0.9466213407948896
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2018,
+              2021
+            ],
+            "evaluation_years": [
+              2022,
+              2025
+            ],
+            "calibration_months": 48,
+            "evaluation_months": 48,
+            "q": 0.790765324046485,
+            "observed_reference_coverage": 0.9583333333333334,
+            "mean_interval_width": 199.69957113623687,
+            "mean_reference": 56.125,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        },
+        "papua": {
+          "bbox": [
+            130,
+            -10,
+            142,
+            0.5
+          ],
+          "frozen_test": {
+            "months": 96,
+            "mae": 27.979419062303986,
+            "wape": 0.20141153494160038,
+            "relative_bias": -0.07492154206805014,
+            "correlation": 0.9884127682993121
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2018,
+              2021
+            ],
+            "evaluation_years": [
+              2022,
+              2025
+            ],
+            "calibration_months": 48,
+            "evaluation_months": 48,
+            "q": 0.6061605016586766,
+            "observed_reference_coverage": 0.8958333333333334,
+            "mean_interval_width": 126.20806997638927,
+            "mean_reference": 119.6875,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        },
+        "sulawesi": {
+          "bbox": [
+            119,
+            -6,
+            126,
+            2
+          ],
+          "frozen_test": {
+            "months": 96,
+            "mae": 22.240717547171887,
+            "wape": 0.17272946238399006,
+            "relative_bias": 0.10629100771535545,
+            "correlation": 0.9852164712802742
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2018,
+              2021
+            ],
+            "evaluation_years": [
+              2022,
+              2025
+            ],
+            "calibration_months": 48,
+            "evaluation_months": 48,
+            "q": 0.40778076819514986,
+            "observed_reference_coverage": 0.9166666666666666,
+            "mean_interval_width": 106.04702461947518,
+            "mean_reference": 111.39583333333333,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        }
+      },
+      "rolling_three_year_fit": [
+        {
+          "year": 2016,
+          "train_years": [
+            2013,
+            2015
+          ],
+          "months": 12,
+          "mae": 172.23190966711923,
+          "wape": 0.13982700196234563,
+          "relative_bias": 0.09845232512944889,
+          "correlation": 0.9889716706237102
+        },
+        {
+          "year": 2017,
+          "train_years": [
+            2014,
+            2016
+          ],
+          "months": 12,
+          "mae": 193.6916346981526,
+          "wape": 0.21072525987106358,
+          "relative_bias": 0.2086381989191484,
+          "correlation": 0.9955404775175534
+        },
+        {
+          "year": 2018,
+          "train_years": [
+            2015,
+            2017
+          ],
+          "months": 12,
+          "mae": 139.05051650295917,
+          "wape": 0.07191028262521591,
+          "relative_bias": 0.0561285121898736,
+          "correlation": 0.9971678724399672
+        },
+        {
+          "year": 2019,
+          "train_years": [
+            2016,
+            2018
+          ],
+          "months": 12,
+          "mae": 552.346594352425,
+          "wape": 0.13622210847830937,
+          "relative_bias": -0.1132413416244329,
+          "correlation": 0.9961012139885034
+        },
+        {
+          "year": 2020,
+          "train_years": [
+            2017,
+            2019
+          ],
+          "months": 12,
+          "mae": 290.80210526956006,
+          "wape": 0.38786542883569197,
+          "relative_bias": 0.3275140667704265,
+          "correlation": 0.7920559578376863
+        },
+        {
+          "year": 2021,
+          "train_years": [
+            2018,
+            2020
+          ],
+          "months": 12,
+          "mae": 68.30859618056219,
+          "wape": 0.09909370819230491,
+          "relative_bias": 0.09207757712556966,
+          "correlation": 0.9932914580902564
+        },
+        {
+          "year": 2022,
+          "train_years": [
+            2019,
+            2021
+          ],
+          "months": 12,
+          "mae": 146.55847443691144,
+          "wape": 0.25261443453647475,
+          "relative_bias": 0.09672439769362486,
+          "correlation": 0.9322748287864802
+        },
+        {
+          "year": 2023,
+          "train_years": [
+            2020,
+            2022
+          ],
+          "months": 12,
+          "mae": 660.7596768682134,
+          "wape": 0.2444315830456722,
+          "relative_bias": -0.23725084267527746,
+          "correlation": 0.9920009463149755
+        },
+        {
+          "year": 2024,
+          "train_years": [
+            2021,
+            2023
+          ],
+          "months": 12,
+          "mae": 231.58225896277875,
+          "wape": 0.17761645836337372,
+          "relative_bias": -0.10578270801603279,
+          "correlation": 0.972476272462783
+        },
+        {
+          "year": 2025,
+          "train_years": [
+            2022,
+            2024
+          ],
+          "months": 12,
+          "mae": 202.03954359487776,
+          "wape": 0.19687166245542292,
+          "relative_bias": 0.15824962094858427,
+          "correlation": 0.986619818379341
+        }
+      ]
+    },
+    "noaa20": {
+      "test_years": [
+        2022,
+        2025
+      ],
+      "annual": [
+        {
+          "year": 2022,
+          "months": 12,
+          "mae": 121.59595882004942,
+          "wape": 0.20958797843157037,
+          "relative_bias": 0.20774010027089013,
+          "correlation": 0.9850158663076489
+        },
+        {
+          "year": 2023,
+          "months": 12,
+          "mae": 339.46472599510906,
+          "wape": 0.12557651937301734,
+          "relative_bias": -0.09820275723266444,
+          "correlation": 0.9935206988693316
+        },
+        {
+          "year": 2024,
+          "months": 12,
+          "mae": 190.18230038648986,
+          "wape": 0.14586396552715572,
+          "relative_bias": -0.03991722618023416,
+          "correlation": 0.9817871094601238
+        },
+        {
+          "year": 2025,
+          "months": 12,
+          "mae": 103.99013202657746,
+          "wape": 0.10133021391140312,
+          "relative_bias": 0.017898318151239913,
+          "correlation": 0.9880434260075681
+        }
+      ],
+      "activity_thresholds": {
+        "training_q25": 362.25,
+        "training_q75": 1345.75
+      },
+      "strata": {
+        "quiet": {
+          "months": 15,
+          "mae": 64.75094860349543,
+          "wape": 0.33434224752235164,
+          "relative_bias": 0.32158468724227657,
+          "correlation": 0.13760973533638077
+        },
+        "middle": {
+          "months": 19,
+          "mae": 85.29586147750891,
+          "wape": 0.15044758337102387,
+          "relative_bias": 0.08149046186506392,
+          "correlation": 0.9304484584707919
+        },
+        "high": {
+          "months": 14,
+          "mae": 462.20798640097206,
+          "wape": 0.12053481996113642,
+          "relative_bias": -0.07367902706933356,
+          "correlation": 0.9806428938347748
+        }
+      },
+      "year_block_bootstrap_wape_95": [
+        0.11457915532305274,
+        0.16943273099728046
+      ],
+      "bootstrap_note": "Resampled whole test years; sampling variation of WAPE, not per-month prediction intervals.",
+      "spatial_holdouts": [
+        {
+          "region": "sumatra",
+          "bbox": [
+            95,
+            -6,
+            106,
+            6
+          ],
+          "months": 48,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 48,
+            "mae": 167.14080594981,
+            "wape": 0.5602485115636089,
+            "relative_bias": -0.5503777110950381,
+            "correlation": 0.9887849928146111
+          }
+        },
+        {
+          "region": "kalimantan",
+          "bbox": [
+            108,
+            -5,
+            120,
+            4.5
+          ],
+          "months": 48,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 48,
+            "mae": 362.2157782347126,
+            "wape": 0.5838658524839212,
+            "relative_bias": -0.5816977990794462,
+            "correlation": 0.9720942054615918
+          }
+        },
+        {
+          "region": "java",
+          "bbox": [
+            105,
+            -9,
+            116,
+            -5
+          ],
+          "months": 48,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 48,
+            "mae": 74.67171667156583,
+            "wape": 1.330453749159302,
+            "relative_bias": 1.330453749159302,
+            "correlation": 0.9719536870799814
+          }
+        },
+        {
+          "region": "papua",
+          "bbox": [
+            130,
+            -10,
+            142,
+            0.5
+          ],
+          "months": 48,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 48,
+            "mae": 38.679311143359705,
+            "wape": 0.3231691792656685,
+            "relative_bias": -0.275852664419547,
+            "correlation": 0.9838402312340945
+          }
+        },
+        {
+          "region": "sulawesi",
+          "bbox": [
+            119,
+            -6,
+            126,
+            2
+          ],
+          "months": 48,
+          "fallback_sector_quarters": 0,
+          "after": {
+            "months": 48,
+            "mae": 14.856730879315473,
+            "wape": 0.1333688203117903,
+            "relative_bias": -0.002089150061120642,
+            "correlation": 0.9901953031428136
+          }
+        }
+      ],
+      "empirical_range": {
+        "nominal": 0.9,
+        "calibration_years": [
+          2022,
+          2023
+        ],
+        "evaluation_years": [
+          2024,
+          2025
+        ],
+        "calibration_months": 24,
+        "evaluation_months": 24,
+        "q": 0.629808893428694,
+        "observed_reference_coverage": 1.0,
+        "mean_interval_width": 1447.5565850249302,
+        "mean_reference": 1165.0416666666667,
+        "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+      },
+      "regions": {
+        "sumatra": {
+          "bbox": [
+            95,
+            -6,
+            106,
+            6
+          ],
+          "frozen_test": {
+            "months": 48,
+            "mae": 40.697458940289444,
+            "wape": 0.13641606348700372,
+            "relative_bias": 0.0007447269831714054,
+            "correlation": 0.9901862069666145
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2022,
+              2023
+            ],
+            "evaluation_years": [
+              2024,
+              2025
+            ],
+            "calibration_months": 24,
+            "evaluation_months": 24,
+            "q": 0.5978878932132075,
+            "observed_reference_coverage": 1.0,
+            "mean_interval_width": 310.27935760807264,
+            "mean_reference": 272.125,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        },
+        "kalimantan": {
+          "bbox": [
+            108,
+            -5,
+            120,
+            4.5
+          ],
+          "frozen_test": {
+            "months": 48,
+            "mae": 142.57700431945025,
+            "wape": 0.22982390379923473,
+            "relative_bias": -0.20282465395341254,
+            "correlation": 0.9821721048037275
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2022,
+              2023
+            ],
+            "evaluation_years": [
+              2024,
+              2025
+            ],
+            "calibration_months": 24,
+            "evaluation_months": 24,
+            "q": 0.3913731206367562,
+            "observed_reference_coverage": 0.6666666666666666,
+            "mean_interval_width": 327.8422073149324,
+            "mean_reference": 533.25,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        },
+        "java": {
+          "bbox": [
+            105,
+            -9,
+            116,
+            -5
+          ],
+          "frozen_test": {
+            "months": 48,
+            "mae": 65.41909411426353,
+            "wape": 1.1655963316572566,
+            "relative_bias": 1.1655963316572566,
+            "correlation": 0.9712288038934062
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2022,
+              2023
+            ],
+            "evaluation_years": [
+              2024,
+              2025
+            ],
+            "calibration_months": 24,
+            "evaluation_months": 24,
+            "q": 0.7280987348285378,
+            "observed_reference_coverage": 0.9583333333333334,
+            "mean_interval_width": 159.62804007869738,
+            "mean_reference": 45.833333333333336,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        },
+        "papua": {
+          "bbox": [
+            130,
+            -10,
+            142,
+            0.5
+          ],
+          "frozen_test": {
+            "months": 48,
+            "mae": 34.177910311729526,
+            "wape": 0.28555956396223103,
+            "relative_bias": -0.23297574105770652,
+            "correlation": 0.9845868106007606
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2022,
+              2023
+            ],
+            "evaluation_years": [
+              2024,
+              2025
+            ],
+            "calibration_months": 24,
+            "evaluation_months": 24,
+            "q": 1.1264670161884573,
+            "observed_reference_coverage": 1.0,
+            "mean_interval_width": 93.44151601814833,
+            "mean_reference": 51.958333333333336,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        },
+        "sulawesi": {
+          "bbox": [
+            119,
+            -6,
+            126,
+            2
+          ],
+          "frozen_test": {
+            "months": 48,
+            "mae": 14.13768997229809,
+            "wape": 0.1269139926445312,
+            "relative_bias": 0.029363395925697394,
+            "correlation": 0.9909568046747614
+          },
+          "range": {
+            "nominal": 0.9,
+            "calibration_years": [
+              2022,
+              2023
+            ],
+            "evaluation_years": [
+              2024,
+              2025
+            ],
+            "calibration_months": 24,
+            "evaluation_months": 24,
+            "q": 0.30556074136033395,
+            "observed_reference_coverage": 0.75,
+            "mean_interval_width": 59.36524441369077,
+            "mean_reference": 88.70833333333333,
+            "limitation": "Empirical conversion-error range against Aqua; serial dependence and limited years prevent an unconditional 90% guarantee."
+          }
+        }
+      },
+      "rolling_three_year_fit": [
+        {
+          "year": 2022,
+          "train_years": [
+            2019,
+            2021
+          ],
+          "months": 12,
+          "mae": 121.59595882004942,
+          "wape": 0.20958797843157037,
+          "relative_bias": 0.20774010027089013,
+          "correlation": 0.9850158663076489
+        },
+        {
+          "year": 2023,
+          "train_years": [
+            2020,
+            2022
+          ],
+          "months": 12,
+          "mae": 768.3231668902716,
+          "wape": 0.2842220167910003,
+          "relative_bias": -0.27654690900106044,
+          "correlation": 0.989356520329706
+        },
+        {
+          "year": 2024,
+          "train_years": [
+            2021,
+            2023
+          ],
+          "months": 12,
+          "mae": 182.49188026041608,
+          "wape": 0.1399656502061225,
+          "relative_bias": -0.020960750362560395,
+          "correlation": 0.9840768302322441
+        },
+        {
+          "year": 2025,
+          "train_years": [
+            2022,
+            2024
+          ],
+          "months": 12,
+          "mae": 123.84574974557809,
+          "wape": 0.12067795346706757,
+          "relative_bias": 0.06401401569887213,
+          "correlation": 0.9908099720867533
+        }
+      ]
+    }
+  },
+  "case": {
+    "region": "Kalimantan study rectangle",
+    "bbox": [
+      108,
+      -5,
+      120,
+      4.5
+    ],
+    "sensor": "snpp",
+    "training_years": [
+      2013,
+      2017
+    ],
+    "samples": [
+      {
+        "year": 2019,
+        "month": 9,
+        "aqua": 13503,
+        "snpp": 54100,
+        "adjusted": 12089.798380210814,
+        "baseline_median": 6269.0,
+        "baseline_p90": 14577.8,
+        "adjusted_over_median": 1.9285050853741927,
+        "aqua_over_median": 2.1539320465784018,
+        "adjusted_above_p90": false,
+        "aqua_above_p90": false
+      },
+      {
+        "year": 2020,
+        "month": 9,
+        "aqua": 1042,
+        "snpp": 4210,
+        "adjusted": 940.8142547262019,
+        "baseline_median": 6269.0,
+        "baseline_p90": 14577.8,
+        "adjusted_over_median": 0.15007405562708595,
+        "aqua_over_median": 0.1662147072898389,
+        "adjusted_above_p90": false,
+        "aqua_above_p90": false
+      }
+    ],
+    "monthly": [
+      {
+        "year": 2019,
+        "month": 1,
+        "aqua": 42,
+        "snpp": 344,
+        "noaa20": 338,
+        "snpp_adjusted": 57.27494908350306
+      },
+      {
+        "year": 2019,
+        "month": 2,
+        "aqua": 120,
+        "snpp": 904,
+        "noaa20": 922,
+        "snpp_adjusted": 150.51323828920573
+      },
+      {
+        "year": 2019,
+        "month": 3,
+        "aqua": 206,
+        "snpp": 1378,
+        "noaa20": 1440,
+        "snpp_adjusted": 229.4327902240326
+      },
+      {
+        "year": 2019,
+        "month": 4,
+        "aqua": 164,
+        "snpp": 943,
+        "noaa20": 893,
+        "snpp_adjusted": 139.80840433364887
+      },
+      {
+        "year": 2019,
+        "month": 5,
+        "aqua": 146,
+        "snpp": 901,
+        "noaa20": 975,
+        "snpp_adjusted": 133.58151888082466
+      },
+      {
+        "year": 2019,
+        "month": 6,
+        "aqua": 74,
+        "snpp": 475,
+        "noaa20": 523,
+        "snpp_adjusted": 70.42310928789313
+      },
+      {
+        "year": 2019,
+        "month": 7,
+        "aqua": 525,
+        "snpp": 3081,
+        "noaa20": 3313,
+        "snpp_adjusted": 688.5151351096027
+      },
+      {
+        "year": 2019,
+        "month": 8,
+        "aqua": 4110,
+        "snpp": 17727,
+        "noaa20": 18159,
+        "snpp_adjusted": 3961.4760792236057
+      },
+      {
+        "year": 2019,
+        "month": 9,
+        "aqua": 13503,
+        "snpp": 54100,
+        "noaa20": 54485,
+        "snpp_adjusted": 12089.798380210814
+      },
+      {
+        "year": 2019,
+        "month": 10,
+        "aqua": 1744,
+        "snpp": 9422,
+        "noaa20": 9366,
+        "snpp_adjusted": 1669.8327028213655
+      },
+      {
+        "year": 2019,
+        "month": 11,
+        "aqua": 1314,
+        "snpp": 6603,
+        "noaa20": 6686,
+        "snpp_adjusted": 1170.2298171014093
+      },
+      {
+        "year": 2019,
+        "month": 12,
+        "aqua": 85,
+        "snpp": 562,
+        "noaa20": 629,
+        "snpp_adjusted": 99.60156856141026
+      },
+      {
+        "year": 2020,
+        "month": 1,
+        "aqua": 96,
+        "snpp": 499,
+        "noaa20": 556,
+        "snpp_adjusted": 83.08197556008146
+      },
+      {
+        "year": 2020,
+        "month": 2,
+        "aqua": 71,
+        "snpp": 485,
+        "noaa20": 500,
+        "snpp_adjusted": 80.7510183299389
+      },
+      {
+        "year": 2020,
+        "month": 3,
+        "aqua": 131,
+        "snpp": 802,
+        "noaa20": 890,
+        "snpp_adjusted": 133.530549898167
+      },
+      {
+        "year": 2020,
+        "month": 4,
+        "aqua": 179,
+        "snpp": 1067,
+        "noaa20": 1087,
+        "snpp_adjusted": 158.19254233722518
+      },
+      {
+        "year": 2020,
+        "month": 5,
+        "aqua": 85,
+        "snpp": 546,
+        "noaa20": 503,
+        "snpp_adjusted": 80.94951088671505
+      },
+      {
+        "year": 2020,
+        "month": 6,
+        "aqua": 63,
+        "snpp": 484,
+        "noaa20": 527,
+        "snpp_adjusted": 71.75744188492689
+      },
+      {
+        "year": 2020,
+        "month": 7,
+        "aqua": 55,
+        "snpp": 566,
+        "noaa20": 641,
+        "snpp_adjusted": 126.4847667874181
+      },
+      {
+        "year": 2020,
+        "month": 8,
+        "aqua": 501,
+        "snpp": 5784,
+        "noaa20": 6537,
+        "snpp_adjusted": 1292.5581114813187
+      },
+      {
+        "year": 2020,
+        "month": 9,
+        "aqua": 1042,
+        "snpp": 4210,
+        "noaa20": 5345,
+        "snpp_adjusted": 940.8142547262019
+      },
+      {
+        "year": 2020,
+        "month": 10,
+        "aqua": 452,
+        "snpp": 2894,
+        "noaa20": 2277,
+        "snpp_adjusted": 512.894909994166
+      },
+      {
+        "year": 2020,
+        "month": 11,
+        "aqua": 245,
+        "snpp": 930,
+        "noaa20": 917,
+        "snpp_adjusted": 164.82110100019847
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "aqua": 40,
+        "snpp": 255,
+        "noaa20": 229,
+        "snpp_adjusted": 45.19288253231248
+      }
+    ],
+    "evidence_status": "Event corroboration from separate Landsat instrument; not independent validation of aggregate counts."
+  }
+}

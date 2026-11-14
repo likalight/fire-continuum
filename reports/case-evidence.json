@@ -1,0 +1,25 @@
+{
+  "title": "Smoke Blankets Borneo",
+  "publisher": "NASA Earth Observatory",
+  "article_date": "2019-09-18",
+  "observation_date": "2019-09-15",
+  "instrument": "Landsat 8 Operational Land Imager (OLI)",
+  "source_url": "https://science.nasa.gov/earth/earth-observatory/smoke-blankets-borneo-145614/",
+  "image_url": "https://science.nasa.gov/wp-content/uploads/2025/10/indonesia_oli_2019258.jpg",
+  "local_image": "borneo-landsat-2019-09-15.jpg",
+  "sha256": "394920bcaa45fdde7632e46be1bfd883b00226762e1a04b29e209bc05bda0fcf",
+  "retrieved_utc": "2026-11-14T07:34:22.305346+00:00",
+  "credit": "NASA Earth Observatory / Joshua Stevens; Landsat data from the U.S. Geological Survey. Article by Adam Voiland.",
+  "interpretation": "NASA describes active fires in southern Borneo, highlighted with shortwave-infrared bands 7-6-2 over natural-color bands 4-3-2.",
+  "supports": [
+    "An actual fire episode in southern Borneo during September 2019",
+    "A separate instrument observes active fires during the calendar episode"
+  ],
+  "does_not_support": [
+    "Independent accuracy of our regional count or adjusted magnitude",
+    "A georeferenced fire perimeter or burned-area estimate",
+    "Proof that every hotspot is vegetation fire",
+    "Fire-free conditions in the comparison year"
+  ],
+  "date_note": "The article download list labels the Landsat image September 15; the filename day-of-year 258 also corresponds to September 15. The 2025 upload path is a website migration date, not the observation date."
+}

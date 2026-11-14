@@ -1,9 +1,11 @@
 # Project summary — draft
 
-**Fire Continuum: One fire history. Different satellites.**
+**Fire Continuum: Would changing the satellite change your conclusion?**
 
-Did burning increase—or did the satellite change? Fire Continuum helps regional analysts inspect that question before interpreting long-term hotspot trends. Using 45 NASA FIRMS annual files, our prototype builds an interactive 2003–2025 burning-activity calendar for Indonesia. Users choose an area, inspect seasons and historical anomalies, compare concurrent satellite measurements, and download analytics, visuals and original hotspot observations.
+Fire Continuum helps analysts distinguish a change in burning activity from a change in how satellites observe it. Our Indonesia prototype connects 23 years of NASA FIRMS observations through an inspectable burning calendar, a consistent historical baseline and an exportable season briefing.
 
-We keep MODIS Aqua, Suomi NPP VIIRS and NOAA-20 VIIRS separate, map detections to a common 1 km daily occupancy measure, and calibrate regional seasonal differences using overlap years. On later years excluded from fitting, NOAA-20 disagreement with Aqua falls from 451.0% to 13.5% WAPE; a simpler single-factor baseline gives 15.5%. These results measure agreement between satellites, not completeness against all real fires.
+Users can hold the region and date constant, compare original observations with calibrated activity, and inspect where the conclusion is sensitive to the method. A documented September 2019 Kalimantan case is corroborated by NASA-published Landsat 8 imagery. Six independently recomputed processing variants all retain the above-median classification; only one crosses the historical 90th-percentile threshold. The app therefore distinguishes evidence of fire, above-typical activity and a filter-dependent extreme label.
 
-The interface makes the remaining limits visible: cloud and coverage effects, source changes, exploratory small-area estimates and missing 2026 archive months. A separate dated NRT snapshot shows recent observations without confusing a partial week with a full historical month. Our contribution is an auditable bridge across changing satellites, helping users interpret a long fire record with greater care.
+We tested the harmonization on later years, excluded regions, quiet and high-activity months, grid sizes, confidence filters, source types and day/night selection. Some tests fail: geographic transfer is uneven and nominal uncertainty coverage is not universal. Those failures appear in the product and constrain its claims.
+
+The result is a working, reproducible prototype that makes both the evidence and its limits usable. NASA data power every historical calendar value, comparison and case-study result. The app includes source manifests, validation reports, downloadable observations and a five-step guided demonstration.

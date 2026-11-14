@@ -10,6 +10,8 @@ A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots
 
 - Indonesia, island study areas or a custom rectangle; 2003–2025 monthly calendar and map.
 - Raw detections, common-grid cell-days and empirically harmonized activity, with one primary platform per period.
+- A season briefing using a consistent Aqua baseline, descriptive seasonal categories, original observations and an export carrying sources and limitations.
+- A five-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
 - Same-month historical medians, seasonal profiles, animation and concurrent-sensor comparisons.
 - Monthly analytics CSV, filtered original hotspot CSV and calendar SVG downloads.
 - Source URLs, hashes, version audit, exact method and held-out validation.
@@ -17,9 +19,9 @@ A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots
 
 ## Evidence
 
-45 NASA FIRMS annual country files supply MODIS Aqua, Suomi NPP VIIRS and NOAA-20 VIIRS observations. On held-out 2022–2025 national months, the NOAA-20 adjustment reduces WAPE against Aqua from **451.04% to 13.45%**. NPP gives **434.09% to 13.70%** over 2018–2025. These are cross-sensor agreement scores, **not accuracy against all fires on the ground**. Small-area performance, cloud/coverage correction and independent ground validation remain unresolved.
+45 NASA FIRMS annual country files supply MODIS Aqua, Suomi NPP VIIRS and NOAA-20 VIIRS observations. On held-out 2022–2025 national months, the NOAA-20 adjustment reduces WAPE against Aqua from **451.04% to 13.45%**. NPP gives **434.09% to 13.70%** over 2018–2025. These are cross-sensor agreement scores, **not accuracy against all fires on the ground**. Additional testing finds poor transfer to some excluded regions and inadequate nominal NPP interval coverage. These failures are displayed, not hidden. Cloud/coverage correction and complete independent ground validation remain unresolved. Separate Landsat imagery corroborates the September 2019 case event, not our aggregate counts.
 
-Read [the complete method](reports/method.md), [validation values](reports/validation.json), [input audit](reports/input_audit.json), [export reconciliation](reports/export_verification.json), and [source manifest](reports/source_manifest.json).
+Read [the additional validation](reports/validation-v2.md), [the corroborated case](reports/case-study.md), and [the complete method](reports/method.md), [validation values](reports/validation.json), [input audit](reports/input_audit.json), [export reconciliation](reports/export_verification.json), and [source manifest](reports/source_manifest.json).
 
 ## Reproduce
 
@@ -33,9 +35,14 @@ python pipeline/01_download.py
 python pipeline/02_build.py
 python pipeline/03_recent.py
 python pipeline/04_verify_exports.py
+python pipeline/05_robust_validation.py
+python pipeline/06_sensitivity.py
+python pipeline/07_case_evidence.py
+python pipeline/08_case_weeks.py
 python -m pytest tests -q
 cd web
 npm ci
+npm test
 npm run dev
 # Production:
 npm run build
