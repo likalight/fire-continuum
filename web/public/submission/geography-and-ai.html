@@ -57,6 +57,38 @@
 <p>Independent imagery has a narrower role: the 15 September 2019 Borneo Landsat front and smoke corroborate burning at a place/date, with 16 NOAA-20 centres 3 h 47 m later. This does not verify the number of fires, simultaneous detection or calibration. The six original inconclusive imagery reviews remain separate.</p>
 <h2 id="exact-dates-current-comparison-and-exports">Exact dates, current comparison and exports</h2>
 <p>Historical exact-date windows use daily rows, inclusive UTC dates and one primary platform per period. Invalid dates and windows crossing into unprovided 2026 dates are rejected. The recent comparison uses exactly November 1–13 in every year, not 13 current days against a complete historical month. It exposes both concurrent platforms, historical values, the median/p90, and count disagreement over the four corresponding 2022–2025 windows. Four archive windows do not validate preliminary NRT processing.</p>
+<p>Independent recomputation of the supplied national packages gives the following current-period ratios. These are observations with unresolved coverage/timing differences, not a claim that the archive model transfers accurately to NRT:</p>
+<table>
+<thead>
+<tr>
+<th>November 1–13, 2026</th>
+<th style="text-align: right;">Adjusted NOAA-20 / median</th>
+<th style="text-align: right;">Concurrent Aqua / median</th>
+<th>Descriptive outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>India</td>
+<td style="text-align: right;">0.50×</td>
+<td style="text-align: right;">1.10×</td>
+<td>Different categories; sensor-sensitive</td>
+</tr>
+<tr>
+<td>Australia</td>
+<td style="text-align: right;">1.38×</td>
+<td style="text-align: right;">1.23×</td>
+<td>Both above typical</td>
+</tr>
+<tr>
+<td>Indonesia</td>
+<td style="text-align: right;">4.18×</td>
+<td style="text-align: right;">4.65×</td>
+<td>Both above typical</td>
+</tr>
+</tbody>
+</table>
+<p><a href="geographic-recent-check.json">Exact recent-period values and historical comparisons</a>. These national figures are not the original Kalimantan study-area figures.</p>
 <p>Downloads include monthly analytics CSV, original monthly or exact-date observation CSV, calendar SVG, reusable geography JSON, arbitrary-date analysis JSON, same-date comparison JSON and assistant answers with sources. Original point downloads are limited to 24 source months per request. They retain source identity and are never individually multiplied by a calibration factor. Share links retain country, bounds, selected month, calendar year range and metric. Imported packages must be shared separately.</p>
 <p>The earlier Kalimantan 46.8% November 8–12 discrepancy remains unresolved. Its separate November 1–13 comparison has a 10.8% gap, but a changed window is not a successful correction of the original gap. Geographic-model results are another separate experiment.</p>
 <h2 id="contract">Contract</h2>
@@ -70,8 +102,12 @@ aqua_detections, aqua_cell_days, noaa20_detections, noaa20_cell_days
 <h2 id="evidence-assistant-real-ai-bounded-answers">Evidence assistant: real AI, bounded answers</h2>
 <p>The assistant uses <a href="https://huggingface.co/Xenova/all-MiniLM-L6-v2">Xenova/all-MiniLM-L6-v2</a>, a quantized sentence-embedding model under Apache-2.0. Revision: <code>751bff37182d3f1213fa05d7196b954e230abad9</code>. The model artifact is 22,972,370 bytes, plus tokenizer/configuration and the separately loaded inference runtime. Files are self-hosted with <a href="../models/minilm/manifest.json">source URLs and SHA-256 hashes</a>.</p>
 <p><a href="https://huggingface.co/docs/transformers.js/pipelines">Transformers.js</a> 4.3.2 runs the model in a browser worker through ONNX Runtime Web 1.31.0-dev.20260914-8d85527a0. Mean-pooled, normalized 384-dimensional embeddings match the question to authored evidence-topic examples using cosine similarity. A fixed 0.42 threshold withholds unsupported matches. Similarity is not calibrated confidence. Query matching does not calculate observations, anomalies or validation statistics.</p>
-<p>Answers are deterministic text populated from the selected analysis and linked evidence. This is <strong>semantic retrieval, not open-ended generative chat</strong>. It cannot run commands, change source measurements, retrieve arbitrary private documents, predict future fire locations or provide operational decisions. Model files load from the site; questions are not sent to an AI service. Normal map/network requests still occur. If inference cannot load or exceeds its timeout, clearly labelled keyword evidence search remains available.</p>
+<p>Answers are deterministic text populated from the selected analysis and linked evidence. Once the geographic same-date comparison is computed, the assistant can explain that selected recent result, including category disagreement; changing the area clears that context. This is <strong>semantic retrieval, not open-ended generative chat</strong>. It cannot run commands, change source measurements, retrieve arbitrary private documents, predict future fire locations or provide operational decisions. Model files load from the site; questions are not sent to an AI service. Normal map/network requests still occur. If inference cannot load or exceeds its timeout, clearly labelled keyword evidence search remains available.</p>
 <p>The development evaluation contains 25 authored question fixtures and two scope guards. Initial semantic routing passed 17/25; after expanding intent examples it passed 22/25. The final result still includes two withheld supported questions and one selected-period question routed to the seasonal explanation. These are <strong>development fixtures reused during tuning</strong>, not external-user accuracy or held-out validation. Three unrelated questions were withheld and both scope guards fired. Source-cited deterministic answers limit fabricated measurements, but a wrong topic can still be unhelpful. Users should inspect the selected context and cited evidence. External practitioner testing remains deferred, with zero participants.</p>
 <p>Reproduce the model check from <code>web/</code> with <code>node --experimental-strip-types evaluate-assistant.mjs</code>. Model and runtime licenses are distributed alongside their artifacts. The report preserves both initial and final development results. A chatbot is supplementary; credible measurements, understandable comparisons and reproducible exports carry the scientific claim.</p>
 <h2 id="what-remains-incomplete">What remains incomplete</h2>
-<p>Continuous 2026 history, worldwide calibrated history, paired clear-sky/overpass normalization, robust treatment of all sensor drift and timing effects, and external practitioner usefulness validation remain incomplete. The workbench is a substantially broader research prototype, not globally validated monitoring infrastructure. No NASA endorsement, adoption or competition result is claimed.</p></main></html>
+<p>Continuous 2026 history, worldwide calibrated history, paired clear-sky/overpass normalization, robust treatment of all sensor drift and timing effects, and external practitioner usefulness validation remain incomplete. The workbench is a substantially broader research prototype, not globally validated monitoring infrastructure. No NASA endorsement, adoption or competition result is claimed.</p>
+<h2 id="engineering-and-browser-verification">Engineering and browser verification</h2>
+<p>The release passes 60 Python data/scientific tests and 44 frontend tests, plus TypeScript compilation and a production build. A separate artifact-integrity test verifies the pinned AI and runtime bytes. The production dependency audit reports no known vulnerabilities at the time checked. Passing engineering tests does not establish scientific ground truth.</p>
+<p>Browser checks exercised all three country packages, worldwide recent counts, exact-date calculation, the same-date comparison, local AI topic matching, an unrelated-question abstention, and the deployed AI. An actual downloaded India November 2023 observation CSV was independently read and reconciled: 58,496 records. At a narrow viewport, DOM measurements showed one map/brief column and no horizontal page overflow; a complete mobile visual/accessibility audit was not completed.</p>
+<p>The file-import chooser could not be automated because the browser extension did not have file-URL access. No extension permission was changed. Browser automation subsequently stopped because it could not confidently determine the active URL. The schema/round-trip data checks pass, but the browser file-import flow and final clipboard interaction are not claimed as fully verified. The final selected-current-context enhancement is covered by a unit test; it was added after UI automation stopped. The existing 30-second film illustrates the original evidence story; the live workbench and this chapter document the geographic/AI extension.</p></main></html>

@@ -1,0 +1,464 @@
+[
+  {
+    "country": "india",
+    "window": [
+      "2026-11-01",
+      "2026-11-13"
+    ],
+    "baseline_median": 5203.0,
+    "aqua": 5748,
+    "adjusted_noaa20": 2603.682042853194,
+    "aqua_ratio": 1.104747261195464,
+    "adjusted_ratio": 0.5004193816746482,
+    "aqua_category": "Above typical",
+    "adjusted_category": "At or below typical",
+    "history": [
+      {
+        "year": 2003,
+        "aqua": 1275,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2004,
+        "aqua": 1342,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2005,
+        "aqua": 4779,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2006,
+        "aqua": 2412,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2007,
+        "aqua": 3823,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2008,
+        "aqua": 5203,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2009,
+        "aqua": 5033,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2010,
+        "aqua": 6940,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2011,
+        "aqua": 5246,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2012,
+        "aqua": 7531,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2013,
+        "aqua": 6470,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2014,
+        "aqua": 9029,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2015,
+        "aqua": 5535,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2016,
+        "aqua": 9166,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2017,
+        "aqua": 3185,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2018,
+        "aqua": 7332,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2019,
+        "aqua": 4467,
+        "noaa20": 23476,
+        "adjusted": 4181.708944244481
+      },
+      {
+        "year": 2020,
+        "aqua": 10223,
+        "noaa20": 46795,
+        "adjusted": 8335.45195288467
+      },
+      {
+        "year": 2021,
+        "aqua": 11278,
+        "noaa20": 54183,
+        "adjusted": 9651.454069091784
+      },
+      {
+        "year": 2022,
+        "aqua": 7193,
+        "noaa20": 35123,
+        "adjusted": 6256.353861334935
+      },
+      {
+        "year": 2023,
+        "aqua": 5768,
+        "noaa20": 27300,
+        "adjusted": 4862.866509536307
+      },
+      {
+        "year": 2024,
+        "aqua": 3919,
+        "noaa20": 17389,
+        "adjusted": 3097.450026898419
+      },
+      {
+        "year": 2025,
+        "aqua": 3859,
+        "noaa20": 15708,
+        "adjusted": 2798.018576256275
+      }
+    ]
+  },
+  {
+    "country": "australia",
+    "window": [
+      "2026-11-01",
+      "2026-11-13"
+    ],
+    "baseline_median": 8205.0,
+    "aqua": 10121,
+    "adjusted_noaa20": 11299.144017702622,
+    "aqua_ratio": 1.2335161486898232,
+    "adjusted_ratio": 1.3771046944183574,
+    "aqua_category": "Above typical",
+    "adjusted_category": "Above typical",
+    "history": [
+      {
+        "year": 2003,
+        "aqua": 8205,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2004,
+        "aqua": 13003,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2005,
+        "aqua": 4982,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2006,
+        "aqua": 10266,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2007,
+        "aqua": 6024,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2008,
+        "aqua": 7049,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2009,
+        "aqua": 8445,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2010,
+        "aqua": 3015,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2011,
+        "aqua": 9222,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2012,
+        "aqua": 17502,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2013,
+        "aqua": 7050,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2014,
+        "aqua": 8311,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2015,
+        "aqua": 5659,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2016,
+        "aqua": 5133,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2017,
+        "aqua": 10700,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2018,
+        "aqua": 9418,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2019,
+        "aqua": 11215,
+        "noaa20": 36919,
+        "adjusted": 9385.616208197882
+      },
+      {
+        "year": 2020,
+        "aqua": 4916,
+        "noaa20": 22738,
+        "adjusted": 5780.496257807727
+      },
+      {
+        "year": 2021,
+        "aqua": 4118,
+        "noaa20": 20283,
+        "adjusted": 5156.381634141706
+      },
+      {
+        "year": 2022,
+        "aqua": 6427,
+        "noaa20": 29781,
+        "adjusted": 7570.980695477699
+      },
+      {
+        "year": 2023,
+        "aqua": 18039,
+        "noaa20": 70602,
+        "adjusted": 17948.570533632734
+      },
+      {
+        "year": 2024,
+        "aqua": 13993,
+        "noaa20": 55501,
+        "adjusted": 14109.566488019467
+      },
+      {
+        "year": 2025,
+        "aqua": 8567,
+        "noaa20": 38699,
+        "adjusted": 9838.131088086076
+      }
+    ]
+  },
+  {
+    "country": "indonesia",
+    "window": [
+      "2026-11-01",
+      "2026-11-13"
+    ],
+    "baseline_median": 558.0,
+    "aqua": 2593,
+    "adjusted_noaa20": 2334.4857983478555,
+    "aqua_ratio": 4.646953405017921,
+    "adjusted_ratio": 4.1836663052828955,
+    "aqua_category": "Above typical",
+    "adjusted_category": "Above typical",
+    "history": [
+      {
+        "year": 2003,
+        "aqua": 697,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2004,
+        "aqua": 2251,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2005,
+        "aqua": 476,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2006,
+        "aqua": 4583,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2007,
+        "aqua": 416,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2008,
+        "aqua": 458,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2009,
+        "aqua": 1133,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2010,
+        "aqua": 188,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2011,
+        "aqua": 430,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2012,
+        "aqua": 652,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2013,
+        "aqua": 558,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2014,
+        "aqua": 4605,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2015,
+        "aqua": 2392,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2016,
+        "aqua": 257,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2017,
+        "aqua": 374,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2018,
+        "aqua": 490,
+        "noaa20": 0,
+        "adjusted": 0.0
+      },
+      {
+        "year": 2019,
+        "aqua": 2552,
+        "noaa20": 14373,
+        "adjusted": 2531.5802308475727
+      },
+      {
+        "year": 2020,
+        "aqua": 613,
+        "noaa20": 3121,
+        "adjusted": 549.7155708951001
+      },
+      {
+        "year": 2021,
+        "aqua": 144,
+        "noaa20": 1096,
+        "adjusted": 193.04334050016973
+      },
+      {
+        "year": 2022,
+        "aqua": 102,
+        "noaa20": 941,
+        "adjusted": 165.7425031119158
+      },
+      {
+        "year": 2023,
+        "aqua": 1472,
+        "noaa20": 8522,
+        "adjusted": 1501.0176530496774
+      },
+      {
+        "year": 2024,
+        "aqua": 288,
+        "noaa20": 2297,
+        "adjusted": 404.580796650447
+      },
+      {
+        "year": 2025,
+        "aqua": 268,
+        "noaa20": 2335,
+        "adjusted": 411.27390517143823
+      }
+    ]
+  }
+]

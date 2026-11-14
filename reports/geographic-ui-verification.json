@@ -1,0 +1,21 @@
+{
+  "release": "geographic-workbench-and-local-ai",
+  "python_tests": 60,
+  "frontend_tests": 44,
+  "actual_browser_download_rows": 58496,
+  "public_ai_inference": "verified",
+  "country_switching": [
+    "india",
+    "australia",
+    "indonesia",
+    "world"
+  ],
+  "independent_current_recomputation": "reports/geographic-recent-check.json",
+  "ui_limits": [
+    "File chooser automation required ungranted extension file-URL permission; permission not changed.",
+    "Computer Use stopped after active browser URL could not be determined.",
+    "Final clipboard roundtrip and browser import not fully verified.",
+    "Final recent-result assistant context tested by unit test after UI stopped.",
+    "Narrow CSS/DOM checked; complete mobile visual/accessibility audit not completed."
+  ]
+}
