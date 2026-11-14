@@ -1,4 +1,10 @@
-# Current release: global evidence atlas
+# Current release: a guided fire-season experience
+
+The default homepage now provides 185 plain-language national briefings, saved places, same-date comparisons, explicit assistant tasks, downloadable reports and a compact real-event story. Technical evidence remains one click away. [Guided experience, new observations, privacy and reproducibility](guided-experience.html).
+
+October 2026 is newly available for Mexico and Australia, with both outcomes retained. A full-mask/QA/geolocation audit in western Mexico fails the declared time-match rule and therefore does not normalize coverage. Original production model policies remain unchanged. Continuous global 2026 coverage and completed practitioner validation remain gaps.
+
+# Scientific baseline: global evidence atlas
 
 # Global fire history, with the failures visible
 
