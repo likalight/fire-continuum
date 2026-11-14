@@ -1,0 +1,10 @@
+data/raw/
+data/interim/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+.netrc
+*.part

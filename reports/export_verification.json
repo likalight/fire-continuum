@@ -1,0 +1,9 @@
+{
+  "ledger_rows_reconciled": 1620,
+  "monthly_point_downloads_reconciled": 276,
+  "export_recomputed_held_out_wape": {
+    "snpp": 0.13695778543211654,
+    "noaa20": 0.1345387222282401
+  },
+  "status": "passed"
+}

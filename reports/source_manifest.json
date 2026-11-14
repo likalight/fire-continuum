@@ -1,0 +1,362 @@
+[
+  {
+    "filename": "modis_2003_Indonesia.csv",
+    "size": "4875686",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2003_Indonesia.csv",
+    "sha256": "aa64834a096c7d8c73a2d77fb02ef599158d33563423ca67c431719dc41334d0",
+    "retrieved_utc": "2026-11-14T06:54:22.091866+00:00"
+  },
+  {
+    "filename": "modis_2004_Indonesia.csv",
+    "size": "8322604",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2004_Indonesia.csv",
+    "sha256": "0e6a418dbed38654e13186897006409bb9508d6e9eb460acad35c913f8b8c576",
+    "retrieved_utc": "2026-11-14T06:54:23.434226+00:00"
+  },
+  {
+    "filename": "modis_2005_Indonesia.csv",
+    "size": "5798891",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2005_Indonesia.csv",
+    "sha256": "d4f9134c67b220136d0d4de12434b675c6c8476fba9464bfe9531d76ec69188b",
+    "retrieved_utc": "2026-11-14T06:54:22.942846+00:00"
+  },
+  {
+    "filename": "modis_2006_Indonesia.csv",
+    "size": "12058484",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2006_Indonesia.csv",
+    "sha256": "a94389d5be532e5c2f7048230f2c1d90a2187a4455f6c1674bafa2500db53133",
+    "retrieved_utc": "2026-11-14T06:54:23.226409+00:00"
+  },
+  {
+    "filename": "modis_2007_Indonesia.csv",
+    "size": "3346298",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2007_Indonesia.csv",
+    "sha256": "61e8dabddc4043e194edb972c40d01c29dcb9471eebaa3682835feeac24de801",
+    "retrieved_utc": "2026-11-14T06:54:22.354168+00:00"
+  },
+  {
+    "filename": "modis_2008_Indonesia.csv",
+    "size": "3186516",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2008_Indonesia.csv",
+    "sha256": "24fba3b1a40ea19b72e9d2830355af13029ea2650b031da9e808fe23003e2072",
+    "retrieved_utc": "2026-11-14T06:54:22.600901+00:00"
+  },
+  {
+    "filename": "modis_2009_Indonesia.csv",
+    "size": "7945933",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2009_Indonesia.csv",
+    "sha256": "c45f4871fc9d3090fec52d5293d7475d3624472a8828abfcccd0979337b9fe47",
+    "retrieved_utc": "2026-11-14T06:54:25.125133+00:00"
+  },
+  {
+    "filename": "modis_2010_Indonesia.csv",
+    "size": "1604037",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2010_Indonesia.csv",
+    "sha256": "12a3ac027fec3870c8a9caba4415d34ffa0a28e4960e121b2fdb7c1c55f1aa56",
+    "retrieved_utc": "2026-11-14T06:54:24.738186+00:00"
+  },
+  {
+    "filename": "modis_2011_Indonesia.csv",
+    "size": "4871314",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2011_Indonesia.csv",
+    "sha256": "4a0cffe94dc448061fff1a9bb8120b714fb56e33f1bb6291968fd8d3d876295a",
+    "retrieved_utc": "2026-11-14T06:54:25.459597+00:00"
+  },
+  {
+    "filename": "modis_2012_Indonesia.csv",
+    "size": "5524163",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2012_Indonesia.csv",
+    "sha256": "2c4e88d3b132f9ed94d75b24cfafccf347bac343f2a7c50cd6ba47b0f5bfacf5",
+    "retrieved_utc": "2026-11-14T06:54:25.835432+00:00"
+  },
+  {
+    "filename": "modis_2013_Indonesia.csv",
+    "size": "4178716",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2013_Indonesia.csv",
+    "sha256": "c1287263311b2829411c586a5eb1fccbb8484f1b10356f0be847fea97eba3c9b",
+    "retrieved_utc": "2026-11-14T06:54:30.291445+00:00"
+  },
+  {
+    "filename": "modis_2014_Indonesia.csv",
+    "size": "8933232",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2014_Indonesia.csv",
+    "sha256": "3c6c51a63ba857d81e30e8017864cf457e0736dcfe4971b7669be9ec6b40f32f",
+    "retrieved_utc": "2026-11-14T06:54:26.548111+00:00"
+  },
+  {
+    "filename": "modis_2015_Indonesia.csv",
+    "size": "13914029",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2015_Indonesia.csv",
+    "sha256": "986e4a768333b229fbf48759f7ca7b019b9eb4192f85251946ea6ac3220199b0",
+    "retrieved_utc": "2026-11-14T06:54:32.912048+00:00"
+  },
+  {
+    "filename": "modis_2016_Indonesia.csv",
+    "size": "1861699",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2016_Indonesia.csv",
+    "sha256": "47a08f058c57baa2ea725ec980e67a1089d7583eb3e2a042fc019cf35589d1a6",
+    "retrieved_utc": "2026-11-14T06:54:27.829423+00:00"
+  },
+  {
+    "filename": "modis_2017_Indonesia.csv",
+    "size": "1382026",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2017_Indonesia.csv",
+    "sha256": "054a1cccca3da84fc35fee962d5f4167ea2a3ce221be3be7884d4c4b5aa89061",
+    "retrieved_utc": "2026-11-14T06:54:28.008311+00:00"
+  },
+  {
+    "filename": "modis_2018_Indonesia.csv",
+    "size": "2996769",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2018_Indonesia.csv",
+    "sha256": "3e7b488cf08c3043fe0ebf0db447d10e57cc6c25aadf900ca8183eae73300a0e",
+    "retrieved_utc": "2026-11-14T06:54:32.855549+00:00"
+  },
+  {
+    "filename": "modis_2019_Indonesia.csv",
+    "size": "7142482",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2019_Indonesia.csv",
+    "sha256": "049f010fb65375c1bd5020a0aeb00f0c0a93630585c8439e4979894bafee35ec",
+    "retrieved_utc": "2026-11-14T06:54:30.063158+00:00"
+  },
+  {
+    "filename": "modis_2020_Indonesia.csv",
+    "size": "1272113",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2020_Indonesia.csv",
+    "sha256": "e00db019742905232b11f56bb5cfb9158d5d10479c3d895202376b1046baf19f",
+    "retrieved_utc": "2026-11-14T06:54:30.593818+00:00"
+  },
+  {
+    "filename": "modis_2021_Indonesia.csv",
+    "size": "1114710",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2021_Indonesia.csv",
+    "sha256": "62d0c407f9e9ebbecdddeae1529cc405e254e0aaa4a01f7a427929a186e3d0a0",
+    "retrieved_utc": "2026-11-14T06:54:30.586432+00:00"
+  },
+  {
+    "filename": "modis_2022_Indonesia.csv",
+    "size": "883571",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2022_Indonesia.csv",
+    "sha256": "7ba203f76f72e96d73b03abb76a08613d59edb2c90fe17aaf580a18648f6fd33",
+    "retrieved_utc": "2026-11-14T06:54:32.374821+00:00"
+  },
+  {
+    "filename": "modis_2023_Indonesia.csv",
+    "size": "4151442",
+    "updated": "2024-06-03 14:07:28",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2023_Indonesia.csv",
+    "sha256": "9f9d79cc84eefab271fc82e63b7c49309547a1c31639bfd8590be91d1eea7f1e",
+    "retrieved_utc": "2026-11-14T06:54:33.373722+00:00"
+  },
+  {
+    "filename": "modis_2024_Indonesia.csv",
+    "size": "1865779",
+    "updated": "2025-05-30 10:28:44",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2024_Indonesia.csv",
+    "sha256": "ac90c680c1d0cd493b6997388ea5084037b2f1104c415a4570e4a05c6ef359d2",
+    "retrieved_utc": "2026-11-14T06:54:33.222710+00:00"
+  },
+  {
+    "filename": "modis_2025_Indonesia.csv",
+    "size": "1409943",
+    "updated": "2026-10-10 08:56:42",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2025_Indonesia.csv",
+    "sha256": "949bf85a132fe817d0778e164c92ec0378a6045c0f72e684a70b2d16a3c3a19a",
+    "retrieved_utc": "2026-11-14T06:54:33.890877+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2018_Indonesia.csv",
+    "size": "14692256",
+    "updated": "2025-06-20 13:28:41",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2018_Indonesia.csv",
+    "sha256": "49ee29685f715227d651e5b2895f0a79c329bab493d2e1163935ad47a151162c",
+    "retrieved_utc": "2026-11-14T06:54:36.362339+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2019_Indonesia.csv",
+    "size": "35526723",
+    "updated": "2025-06-20 13:04:49",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2019_Indonesia.csv",
+    "sha256": "4a895f42a8a58e8715691d02c5ec524bdeb85bfac19a54f66ad983c91c3998c5",
+    "retrieved_utc": "2026-11-14T06:54:47.098048+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2020_Indonesia.csv",
+    "size": "7556481",
+    "updated": "2025-06-20 14:03:33",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2020_Indonesia.csv",
+    "sha256": "78f2c93862e9b2eb81b88ce0f1e3c6b9ac4dda8bb35057823e3f3224fb3141d6",
+    "retrieved_utc": "2026-11-14T06:54:36.443271+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2021_Indonesia.csv",
+    "size": "5760722",
+    "updated": "2025-06-20 14:38:18",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2021_Indonesia.csv",
+    "sha256": "b9ce13a8a47ab46864c1dfbabf2c6e9ab2f3acc1b11f3f5ca63ade05700b87cf",
+    "retrieved_utc": "2026-11-14T06:54:36.710734+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2022_Indonesia.csv",
+    "size": "5168954",
+    "updated": "2025-06-20 15:04:06",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2022_Indonesia.csv",
+    "sha256": "fdff1fa25cd0a271b9dfe094fbe0134ce9cc364746045663e3069e2447fa975b",
+    "retrieved_utc": "2026-11-14T06:54:36.425390+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2023_Indonesia.csv",
+    "size": "20327760",
+    "updated": "2025-06-20 15:33:41",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2023_Indonesia.csv",
+    "sha256": "99969d975480ab57a129b02502b4b968ced195dc2c7fcaf947eb693ef7010fd7",
+    "retrieved_utc": "2026-11-14T06:54:38.186747+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2024_Indonesia.csv",
+    "size": "9408241",
+    "updated": "2025-06-20 16:06:56",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2024_Indonesia.csv",
+    "sha256": "f978dc06ac3d14c3852ab3a0410422346678a4f221179d8f2f891695caeeaaad",
+    "retrieved_utc": "2026-11-14T06:54:51.959637+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2025_Indonesia.csv",
+    "size": "7646219",
+    "updated": "2026-10-10 08:57:30",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2025_Indonesia.csv",
+    "sha256": "3034d45ce3b106e9a507be3936f445df0e762d9d6cf4318244bb44b30a794b8e",
+    "retrieved_utc": "2026-11-14T06:54:42.513691+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2012_Indonesia.csv",
+    "size": "25193408",
+    "updated": "2025-06-20 10:22:28",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2012_Indonesia.csv",
+    "sha256": "be12c40c90faf9b9a5144f57f1e0ae917f44b65d5a1231b118b634652d892dec",
+    "retrieved_utc": "2026-11-14T06:54:47.126855+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2013_Indonesia.csv",
+    "size": "20276400",
+    "updated": "2025-06-20 09:46:53",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2013_Indonesia.csv",
+    "sha256": "3883e4cc54b8b362c47edd7d0af4d87459d562f58257c3e1d2f9e88f4f3dd26b",
+    "retrieved_utc": "2026-11-14T06:54:40.563957+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2014_Indonesia.csv",
+    "size": "43844957",
+    "updated": "2025-06-20 09:06:02",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2014_Indonesia.csv",
+    "sha256": "f774a04bb726c39157138a4bbdb17b737f5c8433fb076efcf2ea0afbc6f36938",
+    "retrieved_utc": "2026-11-14T06:55:09.262701+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2015_Indonesia.csv",
+    "size": "69346331",
+    "updated": "2025-06-20 08:35:48",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2015_Indonesia.csv",
+    "sha256": "88ffeba70b181aedbf8601504e082a1d3e8cc690902f5e86979ae4716f240208",
+    "retrieved_utc": "2026-11-14T06:54:49.186099+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2016_Indonesia.csv",
+    "size": "9242773",
+    "updated": "2025-06-20 08:05:47",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2016_Indonesia.csv",
+    "sha256": "5a9d7a854583476b6cc5444407db63ec6cad5c7a936f62231e304c87c31300da",
+    "retrieved_utc": "2026-11-14T06:54:47.856422+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2017_Indonesia.csv",
+    "size": "7181743",
+    "updated": "2025-06-19 19:43:46",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2017_Indonesia.csv",
+    "sha256": "8ec126472021982aaaf9d71f99a975517e08f838527fa8ac6c94e08240e71073",
+    "retrieved_utc": "2026-11-14T06:54:50.223411+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2018_Indonesia.csv",
+    "size": "15118642",
+    "updated": "2025-06-19 18:52:50",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2018_Indonesia.csv",
+    "sha256": "677dd2fcbb5d9445e372b0a79fc6553a2cc838862686ae4c4cd98fc89ebc4b44",
+    "retrieved_utc": "2026-11-14T06:54:50.659489+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2019_Indonesia.csv",
+    "size": "34617768",
+    "updated": "2025-06-19 17:54:52",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2019_Indonesia.csv",
+    "sha256": "1dd309b8ae9dd74464f6fce4e0b61c261b7f39326c2dde3f029db55e22fe1a82",
+    "retrieved_utc": "2026-11-14T06:54:53.507688+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2020_Indonesia.csv",
+    "size": "7235719",
+    "updated": "2025-06-19 15:28:36",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2020_Indonesia.csv",
+    "sha256": "39079f13921efeca4659e285515a2e3fb32d213a256a8d5499745c23a4bb67d0",
+    "retrieved_utc": "2026-11-14T06:54:52.446522+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2021_Indonesia.csv",
+    "size": "5401447",
+    "updated": "2025-06-19 14:57:45",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2021_Indonesia.csv",
+    "sha256": "6d99f3fb49d154b5bb4eaaaa8a9da4f62ef930fa91ba0c4325835164a9a5a946",
+    "retrieved_utc": "2026-11-14T06:54:53.775277+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2022_Indonesia.csv",
+    "size": "4521004",
+    "updated": "2025-06-19 14:25:55",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2022_Indonesia.csv",
+    "sha256": "06627b2f80bde393725e285e097cbc1bfd592c39bf0e3ef78774db2ac2981804",
+    "retrieved_utc": "2026-11-14T06:54:53.411530+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2023_Indonesia.csv",
+    "size": "20067598",
+    "updated": "2025-06-19 14:01:41",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2023_Indonesia.csv",
+    "sha256": "2dba3b772b5a3a2cc0feed128af74637810021dd41dc34d584cb99b40411665a",
+    "retrieved_utc": "2026-11-14T06:54:56.170335+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2024_Indonesia.csv",
+    "size": "8238988",
+    "updated": "2025-06-19 13:27:55",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2024_Indonesia.csv",
+    "sha256": "23be16b48fb6ac3a21fd2130e66149d305af71c62bbb39e76a6a0632a9dd69bd",
+    "retrieved_utc": "2026-11-14T06:55:02.771407+00:00"
+  },
+  {
+    "filename": "viirs-snpp_2025_Indonesia.csv",
+    "size": "7584099",
+    "updated": "2026-10-10 08:57:09",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2025_Indonesia.csv",
+    "sha256": "11abffff52dedfe985a8f03c59b8ebff55a903bd0de07d4897f76d734788d811",
+    "retrieved_utc": "2026-11-14T06:55:05.890031+00:00"
+  }
+]

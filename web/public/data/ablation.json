@@ -1,0 +1,10 @@
+{
+  "snpp": {
+    "single_factor": 0.20070284416892206,
+    "single_factor_held_out_wape": 0.17353277526657468
+  },
+  "noaa20": {
+    "single_factor": 0.17866173079059836,
+    "single_factor_held_out_wape": 0.1546109299076269
+  }
+}

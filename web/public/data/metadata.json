@@ -1,0 +1,428 @@
+{
+  "name": "Fire Continuum",
+  "country": "Indonesia",
+  "years": [
+    2003,
+    2025
+  ],
+  "grid_degrees": 0.25,
+  "columns": [
+    "year",
+    "month",
+    "longitude_cell",
+    "latitude_cell",
+    "aqua_detections",
+    "snpp_detections",
+    "noaa20_detections",
+    "aqua_cell_days",
+    "snpp_cell_days",
+    "noaa20_cell_days"
+  ],
+  "sensor_years": {
+    "aqua": [
+      2003,
+      2025
+    ],
+    "snpp": [
+      2012,
+      2025
+    ],
+    "noaa20": [
+      2018,
+      2025
+    ]
+  },
+  "partial_years": {
+    "snpp": [
+      2012
+    ],
+    "noaa20": [
+      2018
+    ]
+  },
+  "primary_periods": [
+    [
+      "aqua",
+      2003,
+      2012
+    ],
+    [
+      "snpp",
+      2013,
+      2021
+    ],
+    [
+      "noaa20",
+      2022,
+      2025
+    ]
+  ],
+  "factors": {
+    "snpp": [
+      {
+        "sector": 0,
+        "quarter": 0,
+        "factor": 0.19174615078156124,
+        "training_months": 15,
+        "reference_total": 16364,
+        "sensor_total": 85342
+      },
+      {
+        "sector": 0,
+        "quarter": 1,
+        "factor": 0.2204364883130584,
+        "training_months": 15,
+        "reference_total": 13373,
+        "sensor_total": 60666
+      },
+      {
+        "sector": 0,
+        "quarter": 2,
+        "factor": 0.2251763335313421,
+        "training_months": 15,
+        "reference_total": 39044,
+        "sensor_total": 173393
+      },
+      {
+        "sector": 0,
+        "quarter": 3,
+        "factor": 0.19348003064840533,
+        "training_months": 15,
+        "reference_total": 16161,
+        "sensor_total": 83528
+      },
+      {
+        "sector": 1,
+        "quarter": 0,
+        "factor": 0.1664969450101833,
+        "training_months": 15,
+        "reference_total": 4251,
+        "sensor_total": 25532
+      },
+      {
+        "sector": 1,
+        "quarter": 1,
+        "factor": 0.14825917744819606,
+        "training_months": 15,
+        "reference_total": 2819,
+        "sensor_total": 19014
+      },
+      {
+        "sector": 1,
+        "quarter": 2,
+        "factor": 0.22347131941239948,
+        "training_months": 15,
+        "reference_total": 61504,
+        "sensor_total": 275221
+      },
+      {
+        "sector": 1,
+        "quarter": 3,
+        "factor": 0.17722699032279407,
+        "training_months": 15,
+        "reference_total": 29467,
+        "sensor_total": 166267
+      },
+      {
+        "sector": 2,
+        "quarter": 0,
+        "factor": 0.17398957893254471,
+        "training_months": 15,
+        "reference_total": 2471,
+        "sensor_total": 14202
+      },
+      {
+        "sector": 2,
+        "quarter": 1,
+        "factor": 0.1656298600311042,
+        "training_months": 15,
+        "reference_total": 1704,
+        "sensor_total": 10288
+      },
+      {
+        "sector": 2,
+        "quarter": 2,
+        "factor": 0.19335641884144383,
+        "training_months": 15,
+        "reference_total": 16863,
+        "sensor_total": 87212
+      },
+      {
+        "sector": 2,
+        "quarter": 3,
+        "factor": 0.17382828981789336,
+        "training_months": 15,
+        "reference_total": 20599,
+        "sensor_total": 118502
+      }
+    ],
+    "noaa20": [
+      {
+        "sector": 0,
+        "quarter": 0,
+        "factor": 0.1810860731437015,
+        "training_months": 9,
+        "reference_total": 2451,
+        "sensor_total": 13535
+      },
+      {
+        "sector": 0,
+        "quarter": 1,
+        "factor": 0.18584656084656084,
+        "training_months": 9,
+        "reference_total": 1405,
+        "sensor_total": 7560
+      },
+      {
+        "sector": 0,
+        "quarter": 2,
+        "factor": 0.19581832389883164,
+        "training_months": 9,
+        "reference_total": 10274,
+        "sensor_total": 52467
+      },
+      {
+        "sector": 0,
+        "quarter": 3,
+        "factor": 0.20164015204843025,
+        "training_months": 9,
+        "reference_total": 5729,
+        "sensor_total": 28412
+      },
+      {
+        "sector": 1,
+        "quarter": 0,
+        "factor": 0.14726935312831388,
+        "training_months": 9,
+        "reference_total": 1111,
+        "sensor_total": 7544
+      },
+      {
+        "sector": 1,
+        "quarter": 1,
+        "factor": 0.1317404854093871,
+        "training_months": 9,
+        "reference_total": 1395,
+        "sensor_total": 10589
+      },
+      {
+        "sector": 1,
+        "quarter": 2,
+        "factor": 0.19612168682662437,
+        "training_months": 9,
+        "reference_total": 23737,
+        "sensor_total": 121032
+      },
+      {
+        "sector": 1,
+        "quarter": 3,
+        "factor": 0.16152946803422438,
+        "training_months": 9,
+        "reference_total": 6079,
+        "sensor_total": 37634
+      },
+      {
+        "sector": 2,
+        "quarter": 0,
+        "factor": 0.15057987280209503,
+        "training_months": 9,
+        "reference_total": 805,
+        "sensor_total": 5346
+      },
+      {
+        "sector": 2,
+        "quarter": 1,
+        "factor": 0.14749886655584102,
+        "training_months": 9,
+        "reference_total": 976,
+        "sensor_total": 6617
+      },
+      {
+        "sector": 2,
+        "quarter": 2,
+        "factor": 0.1411158512937005,
+        "training_months": 9,
+        "reference_total": 5094,
+        "sensor_total": 36098
+      },
+      {
+        "sector": 2,
+        "quarter": 3,
+        "factor": 0.16293134115972963,
+        "training_months": 9,
+        "reference_total": 6870,
+        "sensor_total": 42165
+      }
+    ]
+  },
+  "validation": {
+    "snpp": {
+      "train_years": [
+        2013,
+        2017
+      ],
+      "test_years": [
+        2018,
+        2025
+      ],
+      "national_before": {
+        "months": 96,
+        "mae": 7076.197916666667,
+        "wape": 4.340892825192342,
+        "relative_bias": 4.340892825192342,
+        "correlation": 0.9881844554387369
+      },
+      "national_after": {
+        "months": 96,
+        "mae": 223.25830997752897,
+        "wape": 0.13695778543211654,
+        "relative_bias": 0.07101793810614412,
+        "correlation": 0.991277770398183
+      },
+      "sectors": [
+        {
+          "sector": 0,
+          "before": {
+            "months": 96,
+            "mae": 1696.4791666666667,
+            "wape": 4.06687309593967,
+            "relative_bias": 4.06687309593967,
+            "correlation": 0.9903553377505735
+          },
+          "after": {
+            "months": 96,
+            "mae": 73.9189017439394,
+            "wape": 0.17720158236573397,
+            "relative_bias": 0.07365126763979539,
+            "correlation": 0.9889134160515483
+          }
+        },
+        {
+          "sector": 1,
+          "before": {
+            "months": 96,
+            "mae": 3374.4791666666665,
+            "wape": 4.1375038316133645,
+            "relative_bias": 4.1375038316133645,
+            "correlation": 0.9853718083006784
+          },
+          "after": {
+            "months": 96,
+            "mae": 138.9839838958508,
+            "wape": 0.17041052485442013,
+            "relative_bias": 0.05856414892715718,
+            "correlation": 0.9879593247553549
+          }
+        },
+        {
+          "sector": 2,
+          "before": {
+            "months": 96,
+            "mae": 2005.2395833333333,
+            "wape": 5.045950196592399,
+            "relative_bias": 5.045950196592399,
+            "correlation": 0.9884949312919904
+          },
+          "after": {
+            "months": 96,
+            "mae": 58.88315375333951,
+            "wape": 0.1481725494186263,
+            "relative_bias": 0.09381289388735946,
+            "correlation": 0.9868423858398143
+          }
+        }
+      ]
+    },
+    "noaa20": {
+      "train_years": [
+        2019,
+        2021
+      ],
+      "test_years": [
+        2022,
+        2025
+      ],
+      "national_before": {
+        "months": 48,
+        "mae": 6329.791666666667,
+        "wape": 4.510406460615777,
+        "relative_bias": 4.510406460615777,
+        "correlation": 0.9880328279927106
+      },
+      "national_after": {
+        "months": 48,
+        "mae": 188.8082793070565,
+        "wape": 0.13453872222824012,
+        "relative_bias": -0.03181971729710949,
+        "correlation": 0.9910133222098206
+      },
+      "sectors": [
+        {
+          "sector": 0,
+          "before": {
+            "months": 48,
+            "mae": 1438.9791666666667,
+            "wape": 4.35284850012604,
+            "relative_bias": 4.35284850012604,
+            "correlation": 0.9906974594906282
+          },
+          "after": {
+            "months": 48,
+            "mae": 46.61984960899611,
+            "wape": 0.14102298848196454,
+            "relative_bias": 0.040627086828585214,
+            "correlation": 0.990176897561615
+          }
+        },
+        {
+          "sector": 1,
+          "before": {
+            "months": 48,
+            "mae": 3001.2708333333335,
+            "wape": 4.213295507721105,
+            "relative_bias": 4.213295507721105,
+            "correlation": 0.977924078376094
+          },
+          "after": {
+            "months": 48,
+            "mae": 127.26411815307723,
+            "wape": 0.17865809754760492,
+            "relative_bias": -0.054360841717022504,
+            "correlation": 0.980222231163511
+          }
+        },
+        {
+          "sector": 2,
+          "before": {
+            "months": 48,
+            "mae": 1889.5416666666667,
+            "wape": 5.242052941856433,
+            "relative_bias": 5.242052941856433,
+            "correlation": 0.9882887115224751
+          },
+          "after": {
+            "months": 48,
+            "mae": 62.83616125004983,
+            "wape": 0.17432295341592832,
+            "relative_bias": -0.053716594057071236,
+            "correlation": 0.9826711604723583
+          }
+        }
+      ]
+    }
+  },
+  "total_downloaded_rows": 6216438,
+  "total_retained_rows": 5404290,
+  "annual_files": 45,
+  "reference": "MODIS Aqua filtered active cell-days, not true fire counts",
+  "units": "Aqua-equivalent active 1 km cell-days",
+  "limits": [
+    "Calibration adjusts regional seasonal count differences, not individual hotspot locations or burned area.",
+    "No cloud/clear-sky or overpass denominator; zero detections do not prove absence of fire.",
+    "Calibration validated on held-out regional months; arbitrary smaller AOIs remain exploratory.",
+    "Confidence filters are sensor-specific; categories are not equivalent probabilities.",
+    "Historical records contain collection/version changes, retained in source audit.",
+    "Archive ends in December 2025. The 2026 rolling feed is separate and is not a complete current-month record.",
+    "Industrial, volcanic and other thermal sources are retained; detections are not distinct wildfires."
+  ]
+}
