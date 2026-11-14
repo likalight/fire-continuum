@@ -1,0 +1,58 @@
+{
+  "specified_before_results": "2026-11-14; Indonesia results and public competitor descriptions were already seen. The two external rectangles and all tests below were fixed before their data were downloaded or evaluated. This is a follow-up transfer test, not a blind contest benchmark.",
+  "regions": [
+    {
+      "id": "punjab",
+      "name": "Punjab study rectangle",
+      "country": "India",
+      "bounds": [
+        73.8,
+        29.5,
+        76.9,
+        32.6
+      ],
+      "selection_reason": "Contrasting northern-hemisphere agricultural-burning context; not a claim that every retained hotspot is agricultural.",
+      "context_source": "https://science.nasa.gov/earth/earth-observatory/smokier-and-smokier-skies-in-india-144181/"
+    },
+    {
+      "id": "southeast_australia",
+      "name": "Southeast Australia study rectangle",
+      "country": "Australia",
+      "bounds": [
+        147,
+        -38,
+        153,
+        -30
+      ],
+      "selection_reason": "Contrasting southern-hemisphere region with documented major wildfire episodes; not a classification of every hotspot as wildfire.",
+      "context_source": "https://science.nasa.gov/earth/earth-observatory/fires-and-smoke-engulf-southeastern-australia-146110/"
+    }
+  ],
+  "inputs": "NASA FIRMS annual country files: MODIS 2003\u20132025, NOAA-20 VIIRS 2019\u20132025. Retain country-file points inside each exact half-open rectangle; no claim to political-state boundaries.",
+  "filters": "Aqua only, confidence >=30; NOAA-20 nominal/high. Deduplicate identical observation records, then count occupied EPSG:6933 1 km cells per UTC date. Keep raw filtered NOAA-20 detection count as an intentionally unharmonized comparator.",
+  "baseline_years": [
+    2003,
+    2017
+  ],
+  "local_fit_years": [
+    2019,
+    2021
+  ],
+  "audit_years": [
+    2022,
+    2025
+  ],
+  "frozen_transfer": "Apply the already-released Indonesia NOAA-20 sector/quarter coefficients unchanged. Existing longitude rule assigns Punjab sector0 and Australia sector2. No seasonal shift, external refitting or post-result changes. This intentionally tests extrapolation outside the fitted geography.",
+  "local_model": "A separate ratio of summed Aqua to summed NOAA-20 occupied cell-days per calendar quarter. Fit on external-region 2019\u20132021 only; exclude August and September 2020 because of documented Aqua outage. No fallback for zero training denominator. This is adaptation, not zero-shot transfer. It does not replace the released Indonesia model.",
+  "comparators": [
+    "raw filtered NOAA-20 detections",
+    "unadjusted NOAA-20 occupied cell-days",
+    "frozen Indonesia sector/quarter estimate",
+    "separately fitted local quarterly estimate"
+  ],
+  "categories": "Same-calendar-month Aqua2003\u20132017 median and p90. At/below median; above median through p90; above p90. Median<=0 means insufficient baseline. Agreement is against Aqua, not all actual fires.",
+  "retrospective_support_gate": "Aqua and NOAA-20 occupied counts >=20 AND historical Aqua median>=5. This uses the concurrent reference and is only a retrospective diagnostic, not an operational future-VIIRS-only confidence gate. Report all48 months plus gated accuracy and retained fraction; never conceal withheld months.",
+  "critical_window": "For each audit year, find the consecutive circular3-month window with greatest sum in its12 monthly values; earliest start wins exact ties. Compare startmonth with Aqua using shortest circular month distance. This describes within-year seasonal profiles, not a contiguous dated cross-year event window and not a forecast.",
+  "coverage": "Available annual files do not prove complete observing coverage; zero rows in a month are zero reported detections, not no fire. Full fire masks/QA for these external regions are not included. Known Aqua outage remains explicit. Missing files must fail the run rather than be filled as zero.",
+  "external_user_validation": "Not conducted. No practitioner contacted."
+}

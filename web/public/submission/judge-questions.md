@@ -38,3 +38,12 @@ We retained native FireMask and QA for 167 daily layers across two seasons and f
 
 ### Is the decision brief validated by practitioners?
 No. External validation has not been conducted; 0 participants. A task-based protocol is ready. We claim a functioning retrospective decision workflow, not measured usefulness, endorsement or operational reliability.
+
+### What is your strongest measured contribution?
+We test whether harmonization preserves seasonal conclusions, alongside count error. Across 240 NOAA-20 region-month comparisons, agreement with Aqua categories rises from 79.6% for simple calibration to 82.9% for the released model. This is 8 additional matching labels. Balanced accuracy declines and rare-month misses increase, so we do not claim universal superiority or ground-truth accuracy.
+
+### Does the method work outside Indonesia?
+We tested two preselected rectangles using 60 additional real NASA files. Local adaptation helps Punjab category agreement. In southeast Australia it improves count WAPE but worsens category agreement. The app shows frozen transfer and local refitting separately. Two regions do not establish global validity.
+
+### Did Landsat independently validate your candidate locations?
+No. We retrieved and inspected fixed before/during scene pairs for three candidates and three comparison cells. All six fire-attribution outcomes remain inconclusive. Haze, scene timing and ambiguous surface changes prevent stronger claims. We publish the imagery and QA so others can inspect the same evidence; the separate NASA article still corroborates the regional 2019 event.

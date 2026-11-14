@@ -1,14 +1,11 @@
-# Seven-slide presentation outline
+# Seven-slide alternative outline
 
-1. **Would changing the satellite change your conclusion?** Same place, same month: an invalid unadjusted VIIRS-to-Aqua baseline comparison reads 8.63 times typical. Clearly mark it as the measurement trap, not a valid fire anomaly.
-2. **A real event, a useful question.** NASA's Landsat 8 OLI image of southern Borneo, 15 September 2019. Identify regional fire analysts as intended users. Ask whether the documented episode was above typical or historically extreme.
-3. **One inspectable history.** 45 NASA FIRMS annual files, Indonesia 2003–2025, one primary platform per period. Show the season briefing, calendar and source identity.
-4. **Calibrate, then test.** Common daily occupied-cell measure, frozen regional-quarter ratios, separate later test years. NOAA-20 WAPE 15.5% for a single factor versus 13.5% for the regional-seasonal method. This is Aqua agreement, not all-fire accuracy.
-5. **Try to break the claim.** Six processing variants. All show above-median 2019 activity; the extreme label changes with the confidence filter. Original method: 1.93 times the historical median; Aqua observes 2.15 times. Separate Landsat imagery corroborates fires, not our exact counts.
-6. **Failures that improve the product.** NPP nominal 90% ranges cover 79.2% of later national months; unseen-region transfer is uneven. Consequently custom areas remain exploratory and we do not promise universal uncertainty bounds. Export a briefing with these limits attached.
-7. **A clear result and an honest next step.** Working public demo, reproducible evidence and an accessible guided route. Next: coverage-aware processing, systematic independent spatial validation and tested geographic expansion. Show demo, repository and NASA attribution.
+This is a content outline, not a finished presentation; the submission demo is the30-second MP4.
 
-This is an outline, not a rendered presentation. Keep the eventual submission to seven slides and confirm the current submission form.
-
-
-The finished submission demo is the 30-second MP4 at `/submission/fire-continuum-demo.mp4`. This outline is an optional alternative, not a completed slide deck. New daily-mask context, seasonal sensitivity and shareable links appear in the app and public overview.
+1. **The satellite changed. Should your conclusion?** Same Kalimantan month, Aqua13,503 versus unadjustedNPP54,100 occupiedcell-days. Different instruments can change the apparent story.
+2. **A usable historical record.**23-year Indonesia calendar; area/date selection; original measurements retained; exported analytics and sources.
+3. **Harmonize, then test the decision.** Earlier-year fitting and frozenmethods. NOAA-20 agreement79.6%→82.9% across240 region-months, but rare-category misses1→3 of6. Aqua agreement is notgroundtruth.
+4. **Does it travel?** Punjab category agreement60.4%→70.8% after localadaptation. Australia count error improves while category agreement72.9%→66.7%. Show both, never claimglobalvalidation.
+5. **What could the satellite see?**167 daily FireMask/QA layers,17 missingdates;12 Landsat subsets across6 samplecells, all fire-attribution outcomesinconclusive. Show realdates and haze.
+6. **From evidence to investigation.** Four-question fixedcasebrief,3 transparentreviewcandidates, inspectableimagery, downloadableevidence. Retrospectiveanalysis; no responsepriority or prediction.
+7. **What is ready, what comes next.** Publicapp, reproduciblescripts, sourcehashes, automatedtests and30-seconddemo. Current46.8%gap unresolved; practitioner validationdeferred; pairedclear-sky coverage and broadertransfer remainresearch.

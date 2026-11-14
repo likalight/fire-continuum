@@ -1,0 +1,23 @@
+{
+  "checks_passed": 8,
+  "checks": [
+    "QA bits 0-5 excluded; water flag preserved separately; scale and offset correct",
+    "Saturation, fill and out-of-range reflectance excluded",
+    "Scene rule requires footprint, then cloud, then fixed date; missing month remains missing",
+    "All six published PNG hashes and twelve subset-array hashes verified",
+    "All scene selections independently recomputed from saved catalog",
+    "Published paired-valid counts reconcile with raster values",
+    "Protocol/catalog hashes and public/report copies match",
+    "All six inconclusive outcomes and the 20% gate preserved; no signed URLs in public assets"
+  ],
+  "cells": 6,
+  "scenes": 12,
+  "qa_gate_passes": 5,
+  "outcomes": {
+    "corroborated": 0,
+    "contradicted": 0,
+    "inconclusive": 6
+  },
+  "figure_bytes": 5690931,
+  "reviewer": "AI assistant; no external practitioner validation"
+}

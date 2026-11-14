@@ -11,7 +11,7 @@ A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots
 - Indonesia, island study areas or a custom rectangle; 2003–2025 monthly calendar and map.
 - Raw detections, common-grid cell-days and empirically harmonized activity, with one primary platform per period.
 - A season briefing using a consistent Aqua baseline, descriptive seasonal categories, original observations and an export carrying sources and limitations.
-- A ten-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
+- A fourteen-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
 - Same-month historical medians, seasonal profiles, animation and concurrent-sensor comparisons.
 - Monthly analytics CSV, filtered original hotspot CSV and calendar SVG downloads.
 - Source URLs, hashes, version audit, exact method and held-out validation.
@@ -87,3 +87,13 @@ The expanded calendar publishes 167 native FireMask + QA layers and marks 17 mis
 Two fixed local-time restrictions failed the recent support gate; their estimates are withheld. The published correction is unchanged. A four-question retrospective brief adds accumulation-timing sensitivity, three transparent review candidates, a downloadable brief and the evidence that could change each conclusion. External usefulness validation is not conducted (0 participants).
 
 Read [methods and findings](reports/decision-quality-findings.md) and [the protocol](reports/decision_protocol.json). Reproduce with `python pipeline/13_quality_calendar.py` (Earthdata access; use `--cached` for pinned downloads), `python pipeline/14_time_comparison.py`, and `python pipeline/15_decision_case.py`. The approximately 391 KB native-pixel archive loads only when requested. No raw HDF files or credentials are deployed.
+
+## Decision benchmark and transfer evidence
+
+The new opening holds a real case's place/time constant, reveals observation conditions, and leads to the decision brief. The benchmark measures three-category agreement, class-balanced performance, rare-category errors, sample retention and annual peak-window disagreement. Released NOAA-20 category agreement is 82.9% versus simple calibration's 79.6% across 240 region-months, with worse balanced accuracy and more rare-category misses. Read [decision benchmark findings](reports/decision-benchmark-findings.md).
+
+Two additional fixed regions use 60 real NASA annual files: [Punjab and southeast Australia transfer results](reports/transfer-findings.md). Frozen Indonesia coefficients and separate local fits are never conflated. Local calibration improves count error in both regions but worsens Australian category agreement. The explorer remainsIndonesia; the transfer viewer supports only its two declared rectangles.
+
+[Six-cell Landsat audit](reports/imagery-findings.md): 12 independent scene subsets, 3 candidates + 3 lower-activity comparisons, source/QA/hash verification, and 6 inconclusive fire-attribution outcomes. Actual images are inspectable; passing QA does not establish haze-free observations or validate hotspot counts. External practitioners were not contacted.
+
+Reproduce: `python pipeline/16_decision_benchmark.py`, `python pipeline/17_transfer_cases.py --cached`, and `python pipeline/18_imagery_audit.py --cached`. The imagery pipeline additionally uses `requirements-imagery.txt`. Derived imagery adds about 5.7 MB and loads lazily. See each predefined protocol and published source manifest. New results do not change the released coefficients or resolve the 46.8% recent discrepancy.

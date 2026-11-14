@@ -1,0 +1,711 @@
+sensor,region,year,month,aqua,viirs_cell_days,median,p90,aqua_category,supported,raw,common_grid,single_factor,released,raw_category,common_grid_category,single_factor_category,released_category
+snpp,sumatra,2018,1,150,767,289.0,1033.8,At or below median,True,967.0,767.0,153.93908147756324,147.06929764945747,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2018,2,314,2335,729.0,3366.199999999999,At or below median,True,3580.0,2335.0,468.64114113443304,447.72726207494554,Above historical p90,Above median,At or below median,At or below median
+snpp,sumatra,2018,3,124,863,612.0,2354.1999999999994,At or below median,True,1086.0,863.0,173.20655451777975,165.47692812448736,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2018,4,149,683,294.0,541.1999999999999,At or below median,True,901.0,683.0,137.08004256737377,150.55812151781888,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2018,5,142,761,644.0,1809.3999999999999,At or below median,True,914.0,761.0,152.73486441254968,167.75216760623744,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2018,6,242,1363,1524.0,4034.4,At or below median,True,1639.0,1363.0,273.5579766022408,300.4549335706986,Above median,At or below median,At or below median,At or below median
+snpp,sumatra,2018,7,568,2622,1911.0,3888.6,At or below median,True,3567.0,2622.0,526.2428574109136,590.412346519179,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2018,8,1273,6021,4070.0,5677.599999999999,At or below median,True,10593.0,6021.0,1208.4318247410797,1355.7867041922107,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2018,9,664,3341,3519.0,6444.4,At or below median,True,4802.0,3341.0,670.5482023683686,752.3141303282139,Above median,At or below median,At or below median,At or below median
+snpp,sumatra,2018,10,267,2172,680.0,5825.199999999998,At or below median,True,2945.0,2172.0,435.92657753489874,420.2386265683363,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2018,11,37,362,189.0,1051.0,At or below median,True,394.0,362.0,72.65442958914979,70.03977109472271,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2018,12,46,409,119.0,157.0,At or below median,True,456.0,409.0,82.08746326508913,79.13333253519777,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2019,1,52,485,289.0,1033.8,At or below median,True,607.0,485.0,97.3408794219272,92.99688312905721,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2019,2,338,1719,729.0,3366.199999999999,At or below median,True,3171.0,1719.0,345.00818912637703,329.6116331935038,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2019,3,699,3476,612.0,2354.1999999999994,Above median,True,6347.0,3476.0,697.6430863311731,666.509620116707,Above historical p90,Above historical p90,Above median,Above median
+snpp,sumatra,2019,4,146,621,294.0,541.1999999999999,At or below median,True,745.0,621.0,124.6364662289006,136.89105924240926,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2019,5,237,1168,644.0,1809.3999999999999,At or below median,True,1407.0,1168.0,234.42092198930098,257.46981834965226,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2019,6,199,872,1524.0,4034.4,At or below median,True,1072.0,872.0,175.01288011530005,192.2206178089869,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2019,7,639,3438,1911.0,3888.6,At or below median,True,4753.0,3438.0,690.0163782527541,774.156234680754,Above historical p90,Above median,At or below median,At or below median
+snpp,sumatra,2019,8,1912,9808,4070.0,5677.599999999999,At or below median,True,17512.0,9808.0,1968.4934956087875,2208.529479275403,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2019,9,6077,24813,3519.0,6444.4,Above median,True,54630.0,24813.0,4980.039672363463,5587.300363913191,Above historical p90,Above historical p90,Above median,Above median
+snpp,sumatra,2019,10,3652,14967,680.0,5825.199999999998,Above median,True,27750.0,14967.0,3003.9194686762567,2895.815618714682,Above historical p90,Above historical p90,Above median,Above median
+snpp,sumatra,2019,11,1258,6213,189.0,1051.0,Above historical p90,True,10437.0,6213.0,1246.9667708215127,1202.0914304185421,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,sumatra,2019,12,72,493,119.0,157.0,At or below median,True,591.0,493.0,98.94650217527858,95.38565510966382,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2020,1,151,897,289.0,1033.8,At or below median,True,1287.0,897.0,180.0304512195231,171.99629725106047,Above historical p90,Above median,At or below median,At or below median
+snpp,sumatra,2020,2,271,1286,729.0,3366.199999999999,At or below median,True,2046.0,1286.0,258.10385760123376,246.5855499050878,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2020,3,387,1836,612.0,2354.1999999999994,At or below median,True,3042.0,1836.0,368.4904218941409,352.0459328349465,Above historical p90,Above median,At or below median,At or below median
+snpp,sumatra,2020,4,195,693,294.0,541.1999999999999,At or below median,True,949.0,693.0,139.08707100906298,152.76248640094946,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2020,5,102,397,644.0,1809.3999999999999,At or below median,True,465.0,397.0,79.67902913506205,87.51328586028418,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2020,6,117,846,1524.0,4034.4,At or below median,True,988.0,846.0,169.79460616690807,186.4892691128474,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2020,7,121,780,1911.0,3888.6,At or below median,True,912.0,780.0,156.5482184517592,175.6375401544468,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2020,10,79,611,680.0,5825.199999999998,At or below median,True,719.0,611.0,122.62943778721139,118.21629872617567,Above median,At or below median,At or below median,At or below median
+snpp,sumatra,2020,11,41,294,189.0,1051.0,At or below median,True,325.0,294.0,59.00663618566308,56.88312901063116,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2020,12,71,372,119.0,157.0,At or below median,True,425.0,372.0,74.661458030839,71.97457140120677,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2021,1,43,200,289.0,1033.8,At or below median,True,222.0,200.0,40.140568833784414,38.34923015631225,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2021,2,260,1507,729.0,3366.199999999999,At or below median,True,2183.0,1507.0,302.4591861625656,288.9614492278128,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2021,3,194,870,612.0,2354.1999999999994,At or below median,True,1520.0,870.0,174.6114744269622,166.81915117995828,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2021,4,82,424,294.0,541.1999999999999,At or below median,True,470.0,424.0,85.09800592762295,93.46507104473676,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2021,5,95,321,644.0,1809.3999999999999,At or below median,True,393.0,321.0,64.42561297822398,70.76011274849175,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2021,6,150,645,1524.0,4034.4,At or below median,True,738.0,645.0,129.45333448895474,142.18153496192264,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2021,7,416,1721,1911.0,3888.6,At or below median,True,2130.0,1721.0,345.40959481471486,387.5284700074397,Above median,At or below median,At or below median,At or below median
+snpp,sumatra,2021,8,223,825,4070.0,5677.599999999999,At or below median,True,1015.0,825.0,165.5798464393607,185.77047516335725,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2021,9,133,1182,3519.0,6444.4,At or below median,True,1416.0,1182.0,237.23076180766589,266.1584262340463,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2021,10,206,1005,680.0,5825.199999999998,At or below median,True,1173.0,1005.0,201.70635838976668,194.44743080164736,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2021,11,77,548,189.0,1051.0,At or below median,True,643.0,548.0,109.98515860456929,106.02705679532613,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2021,12,64,454,119.0,157.0,At or below median,True,516.0,454.0,91.11909125269062,87.83993391437602,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2022,1,85,624,289.0,1033.8,At or below median,True,703.0,624.0,125.23857476140736,119.6495980876942,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2022,2,78,776,729.0,3366.199999999999,At or below median,True,1017.0,776.0,155.74540707508353,148.7950130064915,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2022,3,335,1680,612.0,2354.1999999999994,At or below median,True,2166.0,1680.0,337.1807782037891,322.1335333130229,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2022,4,21,1410,294.0,541.1999999999999,At or below median,True,1957.0,1410.0,282.9910102781801,310.81544852141235,Above historical p90,Above historical p90,At or below median,Above median
+snpp,sumatra,2022,5,192,1044,644.0,1809.3999999999999,At or below median,True,1233.0,1044.0,209.53376931235462,230.13569379883296,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2022,6,98,562,1524.0,4034.4,At or below median,True,669.0,562.0,112.7949984229342,123.88530643193883,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2022,7,275,1524,1911.0,3888.6,At or below median,True,1840.0,1524.0,305.8711345134372,343.1687323017653,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2022,8,323,869,4070.0,5677.599999999999,At or below median,True,1023.0,869.0,174.41077158279327,195.6782338387363,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2022,9,113,599,3519.0,6444.4,At or below median,True,707.0,599.0,120.22100365718431,134.8806237852739,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2022,10,34,159,680.0,5825.199999999998,At or below median,True,180.0,159.0,31.911752222858606,30.76332487309645,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2022,11,31,315,189.0,1051.0,At or below median,True,366.0,315.0,63.22139591321045,60.94620965424767,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2022,12,24,330,119.0,157.0,At or below median,True,379.0,330.0,66.23193857574428,63.848410113973756,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2023,1,26,204,289.0,1033.8,At or below median,True,236.0,204.0,40.9433802104601,39.11621475943849,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2023,2,42,536,729.0,3366.199999999999,At or below median,True,630.0,536.0,107.57672447454223,102.77593681891682,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2023,3,80,511,612.0,2354.1999999999994,At or below median,True,620.0,511.0,102.55915337031918,97.98228304937778,Above median,At or below median,At or below median,At or below median
+snpp,sumatra,2023,4,168,850,294.0,541.1999999999999,At or below median,True,1113.0,850.0,170.59741754358376,187.37101506609963,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2023,5,194,1026,644.0,1809.3999999999999,At or below median,True,1297.0,1026.0,205.92111811731402,226.16783700919794,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2023,6,299,1567,1524.0,4034.4,At or below median,True,1879.0,1567.0,314.50135681270086,345.4239771865625,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2023,7,290,1010,1911.0,3888.6,At or below median,True,1225.0,1010.0,202.70987261061128,227.42809686665552,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2023,8,424,2315,4070.0,5677.599999999999,At or below median,True,2821.0,2315.0,464.62708425105455,521.2832121250569,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2023,9,1766,8440,3519.0,6444.4,At or below median,True,13648.0,8440.0,1693.9320047857022,1900.4882550045272,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2023,10,2400,11899,680.0,5825.199999999998,Above median,True,20069.0,11899.0,2388.1631427660036,2302.2188846853746,Above historical p90,Above historical p90,Above median,Above median
+snpp,sumatra,2023,11,351,1798,189.0,1051.0,Above median,True,2640.0,1798.0,360.8637138157219,347.87709510583284,Above historical p90,Above historical p90,Above median,Above median
+snpp,sumatra,2023,12,140,808,119.0,157.0,Above median,True,1060.0,808.0,162.16789808848904,156.3318647639115,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,sumatra,2024,1,63,403,289.0,1033.8,At or below median,True,497.0,403.0,80.88324620007559,77.27369876496918,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2024,2,75,659,729.0,3366.199999999999,At or below median,True,831.0,659.0,132.26317430731964,126.36071336504885,Above median,At or below median,At or below median,At or below median
+snpp,sumatra,2024,3,198,1053,612.0,2354.1999999999994,At or below median,True,1492.0,1053.0,211.34009490987492,201.908696772984,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2024,4,104,436,294.0,541.1999999999999,At or below median,True,535.0,436.0,87.50644005765002,96.11030890449346,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2024,5,104,414,644.0,1809.3999999999999,At or below median,True,477.0,414.0,83.09097748593373,91.26070616160615,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2024,6,76,663,1524.0,4034.4,At or below median,True,739.0,663.0,133.06598568399534,146.14939175155772,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2024,7,727,1721,1911.0,3888.6,At or below median,True,2160.0,1721.0,345.40959481471486,387.52847000743975,Above median,At or below median,At or below median,At or below median
+snpp,sumatra,2024,8,477,2140,4070.0,5677.599999999999,At or below median,True,2964.0,2140.0,429.5040865214932,481.8773537570721,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2024,9,568,2481,3519.0,6444.4,At or below median,True,3257.0,2481.0,497.94375638309566,558.6624834912596,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2024,10,596,2906,680.0,5825.199999999998,At or below median,True,3586.0,2906.0,583.2424651548876,562.2529690642658,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2024,11,64,306,189.0,1051.0,At or below median,True,354.0,306.0,61.41507031569015,59.20488937841203,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2024,12,112,425,119.0,157.0,At or below median,True,505.0,425.0,85.29870877179188,82.22901302557226,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2025,1,23,171,289.0,1033.8,At or below median,True,195.0,171.0,34.32018635288567,32.78859178364698,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2025,2,105,368,729.0,3366.199999999999,At or below median,True,439.0,368.0,73.85864665416332,70.56258348761453,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2025,3,44,229,612.0,2354.1999999999994,At or below median,True,261.0,229.0,45.96095131468315,43.909868528977526,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2025,4,95,383,294.0,541.1999999999999,At or below median,True,462.0,383.0,76.86918931669715,84.42717502390136,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2025,5,210,1057,644.0,1809.3999999999999,At or below median,True,1216.0,1057.0,212.1429062865506,233.00136814690273,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2025,6,472,2036,1524.0,4034.4,At or below median,True,2446.0,2036.0,408.63099072792534,448.80869020538694,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2025,7,916,4424,1911.0,3888.6,At or below median,True,6630.0,4424.0,887.9093826033112,996.1800995426574,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sumatra,2025,8,710,2456,4070.0,5677.599999999999,At or below median,True,3290.0,2456.0,492.9261852788726,553.0330751529762,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2025,9,374,1368,3519.0,6444.4,At or below median,True,1691.0,1368.0,274.56149082308536,308.041224270876,At or below median,At or below median,At or below median,At or below median
+snpp,sumatra,2025,10,257,1358,680.0,5825.199999999998,At or below median,True,1575.0,1358.0,272.55446238139615,262.7458816205344,Above median,Above median,At or below median,At or below median
+snpp,sumatra,2025,11,132,969,189.0,1051.0,At or below median,True,1275.0,969.0,194.48105599968548,187.48214969830474,Above historical p90,Above median,Above median,At or below median
+snpp,sumatra,2025,12,29,142,119.0,157.0,At or below median,True,159.0,142.0,28.499803871986934,27.474164352073558,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2018,1,44,224,82.0,329.79999999999995,At or below median,True,276.0,224.0,44.95743709383854,37.29531568228105,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2018,2,188,1281,110.0,317.79999999999995,Above median,True,2086.0,1281.0,257.1003433803892,213.28258655804478,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2018,3,74,493,177.0,387.2,At or below median,True,626.0,493.0,98.94650217527858,82.08299389002036,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2018,4,75,376,110.0,222.39999999999998,At or below median,True,428.0,376.0,75.46426940751469,55.74545072052172,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2018,5,51,421,154.0,352.4,At or below median,True,475.0,421.0,84.49589739511619,62.41711370569054,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2018,6,83,691,266.0,823.4,At or below median,True,815.0,691.0,138.68566532072515,102.44709161670347,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2018,7,868,3284,475.0,2398.6,Above median,True,4547.0,3284.0,659.10814025074,733.8798129503198,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2018,8,4598,17916,5099.0,12206.0,At or below median,True,28350.0,17916.0,3595.792156130408,4003.712158592549,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2018,9,2986,13810,6269.0,14577.8,At or below median,True,20051.0,13810.0,2771.7062779728135,3086.1389210852367,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2018,10,975,4638,1452.0,10737.799999999997,At or below median,True,6814.0,4638.0,930.8597912554606,821.978781117119,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2018,11,87,545,172.0,1963.1999999999996,At or below median,True,700.0,545.0,109.38305007206253,96.58870972592275,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2018,12,43,331,40.0,169.39999999999995,Above median,True,411.0,331.0,66.4326414199132,58.66213379684483,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2019,1,42,344,82.0,329.79999999999995,At or below median,True,405.0,344.0,69.04177839410919,57.27494908350306,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2019,2,120,904,110.0,317.79999999999995,Above median,True,1145.0,904.0,181.43537112870555,150.51323828920573,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2019,3,206,1378,177.0,387.2,Above median,True,1951.0,1378.0,276.5685192647746,229.4327902240326,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2019,4,164,943,110.0,222.39999999999998,Above median,True,1756.0,943.0,189.2627820512935,139.80840433364887,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2019,5,146,901,154.0,352.4,At or below median,True,1309.0,901.0,180.83326259619878,133.58151888082466,Above historical p90,Above historical p90,Above median,At or below median
+snpp,kalimantan,2019,6,74,475,266.0,823.4,At or below median,True,598.0,475.0,95.33385098023798,70.42310928789313,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2019,7,525,3081,475.0,2398.6,Above median,True,4622.0,3081.0,618.3654628844489,688.5151351096027,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2019,8,4110,17727,5099.0,12206.0,At or below median,True,29082.0,17727.0,3557.8593185824816,3961.4760792236057,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2019,9,13503,54100,6269.0,14577.8,Above median,True,106138.0,54100.0,10858.023869538683,12089.798380210814,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2019,10,1744,9422,1452.0,10737.799999999997,Above median,True,14260.0,9422.0,1891.0221977595836,1669.8327028213655,Above historical p90,Above median,Above median,Above median
+snpp,kalimantan,2019,11,1314,6603,172.0,1963.1999999999996,Above median,True,11831.0,6603.0,1325.2408800473925,1170.2298171014093,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2019,12,85,562,40.0,169.39999999999995,Above median,True,724.0,562.0,112.7949984229342,99.60156856141026,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2020,1,96,499,82.0,329.79999999999995,Above median,True,613.0,499.0,100.1507192402921,83.08197556008146,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2020,2,71,485,110.0,317.79999999999995,At or below median,True,603.0,485.0,97.3408794219272,80.7510183299389,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2020,3,131,802,177.0,387.2,At or below median,True,1215.0,802.0,160.9636810234755,133.530549898167,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2020,4,179,1067,110.0,222.39999999999998,Above median,True,1625.0,1067.0,214.14993472823983,158.19254233722518,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2020,5,85,546,154.0,352.4,At or below median,True,651.0,546.0,109.58375291623145,80.94951088671505,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2020,6,63,484,266.0,823.4,At or below median,True,596.0,484.0,97.14017657775828,71.75744188492689,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2020,7,55,566,475.0,2398.6,At or below median,True,698.0,566.0,113.59780979960989,126.4847667874181,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2020,10,452,2894,1452.0,10737.799999999997,At or below median,True,3501.0,2894.0,580.8340310248605,512.894909994166,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2020,11,245,930,172.0,1963.1999999999996,Above median,True,1089.0,930.0,186.6536450770975,164.82110100019847,Above median,Above median,Above median,At or below median
+snpp,kalimantan,2020,12,40,255,40.0,169.39999999999995,At or below median,True,289.0,255.0,51.179225263075125,45.19288253231248,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2021,1,18,99,82.0,329.79999999999995,At or below median,False,117.0,99.0,19.869581572723284,16.483197556008147,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2021,2,220,1275,110.0,317.79999999999995,Above median,True,2169.0,1275.0,255.89612631537562,212.2836048879837,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2021,3,68,404,177.0,387.2,At or below median,True,506.0,404.0,81.08394904424452,67.26476578411405,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2021,4,117,678,110.0,222.39999999999998,Above median,True,909.0,678.0,136.07652834652916,100.51972230987693,Above historical p90,Above historical p90,Above median,At or below median
+snpp,kalimantan,2021,5,67,301,154.0,352.4,At or below median,True,395.0,301.0,60.411556094845544,44.62601241190701,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2021,6,90,508,266.0,823.4,At or below median,True,624.0,508.0,101.9570448378124,75.3156621436836,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2021,7,294,1403,475.0,2398.6,At or below median,True,1800.0,1403.0,281.58609036899765,313.53026113559645,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2021,8,515,1816,5099.0,12206.0,At or below median,True,2243.0,1816.0,364.4763650107625,405.82391605291747,At or below median,At or below median,At or below median,At or below median
+snpp,kalimantan,2021,9,1043,4684,6269.0,14577.8,At or below median,True,5766.0,4684.0,940.0921220872309,1046.7396601276791,At or below median,At or below median,At or below median,At or below median
+snpp,kalimantan,2021,10,595,2469,1452.0,10737.799999999997,At or below median,True,2889.0,2469.0,495.53532225306856,437.5734391069785,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2021,11,55,336,172.0,1963.1999999999996,At or below median,True,385.0,336.0,67.43615564075782,59.548268748458796,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2021,12,12,173,40.0,169.39999999999995,At or below median,False,195.0,173.0,34.721592041223516,30.660269325843373,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2022,1,36,276,82.0,329.79999999999995,At or below median,True,329.0,276.0,55.39398499062249,45.9531568228106,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2022,2,51,262,110.0,317.79999999999995,At or below median,True,320.0,262.0,52.58414517225758,43.622199592668025,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2022,3,139,942,177.0,387.2,At or below median,True,1510.0,942.0,189.06207920712458,156.84012219959266,Above historical p90,Above historical p90,Above median,At or below median
+snpp,kalimantan,2022,4,49,674,110.0,222.39999999999998,At or below median,True,961.0,674.0,135.27371696985347,99.92668560008414,Above historical p90,Above historical p90,Above median,At or below median
+snpp,kalimantan,2022,5,109,562,154.0,352.4,At or below median,True,662.0,562.0,112.7949984229342,83.32165772588618,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2022,6,57,520,266.0,823.4,At or below median,True,588.0,520.0,104.36547896783948,77.09477227306195,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2022,7,286,1197,475.0,2398.6,At or below median,True,1490.0,1197.0,240.2413044701997,267.49516933664216,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2022,8,1032,3518,5099.0,12206.0,At or below median,True,4406.0,3518.0,706.0726057862678,786.1721016928213,At or below median,At or below median,At or below median,At or below median
+snpp,kalimantan,2022,9,510,2545,6269.0,14577.8,At or below median,True,2986.0,2545.0,510.78873840990667,568.7345079045566,At or below median,At or below median,At or below median,At or below median
+snpp,kalimantan,2022,10,122,682,1452.0,10737.799999999997,At or below median,True,778.0,682.0,136.87933972320485,120.86880740014554,At or below median,At or below median,At or below median,At or below median
+snpp,kalimantan,2022,11,36,347,172.0,1963.1999999999996,At or below median,True,398.0,347.0,69.64388692661595,61.49776564200954,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2022,12,41,386,40.0,169.39999999999995,Above median,True,448.0,386.0,77.47129784920392,68.40961826459849,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2023,1,57,408,82.0,329.79999999999995,At or below median,True,530.0,408.0,81.8867604209202,67.93075356415478,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2023,2,56,338,110.0,317.79999999999995,At or below median,True,430.0,338.0,67.83756132909566,56.27596741344196,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2023,3,51,367,177.0,387.2,At or below median,True,464.0,367.0,73.65794380999439,61.10437881873726,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2023,4,136,925,110.0,222.39999999999998,Above median,True,1097.0,925.0,185.6501308562529,137.13973913958137,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2023,5,197,1091,154.0,352.4,Above median,True,1409.0,1091.0,218.96680298829398,161.75076259598188,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2023,6,252,1314,266.0,823.4,At or below median,True,1664.0,1314.0,263.72353723796357,194.81255916692965,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2023,7,2311,5247,475.0,2398.6,Above median,True,6970.0,5247.0,1053.087823354334,1172.55401295686,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2023,8,4194,16335,5099.0,12206.0,At or below median,True,22022.0,16335.0,3278.4809594993417,3650.4040026015455,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2023,9,3895,17875,6269.0,14577.8,At or below median,True,28176.0,17875.0,3587.563339519482,3994.54983449664,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2023,10,2972,13546,1452.0,10737.799999999997,Above median,True,22187.0,13546.0,2718.7207271122184,2400.7168109125687,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2023,11,274,1857,172.0,1963.1999999999996,Above median,True,2511.0,1857.0,372.70518162168827,329.1105210294285,Above historical p90,Above median,Above median,Above median
+snpp,kalimantan,2023,12,117,777,40.0,169.39999999999995,Above median,True,935.0,777.0,155.94610991925245,137.70537148081098,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2024,1,86,464,82.0,329.79999999999995,Above median,True,570.0,464.0,93.12611969437984,77.25458248472505,Above historical p90,Above historical p90,Above median,At or below median
+snpp,kalimantan,2024,2,226,995,110.0,317.79999999999995,Above median,True,1301.0,995.0,199.69932994807746,165.6644602851324,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2024,3,149,906,177.0,387.2,At or below median,True,1221.0,906.0,181.8367768170434,150.84623217922606,Above historical p90,Above historical p90,Above median,At or below median
+snpp,kalimantan,2024,4,318,1346,110.0,222.39999999999998,Above historical p90,True,1807.0,1346.0,270.1460282513691,199.5568528452719,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,kalimantan,2024,5,117,533,154.0,352.4,At or below median,True,663.0,533.0,106.97461594203546,79.0221415798885,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2024,6,55,447,266.0,823.4,At or below median,True,546.0,447.0,89.71417134350816,66.27185231934364,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2024,7,722,1001,475.0,2398.6,Above median,True,1299.0,1001.0,200.90354701309099,223.69479073181185,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2024,8,682,3069,5099.0,12206.0,At or below median,True,3790.0,3069.0,615.9570287544218,685.833479276654,At or below median,At or below median,At or below median,At or below median
+snpp,kalimantan,2024,9,4195,13313,6269.0,14577.8,At or below median,True,17226.0,13313.0,2671.9569644208595,2975.073675337274,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2024,10,747,3278,1452.0,10737.799999999997,At or below median,True,4145.0,3278.0,657.9039231857265,580.950074278119,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2024,11,94,620,172.0,1963.1999999999996,At or below median,True,768.0,620.0,124.43576338473167,109.88073400013232,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2024,12,17,158,40.0,169.39999999999995,At or below median,False,191.0,158.0,31.711049378689687,28.001864471001458,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2025,1,36,164,82.0,329.79999999999995,At or below median,True,211.0,164.0,32.91526644370322,27.305498981670066,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2025,2,63,270,110.0,317.79999999999995,At or below median,True,339.0,270.0,54.189767925608955,44.95417515274949,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2025,3,66,255,177.0,387.2,At or below median,True,309.0,255.0,51.179225263075125,42.456720977596746,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2025,4,52,354,110.0,222.39999999999998,At or below median,True,470.0,354.0,71.04880683579842,52.483748816661404,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,kalimantan,2025,5,135,819,154.0,352.4,At or below median,True,959.0,819.0,164.37562937434717,121.42426633007257,Above historical p90,Above historical p90,Above median,At or below median
+snpp,kalimantan,2025,6,125,705,266.0,823.4,At or below median,True,865.0,705.0,141.49550513909006,104.52272010097822,Above historical p90,Above median,At or below median,At or below median
+snpp,kalimantan,2025,7,1590,5684,475.0,2398.6,Above median,True,7871.0,5684.0,1140.794966256153,1270.2109795400788,Above historical p90,Above historical p90,Above median,Above median
+snpp,kalimantan,2025,8,1073,7184,5099.0,12206.0,At or below median,True,8908.0,7184.0,1441.849232509536,1605.4179586586777,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2025,9,1590,8335,6269.0,14577.8,At or below median,True,10372.0,8335.0,1672.8582061479653,1862.6334473023496,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2025,10,507,2659,1452.0,10737.799999999997,At or below median,True,3217.0,2659.0,533.6688626451638,471.24656726830943,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2025,11,115,758,172.0,1963.1999999999996,At or below median,True,908.0,758.0,152.13275588004294,134.3380586646779,Above median,Above median,At or below median,At or below median
+snpp,kalimantan,2025,12,38,225,40.0,169.39999999999995,At or below median,True,291.0,225.0,45.158139938007466,39.876072822628664,Above historical p90,Above historical p90,Above median,At or below median
+snpp,java,2018,1,1,47,10.0,26.0,At or below median,False,64.0,47.0,9.433033675939337,8.178845296277906,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,java,2018,2,7,134,11.0,23.2,At or below median,False,176.0,134.0,26.894181118635558,23.67404774301897,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2018,3,14,192,17.0,32.4,At or below median,False,231.0,192.0,38.53494608043304,34.366087990236096,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2018,4,17,249,21.0,42.2,At or below median,False,299.0,249.0,49.975008198061595,45.14474862319513,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2018,5,17,414,26.0,61.8,At or below median,False,510.0,414.0,83.09097748593373,73.07202382366086,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2018,6,46,642,42.0,109.39999999999999,Above median,True,804.0,642.0,128.85122595644796,105.57592468628205,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,java,2018,7,129,1836,96.0,211.6,Above median,True,2278.0,1836.0,368.4904218941409,411.0981091053063,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2018,8,198,2801,206.0,313.0,At or below median,True,3490.0,2801.0,562.1686665171507,627.245796461003,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2018,9,217,2664,205.0,341.6,Above median,True,3564.0,2664.0,534.6723768660083,596.6063555038392,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2018,10,181,2099,92.0,235.6,Above median,True,2981.0,2099.0,421.27526991056743,379.638381640582,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2018,11,8,318,21.0,86.39999999999999,At or below median,False,388.0,318.0,63.82350444571721,58.61735552790847,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2018,12,4,108,11.0,16.6,At or below median,False,147.0,108.0,21.675907170243583,20.359492979282603,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,1,10,92,10.0,26.0,At or below median,False,108.0,92.0,18.46466166354083,16.504431612191627,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2019,2,17,153,11.0,23.2,Above median,False,196.0,153.0,30.707535157845076,27.443470636725525,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,3,10,110,17.0,32.4,At or below median,False,131.0,110.0,22.077312858581426,19.324632181975282,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2019,4,16,159,21.0,42.2,At or below median,False,203.0,159.0,31.911752222858606,27.10989744664143,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2019,5,9,420,26.0,61.8,At or below median,False,518.0,420.0,84.29519455094727,73.16762846883655,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,6,61,760,42.0,109.39999999999999,Above median,True,911.0,760.0,152.53416156838077,126.67937316841228,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,7,125,2043,96.0,211.6,Above median,True,2374.0,2043.0,410.03591063710775,457.3191619130563,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,8,261,3256,206.0,313.0,Above median,True,3894.0,3256.0,653.4884606140103,729.0599429090413,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,9,285,3351,205.0,341.6,Above median,True,4205.0,3351.0,672.5552308100579,750.5164851310386,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,10,425,4041,92.0,235.6,Above historical p90,True,6746.0,4041.0,811.040193286614,729.3879896791327,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,11,61,1201,21.0,86.39999999999999,Above median,True,1501.0,1201.0,241.0441158468754,222.04883620197165,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2019,12,15,238,11.0,16.6,Above median,False,277.0,238.0,47.76727691220345,43.46401388254827,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2020,1,18,162,10.0,26.0,Above median,False,203.0,162.0,32.51386075536537,28.083470145590326,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2020,2,14,108,11.0,23.2,Above median,False,153.0,108.0,21.675907170243583,18.84014305732665,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2020,3,43,195,17.0,32.4,Above historical p90,True,335.0,195.0,39.1370546129398,33.653616948240504,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2020,4,27,251,21.0,42.2,Above median,True,414.0,251.0,50.37641388639944,44.936025802037484,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2020,5,33,215,26.0,61.8,Above median,True,304.0,215.0,43.151111496318244,36.20636180325389,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2020,6,23,343,42.0,109.39999999999999,At or below median,True,441.0,343.0,68.84107554994027,54.82264996229868,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2020,7,46,837,96.0,211.6,At or below median,True,1006.0,837.0,167.98828056938777,187.27737626835454,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2020,10,27,535,92.0,235.6,At or below median,True,615.0,535.0,107.3760216303733,96.5067560165584,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2020,11,19,199,21.0,86.39999999999999,At or below median,False,263.0,199.0,39.93986598961549,36.324618695400744,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2020,12,17,87,11.0,16.6,Above historical p90,False,147.0,87.0,17.46114744269622,15.63003768231603,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,java,2021,1,3,47,10.0,26.0,At or below median,False,62.0,47.0,9.433033675939337,8.052599267421018,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,java,2021,2,9,73,11.0,23.2,At or below median,False,103.0,73.0,14.651307624331311,12.583513483856805,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2021,3,12,157,17.0,32.4,At or below median,False,200.0,157.0,31.510346534520764,27.50347747825319,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2021,4,10,287,21.0,42.2,At or below median,False,360.0,287.0,57.60171627648063,51.572547785740056,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2021,5,18,330,26.0,61.8,At or below median,False,436.0,330.0,66.23193857574428,56.14325964439094,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,java,2021,6,13,362,42.0,109.39999999999999,At or below median,False,460.0,362.0,72.65442958914979,61.53714912051697,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2021,7,49,791,96.0,211.6,At or below median,True,1008.0,791.0,158.75594973761736,177.16137693080265,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2021,8,72,1182,206.0,313.0,At or below median,True,1484.0,1182.0,237.23076180766589,264.5744681175487,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2021,9,67,954,205.0,341.6,At or below median,True,1176.0,954.0,191.47051333715166,213.5786769244291,Above historical p90,Above historical p90,At or below median,Above median
+snpp,java,2021,10,27,609,92.0,235.6,At or below median,True,770.0,609.0,122.22803209887354,110.82427828454038,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2021,11,7,94,21.0,86.39999999999999,At or below median,False,122.0,94.0,18.866067351878673,17.130675259785367,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,java,2021,12,15,151,11.0,16.6,Above median,False,227.0,151.0,30.30612946950723,27.50891539372002,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2022,1,9,115,10.0,26.0,At or below median,False,148.0,115.0,23.080827079426037,20.182366112797578,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2022,2,13,86,11.0,23.2,Above median,False,112.0,86.0,17.260444598527297,15.025715032474347,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2022,3,19,175,17.0,32.4,Above median,False,207.0,175.0,35.12299772956136,31.030655809635427,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,java,2022,4,15,248,21.0,42.2,At or below median,False,346.0,248.0,49.77430535389267,43.3364112958551,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2022,5,33,324,26.0,61.8,Above median,True,469.0,324.0,65.02772151073074,55.903300377485515,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,java,2022,6,29,346,42.0,109.39999999999999,At or below median,True,505.0,346.0,69.44318408244703,58.226697240102624,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2022,7,50,466,96.0,211.6,At or below median,True,623.0,466.0,93.52752538271768,104.3558766534028,Above historical p90,Above historical p90,At or below median,Above median
+snpp,java,2022,8,65,636,206.0,313.0,At or below median,True,778.0,636.0,127.64700889143442,142.40397143355477,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,java,2022,9,52,857,205.0,341.6,At or below median,True,1060.0,857.0,172.0023374527662,191.76726282602982,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,java,2022,10,19,261,92.0,235.6,At or below median,False,345.0,261.0,52.383442328088655,47.42646337769325,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,java,2022,11,8,134,21.0,86.39999999999999,At or below median,False,206.0,134.0,26.894181118635558,24.41479135660446,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2022,12,12,123,11.0,16.6,Above median,False,166.0,123.0,24.686449832777413,22.49780054370495,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,1,16,113,10.0,26.0,Above median,False,162.0,113.0,22.679421391088194,19.546381753520677,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2023,2,0,52,11.0,23.2,At or below median,False,70.0,52.0,10.436547896783948,9.213323667499846,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,java,2023,3,24,217,17.0,32.4,Above median,True,303.0,217.0,43.55251718465609,37.771035442349344,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,4,24,272,21.0,42.2,Above median,True,363.0,272.0,54.5911736139468,46.96680886547666,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,5,67,482,26.0,61.8,Above historical p90,True,727.0,482.0,96.73877088942044,78.60647730565186,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,6,108,801,42.0,109.39999999999999,Above median,True,1142.0,801.0,160.76297817930657,127.56123306151824,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,7,149,1529,96.0,211.6,Above median,True,1980.0,1529.0,306.87464873428183,342.00136997944423,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,8,253,2667,206.0,313.0,Above median,True,3437.0,2667.0,535.2744853985151,596.8454008899838,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,9,312,3249,205.0,341.6,Above median,True,4283.0,3249.0,652.0835407048278,727.6627350568109,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,10,240,2495,92.0,235.6,Above historical p90,True,3483.0,2495.0,500.75359620146054,453.99730117209054,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,11,37,634,21.0,86.39999999999999,Above median,True,809.0,634.0,127.24560320309659,115.12492872000534,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2023,12,40,429,11.0,16.6,Above historical p90,True,576.0,429.0,86.10152014846757,78.64711834090205,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2024,1,19,153,10.0,26.0,Above median,False,193.0,153.0,30.707535157845076,26.887988109755206,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2024,2,21,229,11.0,23.2,Above median,True,307.0,229.0,45.96095131468315,39.86999560555706,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2024,3,20,194,17.0,32.4,Above median,True,235.0,194.0,38.93635176877088,34.16884855905752,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2024,4,18,145,21.0,42.2,At or below median,False,183.0,145.0,29.1019124044937,23.807254677664023,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2024,5,37,397,26.0,61.8,Above median,True,550.0,397.0,79.67902913506205,64.92178755958227,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2024,6,72,574,42.0,109.39999999999999,Above median,True,800.0,574.0,115.20343255296126,93.47333591558856,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,java,2024,7,119,679,96.0,211.6,Above median,True,883.0,679.0,136.27723119069807,151.88365709524828,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2024,8,204,2618,206.0,313.0,At or below median,True,3208.0,2618.0,525.440046034238,585.6480791915295,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2024,9,191,2043,205.0,341.6,At or below median,True,2523.0,2043.0,410.03591063710775,457.45556304257184,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,java,2024,10,84,1162,92.0,235.6,At or below median,True,1436.0,1162.0,233.21670492428743,211.02496437700302,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2024,11,15,203,21.0,86.39999999999999,At or below median,False,264.0,203.0,40.742677366291176,37.0010205760407,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2024,12,2,46,11.0,16.6,At or below median,False,58.0,46.0,9.232330831770415,8.477502361360752,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,java,2025,1,5,57,10.0,26.0,At or below median,False,77.0,57.0,11.440062117628557,10.172054421407651,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,2,8,95,11.0,23.2,At or below median,False,115.0,95.0,19.066770196047596,16.751430389508396,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,3,10,132,17.0,32.4,At or below median,False,172.0,132.0,26.492775430297712,22.937066560656564,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,4,10,187,21.0,42.2,At or below median,False,254.0,187.0,37.53143185958842,30.900267860866602,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,5,11,201,26.0,61.8,At or below median,False,252.0,201.0,40.34127167795334,34.34726525157373,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,6,15,292,42.0,109.39999999999999,At or below median,False,380.0,292.0,58.605230497325245,47.47796384503526,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,7,33,583,96.0,211.6,At or below median,True,718.0,583.0,117.00975815048156,130.46621572815573,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,8,76,930,206.0,313.0,At or below median,True,1150.0,930.0,186.6536450770975,208.0840791713729,Above historical p90,Above historical p90,At or below median,Above median
+snpp,java,2025,9,65,954,205.0,341.6,At or below median,True,1145.0,954.0,191.47051333715166,213.39112537134537,Above historical p90,Above historical p90,At or below median,Above median
+snpp,java,2025,10,50,658,92.0,235.6,At or below median,True,826.0,658.0,132.06247146315073,118.32192886658765,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,11,9,118,21.0,86.39999999999999,At or below median,False,163.0,118.0,23.682935611932802,21.44913518883487,Above historical p90,Above historical p90,Above median,Above median
+snpp,java,2025,12,6,186,11.0,16.6,At or below median,False,268.0,186.0,37.3307290154195,33.51682357111048,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,papua,2018,1,10,127,13.0,36.8,At or below median,False,147.0,127.0,25.4892612094531,22.096676524433178,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,2,15,130,12.0,29.799999999999997,Above median,False,153.0,130.0,26.09136974195987,22.618645261230817,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,3,20,172,11.0,28.799999999999997,Above median,True,197.0,172.0,34.52088919705459,29.92620757639769,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,papua,2018,4,14,163,13.0,23.599999999999998,Above median,False,197.0,163.0,32.714563599534294,26.99766718506998,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,papua,2018,5,31,233,32.0,48.6,At or below median,True,268.0,233.0,46.76376269135884,38.59175738724727,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,6,26,242,39.0,82.0,At or below median,True,292.0,242.0,48.57008828887914,40.08242612752721,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,7,193,863,57.0,220.39999999999998,Above median,True,1086.0,863.0,173.20655451777975,166.86658946016604,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,8,249,1414,182.0,618.5999999999999,Above median,True,1803.0,1414.0,283.7938216548558,273.4059762418016,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,9,741,3425,352.0,1221.1999999999998,Above median,True,4794.0,3425.0,687.4072412785581,662.2457345319451,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,10,1539,7713,410.0,1998.6,Above median,True,10746.0,7713.0,1548.021037074896,1340.7375993654116,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,11,447,2132,135.0,682.0,Above median,True,2986.0,2132.0,427.8984637681418,370.60191389174867,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2018,12,29,174,28.0,395.59999999999997,Above median,True,215.0,174.0,34.92229488539244,30.246122428313452,Above median,Above median,Above median,Above median
+snpp,papua,2019,1,13,77,13.0,36.8,At or below median,False,88.0,77.0,15.454119001007,13.397197577805944,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2019,2,7,111,12.0,29.799999999999997,At or below median,False,136.0,111.0,22.27801570275035,19.312843261512466,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2019,3,15,100,11.0,28.799999999999997,Above median,False,121.0,100.0,20.070284416892207,17.398957893254472,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2019,4,7,63,13.0,23.599999999999998,At or below median,False,70.0,63.0,12.644279182642089,10.434681181959563,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2019,5,16,121,32.0,48.6,At or below median,False,149.0,121.0,24.28504414443957,20.04121306376361,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2019,6,18,120,39.0,82.0,At or below median,False,145.0,120.0,24.084341300270648,19.8755832037325,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2019,7,87,591,57.0,220.39999999999998,Above median,True,771.0,591.0,118.61538090383294,114.2736435352933,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2019,8,220,932,182.0,618.5999999999999,Above median,True,1210.0,932.0,187.05505076543537,180.20818236022563,Above historical p90,Above historical p90,Above median,At or below median
+snpp,papua,2019,9,500,2806,352.0,1221.1999999999998,Above median,True,4129.0,2806.0,563.1721807379953,542.5581112690915,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2019,10,981,4415,410.0,1998.6,Above median,True,6206.0,4415.0,886.1030570057909,767.4518995459993,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2019,11,549,3224,135.0,682.0,Above median,True,4425.0,3224.0,647.0659696006047,560.4224063728882,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2019,12,275,1337,28.0,395.59999999999997,Above median,True,1807.0,1337.0,268.3397026538488,232.40842348652342,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2020,1,28,229,13.0,36.8,Above median,True,274.0,229.0,45.96095131468315,39.84361357555274,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,papua,2020,2,33,256,12.0,29.799999999999997,Above historical p90,True,347.0,256.0,51.37992810724405,44.54133220673145,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,papua,2020,3,8,88,11.0,28.799999999999997,At or below median,False,109.0,88.0,17.661850286865143,15.311082946063934,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2020,4,16,112,13.0,23.599999999999998,Above median,False,141.0,112.0,22.47871854691927,18.55054432348367,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2020,5,34,293,32.0,48.6,Above median,True,342.0,293.0,58.80593334149417,48.52954898911352,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,papua,2020,6,48,286,39.0,82.0,Above median,True,338.0,286.0,57.40101343231171,47.37013996889579,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2020,7,80,550,57.0,220.39999999999998,Above median,True,665.0,550.0,110.38656429290714,106.34603036279412,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2020,10,338,2036,410.0,1998.6,At or below median,True,2747.0,2036.0,408.63099072792534,353.91439806923086,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2020,11,287,1184,135.0,682.0,Above median,True,1592.0,1184.0,237.63216749600372,205.8126951443857,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2020,12,7,54,28.0,395.59999999999997,At or below median,False,66.0,54.0,10.837953585121792,9.386727650166241,Above median,Above median,At or below median,At or below median
+snpp,papua,2021,1,5,80,13.0,36.8,At or below median,False,96.0,80.0,16.056227533513766,13.919166314603578,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2021,2,1,37,12.0,29.799999999999997,At or below median,False,48.0,37.0,7.426005234250116,6.437614420504153,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2021,3,10,72,11.0,28.799999999999997,At or below median,False,91.0,72.0,14.450604780162388,12.52724968314322,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2021,4,10,122,13.0,23.599999999999998,At or below median,False,160.0,122.0,24.48574698860849,20.20684292379471,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,papua,2021,5,9,153,32.0,48.6,At or below median,False,186.0,153.0,30.707535157845076,25.34136858475894,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2021,6,36,238,39.0,82.0,At or below median,True,296.0,238.0,47.76727691220345,39.419906687402786,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2021,7,90,291,57.0,220.39999999999998,Above median,True,369.0,291.0,58.40452765315632,56.266717882860156,Above historical p90,Above historical p90,Above median,At or below median
+snpp,papua,2021,8,80,493,182.0,618.5999999999999,At or below median,True,612.0,493.0,98.94650217527858,95.3247144888318,Above median,Above median,At or below median,At or below median
+snpp,papua,2021,9,49,364,352.0,1221.1999999999998,At or below median,True,489.0,364.0,73.05583527748763,70.38173645828556,Above median,Above median,At or below median,At or below median
+snpp,papua,2021,10,140,780,410.0,1998.6,At or below median,True,952.0,780.0,156.5482184517592,135.58606605795683,Above median,Above median,At or below median,At or below median
+snpp,papua,2021,11,23,278,135.0,682.0,At or below median,True,340.0,278.0,55.79539067896033,48.32426456937435,Above median,Above median,At or below median,At or below median
+snpp,papua,2021,12,9,58,28.0,395.59999999999997,At or below median,False,66.0,58.0,11.64076496179748,10.082040809437812,Above median,Above median,At or below median,At or below median
+snpp,papua,2022,1,16,118,13.0,36.8,Above median,False,151.0,118.0,23.682935611932802,20.530770314040275,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2022,2,18,110,12.0,29.799999999999997,Above median,False,140.0,110.0,22.077312858581426,19.13885368257992,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2022,3,26,155,11.0,28.799999999999997,Above median,True,184.0,155.0,31.108940846182918,26.96838473454443,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,papua,2022,4,16,191,13.0,23.599999999999998,Above median,False,231.0,191.0,38.334243236264115,31.635303265940898,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,papua,2022,5,37,255,32.0,48.6,Above median,True,299.0,255.0,51.179225263075125,42.235614307931556,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,papua,2022,6,81,371,39.0,82.0,Above median,True,463.0,371.0,74.46075518667008,61.44867807153965,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2022,7,49,275,57.0,220.39999999999998,At or below median,True,338.0,275.0,55.19328214645357,53.173015181397055,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2022,8,105,446,182.0,618.5999999999999,At or below median,True,555.0,446.0,89.51346849933924,86.23696280328396,Above median,Above median,At or below median,At or below median
+snpp,papua,2022,9,74,447,352.0,1221.1999999999998,At or below median,True,558.0,447.0,89.71417134350816,86.4303192221254,Above median,Above median,At or below median,At or below median
+snpp,papua,2022,10,56,426,410.0,1998.6,At or below median,True,514.0,426.0,85.4994116159608,74.05085146242259,Above median,Above median,At or below median,At or below median
+snpp,papua,2022,11,18,160,135.0,682.0,At or below median,False,189.0,160.0,32.11245506702753,27.81252637086294,Above median,Above median,At or below median,At or below median
+snpp,papua,2022,12,6,61,28.0,395.59999999999997,At or below median,False,68.0,61.0,12.242873494304245,10.603525678891495,Above median,Above median,At or below median,At or below median
+snpp,papua,2023,1,14,115,13.0,36.8,Above median,False,133.0,115.0,23.080827079426037,20.008801577242643,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2023,2,7,40,12.0,29.799999999999997,At or below median,False,46.0,40.0,8.028113766756883,6.959583157301787,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2023,3,14,115,11.0,28.799999999999997,Above median,False,126.0,115.0,23.080827079426037,20.008801577242643,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2023,4,18,112,13.0,23.599999999999998,Above median,False,131.0,112.0,22.47871854691927,18.55054432348367,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2023,5,20,190,32.0,48.6,At or below median,True,217.0,190.0,38.13354039209519,31.46967340590979,Above historical p90,Above historical p90,Above median,At or below median
+snpp,papua,2023,6,61,300,39.0,82.0,Above median,True,375.0,300.0,60.21085325067662,49.68895800933126,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2023,7,178,540,57.0,220.39999999999998,Above median,True,689.0,540.0,108.37953585121791,104.41246617437967,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2023,8,667,2326,182.0,618.5999999999999,Above historical p90,True,3185.0,2326.0,466.83481553691274,449.74703022519833,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2023,9,883,3841,352.0,1221.1999999999998,Above median,True,5227.0,3841.0,770.8996244528296,742.6820047699857,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2023,10,1242,6081,410.0,1998.6,Above median,True,8866.0,6081.0,1220.473995391215,1057.0498303826096,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2023,11,851,4164,135.0,682.0,Above historical p90,True,5897.0,4164.0,835.7266431193915,723.820998801708,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,papua,2023,12,41,331,28.0,395.59999999999997,Above median,True,497.0,331.0,66.4326414199132,57.537163929722716,Above historical p90,Above median,Above median,Above median
+snpp,papua,2024,1,14,74,13.0,36.8,Above median,False,100.0,74.0,14.852010468500232,12.87522884100831,Above historical p90,Above historical p90,Above median,At or below median
+snpp,papua,2024,2,2,62,12.0,29.799999999999997,At or below median,False,69.0,62.0,12.443576338473168,10.78735389381777,Above historical p90,Above historical p90,Above median,At or below median
+snpp,papua,2024,3,2,35,11.0,28.799999999999997,At or below median,False,40.0,35.0,7.024599545912272,6.089635262639064,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2024,4,9,89,13.0,23.599999999999998,At or below median,False,101.0,89.0,17.862553131034062,14.741057542768276,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2024,5,11,61,32.0,48.6,At or below median,False,78.0,61.0,12.242873494304245,10.103421461897355,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2024,6,25,113,39.0,82.0,At or below median,True,130.0,113.0,22.679421391088194,18.716174183514774,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2024,7,27,142,57.0,220.39999999999998,At or below median,True,175.0,142.0,28.499803871986934,27.45661147548502,Above median,Above median,At or below median,At or below median
+snpp,papua,2024,8,89,455,182.0,618.5999999999999,At or below median,True,585.0,455.0,91.31979409685954,87.97717057285695,Above median,Above median,At or below median,At or below median
+snpp,papua,2024,9,187,1021,352.0,1221.1999999999998,At or below median,True,1404.0,1021.0,204.91760389646942,197.41690363711416,Above historical p90,Above median,At or below median,At or below median
+snpp,papua,2024,10,489,1669,410.0,1998.6,Above median,True,2332.0,1669.0,334.9730469179309,290.119415706064,Above historical p90,Above median,At or below median,At or below median
+snpp,papua,2024,11,48,321,135.0,682.0,At or below median,True,430.0,321.0,64.42561297822398,55.79888103154377,Above median,Above median,At or below median,At or below median
+snpp,papua,2024,12,2,39,28.0,395.59999999999997,At or below median,False,50.0,39.0,7.82741092258796,6.7793033028978416,Above median,Above median,At or below median,At or below median
+snpp,papua,2025,1,8,59,13.0,36.8,At or below median,False,75.0,59.0,11.841467805966401,10.265385157020138,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2025,2,13,82,12.0,29.799999999999997,Above median,False,105.0,82.0,16.45763322185161,14.267145472468666,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2025,3,8,79,11.0,28.799999999999997,At or below median,False,94.0,79.0,15.855524689344843,13.745176735671032,Above historical p90,Above historical p90,Above median,Above median
+snpp,papua,2025,4,6,47,13.0,23.599999999999998,At or below median,False,62.0,47.0,9.433033675939337,7.784603421461896,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2025,5,11,102,32.0,48.6,At or below median,False,117.0,102.0,20.47169010523005,16.894245723172627,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2025,6,11,115,39.0,82.0,At or below median,False,139.0,115.0,23.080827079426037,19.047433903576977,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,papua,2025,7,14,170,57.0,220.39999999999998,At or below median,False,226.0,170.0,34.11948350871675,32.87059120304545,Above historical p90,Above median,At or below median,At or below median
+snpp,papua,2025,8,95,374,182.0,618.5999999999999,At or below median,True,482.0,374.0,75.06286371917685,72.31530064669998,Above median,Above median,At or below median,At or below median
+snpp,papua,2025,9,63,507,352.0,1221.1999999999998,At or below median,True,652.0,507.0,101.75634199364349,98.03170435261202,Above median,Above median,At or below median,At or below median
+snpp,papua,2025,10,63,423,410.0,1998.6,At or below median,True,530.0,423.0,84.89730308345403,73.5293665929689,Above median,Above median,At or below median,At or below median
+snpp,papua,2025,11,37,103,135.0,682.0,At or below median,True,130.0,103.0,20.672392949398972,17.904313851243018,At or below median,At or below median,At or below median,At or below median
+snpp,papua,2025,12,13,65,28.0,395.59999999999997,At or below median,False,80.0,65.0,13.045684870979935,11.298838838163064,Above median,Above median,At or below median,At or below median
+snpp,sulawesi,2018,1,70,299,61.0,99.0,Above median,True,360.0,299.0,60.0101504065077,51.74565664570349,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2018,2,100,449,58.0,92.19999999999999,Above historical p90,True,661.0,449.0,90.115577031846,77.88155665519702,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2018,3,67,517,68.0,110.6,At or below median,True,663.0,517.0,103.7633704353327,89.12092994274349,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2018,4,79,439,54.0,68.6,Above historical p90,True,545.0,439.0,88.10854859015679,71.42607804251953,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,sulawesi,2018,5,54,323,75.0,123.99999999999999,At or below median,True,446.0,323.0,64.82701866656183,52.50831588282088,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2018,6,47,248,54.0,125.59999999999997,At or below median,True,331.0,248.0,49.77430535389267,40.32926593664879,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2018,7,58,422,67.0,183.79999999999998,At or below median,True,577.0,422.0,84.6966002392851,84.72835841046869,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2018,8,177,982,179.0,587.0,At or below median,True,1189.0,982.0,197.09019297388147,199.271852280436,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2018,9,571,3247,501.0,1220.2,Above median,True,4076.0,3247.0,651.68213501649,655.082276994883,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2018,10,715,3713,608.0,1685.1999999999998,Above median,True,4866.0,3713.0,745.2096603992076,647.106796843764,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2018,11,187,1142,246.0,814.8,At or below median,True,1512.0,1142.0,229.202648040909,198.67164589576456,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2018,12,102,424,58.0,167.59999999999997,Above median,True,568.0,424.0,85.09800592762295,73.7609727913701,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2019,1,45,273,61.0,99.0,At or below median,True,384.0,273.0,54.79187645811572,47.31933183444803,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2019,2,74,403,58.0,92.19999999999999,Above median,True,514.0,403.0,80.88324620007559,69.5783306674055,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2019,3,122,705,68.0,110.6,Above historical p90,True,851.0,705.0,141.49550513909006,121.66613283576993,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,sulawesi,2019,4,43,383,54.0,68.6,At or below median,True,482.0,383.0,76.86918931669715,62.28977134144097,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,sulawesi,2019,5,48,420,75.0,123.99999999999999,At or below median,True,579.0,420.0,84.29519455094727,67.60165408119514,Above historical p90,Above historical p90,Above median,At or below median
+snpp,sulawesi,2019,6,25,190,54.0,125.59999999999997,At or below median,True,245.0,190.0,38.13354039209519,30.792216785176375,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2019,7,80,582,67.0,183.79999999999998,Above median,True,804.0,582.0,116.80905530631264,117.71319866392467,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2019,8,330,2052,179.0,587.0,Above median,True,2839.0,2052.0,411.84223623462805,410.92137473099183,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2019,9,1058,6028,501.0,1220.2,Above median,True,8318.0,6028.0,1209.8367446502623,1203.8887612030503,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2019,10,890,4858,608.0,1685.1999999999998,Above median,True,6503.0,4858.0,975.0144169726234,847.7137870190209,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2019,11,517,2957,246.0,814.8,Above median,True,3866.0,2957.0,593.4783102075025,514.7069865950155,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2019,12,160,921,58.0,167.59999999999997,Above median,True,1300.0,921.0,184.8473194795772,160.2012146379317,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,sulawesi,2020,1,102,535,61.0,99.0,Above historical p90,True,736.0,535.0,107.3760216303733,92.80719727378404,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,sulawesi,2020,2,64,358,58.0,92.19999999999999,Above median,True,444.0,358.0,71.8516182124741,61.95859336526709,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2020,3,35,371,68.0,110.6,At or below median,True,502.0,371.0,74.46075518667008,64.10057574863241,Above historical p90,Above historical p90,Above median,At or below median
+snpp,sulawesi,2020,4,72,389,54.0,68.6,Above historical p90,True,545.0,389.0,78.07340638171068,63.335662549376316,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,sulawesi,2020,5,56,335,75.0,123.99999999999999,At or below median,True,455.0,335.0,67.23545279658889,54.53061556835996,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2020,6,29,204,54.0,125.59999999999997,At or below median,True,300.0,204.0,40.9433802104601,33.37159506435546,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2020,7,39,213,67.0,183.79999999999998,At or below median,True,360.0,213.0,42.7497058079804,41.967904628072375,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2020,10,219,1441,608.0,1685.1999999999998,At or below median,True,1852.0,1441.0,289.2127984474167,251.50957447955946,Above historical p90,Above median,At or below median,At or below median
+snpp,sulawesi,2020,11,170,1038,246.0,814.8,At or below median,True,1370.0,1038.0,208.3295522473411,180.68526866833594,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2020,12,46,367,58.0,167.59999999999997,At or below median,True,474.0,367.0,73.65794380999439,63.86975377427467,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2021,1,37,238,61.0,99.0,At or below median,True,356.0,238.0,47.76727691220345,41.342086080644386,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2021,2,40,257,58.0,92.19999999999999,At or below median,True,347.0,257.0,51.58063095141297,44.55797647329439,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2021,3,78,428,68.0,110.6,Above median,True,586.0,428.0,85.90081730429864,74.00299647994271,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2021,4,70,450,54.0,68.6,Above historical p90,True,599.0,450.0,90.31627987601493,72.97007558153516,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,sulawesi,2021,5,61,301,75.0,123.99999999999999,At or below median,True,477.0,301.0,60.411556094845544,49.36820875704093,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2021,6,81,428,54.0,125.59999999999997,Above median,True,626.0,428.0,85.90081730429864,69.96893391641845,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2021,7,49,301,67.0,183.79999999999998,At or below median,True,439.0,301.0,60.411556094845544,59.85660160267716,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2021,8,48,348,179.0,587.0,At or below median,True,515.0,348.0,69.84458977078488,69.36596189621838,Above median,Above median,At or below median,At or below median
+snpp,sulawesi,2021,9,57,398,501.0,1220.2,At or below median,True,569.0,398.0,79.87973197923098,79.51562124742587,Above median,At or below median,At or below median,At or below median
+snpp,sulawesi,2021,10,144,973,608.0,1685.1999999999998,At or below median,True,1360.0,973.0,195.28386737636117,169.63453496703065,Above median,Above median,At or below median,At or below median
+snpp,sulawesi,2021,11,88,481,246.0,814.8,At or below median,True,680.0,481.0,96.5380680452515,83.69637491502922,Above median,Above median,At or below median,At or below median
+snpp,sulawesi,2021,12,37,298,58.0,167.59999999999997,At or below median,True,358.0,298.0,59.809447562338775,51.862006974820446,Above historical p90,Above historical p90,Above median,At or below median
+snpp,sulawesi,2022,1,54,335,61.0,99.0,At or below median,True,449.0,335.0,67.23545279658889,58.0092814872751,Above historical p90,Above historical p90,Above median,At or below median
+snpp,sulawesi,2022,2,37,280,58.0,92.19999999999999,At or below median,True,365.0,280.0,56.19679636729818,48.552244154820556,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2022,3,52,371,68.0,110.6,At or below median,True,487.0,371.0,74.46075518667008,63.9657083380299,Above historical p90,Above historical p90,Above median,At or below median
+snpp,sulawesi,2022,4,32,397,54.0,68.6,At or below median,True,549.0,397.0,79.67902913506205,64.122210269555,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,sulawesi,2022,5,54,297,75.0,123.99999999999999,At or below median,True,452.0,297.0,59.60874471816985,48.61883590400197,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2022,6,54,437,54.0,125.59999999999997,At or below median,True,641.0,437.0,87.70714290181894,71.65068016511039,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2022,7,36,207,67.0,183.79999999999998,At or below median,True,305.0,207.0,41.54548874296687,40.988455518449456,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2022,8,68,300,179.0,587.0,At or below median,True,484.0,300.0,60.21085325067662,59.21152167527138,Above median,Above median,At or below median,At or below median
+snpp,sulawesi,2022,9,156,892,501.0,1220.2,At or below median,True,1259.0,892.0,179.02693699867848,177.65368850477225,Above historical p90,Above median,At or below median,At or below median
+snpp,sulawesi,2022,10,97,670,608.0,1685.1999999999998,At or below median,True,961.0,670.0,134.47090559317778,116.62469310171889,Above median,Above median,At or below median,At or below median
+snpp,sulawesi,2022,11,53,445,246.0,814.8,At or below median,True,608.0,445.0,89.31276565517032,77.43515778108016,Above median,Above median,At or below median,At or below median
+snpp,sulawesi,2022,12,49,386,58.0,167.59999999999997,At or below median,True,507.0,386.0,77.47129784920392,67.22347178838817,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,1,46,352,61.0,99.0,At or below median,True,475.0,352.0,70.64740114746057,61.02704540050725,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,2,56,254,58.0,92.19999999999999,At or below median,True,446.0,254.0,50.9785224189062,44.11093407572038,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2023,3,85,453,68.0,110.6,Above median,True,713.0,453.0,90.9183884085217,78.56252970308245,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,4,63,510,54.0,68.6,Above median,True,691.0,510.0,102.35845052615025,83.22053946989375,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+snpp,sulawesi,2023,5,55,363,75.0,123.99999999999999,At or below median,True,565.0,363.0,72.85513243331872,59.0119155059847,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2023,6,94,521,54.0,125.59999999999997,Above median,True,785.0,521.0,104.5661818120084,85.2682868038137,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,7,90,639,67.0,183.79999999999998,Above median,True,886.0,639.0,128.2491174239412,128.94531884188365,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,8,280,2045,179.0,587.0,Above median,True,2759.0,2045.0,410.43731632544564,415.7715493167186,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,9,545,3411,501.0,1220.2,Above median,True,4521.0,3411.0,684.5974014601932,690.075253847114,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,10,949,5231,608.0,1685.1999999999998,Above median,True,6949.0,5231.0,1049.8765778476313,912.7080793443205,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,11,301,1747,246.0,814.8,Above median,True,2297.0,1747.0,350.62786876310685,304.218415692139,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2023,12,98,614,58.0,167.59999999999997,Above median,True,846.0,614.0,123.23154631971815,106.99226988706388,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2024,1,46,330,61.0,99.0,At or below median,True,513.0,330.0,66.23193857574428,57.32664944067141,Above historical p90,Above historical p90,Above median,At or below median
+snpp,sulawesi,2024,2,85,532,58.0,92.19999999999999,Above median,True,699.0,532.0,106.77391309786654,92.00050844793667,Above historical p90,Above historical p90,Above historical p90,Above median
+snpp,sulawesi,2024,3,44,314,68.0,110.6,At or below median,True,471.0,314.0,63.02069306904153,54.475382472449446,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2024,4,49,326,54.0,68.6,At or below median,True,443.0,326.0,65.42912719906859,53.26576570165782,Above historical p90,Above historical p90,Above median,At or below median
+snpp,sulawesi,2024,5,37,227,75.0,123.99999999999999,At or below median,True,338.0,227.0,45.55954562634531,37.11159911473922,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2024,6,35,208,54.0,125.59999999999997,At or below median,True,322.0,208.0,41.74619158713579,34.25993337805768,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2024,7,41,176,67.0,183.79999999999998,At or below median,True,254.0,176.0,35.323700573730285,35.265440639503296,Above historical p90,Above median,At or below median,At or below median
+snpp,sulawesi,2024,8,97,642,179.0,587.0,At or below median,True,918.0,642.0,128.85122595644796,128.59182618070835,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2024,9,220,1626,501.0,1220.2,At or below median,True,2115.0,1626.0,326.3428246186673,330.9908472507842,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2024,10,302,2094,608.0,1685.1999999999998,At or below median,True,2751.0,2094.0,420.2717556897228,364.98206202508993,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2024,11,142,765,246.0,814.8,At or below median,True,1076.0,765.0,153.53767578922537,133.05681182230114,Above historical p90,Above median,At or below median,At or below median
+snpp,sulawesi,2024,12,27,213,58.0,167.59999999999997,At or below median,True,302.0,213.0,42.7497058079804,37.04921663474559,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,1,48,253,61.0,99.0,At or below median,True,402.0,253.0,50.77781957473728,43.8470328897195,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,2,20,213,58.0,92.19999999999999,At or below median,True,299.0,213.0,42.7497058079804,36.984853973408406,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,3,60,315,68.0,110.6,At or below median,True,450.0,315.0,63.22139591321045,54.6119088817702,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,4,40,286,54.0,68.6,At or below median,True,407.0,286.0,57.40101343231171,46.95324358690601,Above historical p90,Above historical p90,Above median,At or below median
+snpp,sulawesi,2025,5,45,312,75.0,123.99999999999999,At or below median,True,448.0,312.0,62.61928738070368,50.87746493089073,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,6,38,231,54.0,125.59999999999997,At or below median,True,349.0,231.0,46.362357003020996,37.895713332944,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,7,109,695,67.0,183.79999999999998,Above median,True,933.0,695.0,139.48847669740084,138.74937167759202,Above historical p90,Above historical p90,Above median,Above median
+snpp,sulawesi,2025,8,87,652,179.0,587.0,At or below median,True,932.0,652.0,130.85825439813718,130.16401156227136,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,9,276,1636,501.0,1220.2,At or below median,True,2287.0,1636.0,328.3498530603565,328.1060273478457,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,10,258,1827,608.0,1685.1999999999998,At or below median,True,2351.0,1827.0,366.6840962966206,318.41016971998204,Above historical p90,Above historical p90,At or below median,At or below median
+snpp,sulawesi,2025,11,48,727,246.0,814.8,At or below median,True,929.0,727.0,145.91096771080635,126.68584714405935,Above historical p90,Above median,At or below median,At or below median
+snpp,sulawesi,2025,12,30,296,58.0,167.59999999999997,At or below median,True,397.0,296.0,59.40804187400093,51.54153999922386,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,sumatra,2022,1,85,633,289.0,1033.8,At or below median,True,720.0,633.0,113.09287559044876,114.62748429996304,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2022,2,78,784,729.0,3366.199999999999,At or below median,True,934.0,784.0,140.0707969398291,141.97148134466198,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2022,3,335,1820,612.0,2354.1999999999994,At or below median,True,2381.0,1820.0,325.164350038889,329.57665312153676,Above historical p90,Above median,At or below median,At or below median
+noaa20,sumatra,2022,4,21,1277,294.0,541.1999999999999,At or below median,True,1770.0,1277.0,228.1510302195941,237.32605820105817,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sumatra,2022,5,192,1022,644.0,1809.3999999999999,At or below median,True,1177.0,1022.0,182.59228886799153,189.9351851851852,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2022,6,98,630,1524.0,4034.4,At or below median,True,734.0,630.0,112.55689039807696,117.08333333333333,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2022,7,275,1669,1911.0,3888.6,At or below median,True,1999.0,1669.0,298.18642868950866,326.82078258715,Above median,At or below median,At or below median,At or below median
+noaa20,sumatra,2022,8,323,1457,4070.0,5677.599999999999,At or below median,True,1707.0,1457.0,260.31014176190183,285.3072979205977,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2022,9,113,811,3519.0,6444.4,At or below median,True,965.0,811.0,144.89466367117527,158.80866068195246,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2022,10,34,227,680.0,5825.199999999998,At or below median,True,252.0,227.0,40.556212889465826,45.77231451499367,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2022,11,31,336,189.0,1051.0,At or below median,True,406.0,336.0,60.03034154564105,67.75109108827256,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2022,12,24,271,119.0,157.0,At or below median,True,313.0,271.0,48.417329044252156,54.64448120512459,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sumatra,2023,1,26,228,289.0,1033.8,At or below median,True,245.0,228.0,40.73487462025643,41.287624676763954,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2023,2,42,585,729.0,3366.199999999999,At or below median,True,650.0,585.0,104.51711251250003,105.93535278906539,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2023,3,80,548,612.0,2354.1999999999994,At or below median,True,615.0,548.0,97.90662847324789,99.23516808274843,Above median,At or below median,At or below median,At or below median
+noaa20,sumatra,2023,4,168,937,294.0,541.1999999999999,At or below median,True,1166.0,937.0,167.40604175079065,174.13822751322752,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sumatra,2023,5,194,1155,644.0,1809.3999999999999,At or below median,True,1356.0,1155.0,206.3542990631411,214.65277777777777,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2023,6,299,1570,1524.0,4034.4,At or below median,True,1843.0,1570.0,280.4989173412394,291.77910052910056,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2023,7,290,1166,1911.0,3888.6,At or below median,True,1376.0,1166.0,208.3195781018377,228.3241656660377,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2023,8,424,2169,4070.0,5677.599999999999,At or below median,True,2616.0,2169.0,387.5172940848078,424.7299445365658,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2023,9,1766,7788,3519.0,6444.4,At or below median,True,12458.0,7788.0,1391.41755939718,1525.0331065241005,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sumatra,2023,10,2400,11703,680.0,5825.199999999998,Above median,True,19330.0,11703.0,2090.8782354423724,2359.794699422779,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sumatra,2023,11,351,2055,189.0,1051.0,Above median,True,2833.0,2055.0,367.1498567746796,414.3705124595242,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sumatra,2023,12,140,884,119.0,157.0,Above median,True,1111.0,884.0,157.93697001888896,178.24989441081235,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,sumatra,2024,1,63,403,289.0,1033.8,At or below median,True,466.0,403.0,72.00067750861113,72.97768747691171,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2024,2,75,609,729.0,3366.199999999999,At or below median,True,742.0,609.0,108.8049940514744,110.28141854451422,Above median,At or below median,At or below median,At or below median
+noaa20,sumatra,2024,3,198,1135,612.0,2354.1999999999994,At or below median,True,1555.0,1135.0,202.78106444732913,205.5326930181012,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2024,4,104,493,294.0,541.1999999999999,At or below median,True,557.0,493.0,88.08023327976498,91.6223544973545,Above historical p90,Above median,At or below median,At or below median
+noaa20,sumatra,2024,5,104,480,644.0,1809.3999999999999,At or below median,True,521.0,480.0,85.75763077948722,89.2063492063492,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2024,6,76,636,1524.0,4034.4,At or below median,True,715.0,636.0,113.62886078282055,118.19841269841271,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2024,7,727,3665,1911.0,3888.6,At or below median,True,4662.0,3665.0,654.795243347543,717.6741570892179,Above historical p90,Above median,At or below median,At or below median
+noaa20,sumatra,2024,8,477,2392,4070.0,5677.599999999999,At or below median,True,3155.0,2392.0,427.35886005111126,468.3974307660053,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2024,9,568,2451,3519.0,6444.4,At or below median,True,3169.0,2451.0,437.8999021677566,479.9507118760364,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2024,10,596,2977,680.0,5825.199999999998,At or below median,True,3611.0,2977.0,531.8759725636113,600.2827326481768,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2024,11,64,378,189.0,1051.0,At or below median,True,428.0,378.0,67.53413423884618,76.21997747430663,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2024,12,112,436,119.0,157.0,At or below median,True,499.0,436.0,77.89651462470088,87.91510629311558,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sumatra,2025,1,23,231,289.0,1033.8,At or below median,True,263.0,231.0,41.27085981262822,41.83088289619506,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2025,2,105,480,729.0,3366.199999999999,At or below median,True,547.0,480.0,85.75763077948722,86.92131510897673,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2025,3,44,254,612.0,2354.1999999999994,At or below median,True,280.0,254.0,45.38007962081198,45.99586257850018,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2025,4,95,415,294.0,541.1999999999999,At or below median,True,476.0,415.0,74.14461827809832,77.12632275132276,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2025,5,210,1127,644.0,1809.3999999999999,At or below median,True,1301.0,1127.0,201.35177060100435,209.44907407407408,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2025,6,472,2258,1524.0,4034.4,At or below median,True,2671.0,2258.0,403.41818812517107,419.6415343915344,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2025,7,916,4642,1911.0,3888.6,At or below median,True,6778.0,4642.0,829.3477543299575,908.9886595383765,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sumatra,2025,8,710,2610,4070.0,5677.599999999999,At or below median,True,3355.0,2610.0,466.3071173634617,511.0858253759506,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2025,9,374,1276,3519.0,6444.4,At or below median,True,1528.0,1276.0,227.9723684888035,249.8641812949092,At or below median,At or below median,At or below median,At or below median
+noaa20,sumatra,2025,10,257,1527,680.0,5825.199999999998,At or below median,True,1778.0,1527.0,272.8164629172437,307.90451217795294,Above median,Above median,At or below median,At or below median
+noaa20,sumatra,2025,11,132,908,189.0,1051.0,At or below median,True,1203.0,908.0,162.2248515578633,183.0892580599747,Above historical p90,Above median,At or below median,At or below median
+noaa20,sumatra,2025,12,29,215,119.0,157.0,At or below median,True,239.0,215.0,38.412272119978645,43.35263269041251,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2022,1,36,299,82.0,329.79999999999995,At or below median,True,364.0,299.0,53.41985750638891,44.033536585365844,Above historical p90,Above median,At or below median,At or below median
+noaa20,kalimantan,2022,2,51,393,110.0,317.79999999999995,At or below median,True,466.0,393.0,70.21406020070515,57.87685577942735,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2022,3,139,918,177.0,387.2,At or below median,True,1363.0,918.0,164.0114688657693,135.19326617179215,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2022,4,49,616,110.0,222.39999999999998,At or below median,True,829.0,616.0,110.05562616700858,81.15213901218245,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,kalimantan,2022,5,109,629,154.0,352.4,At or below median,True,704.0,629.0,112.37822866728636,82.8647653225045,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2022,6,57,591,266.0,823.4,At or below median,True,673.0,591.0,105.58908289724363,77.85862687694777,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2022,7,286,1284,475.0,2398.6,At or below median,True,1581.0,1284.0,229.4016623351283,251.82024588538567,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2022,8,1032,5682,5099.0,12206.0,At or below median,True,7191.0,5682.0,1015.1559543521798,1114.3634245488797,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2022,9,510,2704,6269.0,14577.8,At or below median,True,3265.0,2704.0,483.10132005777797,530.3130411791923,At or below median,At or below median,At or below median,At or below median
+noaa20,kalimantan,2022,10,122,558,1452.0,10737.799999999997,At or below median,True,652.0,558.0,99.69324578115388,90.13344316309721,At or below median,At or below median,At or below median,At or below median
+noaa20,kalimantan,2022,11,36,339,172.0,1963.1999999999996,At or below median,True,367.0,339.0,60.56632673801284,54.75848966360207,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2022,12,41,336,40.0,169.39999999999995,Above median,True,392.0,336.0,60.03034154564105,54.27390125949939,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2023,1,57,386,82.0,329.79999999999995,At or below median,True,468.0,386.0,68.96342808517096,56.84597030752916,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2023,2,56,399,110.0,317.79999999999995,At or below median,True,500.0,399.0,71.28603058544874,58.76047189819724,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2023,3,51,357,177.0,387.2,At or below median,True,420.0,357.0,63.782237892243614,52.575159066808055,Above historical p90,Above median,At or below median,At or below median
+noaa20,kalimantan,2023,4,136,866,110.0,222.39999999999998,Above median,True,1073.0,866.0,154.72105886465818,114.08726036452923,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2023,5,197,1177,154.0,352.4,Above median,True,1421.0,1177.0,210.28485714053426,155.05855132684863,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2023,6,252,1436,266.0,823.4,At or below median,True,1822.0,1436.0,256.5582454152992,189.17933704787987,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2023,7,2311,5986,475.0,2398.6,Above median,True,7662.0,5986.0,1069.4691205125218,1173.9844173441734,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2023,8,4194,16854,5099.0,12206.0,At or below median,True,22486.0,16854.0,3011.1648107447445,3305.4349097759273,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2023,9,3895,17107,6269.0,14577.8,At or below median,True,26140.0,17107.0,3056.3662286347662,3355.053696543063,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2023,10,2972,13756,1452.0,10737.799999999997,Above median,True,21690.0,13756.0,2457.670768755471,2221.99936227879,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2023,11,274,2012,172.0,1963.1999999999996,Above median,True,2587.0,2012.0,359.46740235068387,324.9972896848594,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2023,12,117,790,40.0,169.39999999999995,Above median,True,932.0,790.0,141.1427673245727,127.60827974703727,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2024,1,86,512,82.0,329.79999999999995,Above median,True,641.0,512.0,91.47480616478636,75.40190880169669,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,kalimantan,2024,2,226,954,110.0,317.79999999999995,Above median,True,1179.0,954.0,170.44329117423084,140.49496288441142,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2024,3,149,957,177.0,387.2,At or below median,True,1251.0,957.0,170.97927636660262,140.93677094379638,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2024,4,318,1412,110.0,222.39999999999998,Above historical p90,True,1865.0,1412.0,252.27036387632486,186.0175653980546,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,kalimantan,2024,5,117,559,154.0,352.4,At or below median,True,690.0,559.0,99.87190751194449,73.64293134384738,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2024,6,55,473,266.0,823.4,At or below median,True,556.0,473.0,84.50699866395303,62.3132495986401,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2024,7,722,3586,475.0,2398.6,Above median,True,4678.0,3586.0,640.6809666150857,703.292368960275,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2024,8,682,3121,5099.0,12206.0,At or below median,True,3842.0,3121.0,557.6032617974574,612.0957845858948,At or below median,At or below median,At or below median,At or below median
+noaa20,kalimantan,2024,9,4195,13569,6269.0,14577.8,At or below median,True,16800.0,13569.0,2424.261025097629,2661.175168550466,Above historical p90,Above median,At or below median,At or below median
+noaa20,kalimantan,2024,10,747,3323,1452.0,10737.799999999997,At or below median,True,4155.0,3323.0,593.6929314171583,536.7624222777275,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2024,11,94,721,172.0,1963.1999999999996,At or below median,True,893.0,721.0,128.81510790002142,116.46274645267577,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2024,12,17,202,40.0,169.39999999999995,At or below median,False,243.0,202.0,36.08966961970087,32.628952542913325,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2025,1,36,163,82.0,329.79999999999995,At or below median,True,192.0,163.0,29.121862118867533,24.004904559915165,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2025,2,63,362,110.0,317.79999999999995,At or below median,True,437.0,362.0,64.6755465461966,53.311505832449626,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2025,3,66,287,177.0,387.2,At or below median,True,357.0,287.0,51.27591673690173,42.266304347826086,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2025,4,52,325,110.0,222.39999999999998,At or below median,True,399.0,325.0,58.065062506944464,42.81565775805081,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2025,5,135,779,154.0,352.4,At or below median,True,910.0,779.0,139.1774882858761,102.62583813391255,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,kalimantan,2025,6,125,735,266.0,823.4,At or below median,True,882.0,735.0,131.3163721310898,96.82925677589951,Above historical p90,Above median,At or below median,At or below median
+noaa20,kalimantan,2025,7,1590,5785,475.0,2398.6,Above median,True,7751.0,5785.0,1033.5581126236116,1134.563958292022,Above historical p90,Above historical p90,Above median,Above median
+noaa20,kalimantan,2025,8,1073,5877,5099.0,12206.0,At or below median,True,7387.0,5877.0,1049.9949918563466,1152.6071534800715,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2025,9,1590,7512,6269.0,14577.8,At or below median,True,9361.0,7512.0,1342.106921698975,1473.2661114416023,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2025,10,507,2498,1452.0,10737.799999999997,At or below median,True,2952.0,2498.0,446.2970035149147,403.50061114949256,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2025,11,115,764,172.0,1963.1999999999996,At or below median,True,917.0,764.0,136.49756232401714,123.40851357814743,Above median,Above median,At or below median,At or below median
+noaa20,kalimantan,2025,12,38,233,40.0,169.39999999999995,At or below median,True,278.0,233.0,41.62818327420942,37.63636605197428,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,java,2022,1,9,140,10.0,26.0,At or below median,False,193.0,140.0,25.01264231068377,22.443812318794876,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2022,2,13,109,11.0,23.2,Above median,False,166.0,109.0,19.47412865617522,17.57411189167866,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2022,3,19,160,17.0,32.4,Above median,False,195.0,160.0,28.585876926495736,26.133167221699683,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2022,4,15,329,21.0,42.2,At or below median,False,460.0,329.0,58.779709430106855,50.21409128020942,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2022,5,33,382,26.0,61.8,Above median,True,552.0,382.0,68.24878116200857,56.33063979991217,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,java,2022,6,29,405,42.0,109.39999999999999,At or below median,True,545.0,405.0,72.35800097019234,60.33458032219718,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2022,7,50,615,96.0,211.6,At or below median,True,778.0,615.0,109.87696443621799,120.55325472403206,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2022,8,65,920,206.0,313.0,At or below median,True,1087.0,920.0,164.3687923273505,180.36066159246315,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,java,2022,9,52,989,205.0,341.6,At or below median,True,1181.0,989.0,176.69645175190178,193.92369763920723,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,java,2022,10,19,266,92.0,235.6,At or below median,False,360.0,266.0,47.524020390299164,45.413590221970246,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,java,2022,11,8,129,21.0,86.39999999999999,At or below median,False,181.0,129.0,23.047363271987187,22.120843264869535,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2022,12,12,111,11.0,16.6,Above median,False,157.0,111.0,19.831452117756417,19.012759420182466,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,1,16,124,10.0,26.0,Above median,False,158.0,124.0,22.154054618034195,19.47880170846488,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2023,2,0,40,11.0,23.2,At or below median,False,50.0,40.0,7.146469231623934,6.398024925363369,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,java,2023,3,24,271,17.0,32.4,Above median,True,361.0,271.0,48.417329044252156,42.885866059127174,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,4,24,277,21.0,42.2,Above median,True,374.0,277.0,49.48929942899574,41.469873398620216,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,java,2023,5,67,531,26.0,61.8,Above historical p90,True,795.0,531.0,94.86937904980773,76.06818427678519,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,6,108,845,42.0,109.39999999999999,Above median,True,1188.0,845.0,150.9691625180556,117.4888027707699,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,7,149,1350,96.0,211.6,Above median,True,1746.0,1350.0,241.19333656730777,264.69935754939524,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,8,253,2866,206.0,313.0,Above median,True,3561.0,2866.0,512.0445204458549,561.9206351011696,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,9,312,3172,205.0,341.6,Above median,True,4026.0,3172.0,566.7150100677779,621.8198068092665,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,10,240,2616,92.0,235.6,Above historical p90,True,3458.0,2616.0,467.3790877482053,451.16000607965975,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,11,37,727,21.0,86.39999999999999,Above median,True,885.0,727.0,129.887078284765,125.17328527562286,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2023,12,40,472,11.0,16.6,Above historical p90,True,600.0,472.0,84.32833693316242,84.26404571499509,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2024,1,19,140,10.0,26.0,Above median,False,183.0,140.0,25.01264231068377,22.105645118641007,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2024,2,21,156,11.0,23.2,Above median,True,218.0,156.0,27.871230003333345,24.157604288555536,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2024,3,20,213,17.0,32.4,Above median,True,254.0,213.0,38.05494865839745,34.51332717776191,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2024,4,18,159,21.0,42.2,At or below median,False,197.0,159.0,28.407215195705138,23.54382880107689,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2024,5,37,425,26.0,61.8,Above median,True,562.0,425.0,75.9312355860043,61.400313842706886,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,java,2024,6,72,615,42.0,109.39999999999999,Above median,True,843.0,615.0,109.87696443621799,87.83776403185696,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,java,2024,7,119,1547,96.0,211.6,Above median,True,1893.0,1547.0,276.38969753305565,303.3420038386517,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2024,8,204,2696,206.0,313.0,At or below median,True,3229.0,2696.0,481.67202621145316,528.6245426910291,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2024,9,191,2254,205.0,341.6,At or below median,True,2716.0,2254.0,402.7035412020087,441.89021904521417,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,java,2024,10,84,1148,92.0,235.6,At or below median,True,1371.0,1148.0,205.1036669476069,196.70693151128143,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2024,11,15,272,21.0,86.39999999999999,At or below median,False,332.0,272.0,48.59599077504275,47.345423446516534,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2024,12,2,51,11.0,16.6,At or below median,False,61.0,51.0,9.111748270320517,8.598999025873297,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,java,2025,1,5,59,10.0,26.0,At or below median,False,71.0,59.0,10.541042116645302,9.94011047513986,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,java,2025,2,8,126,11.0,23.2,At or below median,False,159.0,126.0,22.511378079615394,20.21295777492155,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2025,3,10,163,17.0,32.4,At or below median,False,211.0,163.0,29.121862118867533,25.898640880776874,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2025,4,10,229,21.0,42.2,At or below median,False,292.0,229.0,40.91353635104702,32.27870810079943,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2025,5,11,219,26.0,61.8,At or below median,False,285.0,219.0,39.12691904314104,33.017334113318164,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2025,6,15,299,42.0,109.39999999999999,At or below median,False,379.0,299.0,53.41985750638891,43.44836079519477,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2025,7,33,700,96.0,211.6,At or below median,True,864.0,700.0,125.06321155341885,137.24088979117934,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2025,8,76,918,206.0,313.0,At or below median,True,1083.0,918.0,164.0114688657693,179.99056371253874,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,java,2025,9,65,977,205.0,341.6,At or below median,True,1156.0,977.0,174.5525109824146,191.57691138169923,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,java,2025,10,50,642,92.0,235.6,At or below median,True,798.0,642.0,114.70083116756415,108.19431508756311,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2025,11,9,123,21.0,86.39999999999999,At or below median,False,158.0,123.0,21.975392887243597,21.312109192721014,Above historical p90,Above historical p90,Above median,Above median
+noaa20,java,2025,12,6,140,11.0,16.6,At or below median,False,203.0,140.0,25.01264231068377,23.697113993174973,Above historical p90,Above historical p90,Above historical p90,Above historical p90
+noaa20,papua,2022,1,16,139,13.0,36.8,Above median,False,160.0,139.0,24.833980579893172,20.930602319491207,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2022,2,18,138,12.0,29.799999999999997,Above median,False,173.0,138.0,24.655318849102574,20.780022446689113,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2022,3,26,132,11.0,28.799999999999997,Above median,True,150.0,132.0,23.583348464358984,19.876543209876544,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2022,4,16,156,13.0,23.599999999999998,Above median,False,183.0,156.0,27.871230003333345,23.0098231827112,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,papua,2022,5,37,225,32.0,48.6,Above median,True,261.0,225.0,40.19888942788463,33.18724497506424,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2022,6,81,359,39.0,82.0,Above median,True,440.0,359.0,64.1395613538248,52.952093093546935,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2022,7,49,353,57.0,220.39999999999998,At or below median,True,412.0,353.0,63.067590969081216,49.813895506676275,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,papua,2022,8,105,514,182.0,618.5999999999999,At or below median,True,619.0,514.0,91.83212962636756,72.53354756496205,Above historical p90,Above median,At or below median,At or below median
+noaa20,papua,2022,9,74,431,352.0,1221.1999999999998,At or below median,True,537.0,431.0,77.00320597074789,60.82093190758493,Above median,Above median,At or below median,At or below median
+noaa20,papua,2022,10,56,408,410.0,1998.6,At or below median,True,474.0,408.0,72.89398616256413,66.47598719316969,Above median,At or below median,At or below median,At or below median
+noaa20,papua,2022,11,18,192,135.0,682.0,At or below median,False,227.0,192.0,34.303052311794886,31.28281750266809,Above median,Above median,At or below median,At or below median
+noaa20,papua,2022,12,6,61,28.0,395.59999999999997,At or below median,False,70.0,61.0,10.8983655782265,9.938811810743509,Above median,Above median,At or below median,At or below median
+noaa20,papua,2023,1,14,108,13.0,36.8,Above median,False,122.0,108.0,19.295466925384623,16.262626262626263,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2023,2,7,60,12.0,29.799999999999997,At or below median,False,72.0,60.0,10.719703847435902,9.034792368125697,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2023,3,14,157,11.0,28.799999999999997,Above median,False,167.0,157.0,28.049891734123943,23.641040029928917,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2023,4,18,96,13.0,23.599999999999998,Above median,False,111.0,96.0,17.151526155897443,14.159891189360739,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2023,5,20,177,32.0,48.6,At or below median,True,205.0,177.0,31.62312634993591,26.10729938038387,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2023,6,61,407,39.0,82.0,Above median,True,488.0,407.0,72.71532443177352,60.032038688227296,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2023,7,178,358,57.0,220.39999999999998,Above median,True,421.0,358.0,63.96089962303421,50.51947476314478,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,papua,2023,8,667,2219,182.0,618.5999999999999,Above historical p90,True,2923.0,2219.0,396.45038062433775,313.1360740207215,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2023,9,883,5215,352.0,1221.1999999999998,Above median,True,7200.0,5215.0,931.7209260729704,735.9191644966481,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2023,10,1242,5850,410.0,1998.6,Above median,True,8301.0,5850.0,1045.1711251250003,953.1483457844183,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2023,11,851,4001,135.0,682.0,Above historical p90,True,5650.0,4001.0,714.825584893184,651.888295980078,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,papua,2023,12,41,302,28.0,395.59999999999997,Above median,True,446.0,302.0,53.955842698760705,49.20526503023834,Above historical p90,Above median,Above median,Above median
+noaa20,papua,2024,1,14,94,13.0,36.8,Above median,False,98.0,94.0,16.794202694316244,14.154508043396932,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2024,2,2,54,12.0,29.799999999999997,At or below median,False,58.0,54.0,9.647733462692312,8.131313131313131,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2024,3,2,46,11.0,28.799999999999997,At or below median,False,48.0,46.0,8.218439616367524,6.926674148896371,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2024,4,9,95,13.0,23.599999999999998,At or below median,False,111.0,95.0,16.972864425106845,14.012392322804898,Above historical p90,Above historical p90,Above median,Above median
+noaa20,papua,2024,5,11,93,32.0,48.6,At or below median,False,120.0,93.0,16.615540963525646,13.717394589693216,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2024,6,25,124,39.0,82.0,At or below median,True,152.0,124.0,22.154054618034195,18.289859452924286,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2024,7,27,167,57.0,220.39999999999998,At or below median,True,201.0,167.0,29.836509042029924,23.566347166047986,Above median,Above median,At or below median,At or below median
+noaa20,papua,2024,8,89,529,182.0,618.5999999999999,At or below median,True,676.0,529.0,94.51205558822653,74.65028533436755,Above historical p90,Above median,At or below median,At or below median
+noaa20,papua,2024,9,187,1055,352.0,1221.1999999999998,At or below median,True,1414.0,1055.0,188.48812598408128,148.87722311485402,Above historical p90,Above median,At or below median,At or below median
+noaa20,papua,2024,10,489,1996,410.0,1998.6,Above median,True,2674.0,1996.0,356.6088146580343,325.2109569548203,Above historical p90,Above median,At or below median,At or below median
+noaa20,papua,2024,11,48,385,135.0,682.0,At or below median,True,484.0,385.0,68.78476635438037,62.728566346495896,Above median,Above median,At or below median,At or below median
+noaa20,papua,2024,12,2,36,28.0,395.59999999999997,At or below median,False,45.0,36.0,6.431822308461541,5.865528281750266,Above median,Above median,At or below median,At or below median
+noaa20,papua,2025,1,8,62,13.0,36.8,At or below median,False,78.0,62.0,11.077027309017097,9.335952113729892,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2025,2,13,68,12.0,29.799999999999997,Above median,False,82.0,68.0,12.148997693760688,10.239431350542459,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,papua,2025,3,8,71,11.0,28.799999999999997,At or below median,False,82.0,71.0,12.684982886132483,10.691170968948745,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,papua,2025,4,6,58,13.0,23.599999999999998,At or below median,False,68.0,58.0,10.362380385854705,8.55493426023878,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2025,5,11,103,32.0,48.6,At or below median,False,128.0,103.0,18.40215827143163,15.192383255251626,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2025,6,11,100,39.0,82.0,At or below median,False,119.0,100.0,17.866173079059834,14.749886655584103,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,papua,2025,7,14,188,57.0,220.39999999999998,At or below median,False,223.0,188.0,33.58840538863249,26.529780043215695,Above historical p90,Above median,At or below median,At or below median
+noaa20,papua,2025,8,95,401,182.0,618.5999999999999,At or below median,True,490.0,401.0,71.64335404702994,56.5874563687739,Above median,Above median,At or below median,At or below median
+noaa20,papua,2025,9,63,536,352.0,1221.1999999999998,At or below median,True,673.0,536.0,95.76268770376072,75.63809629342347,Above median,Above median,At or below median,At or below median
+noaa20,papua,2025,10,63,401,410.0,1998.6,At or below median,True,497.0,401.0,71.64335404702994,65.3354678050516,Above median,At or below median,At or below median,At or below median
+noaa20,papua,2025,11,37,127,135.0,682.0,At or below median,True,159.0,127.0,22.69003981040599,20.692280327285662,Above median,At or below median,At or below median,At or below median
+noaa20,papua,2025,12,13,75,28.0,395.59999999999997,At or below median,False,100.0,75.0,13.399629809294877,12.219850586979724,Above median,Above median,At or below median,At or below median
+noaa20,sulawesi,2022,1,54,387,61.0,99.0,At or below median,True,517.0,387.0,69.14208981596157,58.178405703871135,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,sulawesi,2022,2,37,283,58.0,92.19999999999999,At or below median,True,374.0,283.0,50.56126981373934,42.50485685375812,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2022,3,52,308,68.0,110.6,At or below median,True,387.0,308.0,55.02781308350429,46.19983276066109,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2022,4,32,426,54.0,68.6,At or below median,True,582.0,426.0,76.1098973167949,61.3217125627287,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,sulawesi,2022,5,54,296,75.0,123.99999999999999,At or below median,True,410.0,296.0,52.88387231401711,42.997812492377875,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2022,6,54,479,54.0,125.59999999999997,At or below median,True,653.0,479.0,85.5789690486966,69.4700784942638,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2022,7,36,271,67.0,183.79999999999998,At or below median,True,388.0,271.0,48.417329044252156,40.7176582995744,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2022,8,68,464,179.0,587.0,At or below median,True,624.0,464.0,82.89904308683764,69.98823351397678,Above historical p90,Above median,At or below median,At or below median
+noaa20,sulawesi,2022,9,156,925,501.0,1220.2,At or below median,True,1224.0,925.0,165.2621009813035,141.20329454006017,Above historical p90,Above median,At or below median,At or below median
+noaa20,sulawesi,2022,10,97,700,608.0,1685.1999999999998,At or below median,True,978.0,700.0,125.06321155341885,113.97904140928446,Above median,Above median,At or below median,At or below median
+noaa20,sulawesi,2022,11,53,417,246.0,814.8,At or below median,True,553.0,417.0,74.50194173967951,67.90732243546961,Above median,Above median,At or below median,At or below median
+noaa20,sulawesi,2022,12,49,359,58.0,167.59999999999997,At or below median,True,485.0,359.0,64.1395613538248,58.44188404382474,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2023,1,46,292,61.0,99.0,At or below median,True,405.0,292.0,52.16922539085472,43.85676518930319,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2023,2,56,284,58.0,92.19999999999999,At or below median,True,409.0,284.0,50.73993154452993,42.678610364276686,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2023,3,85,454,68.0,110.6,Above median,True,717.0,454.0,81.11242577893165,68.23415198487368,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2023,4,63,469,54.0,68.6,Above median,True,618.0,469.0,83.79235174079062,68.13691525902348,Above historical p90,Above historical p90,Above historical p90,Above median
+noaa20,sulawesi,2023,5,55,389,75.0,123.99999999999999,At or below median,True,540.0,389.0,69.49941327754276,55.94304640589486,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2023,6,94,487,54.0,125.59999999999997,Above median,True,704.0,487.0,87.0082628950214,71.01251219307898,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2023,7,90,659,67.0,183.79999999999998,Above median,True,947.0,659.0,117.73808059100432,101.74127385228351,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2023,8,280,1969,179.0,587.0,Above median,True,2645.0,1969.0,351.7849479266882,316.1411727282113,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2023,9,545,3544,501.0,1220.2,Above median,True,4496.0,3544.0,633.1771739218806,558.8058034985042,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2023,10,949,5344,608.0,1685.1999999999998,Above median,True,6745.0,5344.0,954.7682893449576,869.3733076883652,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2023,11,301,1775,246.0,814.8,Above median,True,2301.0,1775.0,317.1245721533121,288.9311671721721,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2023,12,98,665,58.0,167.59999999999997,Above median,True,913.0,665.0,118.81005097574791,108.2442013868073,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2024,1,46,302,61.0,99.0,At or below median,True,419.0,302.0,53.955842698760705,45.44863742884245,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,2,85,482,58.0,92.19999999999999,Above median,True,595.0,482.0,86.1149542410684,72.30472555768598,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2024,3,44,357,68.0,110.6,At or below median,True,479.0,357.0,63.782237892243614,53.670941078829614,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,4,49,331,54.0,68.6,At or below median,True,477.0,331.0,59.13703289168806,48.081480916100034,Above historical p90,Above historical p90,Above median,At or below median
+noaa20,sulawesi,2024,5,37,272,75.0,123.99999999999999,At or below median,True,437.0,272.0,48.59599077504275,39.69421541223451,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,6,35,227,54.0,125.59999999999997,At or below median,True,354.0,227.0,40.556212889465826,33.182833466393284,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,7,41,322,67.0,183.79999999999998,At or below median,True,455.0,322.0,57.52907731457267,49.89477679473839,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,8,97,679,179.0,587.0,At or below median,True,1010.0,679.0,121.31131520681629,105.33367257561845,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,9,220,1779,501.0,1220.2,At or below median,True,2337.0,1779.0,317.8392190764745,281.6283440077989,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,10,302,2012,608.0,1685.1999999999998,At or below median,True,2661.0,2012.0,359.46740235068387,327.3678571400888,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,11,142,951,246.0,814.8,At or below median,True,1382.0,951.0,169.90730598185903,154.90284550288672,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2024,12,27,263,58.0,167.59999999999997,At or below median,True,327.0,263.0,46.98803519792737,42.834120247502824,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,1,48,274,61.0,99.0,At or below median,True,431.0,274.0,48.953314236623946,41.22909047071001,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,2,20,224,58.0,92.19999999999999,At or below median,True,286.0,224.0,40.02022769709403,33.627265397782075,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,3,60,264,68.0,110.6,At or below median,True,373.0,264.0,47.16669692871797,39.63059719182319,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,4,40,283,54.0,68.6,At or below median,True,376.0,283.0,50.56126981373934,41.14336075173776,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,5,45,344,75.0,123.99999999999999,At or below median,True,465.0,344.0,61.45963539196583,49.84138236986145,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,6,38,213,54.0,125.59999999999997,At or below median,True,318.0,213.0,38.05494865839745,31.03905742887924,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,7,109,747,67.0,183.79999999999998,Above median,True,996.0,747.0,133.46031290057698,112.94934038440485,Above historical p90,Above historical p90,Above median,Above median
+noaa20,sulawesi,2025,8,87,599,179.0,587.0,At or below median,True,881.0,599.0,107.01837674356841,90.90907184674576,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,9,276,1691,501.0,1220.2,At or below median,True,2191.0,1691.0,302.11698676690185,262.22440798127184,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,10,258,1941,608.0,1685.1999999999998,At or below median,True,2412.0,1941.0,346.7824194645514,315.8796386859018,Above historical p90,Above historical p90,At or below median,At or below median
+noaa20,sulawesi,2025,11,48,707,246.0,814.8,At or below median,True,906.0,707.0,126.31384366895304,115.06488774550787,Above historical p90,Above median,At or below median,At or below median
+noaa20,sulawesi,2025,12,30,318,58.0,167.59999999999997,At or below median,True,411.0,318.0,56.814430391410276,51.76169905627584,Above historical p90,Above historical p90,At or below median,At or below median

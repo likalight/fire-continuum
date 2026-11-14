@@ -1,15 +1,15 @@
 # Fire Continuum — project summary
 
-**Would changing the satellite change your conclusion?**
+**The satellite changed. Should your conclusion?**
 
-Fire Continuum helps fire analysts distinguish changes in burning activity from changes in satellite observation. Our working Indonesia prototype connects 23 years of NASA FIRMS MODIS and VIIRS observations through an interactive burning calendar, seasonal planning context and an exportable evidence-backed briefing.
+Fire Continuum helps analysts compare burning seasons across changing satellites and see when a comparison is supported. Its working Indonesia web application connects 23 years of NASA FIRMS observations through a harmonized calendar, area selection, historical baselines, a dated recent comparison and downloadable evidence briefs.
 
-Users select an area and period, compare calibrated activity with original observations, and test how grid size, confidence filters and sensor choices affect the conclusion. Calibration uses overlap years; validation uses later years excluded from fitting. The national monthly results improve substantially, while failed regional and recent-period tests remain visible.
+An interactive opening holds place and time constant while switching between unadjusted VIIRS and the calibrated Aqua scale. A documented 2019 Borneo event anchors the story: both sensors support above-typical September activity; an extreme label depends on processing choices. Full NASA FireMask and QA reveal 167 daily layers and 17 unavailable dates in a fixed local case.
 
-A September 2019 southern Borneo case has separate Landsat corroboration. Both Aqua and adjusted VIIRS show above-typical burning, while the extreme label depends on filtering. New NASA daily fire-mask data distinguish cloud, non-fire and missing classifications in a fixed local case. A dated November 2026 comparison matches the same dates in past years, with its unresolved 46.8% sensor discrepancy displayed.
+We evaluate the conclusions as well as the counts. Across 240 NOAA-20 region-month comparisons, the released method agrees with Aqua's seasonal category in 82.9%, versus 79.6% for simple calibration. It also misses more rare above-p90 reference months; that trade-off is displayed. Aqua agreement is not ground-truth accuracy.
 
-The app includes a seasonal-window sensitivity check, ten-step guided demo, shareable analysis links, original hotspot CSVs, calendar visuals, an evidence passport and source hashes. It supports historical interpretation and planning discussions; it does not claim complete fire detection or operational forecasting.
+Sixty additional NASA annual files support fixed Punjab and southeast Australia transfer tests. Local calibration improves Punjab category agreement, but in Australia it lowers count error while worsening category agreement. The prototype exposes these differences instead of assuming global validity.
 
-NASA data power the analysis. Our contribution is a more comparable record whose evidence and limitations travel with every finding.
+A systematic Landsat audit adds three candidate and three lower-activity comparison cells, with dated imagery, QA and source hashes. All six fire-attribution outcomes remain inconclusive; haze and surface change cannot be treated as proof of burning.
 
-The expanded observation calendar retains full NASA FireMask and QA for 167 days and exposes 17 unavailable dates. Predefined time-matching tests reject unsupported current corrections. A decision brief identifies three imagery-review candidates, answers whether activity accumulated earlier, and states what evidence could overturn its conclusions. External analyst usefulness testing remains uncompleted.
+The project combines a usable analytical workflow with evidence others can inspect. Current sensor disagreement remains 46.8%; practitioner validation and operational forecasting are not claimed. NASA data drive the findings, and sources and limitations travel with each export.

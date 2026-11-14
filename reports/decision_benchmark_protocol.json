@@ -1,0 +1,16 @@
+{
+ "title":"Decision agreement benchmark v1",
+ "sequence":"Specified after count-based Indonesia validation and case results had been inspected, before computing this decision benchmark. Evaluation years excluded from fitting are not an untouched benchmark.",
+ "regions":{"sumatra":[95,-6,106,6],"kalimantan":[108,-5,120,4.5],"java":[105,-9,116,-5],"papua":[130,-10,142,0.5],"sulawesi":[118,-6,126,3]},
+ "sources":"Existing pinned Indonesia sparse monthly data and raw source manifest. Area inclusion uses 0.25 degree cell centres, as in released explorer.",
+ "sensors":{"snpp":{"fit":[2013,2017],"audit":[2018,2025]},"noaa20":{"fit":[2019,2021],"audit":[2022,2025]}},
+ "baseline":"Aqua calendar-month medians and p90 from 2003–2017; never include audited year. No coverage normalization; baseline observational completeness remains unknown.",
+ "methods":["raw VIIRS detections (intentionally unharmonized diagnostic)","VIIRS 1km occupied cell-days without adjustment","single national overlap ratio fitted on original training years","released sector-quarter calibration, unchanged"],
+ "categories":"0: at or below historical median; 1: above median but at or below p90; 2: above p90. Categories are descriptive, not significance tests.",
+ "exclude":"August and September 2020 from NPP decision audit owing to documented Aqua outage. Exclude entire 2020 from annual-window tests. Do not refit released model or single factor after seeing results.",
+ "gate":"Retrospective diagnostic support: baseline median >=5 and concurrent Aqua and VIIRS occupied counts both >=20. Same gate for every model, no tuning. This does not establish clear-sky coverage and cannot operate unchanged after Aqua retires.",
+ "metrics":["three-category agreement and confusion matrix","balanced accuracy across reference classes present","above-p90 precision and recall against Aqua","withheld and retained fraction","WAPE against Aqua counts","annual cyclic three-month maximum start-month error and exact agreement"],
+ "critical_window":"For each complete audit region/year, choose consecutive cyclic 3-month sum maximum for each method and Aqua. Ties choose earliest start month. Report minimum circular start difference in months, not onset timing or forecasts.",
+ "aggregation":"Five study rectangles pooled with equal region-month weight; some rectangles overlap and observations are not independent. Also publish each region and year; no population inference or confidence interval.",
+ "comparison":"Aqua is reference, not ground truth. Report every method even if released calibration loses. No headline replacement or coefficient changes automatically follow this diagnostic. External practitioner validation deferred."
+}

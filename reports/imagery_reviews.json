@@ -1,0 +1,38 @@
+{
+  "candidate-1": {
+    "outcome": "inconclusive",
+    "observation_summary": "Localized brown/dark patches and NBR decreases appear in eastern and southern parts of the September cell; substantial cloud gaps remain.",
+    "reason": "Changes are consistent with land disturbance but the two-date optical record does not uniquely establish burning or September active-fire timing. Only 28.4% of the cell has paired QA-valid pixels.",
+    "reviewer": "AI-assisted visual review; not blinded; no external analyst"
+  },
+  "candidate-2": {
+    "outcome": "inconclusive",
+    "observation_summary": "The September scene is extensively obscured by bright cloud and cyan haze/smoke; NBR decreases coincide with the contaminated scene.",
+    "reason": "The optical pair cannot separate surface change from atmospheric contamination, despite 45.0% passing the selected QA checks. No fire-attribution verdict is justified.",
+    "reviewer": "AI-assisted visual review; not blinded; no external analyst"
+  },
+  "candidate-3": {
+    "outcome": "inconclusive",
+    "observation_summary": "Localized strong NBR decreases are visible west of the river and in eastern patterned fields, but the September composite is visibly hazy.",
+    "reason": "The high paired QA-valid fraction (93.0%) does not remove visible haze or identify its source. Land-use changes and atmospheric effects remain competing explanations; direct burning and timing are not established by this pair.",
+    "reviewer": "AI-assisted visual review; not blinded; no external analyst"
+  },
+  "comparison-1": {
+    "outcome": "inconclusive",
+    "observation_summary": "Cloud and shadow dominate both scenes; only scattered patches can be compared.",
+    "reason": "Only 4.17% of the cell has paired QA-valid pixels. No visible absence-of-fire conclusion is permitted.",
+    "reviewer": "AI-assisted visual review; not blinded; no external analyst"
+  },
+  "comparison-2": {
+    "outcome": "inconclusive",
+    "observation_summary": "Forest/field patterns persist in the visible portions; paired land NBR change is near zero or slightly negative. Cloud gaps remain.",
+    "reason": "No unambiguous burning evidence is identifiable in the selected images. This does not contradict lower nonzero hotspot activity or establish a fire-free comparison cell.",
+    "reviewer": "AI-assisted visual review; not blinded; no external analyst"
+  },
+  "comparison-3": {
+    "outcome": "inconclusive",
+    "observation_summary": "The coastal comparison contains extensive water; September has visible haze and cloud-shadow/atmospheric patterns over water and land.",
+    "reason": "NBR changes over water and haze cannot be interpreted as burning. Lower hotspot activity is not independently validated as absence of fire.",
+    "reviewer": "AI-assisted visual review; not blinded; no external analyst"
+  }
+}

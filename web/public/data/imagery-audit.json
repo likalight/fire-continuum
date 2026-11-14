@@ -1,0 +1,495 @@
+{
+  "title": "Six-cell Landsat imagery audit",
+  "protocol": "imagery_protocol.json",
+  "protocol_sha256": "69612e8226b3c382a4b58b1bb8039ef6f4e030e390593a9cc2cdcd0e06970a3d",
+  "catalog_sha256": "a30f83be7d258cb517c60a6721547c6bf95724a225296ba528972be3f5356aa1",
+  "source": "USGS/NASA Landsat 8 Collection 2 Level 2, public Microsoft Planetary Computer mirror",
+  "source_access": "https://planetarycomputer.microsoft.com/docs/",
+  "qa_source": "https://www.usgs.gov/landsat-missions/landsat-collection-2-quality-assessment-bands",
+  "scale_source": "https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products",
+  "processing": {
+    "bands": [
+      "swir22",
+      "nir08",
+      "red",
+      "qa_pixel",
+      "qa_radsat"
+    ],
+    "reflectance_scale": 2.75e-05,
+    "reflectance_offset": -0.2,
+    "grid": "900 x 900 EPSG:4326 per exact 0.25-degree cell, nearest-neighbour resampling (about 31 m near equator)",
+    "display": "SWIR2/NIR/red reflectance divided by 0.45, clipped 0\u20131, gamma 0.7. Cloud/haze retained in composites; invalid paired change pixels gray.",
+    "validity": "QA_PIXEL bits 0\u20135 all unset, QA_RADSAT zero, nonzero input, all displayed reflectances within [0,1].",
+    "nbr": "(NIR-SWIR2)/(NIR+SWIR2); paired values require positive denominator in both dates. Main change plot/all-valid diagnostics include water; separate land median excludes QA_PIXEL water bit 7 in either date. NBR decrease is not a unique fire signature.",
+    "review_gate": "At least 20% paired QA-valid area; engineering threshold only. QA does not guarantee haze-free pixels."
+  },
+  "cells": [
+    {
+      "bounds": [
+        112.75,
+        -3.0,
+        113.0,
+        -2.75
+      ],
+      "centre": [
+        112.875,
+        -2.875
+      ],
+      "aqua": 335,
+      "adjusted": 286.04328884787134,
+      "median": 13.0,
+      "p90": 92.39999999999999,
+      "review_score": 273.04328884787134,
+      "id": "candidate-1",
+      "role": "candidate",
+      "scenes": [
+        {
+          "id": "LC08_L2SP_119062_20190805_02_T1",
+          "date": "2019-08-05T02:40:49.691372Z",
+          "scene_cloud_percent": 19.01,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_119062_20190805_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "164f03dbf5215503eeeb1863e254abd33dda274145453eddf2198624c1dee820",
+          "subset_array_sha256": "536c76d38be3ad06c336bd3cb827d0e028d964fb2efb894ce64297de450e37b5",
+          "valid_fraction": 0.42106666666666664
+        },
+        {
+          "id": "LC08_L2SP_119062_20190906_02_T1",
+          "date": "2019-09-06T02:40:57.796562Z",
+          "scene_cloud_percent": 32.37,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_119062_20190906_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "7cab8f76a750b5360b721fb5dd68ace251c4055aad247166c99bf2966199115b",
+          "subset_array_sha256": "5760b7233ff6c3ab154eeda88fffb74014d6e30db2d0b688dc796b1b7a247a5a",
+          "valid_fraction": 0.6496283950617284
+        }
+      ],
+      "paired_land_fraction": 0.2713382716049383,
+      "nbr_decrease_land_median": 0.04495939612388611,
+      "paired_valid_pixels": 229910,
+      "total_grid_pixels": 810000,
+      "paired_valid_fraction": 0.2838395061728395,
+      "qa_gate_passed": true,
+      "nbr_decrease_median": 0.04202038049697876,
+      "nbr_decrease_p90": 0.23088687658309937,
+      "fraction_of_valid_pixels_decrease_gt_0_1": 0.2241224827106259,
+      "preview": "imagery-candidate-1.png",
+      "outcome": "inconclusive",
+      "reason": "Changes are consistent with land disturbance but the two-date optical record does not uniquely establish burning or September active-fire timing. Only 28.4% of the cell has paired QA-valid pixels.",
+      "observation_summary": "Localized brown/dark patches and NBR decreases appear in eastern and southern parts of the September cell; substantial cloud gaps remain.",
+      "reviewer": "AI-assisted visual review; not blinded; no external analyst",
+      "preview_sha256": "745e30991023e300dbc3cebff5e9d6c027b1b28f66db672c17dc20e75902403d"
+    },
+    {
+      "bounds": [
+        114.25,
+        -2.5,
+        114.5,
+        -2.25
+      ],
+      "centre": [
+        114.375,
+        -2.375
+      ],
+      "aqua": 255,
+      "adjusted": 281.79733377903574,
+      "median": 26.0,
+      "p90": 149.39999999999998,
+      "review_score": 229.0,
+      "id": "candidate-2",
+      "role": "candidate",
+      "scenes": [
+        {
+          "id": "LC08_L2SP_118062_20190814_02_T1",
+          "date": "2019-08-14T02:34:41.910194Z",
+          "scene_cloud_percent": 8.77,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_118062_20190814_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "cbf3632aa39171d56f5756e4577d914aac169218529ba80e1d2ce865b06e39a7",
+          "subset_array_sha256": "d4300a57e2f0a642a11c412ef798bf6a43bff2e8fc60bd5dc5116741c7e89995",
+          "valid_fraction": 0.9750506172839506
+        },
+        {
+          "id": "LC08_L2SP_118062_20190915_02_T1",
+          "date": "2019-09-15T02:34:50.651419Z",
+          "scene_cloud_percent": 7.84,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_118062_20190915_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "28ee1414a602bbd10858593bb4d7af824e9d98b467fe77fd2d2a3327d72f88ed",
+          "subset_array_sha256": "6f657c866c4c5dc4e7b6dd2524ace114fcd538d6e49a68e47e87ee06b7f4e69d",
+          "valid_fraction": 0.4680432098765432
+        }
+      ],
+      "paired_land_fraction": 0.4503530864197531,
+      "nbr_decrease_land_median": 0.11944152414798737,
+      "paired_valid_pixels": 364786,
+      "total_grid_pixels": 810000,
+      "paired_valid_fraction": 0.4503530864197531,
+      "qa_gate_passed": true,
+      "nbr_decrease_median": 0.11944152414798737,
+      "nbr_decrease_p90": 0.23184391856193542,
+      "fraction_of_valid_pixels_decrease_gt_0_1": 0.6383852450477815,
+      "preview": "imagery-candidate-2.png",
+      "outcome": "inconclusive",
+      "reason": "The optical pair cannot separate surface change from atmospheric contamination, despite 45.0% passing the selected QA checks. No fire-attribution verdict is justified.",
+      "observation_summary": "The September scene is extensively obscured by bright cloud and cyan haze/smoke; NBR decreases coincide with the contaminated scene.",
+      "reviewer": "AI-assisted visual review; not blinded; no external analyst",
+      "preview_sha256": "059bc5a1777ab557f3bc669d9d5d28ff995694f08795bcd20571840aa21bf135"
+    },
+    {
+      "bounds": [
+        114.0,
+        -3.25,
+        114.25,
+        -3.0
+      ],
+      "centre": [
+        114.125,
+        -3.125
+      ],
+      "aqua": 281,
+      "adjusted": 293.6413137078929,
+      "median": 57.0,
+      "p90": 122.4,
+      "review_score": 224.0,
+      "id": "candidate-3",
+      "role": "candidate",
+      "scenes": [
+        {
+          "id": "LC08_L2SP_118062_20190814_02_T1",
+          "date": "2019-08-14T02:34:41.910194Z",
+          "scene_cloud_percent": 8.77,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_118062_20190814_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "cbf3632aa39171d56f5756e4577d914aac169218529ba80e1d2ce865b06e39a7",
+          "subset_array_sha256": "edf9956dfdfb7dace2408186acdedeb015c9e475f3d07d6d2e9f9f049d1441c6",
+          "valid_fraction": 0.9824888888888889
+        },
+        {
+          "id": "LC08_L2SP_118062_20190915_02_T1",
+          "date": "2019-09-15T02:34:50.651419Z",
+          "scene_cloud_percent": 7.84,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_118062_20190915_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "28ee1414a602bbd10858593bb4d7af824e9d98b467fe77fd2d2a3327d72f88ed",
+          "subset_array_sha256": "bd955e418cb251b3a1fae1838ef940e820f3d6369dcbd2a3832a01bdafd20b59",
+          "valid_fraction": 0.947379012345679
+        }
+      ],
+      "paired_land_fraction": 0.9202753086419753,
+      "nbr_decrease_land_median": 0.08835595846176147,
+      "paired_valid_pixels": 753409,
+      "total_grid_pixels": 810000,
+      "paired_valid_fraction": 0.9301345679012346,
+      "qa_gate_passed": true,
+      "nbr_decrease_median": 0.08830428123474121,
+      "nbr_decrease_p90": 0.21948027610778809,
+      "fraction_of_valid_pixels_decrease_gt_0_1": 0.403666534379069,
+      "preview": "imagery-candidate-3.png",
+      "outcome": "inconclusive",
+      "reason": "The high paired QA-valid fraction (93.0%) does not remove visible haze or identify its source. Land-use changes and atmospheric effects remain competing explanations; direct burning and timing are not established by this pair.",
+      "observation_summary": "Localized strong NBR decreases are visible west of the river and in eastern patterned fields, but the September composite is visibly hazy.",
+      "reviewer": "AI-assisted visual review; not blinded; no external analyst",
+      "preview_sha256": "f6bc29fd737586efed7dbaa92192d840b056c4510be3735d2e4ed80d6aa68651"
+    },
+    {
+      "bounds": [
+        112.5,
+        -2.5,
+        112.75,
+        -2.25
+      ],
+      "centre": [
+        112.625,
+        -2.375
+      ],
+      "aqua": 2,
+      "adjusted": 4.02248374942319,
+      "median": 5.0,
+      "id": "comparison-1",
+      "role": "comparison",
+      "matched_to": "candidate-1",
+      "scenes": [
+        {
+          "id": "LC08_L2SP_119062_20190805_02_T1",
+          "date": "2019-08-05T02:40:49.691372Z",
+          "scene_cloud_percent": 19.01,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_119062_20190805_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190805_20200827_02_T1/LC08_L2SP_119062_20190805_20200827_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "164f03dbf5215503eeeb1863e254abd33dda274145453eddf2198624c1dee820",
+          "subset_array_sha256": "5361833aa570d2722ead12e0645f380f4a0efab5cd2534873315fb6d331f6a94",
+          "valid_fraction": 0.4137358024691358
+        },
+        {
+          "id": "LC08_L2SP_119062_20190906_02_T1",
+          "date": "2019-09-06T02:40:57.796562Z",
+          "scene_cloud_percent": 32.37,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_119062_20190906_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/119/062/LC08_L2SP_119062_20190906_20200826_02_T1/LC08_L2SP_119062_20190906_20200826_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "7cab8f76a750b5360b721fb5dd68ace251c4055aad247166c99bf2966199115b",
+          "subset_array_sha256": "182b9e0c5e12e5347b8189dd068b2beda936a90c398aaf4aba0153fee7672a57",
+          "valid_fraction": 0.10629753086419753
+        }
+      ],
+      "paired_land_fraction": 0.04170493827160494,
+      "nbr_decrease_land_median": 0.03853118419647217,
+      "paired_valid_pixels": 33785,
+      "total_grid_pixels": 810000,
+      "paired_valid_fraction": 0.04170987654320988,
+      "qa_gate_passed": false,
+      "nbr_decrease_median": 0.03852337598800659,
+      "nbr_decrease_p90": 0.0827133059501648,
+      "fraction_of_valid_pixels_decrease_gt_0_1": 0.05674115731833654,
+      "preview": "imagery-comparison-1.png",
+      "outcome": "inconclusive",
+      "reason": "Paired QA-valid fraction is below the predefined 20% gate. Only 4.17% of the cell has paired QA-valid pixels. No visible absence-of-fire conclusion is permitted.",
+      "observation_summary": "Cloud and shadow dominate both scenes; only scattered patches can be compared.",
+      "reviewer": "AI-assisted visual review; not blinded; no external analyst",
+      "preview_sha256": "f8f4e4a4aec2187681a322f2bec7229ccbb9bec5888d0377fcfcc3559832311b"
+    },
+    {
+      "bounds": [
+        115.0,
+        -2.25,
+        115.25,
+        -2.0
+      ],
+      "centre": [
+        115.125,
+        -2.125
+      ],
+      "aqua": 8,
+      "adjusted": 10.056209373557977,
+      "median": 14.0,
+      "id": "comparison-2",
+      "role": "comparison",
+      "matched_to": "candidate-2",
+      "scenes": [
+        {
+          "id": "LC08_L2SP_117062_20190823_02_T1",
+          "date": "2019-08-23T02:28:33.506533Z",
+          "scene_cloud_percent": 32.42,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_117062_20190823_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190823_20200827_02_T1/LC08_L2SP_117062_20190823_20200827_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190823_20200827_02_T1/LC08_L2SP_117062_20190823_20200827_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190823_20200827_02_T1/LC08_L2SP_117062_20190823_20200827_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190823_20200827_02_T1/LC08_L2SP_117062_20190823_20200827_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190823_20200827_02_T1/LC08_L2SP_117062_20190823_20200827_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "103c214f7fe6496dce645f79cf2369c0177543834f051f1659ce33df537092f5",
+          "subset_array_sha256": "99f0a13c401ac9058d08233841bf03ccf7f68b1a301d979e48f409e9031608cc",
+          "valid_fraction": 0.3809962962962963
+        },
+        {
+          "id": "LC08_L2SP_117062_20190908_02_T1",
+          "date": "2019-09-08T02:28:37.032022Z",
+          "scene_cloud_percent": 38.33,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_117062_20190908_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190908_20200826_02_T1/LC08_L2SP_117062_20190908_20200826_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190908_20200826_02_T1/LC08_L2SP_117062_20190908_20200826_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190908_20200826_02_T1/LC08_L2SP_117062_20190908_20200826_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190908_20200826_02_T1/LC08_L2SP_117062_20190908_20200826_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/117/062/LC08_L2SP_117062_20190908_20200826_02_T1/LC08_L2SP_117062_20190908_20200826_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "6a055a3a03f49bf31dcbc4d4e5c36c4456821270eee1343ef04a85b551ff6d60",
+          "subset_array_sha256": "945184169b72aef2a611db342cd8438ec725486c8aefd62d8c8c1163c729cc7d",
+          "valid_fraction": 0.6889975308641976
+        }
+      ],
+      "paired_land_fraction": 0.2763925925925926,
+      "nbr_decrease_land_median": -0.018466323614120483,
+      "paired_valid_pixels": 223878,
+      "total_grid_pixels": 810000,
+      "paired_valid_fraction": 0.2763925925925926,
+      "qa_gate_passed": true,
+      "nbr_decrease_median": -0.018466323614120483,
+      "nbr_decrease_p90": 0.033524781465530396,
+      "fraction_of_valid_pixels_decrease_gt_0_1": 0.02619283717024451,
+      "preview": "imagery-comparison-2.png",
+      "outcome": "inconclusive",
+      "reason": "No unambiguous burning evidence is identifiable in the selected images. This does not contradict lower nonzero hotspot activity or establish a fire-free comparison cell.",
+      "observation_summary": "Forest/field patterns persist in the visible portions; paired land NBR change is near zero or slightly negative. Cloud gaps remain.",
+      "reviewer": "AI-assisted visual review; not blinded; no external analyst",
+      "preview_sha256": "66121e41e84f661df4e7e848b778f58f7955abbe4b56deb4c3d9f670ee6b47d1"
+    },
+    {
+      "bounds": [
+        113.75,
+        -3.5,
+        114.0,
+        -3.25
+      ],
+      "centre": [
+        113.875,
+        -3.375
+      ],
+      "aqua": 28,
+      "adjusted": 24.134902496539144,
+      "median": 59.0,
+      "id": "comparison-3",
+      "role": "comparison",
+      "matched_to": "candidate-3",
+      "scenes": [
+        {
+          "id": "LC08_L2SP_118062_20190814_02_T1",
+          "date": "2019-08-14T02:34:41.910194Z",
+          "scene_cloud_percent": 8.77,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_118062_20190814_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190814_20200827_02_T1/LC08_L2SP_118062_20190814_20200827_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "cbf3632aa39171d56f5756e4577d914aac169218529ba80e1d2ce865b06e39a7",
+          "subset_array_sha256": "48c4b3957056de7812e7cc971938d7d16779770ad0b76fb8c9d3e519a981f687",
+          "valid_fraction": 0.5549753086419753
+        },
+        {
+          "id": "LC08_L2SP_118062_20190915_02_T1",
+          "date": "2019-09-15T02:34:50.651419Z",
+          "scene_cloud_percent": 7.84,
+          "stac_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_118062_20190915_02_T1",
+          "platform": "landsat-8",
+          "instrument": "OLI",
+          "collection": "Landsat Collection 2 Level 2",
+          "doi": "10.5066/P9OGBGM6",
+          "assets": {
+            "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B7.TIF",
+            "nir08": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B5.TIF",
+            "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B4.TIF",
+            "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_QA_PIXEL.TIF",
+            "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_QA_RADSAT.TIF"
+          },
+          "stac_item_sha256": "28ee1414a602bbd10858593bb4d7af824e9d98b467fe77fd2d2a3327d72f88ed",
+          "subset_array_sha256": "c3da6871a9a8bb719750a5984605a20858ebb308c1b8dafc0206ec8decd8072a",
+          "valid_fraction": 0.999995061728395
+        }
+      ],
+      "paired_land_fraction": 0.3403024691358025,
+      "nbr_decrease_land_median": 0.08570069074630737,
+      "paired_valid_pixels": 449529,
+      "total_grid_pixels": 810000,
+      "paired_valid_fraction": 0.5549740740740741,
+      "qa_gate_passed": true,
+      "nbr_decrease_median": 0.028689950704574585,
+      "nbr_decrease_p90": 0.13889427483081818,
+      "fraction_of_valid_pixels_decrease_gt_0_1": 0.23469008673522732,
+      "preview": "imagery-comparison-3.png",
+      "outcome": "inconclusive",
+      "reason": "NBR changes over water and haze cannot be interpreted as burning. Lower hotspot activity is not independently validated as absence of fire.",
+      "observation_summary": "The coastal comparison contains extensive water; September has visible haze and cloud-shadow/atmospheric patterns over water and land.",
+      "reviewer": "AI-assisted visual review; not blinded; no external analyst",
+      "preview_sha256": "af0f1a16219e139ee6af262dbd08368600f39618888c26c9fee39aee59962a3f"
+    }
+  ],
+  "limitations": [
+    "Small purposive sample, not a representative accuracy estimate.",
+    "Comparison cells have lower hotspot activity, not known absence of fire.",
+    "Scene-level cloud ranking does not guarantee clear conditions over a cell.",
+    "Reflectance QA may miss haze, smoke, and subtle cloud contamination.",
+    "Different dates and vegetation/moisture/land-use changes confound NBR changes.",
+    "A burn scar cannot establish the timestamp of active burning or validate aggregate hotspot counts.",
+    "Agent visual review is non-blinded; external practitioner validation is not conducted."
+  ],
+  "outcome_counts": {
+    "corroborated": 0,
+    "contradicted": 0,
+    "inconclusive": 6
+  }
+}

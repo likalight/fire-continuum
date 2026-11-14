@@ -1,0 +1,127 @@
+{
+  "sequence": "Fixed after hotspot-based candidates existed, before retrieval or inspection of optical scene outcomes. Agent review is not blinded.",
+  "period": "September 2019",
+  "candidates": [
+    {
+      "bounds": [
+        112.75,
+        -3.0,
+        113.0,
+        -2.75
+      ],
+      "centre": [
+        112.875,
+        -2.875
+      ],
+      "aqua": 335,
+      "adjusted": 286.04328884787134,
+      "median": 13.0,
+      "p90": 92.39999999999999,
+      "review_score": 273.04328884787134,
+      "id": "candidate-1",
+      "role": "candidate"
+    },
+    {
+      "bounds": [
+        114.25,
+        -2.5,
+        114.5,
+        -2.25
+      ],
+      "centre": [
+        114.375,
+        -2.375
+      ],
+      "aqua": 255,
+      "adjusted": 281.79733377903574,
+      "median": 26.0,
+      "p90": 149.39999999999998,
+      "review_score": 229.0,
+      "id": "candidate-2",
+      "role": "candidate"
+    },
+    {
+      "bounds": [
+        114.0,
+        -3.25,
+        114.25,
+        -3.0
+      ],
+      "centre": [
+        114.125,
+        -3.125
+      ],
+      "aqua": 281,
+      "adjusted": 293.6413137078929,
+      "median": 57.0,
+      "p90": 122.4,
+      "review_score": 224.0,
+      "id": "candidate-3",
+      "role": "candidate"
+    }
+  ],
+  "comparisons": [
+    {
+      "bounds": [
+        112.5,
+        -2.5,
+        112.75,
+        -2.25
+      ],
+      "centre": [
+        112.625,
+        -2.375
+      ],
+      "aqua": 2,
+      "adjusted": 4.02248374942319,
+      "median": 5.0,
+      "id": "comparison-1",
+      "role": "comparison",
+      "matched_to": "candidate-1"
+    },
+    {
+      "bounds": [
+        115.0,
+        -2.25,
+        115.25,
+        -2.0
+      ],
+      "centre": [
+        115.125,
+        -2.125
+      ],
+      "aqua": 8,
+      "adjusted": 10.056209373557977,
+      "median": 14.0,
+      "id": "comparison-2",
+      "role": "comparison",
+      "matched_to": "candidate-2"
+    },
+    {
+      "bounds": [
+        113.75,
+        -3.5,
+        114.0,
+        -3.25
+      ],
+      "centre": [
+        113.875,
+        -3.375
+      ],
+      "aqua": 28,
+      "adjusted": 24.134902496539144,
+      "median": 59.0,
+      "id": "comparison-3",
+      "role": "comparison",
+      "matched_to": "candidate-3"
+    }
+  ],
+  "comparison_rule": "For each candidate in published rank order, select nearest unused 0.25-degree cell with September 2003-2017 Aqua median >=5 and both September 2019 Aqua and adjusted NPP <= median. Tie: longitude, latitude. Same Kalimantan rectangle. These are lower-activity comparison cells, NOT fire-free controls.",
+  "optical_source": "Landsat 8 Collection 2 Level 2 USGS reflectance, public Planetary Computer STAC mirror. Separate instrument from MODIS/VIIRS.",
+  "scene_rule": "For each cell select before scene during 2019-08-01 to 2019-08-31 and during scene during 2019-09-01 to 2019-09-30. Require scene footprint >=95% cell. Prefer lowest scene cloud_cover, tie by proximity to 15th of month then item id. Retain missing, cloudy, ambiguous cases. No replacement based on visual outcome.",
+  "review": "Agent visual review of georeferenced SWIR2/NIR/red composites and valid-pixel NBR change, explicitly non-blinded and exploratory. Corroborated means visible fire-related evidence supports burning in this cell during/around September; contradicted requires specific positive competing interpretation, NOT simple absence of visible fire; otherwise inconclusive. Burn scars do not establish active-fire timing or validate hotspot totals.",
+  "qa": "Mask fill, dilated cloud, cirrus, cloud, cloud shadow and snow using QA_PIXEL; mask radiometric saturation. Report paired clear valid fraction; no result if <20%. Threshold is an engineering gate, not validation.",
+  "outputs": "Publish selected cell bounds, dates, scene IDs and source URLs, band/QA transformations, thumbnails and numeric diagnostics, all six outcomes and limitations. No user or practitioner validation.",
+  "processing_note": "900x900 EPSG:4326 subsets, nearest-neighbour reprojection of 30 m inputs; reflectance scale 0.0000275 and offset -0.2. Exclude out-of-range reflectance from NBR diagnostics. Display composites preserve cloud/haze. NBR >0.1 decrease fraction is descriptive, not a fire classifier.",
+  "post_inspection_amendment": "After initial visual inspection exposed water in comparison 3, add an explicitly separate land-only median excluding QA_PIXEL water bit in either date; retain original all-valid diagnostics. No cell, scene, gate or classification rule was changed."
+}

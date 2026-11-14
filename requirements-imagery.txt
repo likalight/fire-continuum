@@ -1,0 +1,4 @@
+# Optional dependencies for pipeline/18_imagery_audit.py
+-r requirements.txt
+rasterio==1.4.4
+matplotlib==3.11.2
