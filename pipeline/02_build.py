@@ -80,4 +80,3 @@ def main():
     monthly.to_csv(ROOT/'reports/monthly_counts.csv',index=False)
     print(json.dumps(validation,indent=2));print('Sparse rows',len(rows),'data bytes',sum(p.stat().st_size for p in out.rglob('*') if p.is_file()),flush=True)
 if __name__=='__main__':main()
-
