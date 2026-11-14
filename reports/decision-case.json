@@ -1,0 +1,482 @@
+{
+  "title": "Kalimantan September 2019 decision briefing",
+  "area": [
+    108,
+    -5,
+    120,
+    4.5
+  ],
+  "reference": {
+    "0.05": {
+      "n": 15,
+      "median_day": 137.0,
+      "p10_day": 42.0,
+      "p90_day": 197.4,
+      "median_date": "May 17"
+    },
+    "0.1": {
+      "n": 15,
+      "median_day": 204.0,
+      "p10_day": 91.60000000000001,
+      "p90_day": 221.2,
+      "median_date": "Jul 23"
+    },
+    "0.2": {
+      "n": 15,
+      "median_day": 220.0,
+      "p10_day": 150.0,
+      "p90_day": 229.8,
+      "median_date": "Aug 08"
+    }
+  },
+  "cases": [
+    {
+      "year": 2019,
+      "coverage_warning": null,
+      "sensors": {
+        "aqua": {
+          "annual_activity": 22033.0,
+          "markers": {
+            "0.05": {
+              "day": 207,
+              "date": "Jul 26",
+              "days_from_reference_median": 70.0
+            },
+            "0.1": {
+              "day": 221,
+              "date": "Aug 09",
+              "days_from_reference_median": 17.0
+            },
+            "0.2": {
+              "day": 234,
+              "date": "Aug 22",
+              "days_from_reference_median": 14.0
+            }
+          }
+        },
+        "snpp": {
+          "annual_activity": 20460.2642218079,
+          "markers": {
+            "0.05": {
+              "day": 198,
+              "date": "Jul 17",
+              "days_from_reference_median": 61.0
+            },
+            "0.1": {
+              "day": 218,
+              "date": "Aug 06",
+              "days_from_reference_median": 14.0
+            },
+            "0.2": {
+              "day": 230,
+              "date": "Aug 18",
+              "days_from_reference_median": 10.0
+            }
+          }
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "coverage_warning": "Aqua archive outage in August\u2013September 2020: annual timing marker is coverage-affected, not evidence of earlier burning.",
+      "sensors": {
+        "aqua": {
+          "annual_activity": 2959.0,
+          "markers": {
+            "0.05": {
+              "day": 54,
+              "date": "Feb 23",
+              "days_from_reference_median": -83.0
+            },
+            "0.1": {
+              "day": 90,
+              "date": "Mar 31",
+              "days_from_reference_median": -114.0
+            },
+            "0.2": {
+              "day": 163,
+              "date": "Jun 12",
+              "days_from_reference_median": -57.0
+            }
+          }
+        },
+        "snpp": {
+          "annual_activity": 3685.701163178344,
+          "markers": {
+            "0.05": {
+              "day": 70,
+              "date": "Mar 11",
+              "days_from_reference_median": -67.0
+            },
+            "0.1": {
+              "day": 103,
+              "date": "Apr 13",
+              "days_from_reference_median": -101.0
+            },
+            "0.2": {
+              "day": 214,
+              "date": "Aug 02",
+              "days_from_reference_median": -6.0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "reference_samples": [
+    {
+      "sensor": "aqua",
+      "year": 2003,
+      "annual_activity": 18179.0,
+      "markers": {
+        "0.05": 158,
+        "0.1": 201,
+        "0.2": 220
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2004,
+      "annual_activity": 33453.0,
+      "markers": {
+        "0.05": 185,
+        "0.1": 222,
+        "0.2": 227
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2005,
+      "annual_activity": 14577.0,
+      "markers": {
+        "0.05": 70,
+        "0.1": 209,
+        "0.2": 221
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2006,
+      "annual_activity": 46100.0,
+      "markers": {
+        "0.05": 205,
+        "0.1": 220,
+        "0.2": 228
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2007,
+      "annual_activity": 10847.0,
+      "markers": {
+        "0.05": 110,
+        "0.1": 218,
+        "0.2": 227
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2008,
+      "annual_activity": 8008.0,
+      "markers": {
+        "0.05": 82,
+        "0.1": 139,
+        "0.2": 210
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2009,
+      "annual_activity": 33160.0,
+      "markers": {
+        "0.05": 186,
+        "0.1": 209,
+        "0.2": 217
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2010,
+      "annual_activity": 4375.0,
+      "markers": {
+        "0.05": 42,
+        "0.1": 60,
+        "0.2": 110
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2011,
+      "annual_activity": 16257.0,
+      "markers": {
+        "0.05": 169,
+        "0.1": 188,
+        "0.2": 214
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2012,
+      "annual_activity": 17596.0,
+      "markers": {
+        "0.05": 167,
+        "0.1": 210,
+        "0.2": 220
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2013,
+      "annual_activity": 11657.0,
+      "markers": {
+        "0.05": 137,
+        "0.1": 204,
+        "0.2": 231
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2014,
+      "annual_activity": 26458.0,
+      "markers": {
+        "0.05": 42,
+        "0.1": 175,
+        "0.2": 212
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2015,
+      "annual_activity": 43896.0,
+      "markers": {
+        "0.05": 205,
+        "0.1": 222,
+        "0.2": 233
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2016,
+      "annual_activity": 5993.0,
+      "markers": {
+        "0.05": 27,
+        "0.1": 52,
+        "0.2": 109
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2017,
+      "annual_activity": 3242.0,
+      "markers": {
+        "0.05": 109,
+        "0.1": 190,
+        "0.2": 212
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2019,
+      "annual_activity": 22033.0,
+      "markers": {
+        "0.05": 207,
+        "0.1": 221,
+        "0.2": 234
+      }
+    },
+    {
+      "sensor": "aqua",
+      "year": 2020,
+      "annual_activity": 2959.0,
+      "markers": {
+        "0.05": 54,
+        "0.1": 90,
+        "0.2": 163
+      }
+    },
+    {
+      "sensor": "snpp",
+      "year": 2019,
+      "annual_activity": 20460.2642218079,
+      "markers": {
+        "0.05": 198,
+        "0.1": 218,
+        "0.2": 230
+      }
+    },
+    {
+      "sensor": "snpp",
+      "year": 2020,
+      "annual_activity": 3685.701163178344,
+      "markers": {
+        "0.05": 70,
+        "0.1": 103,
+        "0.2": 214
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "bounds": [
+        112.75,
+        -3.0,
+        113.0,
+        -2.75
+      ],
+      "centre": [
+        112.875,
+        -2.875
+      ],
+      "aqua": 335,
+      "adjusted": 286.04328884787134,
+      "median": 13.0,
+      "p90": 92.39999999999999,
+      "review_score": 273.04328884787134
+    },
+    {
+      "bounds": [
+        114.25,
+        -2.5,
+        114.5,
+        -2.25
+      ],
+      "centre": [
+        114.375,
+        -2.375
+      ],
+      "aqua": 255,
+      "adjusted": 281.79733377903574,
+      "median": 26.0,
+      "p90": 149.39999999999998,
+      "review_score": 229.0
+    },
+    {
+      "bounds": [
+        114.0,
+        -3.25,
+        114.25,
+        -3.0
+      ],
+      "centre": [
+        114.125,
+        -3.125
+      ],
+      "aqua": 281,
+      "adjusted": 293.6413137078929,
+      "median": 57.0,
+      "p90": 122.4,
+      "review_score": 224.0
+    }
+  ],
+  "eligible_candidate_cells": 35,
+  "sources": [
+    {
+      "file": "modis_2003_Indonesia.csv",
+      "sha256": "aa64834a096c7d8c73a2d77fb02ef599158d33563423ca67c431719dc41334d0",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2003_Indonesia.csv"
+    },
+    {
+      "file": "modis_2004_Indonesia.csv",
+      "sha256": "0e6a418dbed38654e13186897006409bb9508d6e9eb460acad35c913f8b8c576",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2004_Indonesia.csv"
+    },
+    {
+      "file": "modis_2005_Indonesia.csv",
+      "sha256": "d4f9134c67b220136d0d4de12434b675c6c8476fba9464bfe9531d76ec69188b",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2005_Indonesia.csv"
+    },
+    {
+      "file": "modis_2006_Indonesia.csv",
+      "sha256": "a94389d5be532e5c2f7048230f2c1d90a2187a4455f6c1674bafa2500db53133",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2006_Indonesia.csv"
+    },
+    {
+      "file": "modis_2007_Indonesia.csv",
+      "sha256": "61e8dabddc4043e194edb972c40d01c29dcb9471eebaa3682835feeac24de801",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2007_Indonesia.csv"
+    },
+    {
+      "file": "modis_2008_Indonesia.csv",
+      "sha256": "24fba3b1a40ea19b72e9d2830355af13029ea2650b031da9e808fe23003e2072",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2008_Indonesia.csv"
+    },
+    {
+      "file": "modis_2009_Indonesia.csv",
+      "sha256": "c45f4871fc9d3090fec52d5293d7475d3624472a8828abfcccd0979337b9fe47",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2009_Indonesia.csv"
+    },
+    {
+      "file": "modis_2010_Indonesia.csv",
+      "sha256": "12a3ac027fec3870c8a9caba4415d34ffa0a28e4960e121b2fdb7c1c55f1aa56",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2010_Indonesia.csv"
+    },
+    {
+      "file": "modis_2011_Indonesia.csv",
+      "sha256": "4a0cffe94dc448061fff1a9bb8120b714fb56e33f1bb6291968fd8d3d876295a",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2011_Indonesia.csv"
+    },
+    {
+      "file": "modis_2012_Indonesia.csv",
+      "sha256": "2c4e88d3b132f9ed94d75b24cfafccf347bac343f2a7c50cd6ba47b0f5bfacf5",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2012_Indonesia.csv"
+    },
+    {
+      "file": "modis_2013_Indonesia.csv",
+      "sha256": "c1287263311b2829411c586a5eb1fccbb8484f1b10356f0be847fea97eba3c9b",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2013_Indonesia.csv"
+    },
+    {
+      "file": "modis_2014_Indonesia.csv",
+      "sha256": "3c6c51a63ba857d81e30e8017864cf457e0736dcfe4971b7669be9ec6b40f32f",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2014_Indonesia.csv"
+    },
+    {
+      "file": "modis_2015_Indonesia.csv",
+      "sha256": "986e4a768333b229fbf48759f7ca7b019b9eb4192f85251946ea6ac3220199b0",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2015_Indonesia.csv"
+    },
+    {
+      "file": "modis_2016_Indonesia.csv",
+      "sha256": "47a08f058c57baa2ea725ec980e67a1089d7583eb3e2a042fc019cf35589d1a6",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2016_Indonesia.csv"
+    },
+    {
+      "file": "modis_2017_Indonesia.csv",
+      "sha256": "054a1cccca3da84fc35fee962d5f4167ea2a3ce221be3be7884d4c4b5aa89061",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2017_Indonesia.csv"
+    },
+    {
+      "file": "modis_2019_Indonesia.csv",
+      "sha256": "049f010fb65375c1bd5020a0aeb00f0c0a93630585c8439e4979894bafee35ec",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2019_Indonesia.csv"
+    },
+    {
+      "file": "modis_2020_Indonesia.csv",
+      "sha256": "e00db019742905232b11f56bb5cfb9158d5d10479c3d895202376b1046baf19f",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2020_Indonesia.csv"
+    },
+    {
+      "file": "viirs-snpp_2019_Indonesia.csv",
+      "sha256": "1dd309b8ae9dd74464f6fce4e0b61c261b7f39326c2dde3f029db55e22fe1a82",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2019_Indonesia.csv"
+    },
+    {
+      "file": "viirs-snpp_2020_Indonesia.csv",
+      "sha256": "39079f13921efeca4659e285515a2e3fb32d213a256a8d5499745c23a4bb67d0",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2020_Indonesia.csv"
+    }
+  ],
+  "external_user_validation": {
+    "status": "not_conducted",
+    "participants": 0
+  },
+  "definition": "Retrospective date at which 10% of full-year observed activity has accumulated; 5% and 20% are sensitivity checks. Not first ignition or a forecast.",
+  "limitations": [
+    "The 2020 Aqua annual marker is coverage-affected by a documented archive outage; it must not support an earlier-season claim.",
+    "Full-year totals are required; no prospective onset warning is claimed.",
+    "Coverage and detection sensitivity can shift timing markers.",
+    "Review cells use exploratory regional calibration at a smaller spatial scale.",
+    "Local daily-mask case covers a different, smaller rectangle; it cannot correct these regional markers or review cells.",
+    "Candidate scores measure hotspot evidence, not people, assets, severity, burned area or response priority."
+  ]
+}

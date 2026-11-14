@@ -8,6 +8,8 @@ Users select an area and period, compare calibrated activity with original obser
 
 A September 2019 southern Borneo case has separate Landsat corroboration. Both Aqua and adjusted VIIRS show above-typical burning, while the extreme label depends on filtering. New NASA daily fire-mask data distinguish cloud, non-fire and missing classifications in a fixed local case. A dated November 2026 comparison matches the same dates in past years, with its unresolved 46.8% sensor discrepancy displayed.
 
-The app includes a seasonal-window sensitivity check, eight-step guided demo, shareable analysis links, original hotspot CSVs, calendar visuals, an evidence passport and source hashes. It supports historical interpretation and planning discussions; it does not claim complete fire detection or operational forecasting.
+The app includes a seasonal-window sensitivity check, ten-step guided demo, shareable analysis links, original hotspot CSVs, calendar visuals, an evidence passport and source hashes. It supports historical interpretation and planning discussions; it does not claim complete fire detection or operational forecasting.
 
 NASA data power the analysis. Our contribution is a more comparable record whose evidence and limitations travel with every finding.
+
+The expanded observation calendar retains full NASA FireMask and QA for 167 days and exposes 17 unavailable dates. Predefined time-matching tests reject unsupported current corrections. A decision brief identifies three imagery-review candidates, answers whether activity accumulated earlier, and states what evidence could overturn its conclusions. External analyst usefulness testing remains uncompleted.

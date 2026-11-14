@@ -1,0 +1,1729 @@
+{
+  "fit": [
+    2019,
+    2021
+  ],
+  "audit": [
+    2022,
+    2025
+  ],
+  "bounds": [
+    108,
+    -5,
+    120,
+    4.5
+  ],
+  "current_dates": [
+    "2026-11-08",
+    "2026-11-12"
+  ],
+  "models": {
+    "all": {
+      "minutes": [
+        0,
+        1440
+      ],
+      "coefficients": {
+        "0": 0.14958448753462603,
+        "1": 0.18775847808105872,
+        "2": 0.24727131697046928,
+        "3": 0.23688873139617292
+      },
+      "audit": {
+        "windows": 48,
+        "wape": 0.37813353875442607,
+        "aqua_total": 3289,
+        "mae": 25.91002518673557
+      },
+      "same_november_dates": {
+        "windows": 4,
+        "wape": 0.5524186860081126,
+        "aqua_total": 141,
+        "mae": 19.47275868178597
+      },
+      "current": {
+        "aqua": 79,
+        "noaa20": 718,
+        "aqua_retained_fraction": 1.0,
+        "noaa20_retained_fraction": 1.0,
+        "support_gate_passed": true,
+        "estimate": 170.08610914245216,
+        "relative_disagreement": 1.1529887233221792
+      },
+      "audit_windows": [
+        {
+          "year": 2022,
+          "month": 1,
+          "aqua": 6,
+          "noaa20": 25,
+          "estimate": 3.739612188365651
+        },
+        {
+          "year": 2022,
+          "month": 2,
+          "aqua": 0,
+          "noaa20": 3,
+          "estimate": 0.44875346260387805
+        },
+        {
+          "year": 2022,
+          "month": 3,
+          "aqua": 10,
+          "noaa20": 91,
+          "estimate": 13.612188365650969
+        },
+        {
+          "year": 2022,
+          "month": 4,
+          "aqua": 0,
+          "noaa20": 82,
+          "estimate": 15.396195202646815
+        },
+        {
+          "year": 2022,
+          "month": 5,
+          "aqua": 5,
+          "noaa20": 19,
+          "estimate": 3.5674110835401156
+        },
+        {
+          "year": 2022,
+          "month": 6,
+          "aqua": 4,
+          "noaa20": 77,
+          "estimate": 14.457402812241522
+        },
+        {
+          "year": 2022,
+          "month": 7,
+          "aqua": 7,
+          "noaa20": 90,
+          "estimate": 22.254418527342235
+        },
+        {
+          "year": 2022,
+          "month": 8,
+          "aqua": 538,
+          "noaa20": 2944,
+          "estimate": 727.9667571610615
+        },
+        {
+          "year": 2022,
+          "month": 9,
+          "aqua": 29,
+          "noaa20": 622,
+          "estimate": 153.8027591556319
+        },
+        {
+          "year": 2022,
+          "month": 10,
+          "aqua": 2,
+          "noaa20": 41,
+          "estimate": 9.71243798724309
+        },
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 10,
+          "noaa20": 74,
+          "estimate": 17.529766123316797
+        },
+        {
+          "year": 2022,
+          "month": 12,
+          "aqua": 10,
+          "noaa20": 68,
+          "estimate": 16.10843373493976
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "aqua": 6,
+          "noaa20": 31,
+          "estimate": 4.637119113573407
+        },
+        {
+          "year": 2023,
+          "month": 2,
+          "aqua": 14,
+          "noaa20": 103,
+          "estimate": 15.40720221606648
+        },
+        {
+          "year": 2023,
+          "month": 3,
+          "aqua": 16,
+          "noaa20": 100,
+          "estimate": 14.958448753462603
+        },
+        {
+          "year": 2023,
+          "month": 4,
+          "aqua": 31,
+          "noaa20": 175,
+          "estimate": 32.857733664185275
+        },
+        {
+          "year": 2023,
+          "month": 5,
+          "aqua": 8,
+          "noaa20": 137,
+          "estimate": 25.722911497105045
+        },
+        {
+          "year": 2023,
+          "month": 6,
+          "aqua": 36,
+          "noaa20": 213,
+          "estimate": 39.992555831265506
+        },
+        {
+          "year": 2023,
+          "month": 7,
+          "aqua": 15,
+          "noaa20": 129,
+          "estimate": 31.897999889190537
+        },
+        {
+          "year": 2023,
+          "month": 8,
+          "aqua": 749,
+          "noaa20": 2523,
+          "estimate": 623.865532716494
+        },
+        {
+          "year": 2023,
+          "month": 9,
+          "aqua": 235,
+          "noaa20": 1581,
+          "estimate": 390.93595213031193
+        },
+        {
+          "year": 2023,
+          "month": 10,
+          "aqua": 337,
+          "noaa20": 1760,
+          "estimate": 416.92416725726434
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 60,
+          "noaa20": 438,
+          "estimate": 103.75726435152374
+        },
+        {
+          "year": 2023,
+          "month": 12,
+          "aqua": 19,
+          "noaa20": 94,
+          "estimate": 22.267540751240254
+        },
+        {
+          "year": 2024,
+          "month": 1,
+          "aqua": 25,
+          "noaa20": 55,
+          "estimate": 8.227146814404431
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "aqua": 2,
+          "noaa20": 41,
+          "estimate": 6.132963988919667
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "aqua": 11,
+          "noaa20": 49,
+          "estimate": 7.329639889196676
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "aqua": 57,
+          "noaa20": 172,
+          "estimate": 32.2944582299421
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "aqua": 11,
+          "noaa20": 110,
+          "estimate": 20.65343258891646
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "aqua": 21,
+          "noaa20": 114,
+          "estimate": 21.404466501240694
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "aqua": 7,
+          "noaa20": 57,
+          "estimate": 14.094465067316749
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "aqua": 118,
+          "noaa20": 616,
+          "estimate": 152.31913125380908
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "aqua": 290,
+          "noaa20": 1067,
+          "estimate": 263.8384952074907
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "aqua": 40,
+          "noaa20": 431,
+          "estimate": 102.09904323175053
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 19,
+          "noaa20": 144,
+          "estimate": 34.1119773210489
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "aqua": 5,
+          "noaa20": 26,
+          "estimate": 6.159107016300496
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "aqua": 12,
+          "noaa20": 43,
+          "estimate": 6.432132963988919
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "aqua": 26,
+          "noaa20": 74,
+          "estimate": 11.069252077562325
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "aqua": 9,
+          "noaa20": 37,
+          "estimate": 5.5346260387811625
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "aqua": 14,
+          "noaa20": 42,
+          "estimate": 7.8858560794044665
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "aqua": 35,
+          "noaa20": 139,
+          "estimate": 26.09842845326716
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "aqua": 24,
+          "noaa20": 199,
+          "estimate": 37.36393713813069
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "aqua": 51,
+          "noaa20": 192,
+          "estimate": 47.476092858330105
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "aqua": 140,
+          "noaa20": 393,
+          "estimate": 97.17762756939443
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "aqua": 26,
+          "noaa20": 186,
+          "estimate": 45.992464956507284
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "aqua": 143,
+          "noaa20": 884,
+          "estimate": 209.40963855421685
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 52,
+          "noaa20": 171,
+          "estimate": 40.50797306874557
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "aqua": 4,
+          "noaa20": 36,
+          "estimate": 8.527994330262224
+        }
+      ]
+    },
+    "midday": {
+      "minutes": [
+        720,
+        900
+      ],
+      "coefficients": {
+        "0": 0.23595505617977527,
+        "1": 0.2615979381443299,
+        "2": 0.2858228232791369,
+        "3": 0.27325046040515655
+      },
+      "audit": {
+        "windows": 48,
+        "wape": 0.38982687310097,
+        "aqua_total": 3060,
+        "mae": 24.851463160186835
+      },
+      "same_november_dates": {
+        "windows": 4,
+        "wape": 0.4422815442075007,
+        "aqua_total": 107,
+        "mae": 11.831031307550644
+      },
+      "current": {
+        "aqua": 0,
+        "noaa20": 474,
+        "aqua_retained_fraction": 0.0,
+        "noaa20_retained_fraction": 0.6601671309192201,
+        "support_gate_passed": false,
+        "estimate": null,
+        "relative_disagreement": null
+      },
+      "audit_windows": [
+        {
+          "year": 2022,
+          "month": 1,
+          "aqua": 6,
+          "noaa20": 12,
+          "estimate": 2.831460674157303
+        },
+        {
+          "year": 2022,
+          "month": 2,
+          "aqua": 0,
+          "noaa20": 2,
+          "estimate": 0.47191011235955055
+        },
+        {
+          "year": 2022,
+          "month": 3,
+          "aqua": 10,
+          "noaa20": 51,
+          "estimate": 12.03370786516854
+        },
+        {
+          "year": 2022,
+          "month": 4,
+          "aqua": 0,
+          "noaa20": 67,
+          "estimate": 17.527061855670105
+        },
+        {
+          "year": 2022,
+          "month": 5,
+          "aqua": 5,
+          "noaa20": 11,
+          "estimate": 2.877577319587629
+        },
+        {
+          "year": 2022,
+          "month": 6,
+          "aqua": 4,
+          "noaa20": 52,
+          "estimate": 13.603092783505156
+        },
+        {
+          "year": 2022,
+          "month": 7,
+          "aqua": 7,
+          "noaa20": 70,
+          "estimate": 20.007597629539582
+        },
+        {
+          "year": 2022,
+          "month": 8,
+          "aqua": 537,
+          "noaa20": 2908,
+          "estimate": 831.17277009573
+        },
+        {
+          "year": 2022,
+          "month": 9,
+          "aqua": 29,
+          "noaa20": 591,
+          "estimate": 168.9212885579699
+        },
+        {
+          "year": 2022,
+          "month": 10,
+          "aqua": 2,
+          "noaa20": 29,
+          "estimate": 7.9242633517495396
+        },
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 10,
+          "noaa20": 55,
+          "estimate": 15.028775322283611
+        },
+        {
+          "year": 2022,
+          "month": 12,
+          "aqua": 10,
+          "noaa20": 42,
+          "estimate": 11.476519337016574
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "aqua": 5,
+          "noaa20": 14,
+          "estimate": 3.303370786516854
+        },
+        {
+          "year": 2023,
+          "month": 2,
+          "aqua": 14,
+          "noaa20": 97,
+          "estimate": 22.8876404494382
+        },
+        {
+          "year": 2023,
+          "month": 3,
+          "aqua": 14,
+          "noaa20": 76,
+          "estimate": 17.93258426966292
+        },
+        {
+          "year": 2023,
+          "month": 4,
+          "aqua": 30,
+          "noaa20": 143,
+          "estimate": 37.40850515463918
+        },
+        {
+          "year": 2023,
+          "month": 5,
+          "aqua": 6,
+          "noaa20": 88,
+          "estimate": 23.02061855670103
+        },
+        {
+          "year": 2023,
+          "month": 6,
+          "aqua": 32,
+          "noaa20": 126,
+          "estimate": 32.96134020618557
+        },
+        {
+          "year": 2023,
+          "month": 7,
+          "aqua": 12,
+          "noaa20": 85,
+          "estimate": 24.294939978726635
+        },
+        {
+          "year": 2023,
+          "month": 8,
+          "aqua": 727,
+          "noaa20": 2282,
+          "estimate": 652.2476827229904
+        },
+        {
+          "year": 2023,
+          "month": 9,
+          "aqua": 218,
+          "noaa20": 1300,
+          "estimate": 371.56967026287793
+        },
+        {
+          "year": 2023,
+          "month": 10,
+          "aqua": 283,
+          "noaa20": 1114,
+          "estimate": 304.4010128913444
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 44,
+          "noaa20": 298,
+          "estimate": 81.42863720073665
+        },
+        {
+          "year": 2023,
+          "month": 12,
+          "aqua": 19,
+          "noaa20": 51,
+          "estimate": 13.935773480662984
+        },
+        {
+          "year": 2024,
+          "month": 1,
+          "aqua": 22,
+          "noaa20": 22,
+          "estimate": 5.191011235955056
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "aqua": 1,
+          "noaa20": 33,
+          "estimate": 7.786516853932584
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "aqua": 10,
+          "noaa20": 41,
+          "estimate": 9.674157303370785
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "aqua": 53,
+          "noaa20": 132,
+          "estimate": 34.53092783505155
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "aqua": 8,
+          "noaa20": 31,
+          "estimate": 8.109536082474227
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "aqua": 20,
+          "noaa20": 69,
+          "estimate": 18.050257731958762
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "aqua": 6,
+          "noaa20": 37,
+          "estimate": 10.575444461328065
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "aqua": 115,
+          "noaa20": 525,
+          "estimate": 150.05698222154686
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "aqua": 286,
+          "noaa20": 979,
+          "estimate": 279.820543990275
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "aqua": 38,
+          "noaa20": 316,
+          "estimate": 86.34714548802947
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 13,
+          "noaa20": 62,
+          "estimate": 16.941528545119706
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "aqua": 5,
+          "noaa20": 18,
+          "estimate": 4.918508287292818
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "aqua": 9,
+          "noaa20": 11,
+          "estimate": 2.595505617977528
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "aqua": 26,
+          "noaa20": 57,
+          "estimate": 13.44943820224719
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "aqua": 8,
+          "noaa20": 18,
+          "estimate": 4.247191011235955
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "aqua": 11,
+          "noaa20": 22,
+          "estimate": 5.755154639175258
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "aqua": 32,
+          "noaa20": 109,
+          "estimate": 28.51417525773196
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "aqua": 21,
+          "noaa20": 143,
+          "estimate": 37.40850515463918
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "aqua": 40,
+          "noaa20": 142,
+          "estimate": 40.58684090563744
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "aqua": 137,
+          "noaa20": 363,
+          "estimate": 103.75368485032669
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "aqua": 22,
+          "noaa20": 136,
+          "estimate": 38.871903965962616
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "aqua": 109,
+          "noaa20": 801,
+          "estimate": 218.8736187845304
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 40,
+          "noaa20": 143,
+          "estimate": 39.074815837937386
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "aqua": 4,
+          "noaa20": 22,
+          "estimate": 6.011510128913444
+        }
+      ]
+    },
+    "one_hour": {
+      "minutes": [
+        780,
+        840
+      ],
+      "coefficients": {
+        "0": 0.29289940828402367,
+        "1": 0.29093799682034976,
+        "2": 0.3634597689397812,
+        "3": 0.34616578702266376
+      },
+      "audit": {
+        "windows": 48,
+        "wape": 1.0115643546778987,
+        "aqua_total": 1754,
+        "mae": 36.964247460521555
+      },
+      "same_november_dates": {
+        "windows": 4,
+        "wape": 5.009438062713442,
+        "aqua_total": 25,
+        "mae": 31.308987891959013
+      },
+      "current": {
+        "aqua": 0,
+        "noaa20": 344,
+        "aqua_retained_fraction": 0.0,
+        "noaa20_retained_fraction": 0.479108635097493,
+        "support_gate_passed": false,
+        "estimate": null,
+        "relative_disagreement": null
+      },
+      "audit_windows": [
+        {
+          "year": 2022,
+          "month": 1,
+          "aqua": 6,
+          "noaa20": 6,
+          "estimate": 1.7573964497041419
+        },
+        {
+          "year": 2022,
+          "month": 2,
+          "aqua": 0,
+          "noaa20": 2,
+          "estimate": 0.5857988165680473
+        },
+        {
+          "year": 2022,
+          "month": 3,
+          "aqua": 10,
+          "noaa20": 35,
+          "estimate": 10.251479289940828
+        },
+        {
+          "year": 2022,
+          "month": 4,
+          "aqua": 0,
+          "noaa20": 59,
+          "estimate": 17.165341812400637
+        },
+        {
+          "year": 2022,
+          "month": 5,
+          "aqua": 4,
+          "noaa20": 7,
+          "estimate": 2.0365659777424483
+        },
+        {
+          "year": 2022,
+          "month": 6,
+          "aqua": 3,
+          "noaa20": 46,
+          "estimate": 13.383147853736089
+        },
+        {
+          "year": 2022,
+          "month": 7,
+          "aqua": 6,
+          "noaa20": 54,
+          "estimate": 19.626827522748187
+        },
+        {
+          "year": 2022,
+          "month": 8,
+          "aqua": 447,
+          "noaa20": 1683,
+          "estimate": 611.7027911256517
+        },
+        {
+          "year": 2022,
+          "month": 9,
+          "aqua": 28,
+          "noaa20": 491,
+          "estimate": 178.4587465494326
+        },
+        {
+          "year": 2022,
+          "month": 10,
+          "aqua": 2,
+          "noaa20": 15,
+          "estimate": 5.192486805339956
+        },
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 10,
+          "noaa20": 50,
+          "estimate": 17.308289351133187
+        },
+        {
+          "year": 2022,
+          "month": 12,
+          "aqua": 10,
+          "noaa20": 39,
+          "estimate": 13.500465693883887
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "aqua": 5,
+          "noaa20": 5,
+          "estimate": 1.4644970414201184
+        },
+        {
+          "year": 2023,
+          "month": 2,
+          "aqua": 14,
+          "noaa20": 88,
+          "estimate": 25.775147928994084
+        },
+        {
+          "year": 2023,
+          "month": 3,
+          "aqua": 14,
+          "noaa20": 64,
+          "estimate": 18.745562130177515
+        },
+        {
+          "year": 2023,
+          "month": 4,
+          "aqua": 28,
+          "noaa20": 74,
+          "estimate": 21.529411764705884
+        },
+        {
+          "year": 2023,
+          "month": 5,
+          "aqua": 6,
+          "noaa20": 82,
+          "estimate": 23.85691573926868
+        },
+        {
+          "year": 2023,
+          "month": 6,
+          "aqua": 25,
+          "noaa20": 90,
+          "estimate": 26.184419713831478
+        },
+        {
+          "year": 2023,
+          "month": 7,
+          "aqua": 11,
+          "noaa20": 65,
+          "estimate": 23.624884981085778
+        },
+        {
+          "year": 2023,
+          "month": 8,
+          "aqua": 619,
+          "noaa20": 1652,
+          "estimate": 600.4355382885186
+        },
+        {
+          "year": 2023,
+          "month": 9,
+          "aqua": 156,
+          "noaa20": 821,
+          "estimate": 298.40047029956037
+        },
+        {
+          "year": 2023,
+          "month": 10,
+          "aqua": 212,
+          "noaa20": 838,
+          "estimate": 290.08692952499223
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 15,
+          "noaa20": 227,
+          "estimate": 78.57963365414467
+        },
+        {
+          "year": 2023,
+          "month": 12,
+          "aqua": 15,
+          "noaa20": 41,
+          "estimate": 14.192797267929214
+        },
+        {
+          "year": 2024,
+          "month": 1,
+          "aqua": 8,
+          "noaa20": 5,
+          "estimate": 1.4644970414201184
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "aqua": 0,
+          "noaa20": 30,
+          "estimate": 8.78698224852071
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "aqua": 3,
+          "noaa20": 36,
+          "estimate": 10.544378698224852
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "aqua": 13,
+          "noaa20": 111,
+          "estimate": 32.294117647058826
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "aqua": 1,
+          "noaa20": 17,
+          "estimate": 4.945945945945946
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "aqua": 17,
+          "noaa20": 40,
+          "estimate": 11.637519872813991
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "aqua": 4,
+          "noaa20": 33,
+          "estimate": 11.99417237501278
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "aqua": 23,
+          "noaa20": 499,
+          "estimate": 181.36642470095083
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "aqua": 39,
+          "noaa20": 687,
+          "estimate": 249.6968612616297
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "aqua": 0,
+          "noaa20": 220,
+          "estimate": 76.15647314498602
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 0,
+          "noaa20": 43,
+          "estimate": 14.885128841974542
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "aqua": 0,
+          "noaa20": 10,
+          "estimate": 3.4616578702266376
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "aqua": 0,
+          "noaa20": 10,
+          "estimate": 2.9289940828402368
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "aqua": 0,
+          "noaa20": 47,
+          "estimate": 13.766272189349113
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "aqua": 0,
+          "noaa20": 17,
+          "estimate": 4.979289940828402
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "aqua": 0,
+          "noaa20": 19,
+          "estimate": 5.527821939586645
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "aqua": 0,
+          "noaa20": 88,
+          "estimate": 25.60254372019078
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "aqua": 0,
+          "noaa20": 96,
+          "estimate": 27.930047694753576
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "aqua": 0,
+          "noaa20": 115,
+          "estimate": 41.79787342807484
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "aqua": 0,
+          "noaa20": 307,
+          "estimate": 111.58214906451283
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "aqua": 0,
+          "noaa20": 89,
+          "estimate": 32.34791943564053
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "aqua": 0,
+          "noaa20": 576,
+          "estimate": 199.39149332505434
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 0,
+          "noaa20": 114,
+          "estimate": 39.46289972058367
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "aqua": 0,
+          "noaa20": 20,
+          "estimate": 6.923315740453275
+        }
+      ]
+    }
+  },
+  "detected_time_histograms": [
+    {
+      "year": 2019,
+      "sensor": "aqua",
+      "hourly_detected_cell_days": [
+        0,
+        100,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        450,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 575
+    },
+    {
+      "year": 2019,
+      "sensor": "noaa20",
+      "hourly_detected_cell_days": [
+        52,
+        522,
+        31,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        357,
+        1189,
+        44,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 2195
+    },
+    {
+      "year": 2020,
+      "sensor": "aqua",
+      "hourly_detected_cell_days": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        158,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 161
+    },
+    {
+      "year": 2020,
+      "sensor": "noaa20",
+      "hourly_detected_cell_days": [
+        17,
+        43,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        336,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 432
+    },
+    {
+      "year": 2021,
+      "sensor": "aqua",
+      "hourly_detected_cell_days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 3
+    },
+    {
+      "year": 2021,
+      "sensor": "noaa20",
+      "hourly_detected_cell_days": [
+        3,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        12,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 23
+    },
+    {
+      "year": 2022,
+      "sensor": "aqua",
+      "hourly_detected_cell_days": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 10
+    },
+    {
+      "year": 2022,
+      "sensor": "noaa20",
+      "hourly_detected_cell_days": [
+        6,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        50,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 74
+    },
+    {
+      "year": 2023,
+      "sensor": "aqua",
+      "hourly_detected_cell_days": [
+        0,
+        13,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 60
+    },
+    {
+      "year": 2023,
+      "sensor": "noaa20",
+      "hourly_detected_cell_days": [
+        30,
+        87,
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        227,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 438
+    },
+    {
+      "year": 2024,
+      "sensor": "aqua",
+      "hourly_detected_cell_days": [
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 19
+    },
+    {
+      "year": 2024,
+      "sensor": "noaa20",
+      "hourly_detected_cell_days": [
+        27,
+        47,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        43,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 144
+    },
+    {
+      "year": 2025,
+      "sensor": "aqua",
+      "hourly_detected_cell_days": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        40,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 52
+    },
+    {
+      "year": 2025,
+      "sensor": "noaa20",
+      "hourly_detected_cell_days": [
+        0,
+        27,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        114,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 171
+    },
+    {
+      "year": 2026,
+      "sensor": "aqua",
+      "hourly_detected_cell_days": [
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        66,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 79
+    },
+    {
+      "year": 2026,
+      "sensor": "noaa20",
+      "hourly_detected_cell_days": [
+        27,
+        182,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        47,
+        344,
+        83,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 718
+    }
+  ],
+  "sources": [
+    {
+      "file": "modis_2019_Indonesia.csv",
+      "sha256": "049f010fb65375c1bd5020a0aeb00f0c0a93630585c8439e4979894bafee35ec",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2019_Indonesia.csv"
+    },
+    {
+      "file": "viirs-jpss1_2019_Indonesia.csv",
+      "sha256": "4a895f42a8a58e8715691d02c5ec524bdeb85bfac19a54f66ad983c91c3998c5",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2019_Indonesia.csv"
+    },
+    {
+      "file": "modis_2020_Indonesia.csv",
+      "sha256": "e00db019742905232b11f56bb5cfb9158d5d10479c3d895202376b1046baf19f",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2020_Indonesia.csv"
+    },
+    {
+      "file": "viirs-jpss1_2020_Indonesia.csv",
+      "sha256": "78f2c93862e9b2eb81b88ce0f1e3c6b9ac4dda8bb35057823e3f3224fb3141d6",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2020_Indonesia.csv"
+    },
+    {
+      "file": "modis_2021_Indonesia.csv",
+      "sha256": "62d0c407f9e9ebbecdddeae1529cc405e254e0aaa4a01f7a427929a186e3d0a0",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2021_Indonesia.csv"
+    },
+    {
+      "file": "viirs-jpss1_2021_Indonesia.csv",
+      "sha256": "b9ce13a8a47ab46864c1dfbabf2c6e9ab2f3acc1b11f3f5ca63ade05700b87cf",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2021_Indonesia.csv"
+    },
+    {
+      "file": "modis_2022_Indonesia.csv",
+      "sha256": "7ba203f76f72e96d73b03abb76a08613d59edb2c90fe17aaf580a18648f6fd33",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2022_Indonesia.csv"
+    },
+    {
+      "file": "viirs-jpss1_2022_Indonesia.csv",
+      "sha256": "fdff1fa25cd0a271b9dfe094fbe0134ce9cc364746045663e3069e2447fa975b",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2022_Indonesia.csv"
+    },
+    {
+      "file": "modis_2023_Indonesia.csv",
+      "sha256": "9f9d79cc84eefab271fc82e63b7c49309547a1c31639bfd8590be91d1eea7f1e",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2023_Indonesia.csv"
+    },
+    {
+      "file": "viirs-jpss1_2023_Indonesia.csv",
+      "sha256": "99969d975480ab57a129b02502b4b968ced195dc2c7fcaf947eb693ef7010fd7",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2023_Indonesia.csv"
+    },
+    {
+      "file": "modis_2024_Indonesia.csv",
+      "sha256": "ac90c680c1d0cd493b6997388ea5084037b2f1104c415a4570e4a05c6ef359d2",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2024_Indonesia.csv"
+    },
+    {
+      "file": "viirs-jpss1_2024_Indonesia.csv",
+      "sha256": "f978dc06ac3d14c3852ab3a0410422346678a4f221179d8f2f891695caeeaaad",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2024_Indonesia.csv"
+    },
+    {
+      "file": "modis_2025_Indonesia.csv",
+      "sha256": "949bf85a132fe817d0778e164c92ec0378a6045c0f72e684a70b2d16a3c3a19a",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2025_Indonesia.csv"
+    },
+    {
+      "file": "viirs-jpss1_2025_Indonesia.csv",
+      "sha256": "3034d45ce3b106e9a507be3936f445df0e762d9d6cf4318244bb44b30a794b8e",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2025_Indonesia.csv"
+    },
+    {
+      "file": "recheck-aqua-2026-11-14.csv",
+      "sha256": "34b5ebf5f9c9b0a9c31319f67243ea5bbdbe3c41c1237894d5f59d84da53a04f",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_Global_7d.csv"
+    },
+    {
+      "file": "recheck-noaa20-2026-11-14.csv",
+      "sha256": "da5d5c462ddb93a97fd428320302c8beb4a8494a3758d3c6eb40ed8162a058c2",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_Global_7d.csv"
+    }
+  ],
+  "independent_time_validation": {
+    "status": "not_completed",
+    "candidate": "JAXA Himawari 10-minute wildfire product",
+    "guide": "https://www.eorc.jaxa.jp/ptree/userguide.html",
+    "access": "https://www.eorc.jaxa.jp/ptree/registration_top.html",
+    "reason": "Separate registration and public-release conditions; no product data obtained or published."
+  },
+  "limits": [
+    "Time-restricted detections are not paired clear-sky observations.",
+    "Each time restriction changes the quantity being estimated; its WAPE is not directly interchangeable with unrestricted WAPE.",
+    "All-time model here is a new fixed regional five-day calibration, not the released sector/monthly model.",
+    "No causal decomposition of sensor sensitivity, observing time and actual burning is established.",
+    "Current estimates are suppressed when the predefined count/retention gate fails."
+  ]
+}

@@ -11,7 +11,7 @@ A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots
 - Indonesia, island study areas or a custom rectangle; 2003–2025 monthly calendar and map.
 - Raw detections, common-grid cell-days and empirically harmonized activity, with one primary platform per period.
 - A season briefing using a consistent Aqua baseline, descriptive seasonal categories, original observations and an export carrying sources and limitations.
-- A eight-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
+- A ten-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
 - Same-month historical medians, seasonal profiles, animation and concurrent-sensor comparisons.
 - Monthly analytics CSV, filtered original hotspot CSV and calendar SVG downloads.
 - Source URLs, hashes, version audit, exact method and held-out validation.
@@ -79,3 +79,11 @@ Reproduce with `python pipeline/10_correction_trials.py` and `python pipeline/11
 [Project overview and demo](https://likalight.github.io/fire-continuum/submission/) introduce the challenge, supported findings and limits. The app now adds daily NASA MYD14A1 observation classes for a fixed southern Kalimantan case, seasonal-window sensitivity, exact analysis links and keyboard calendar navigation. The map loads separately from the analysis code.
 
 Read [daily-mask methods](reports/observation-context.md). Reproduce with `python pipeline/12_observation_context.py` (existing Earthdata access required) or `--cached` after downloading the pinned sources. Native masks provide observation context; no coverage correction is applied to the current comparison. NASA daily product: https://doi.org/10.5067/MODIS/MYD14A1.061.
+
+## Full quality calendar and decision workflow
+
+The expanded calendar publishes 167 native FireMask + QA layers and marks 17 missing dates across August–October 2019/2020. Per-pixel inspection and exact class/QA CSVs preserve unavailable values. Layer dates use HDF metadata, including partial granules. A documented 2020 Aqua outage now constrains annual timing interpretation.
+
+Two fixed local-time restrictions failed the recent support gate; their estimates are withheld. The published correction is unchanged. A four-question retrospective brief adds accumulation-timing sensitivity, three transparent review candidates, a downloadable brief and the evidence that could change each conclusion. External usefulness validation is not conducted (0 participants).
+
+Read [methods and findings](reports/decision-quality-findings.md) and [the protocol](reports/decision_protocol.json). Reproduce with `python pipeline/13_quality_calendar.py` (Earthdata access; use `--cached` for pinned downloads), `python pipeline/14_time_comparison.py`, and `python pipeline/15_decision_case.py`. The approximately 391 KB native-pixel archive loads only when requested. No raw HDF files or credentials are deployed.

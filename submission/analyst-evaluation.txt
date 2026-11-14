@@ -1,0 +1,27 @@
+FIRE CONTINUUM — FUTURE ANALYST EVALUATION
+Status: NOT CONDUCTED. Participants: 0. No endorsements or measured benefits.
+
+Purpose: learn whether a regional fire analyst or land manager can make an appropriately cautious retrospective investigation decision from the briefing.
+
+Invite only with project-owner authorization. Do not collect sensitive locations or personal data. Suggested session: 15 minutes, with consent to record de-identified observations. Recruitment target (not actual sample): 3–5 practitioners with varied experience. This convenience sample cannot establish population-wide benefit.
+
+Task 1 — Read the fixed September 2019 Kalimantan briefing. Is the evidence sufficient to claim earlier burning? Explain why.
+Expected comprehension: the annual accumulation marker is later, but not first ignition; earlier burning is not established.
+
+Task 2 — Explain whether September was unusual and what changes when you alter the confidence filter.
+Expected comprehension: above median survives six variants; the extreme threshold is method-sensitive.
+
+Task 3 — Pick one review candidate. Open its observations. What would you inspect next, and what could disqualify this location?
+Observe whether the participant confuses cell-days with fires, rankings with severity, or regional calibration with local accuracy.
+
+Task 4 — Inspect 20 August 2020 and 17 September 2019 in the observation calendar. Explain the difference between no product, cloud and no detected hotspot.
+Expected comprehension: unavailable is not zero; daily composite fractions are not overpass exposure.
+
+Task 5 — Inspect time matching. Would you publish a current corrected estimate from the 13:00–14:00 window?
+Expected comprehension: no; zero retained Aqua detections fails the support gate and does not prove no overpass.
+
+Record for each task: completed without help / completed with help / incorrect / declined; participant explanation; time (descriptive only); misleading element; requested missing evidence. Do not infer confidence from speed.
+
+Feedback: What decision could this support? What would prevent real use? Which sentence overclaims? What context or evidence is missing? Would this change your investigation, and how?
+
+Report raw de-identified counts and recurring misunderstandings; revise the product and repeat tasks. Publish sample size, recruitment, prompts, failures and limits. Do not claim effectiveness until observed. No operational safety validation is implied.

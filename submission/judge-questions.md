@@ -29,3 +29,12 @@ Paired overpass/quality data with matched geometry and time, independently mappe
 
 **Where did AI contribute?**
 OpenAI Codex assisted research, code, analysis, tests and writing. The video uses synthetic narration. NASA source observations and recorded results are not generated examples.
+
+### Did matching observation times solve the recent gap?
+No. Two predefined windows left zero recent Aqua detections and failed our support gate. They did not improve the held-out error scores. We withhold their estimates and retain the published 46.8% discrepancy. Detection-only time filters cannot prove co-observation or isolate causal factors.
+
+### What did full quality data change?
+We retained native FireMask and QA for 167 daily layers across two seasons and found 17 absent dates in the 2020 archive. Explicit HDF layer dates prevent partial files being shifted onto the wrong days. The calendar separates unavailable products from cloud and non-fire classifications. It does not turn daily class fractions into clear-sky exposure or normalization.
+
+### Is the decision brief validated by practitioners?
+No. External validation has not been conducted; 0 participants. A task-based protocol is ready. We claim a functioning retrospective decision workflow, not measured usefulness, endorsement or operational reliability.

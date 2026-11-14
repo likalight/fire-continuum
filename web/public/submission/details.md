@@ -34,7 +34,7 @@ The revised app includes year-level diagnostics, five region-exclusion tests, wh
 
 The case is Kalimantan September 2019, outside NPP's 2013–2017 fit period, with the following year as a comparison. NASA Earth Observatory's “Smoke Blankets Borneo” supplies a separate Landsat 8 OLI observation dated 15 September 2019. It corroborates event occurrence, not complete count accuracy. The image is credited and displayed unchanged. An interactive test shows that above-median activity persists across six processing variants while the extreme label changes with the confidence filter.
 
-The season briefing now uses only the same-month Aqua 2003–2017 baseline, excluding the selected year. It compares the adjusted primary observation and concurrent Aqua category on that common scale. Historical categories are descriptive, not predictions or risk levels. A eight-step guided route links the published event, the sensor comparison, the sensitivity test, the exportable briefing and the failed validation tests. See reports/validation-v2.md and reports/case-study.md.
+The season briefing now uses only the same-month Aqua 2003–2017 baseline, excluding the selected year. It compares the adjusted primary observation and concurrent Aqua category on that common scale. Historical categories are descriptive, not predictions or risk levels. A ten-step guided route links the published event, the sensor comparison, the sensitivity test, the exportable briefing and the failed validation tests. See reports/validation-v2.md and reports/case-study.md.
 
 ## Continuity into the present
 
@@ -46,12 +46,12 @@ The recent comparison is stress-tested with six additional corrections. None red
 
 A judge can replay an excluded historical November window, inspect changes in the category, and download an evidence passport containing source identity, model results and unresolved limits. A separate NASA feed recheck finds no changed points in the fixed analysis window. Approximate daytime detection times in the Kalimantan sample show Aqua much later than NOAA-20 in 2026, consistent with NASA's documented orbital drift. This suggests a sampling issue to investigate, not a demonstrated causal correction.
 
-The next scientific priority is a coverage- and observation-time-aware calendar using full fire-mask/quality data and an independently observed diurnal reference. This remains future work. Hotspot-only CSVs cannot establish clear-sky exposure, and the project does not claim that it already corrects for it.
+The app now retains full daily fire-mask/QA subsets and tests predefined detection-time restrictions. Paired clear-sky exposure and an independently observed diurnal reference remain future work. Hotspot-only CSVs cannot establish clear-sky exposure, and the project does not claim that it already corrects for it.
 
 
 ## Daily observation context and seasonal planning
 
-Three NASA LP DAAC MYD14A1.061 granules supply 16 daily masks for 14–21 September 2019 and 2020. We retain all ten classes for a fixed 113–114° E, 3–2° S rectangle (14,386 native grid cells). Daily counts preserve cloud, non-fire and missing classifications. The mask is a daily composite, not a clear-sky overpass denominator; it does not normalize FIRMS counts or independently validate the MODIS reference. Coordinate selection matches an independent PROJ transform, and every day's classes sum to the same grid total. Source granules, hashes, protocol and CSV are public.
+The initial 16-day pilot has expanded to 24 NASA LP DAAC MYD14A1.061 granules for August–October 2019 and 2020: 167 available daily layers and 17 explicitly unavailable dates. We retain all ten classes for a fixed 113–114° E, 3–2° S rectangle (14,386 native grid cells). Daily counts preserve cloud, non-fire and missing classifications. Full native FireMask and QA arrays are downloadable and inspectable by pixel; each HDF Dates attribute maps the layers correctly, including partial granules. The selected archive lacks 17 August–2 September 2020, consistent with NASA’s documented Aqua outage. Counts remain null on missing days. The 2020 annual timing marker is coverage-affected and cannot support an earlier-burning claim. The mask is a daily composite, not a clear-sky overpass denominator; it does not normalize FIRMS counts or independently validate the MODIS reference. Coordinate selection matches an independent PROJ transform, and every day's classes sum to the same grid total. Source granules, hashes, protocol and CSV are public.
 
 The seasonal planner identifies the three-month window with the largest sum of historical Aqua monthly medians and checks whether its start month changes when individual baseline years are omitted. The selected year is excluded from the 2003–2017 baseline when applicable. This is descriptive planning context, not a forecast probability.
 
@@ -66,3 +66,11 @@ App: https://likalight.github.io/fire-continuum/
 Source code: https://github.com/likalight/fire-continuum
 
 A 30-second video uses actual app screens with captions and synthetic narration. OpenAI Codex assisted research, implementation, analysis and writing. No official Space Apps portal submission is implied by publishing these materials.
+
+## Time-aware tests and a decision-focused case
+
+Two predefined local-time restrictions (12:00–15:00 and 13:00–14:00) were fitted on 2019–2021 and audited on 48 five-day windows in 2022–2025. Held-out WAPE was 38.98% and 101.16%, versus 37.81% for a separate unrestricted regional control. Neither restriction improved the score; both retained zero recent Aqua detections and failed the count/retention gate. Their current estimates are withheld. These models differ from the released correction: its 46.8% gap remains unchanged. Zero retained detections does not establish zero overpasses or identify the cause of disagreement. Independent Himawari time-series validation was researched but not completed; access and public-release conditions remain unresolved.
+
+The fixed September 2019 decision brief answers four questions: earlier burning, unusual activity, where to inspect, and what could change the conclusion. The retrospective 10%-of-annual-activity marker is 9 August for Aqua and 6 August for adjusted NPP, 17 and 14 days later than the historical Aqua median. It is not an ignition/onset date or a forecast. Three transparent 0.25° imagery-review candidates open directly in the explorer; their ranking is exploratory, not a severity or operational priority score. A downloadable decision brief carries these limits and sources.
+
+External usefulness validation has not been conducted (0 participants), as requested by the project owner. A task-based analyst evaluation plan is prepared without invented outcomes. The ten-step guided demo includes the quality calendar, rejected time correction and explicit decision questions. See reports/decision-quality-findings.md and reports/decision_protocol.json for reproducible methods and every limitation.
