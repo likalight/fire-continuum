@@ -1,0 +1,11 @@
+{
+  "specified_before_new_computation": true,
+  "prior_information": "Monthly validation and raw 2026 snapshot counts were already inspected. This is an additional diagnostic, not an untouched final benchmark.",
+  "window": "Use the intersection of source date spans; discard the first shared date and every UTC date whose end is less than 24 hours before snapshot retrieval. Require at least three dates within one month. Never infer coverage from detections.",
+  "reference": "Aqua, the identical month and day-of-month interval in 2003–2017; fixed before 2026 and before NOAA-20 calibration.",
+  "calibration": "Freeze original NOAA-20 sector/quarter factors fitted in 2019–2021. No fitting or selection on recent observations.",
+  "validation": "Evaluate identical day-of-month windows in all twelve months of 2022–2025 (48 windows) and separately the identical calendar dates (four windows). Compare original frozen factors with a single factor fitted in 2019–2021. Publish every study area's residual and category agreement.",
+  "processing": "Use the same country polygon, confidence filters, EPSG:6933 1 km occupied cell/UTC-day definition and 0.25 degree display assignments for historical and recent inputs. All thermal source types retained. Existing country archive assignment can still omit coastal records.",
+  "sensitivity": "Leave each recent date out in turn from both current and historical windows; report whether both sensors retain their categories. This is sensitivity, not a probability or confidence interval.",
+  "claim_boundary": "Current results stay provisional: NRT versus standard processing and cloud/overpass completeness are unvalidated. Current inter-sensor agreement is not independent ground truth. Missing annual files are errors, not zeros. Keep full-month calendar separate. No operational risk or forecast claims."
+}

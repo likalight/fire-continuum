@@ -11,7 +11,7 @@ A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots
 - Indonesia, island study areas or a custom rectangle; 2003–2025 monthly calendar and map.
 - Raw detections, common-grid cell-days and empirically harmonized activity, with one primary platform per period.
 - A season briefing using a consistent Aqua baseline, descriptive seasonal categories, original observations and an export carrying sources and limitations.
-- A five-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
+- A six-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
 - Same-month historical medians, seasonal profiles, animation and concurrent-sensor comparisons.
 - Monthly analytics CSV, filtered original hotspot CSV and calendar SVG downloads.
 - Source URLs, hashes, version audit, exact method and held-out validation.
@@ -39,6 +39,7 @@ python pipeline/05_robust_validation.py
 python pipeline/06_sensitivity.py
 python pipeline/07_case_evidence.py
 python pipeline/08_case_weeks.py
+python pipeline/09_recent_comparison.py
 python -m pytest tests -q
 cd web
 npm ci
@@ -57,3 +58,9 @@ The app is static TypeScript/Vite/MapLibre. Approximately 40 MB of derived data 
 [NASA FIRMS](https://www.earthdata.nasa.gov/data/tools/firms), [annual archive](https://firms.modaps.eosdis.nasa.gov/country/), and [field definitions](https://www.earthdata.nasa.gov/data/tools/firms/active-fire-data-attributes-modis-viirs). We acknowledge LANCE FIRMS, operated by NASA ESDIS with funding from NASA Headquarters. Basemap © OpenStreetMap contributors. Recent-feed mask: geoBoundaries/OSM, ODbL 1.0. NASA does not endorse the project.
 
 Code is MIT licensed; data retain their source terms. OpenAI Codex assisted research, implementation, analysis and writing. This is a hackathon research prototype, not an operational warning service. Submission text and presentation outlines in `submission/` are drafts; no official challenge submission has been made by this repository.
+
+## Date-matched recent comparison
+
+The saved NRT snapshot now supports an explicitly provisional **8–12 November 2026** comparison against those same dates in historical years, using the frozen NOAA-20 calibration. Kalimantan is 2.70 times the historical Aqua median; concurrent Aqua is 1.84 times. Both are above typical, and all five day-omission checks preserve that category. Count agreement is weaker than category agreement. Short-window tests, failed regional diagnostics, same-instrument history, sources and limitations are shown with the result.
+
+Read [recent validation](reports/recent-validation.md) and [the protocol](reports/recent_protocol.json). This extends the product to a dated recent window; it does not provide complete 2026 monthly coverage or validate NRT-versus-standard processing continuity. The saved snapshot is not a live feed. Its compact matched-date history adds about 48 KB compressed.

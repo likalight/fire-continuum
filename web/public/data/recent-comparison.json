@@ -1,0 +1,643 @@
+{
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-12",
+    "days": 5,
+    "month": 11,
+    "start_day": 8,
+    "end_day": 12
+  },
+  "retrieved_utc": "2026-11-14T07:10:55.946390+00:00",
+  "baseline_years": [
+    2003,
+    2017
+  ],
+  "historical_years": [
+    2003,
+    2025
+  ],
+  "noaa20_historical_years": [
+    2019,
+    2025
+  ],
+  "training_years": [
+    2019,
+    2021
+  ],
+  "test_years": [
+    2022,
+    2025
+  ],
+  "sources": [
+    {
+      "sensor": "aqua",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_Global_7d.csv",
+      "sha256": "3f27575982d69bcf956085686dfc967b990ba7e0d9ae45127a5f293c90b535b7",
+      "global_file_date_span": [
+        "2026-11-07",
+        "2026-11-14"
+      ],
+      "indonesia_retained_detections": 865,
+      "versions": [
+        "6.1NRT"
+      ]
+    },
+    {
+      "sensor": "noaa20",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_Global_7d.csv",
+      "sha256": "5b6421ed5cbdcccb1cc0624cde134974c0ab05cf23b827ecf4ac2bbf40a6b673",
+      "global_file_date_span": [
+        "2026-11-07",
+        "2026-11-14"
+      ],
+      "indonesia_retained_detections": 7033,
+      "versions": [
+        "2.0NRT"
+      ]
+    }
+  ],
+  "snapshot_sha256": "1bea9858f5ebc73f85711350eedd9eb80248f012e3fea0aab6991568aeb860b0",
+  "boundary_sha256": "3ee4f6ef52fb92485bccd485e5328fc489cee25dfacdfa76243e23d31c2a8c93",
+  "regions": {
+    "indonesia": {
+      "bbox": [
+        94,
+        -12,
+        142,
+        7
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 0.2240727903944202,
+        "mae": 40.28175225653025,
+        "relative_bias": 0.04491817299823741,
+        "single_factor_wape": 0.24045265456904671
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 0.21013037207944044,
+        "mae": 52.42752783382039,
+        "relative_bias": -0.1124870552400141,
+        "single_factor_wape": 0.19817013369229897
+      },
+      "category_agreement": {
+        "agree": 44,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 36,
+          "noaa20": 318,
+          "adjusted": 52.16117498654155,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 751,
+          "noaa20": 3465,
+          "adjusted": 590.0139037675922,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 137,
+          "noaa20": 910,
+          "adjusted": 152.78228912444985,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 74,
+          "noaa20": 523,
+          "adjusted": 90.78055099188236,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 559,
+        "noaa20": 3614,
+        "adjusted": 601.3286859715521,
+        "aqua_category": "Above typical",
+        "adjusted_category": "Above typical",
+        "median": 173.0,
+        "p90": 702.6
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 8,
+          "median": 139.0,
+          "p90": 541.6,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 9,
+          "median": 118.0,
+          "p90": 569.0,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 10,
+          "median": 154.0,
+          "p90": 563.4,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 11,
+          "median": 147.0,
+          "p90": 551.2,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 12,
+          "median": 160.0,
+          "p90": 585.4,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        }
+      ]
+    },
+    "sumatra": {
+      "bbox": [
+        95,
+        -6,
+        106,
+        6
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 0.373788535150585,
+        "mae": 12.763321023162684,
+        "relative_bias": 0.10826541219754471,
+        "single_factor_wape": 0.3442795896007833
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 0.27363387703384917,
+        "mae": 9.57718569618472,
+        "relative_bias": 0.2559300899016515,
+        "single_factor_wape": 0.16268092867460351
+      },
+      "category_agreement": {
+        "agree": 45,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 0,
+          "noaa20": 12,
+          "adjusted": 2.4196818245811627,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 107,
+          "noaa20": 611,
+          "adjusted": 123.20213290159091,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 21,
+          "noaa20": 98,
+          "adjusted": 19.760734900746165,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 12,
+          "noaa20": 151,
+          "adjusted": 30.44766295931297,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "Above typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 62,
+        "noaa20": 282,
+        "adjusted": 56.86252287765734,
+        "aqua_category": "Above typical",
+        "adjusted_category": "Above typical",
+        "median": 14.0,
+        "p90": 224.39999999999998
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 8,
+          "median": 9.0,
+          "p90": 158.39999999999998,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 9,
+          "median": 14.0,
+          "p90": 221.99999999999997,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 10,
+          "median": 14.0,
+          "p90": 143.0,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 11,
+          "median": 14.0,
+          "p90": 222.79999999999998,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 12,
+          "median": 14.0,
+          "p90": 129.6,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        }
+      ]
+    },
+    "kalimantan": {
+      "bbox": [
+        108,
+        -5,
+        120,
+        4.5
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 0.29449898972532307,
+        "mae": 20.179316191803906,
+        "relative_bias": -0.08676721421232875,
+        "single_factor_wape": 0.29299708617904013
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 0.2932041985574384,
+        "mae": 10.335447999149704,
+        "relative_bias": -0.05258957401203158,
+        "single_factor_wape": 0.35213432222298013
+      },
+      "category_agreement": {
+        "agree": 40,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 10,
+          "noaa20": 74,
+          "adjusted": 11.953180634532604,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 60,
+          "noaa20": 438,
+          "adjusted": 70.74990699899027,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 19,
+          "noaa20": 144,
+          "adjusted": 23.26024339692831,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 52,
+          "noaa20": 171,
+          "adjusted": 27.621539033852365,
+          "aqua_category": "Above typical",
+          "adjusted_category": "At or below typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 79,
+        "noaa20": 718,
+        "adjusted": 115.97815804857309,
+        "aqua_category": "Above typical",
+        "adjusted_category": "Above typical",
+        "median": 43.0,
+        "p90": 175.59999999999994
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 8,
+          "median": 34.0,
+          "p90": 152.19999999999993,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 9,
+          "median": 21.0,
+          "p90": 116.19999999999996,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 10,
+          "median": 41.0,
+          "p90": 158.99999999999994,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 11,
+          "median": 25.0,
+          "p90": 121.19999999999996,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 12,
+          "median": 35.0,
+          "p90": 172.99999999999994,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        }
+      ]
+    },
+    "java": {
+      "bbox": [
+        105,
+        -9,
+        116,
+        -5
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 1.012457111637608,
+        "mae": 9.639435417049727,
+        "relative_bias": 0.9496902232811842,
+        "single_factor_wape": 0.9532342461324325
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 2.249376848717956,
+        "mae": 6.7481305461538685,
+        "relative_bias": 2.249376848717956,
+        "single_factor_wape": 2.364795929889602
+      },
+      "category_agreement": {
+        "agree": 23,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 2,
+          "noaa20": 21,
+          "adjusted": 3.4322295127329188,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 10,
+          "noaa20": 137,
+          "adjusted": 23.49330037717174,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 0,
+          "noaa20": 60,
+          "adjusted": 10.77475655043702,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 0,
+          "noaa20": 8,
+          "adjusted": 1.292235744273795,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 13,
+        "noaa20": 128,
+        "adjusted": 22.24008858493475,
+        "aqua_category": "Unusually high",
+        "adjusted_category": "Unusually high",
+        "median": 5.0,
+        "p90": 9.6
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 8,
+          "median": 4.0,
+          "p90": 8.0,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 9,
+          "median": 3.0,
+          "p90": 7.6,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 10,
+          "median": 3.0,
+          "p90": 7.0,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 11,
+          "median": 3.0,
+          "p90": 8.6,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 12,
+          "median": 3.0,
+          "p90": 7.199999999999999,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        }
+      ]
+    },
+    "papua": {
+      "bbox": [
+        130,
+        -10,
+        142,
+        0.5
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 0.42944326588248927,
+        "mae": 9.206190012355863,
+        "relative_bias": -0.30828793864208104,
+        "single_factor_wape": 0.38795000856083817
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 0.5230032593960021,
+        "mae": 58.05336179295624,
+        "relative_bias": -0.4891882277154422,
+        "single_factor_wape": 0.48303956682028165
+      },
+      "category_agreement": {
+        "agree": 37,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 3,
+          "noaa20": 47,
+          "adjusted": 7.65777303450729,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 427,
+          "noaa20": 1246,
+          "adjusted": 203.01245108502314,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 11,
+          "noaa20": 85,
+          "adjusted": 13.849163998577023,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 3,
+          "noaa20": 14,
+          "adjusted": 2.2810387762362154,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 163,
+        "noaa20": 1038,
+        "adjusted": 169.1227321237994,
+        "aqua_category": "Unusually high",
+        "adjusted_category": "Unusually high",
+        "median": 22.0,
+        "p90": 155.79999999999995
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 8,
+          "median": 13.0,
+          "p90": 79.99999999999997,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 9,
+          "median": 17.0,
+          "p90": 129.39999999999998,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 10,
+          "median": 18.0,
+          "p90": 137.79999999999998,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 11,
+          "median": 16.0,
+          "p90": 116.59999999999997,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 12,
+          "median": 16.0,
+          "p90": 98.19999999999999,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        }
+      ]
+    }
+  },
+  "columns": [
+    "year",
+    "day",
+    "longitude_cell",
+    "latitude_cell",
+    "aqua_detections",
+    "noaa20_detections",
+    "aqua_cell_days",
+    "noaa20_cell_days",
+    "adjusted_noaa20_cell_days"
+  ],
+  "limits": [
+    "Provisional NRT-to-standard comparison; processing continuity is unvalidated.",
+    "Complete UTC dates do not establish complete observations; no cloud or overpass denominator.",
+    "All thermal source types retained; occupied cell-days are not distinct fires or burned area.",
+    "Same mask applied to archive and recent points; archive country assignments may already exclude some coastal detections.",
+    "Frozen monthly-trained calibration tested on shorter windows; no per-window confidence interval.",
+    "Current inter-sensor agreement is not ground truth; four same-calendar held-out years provide limited evidence.",
+    "Missing 2026 dates outside this snapshot remain unavailable; this is not a full month or a live feed."
+  ]
+}

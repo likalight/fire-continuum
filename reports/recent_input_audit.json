@@ -1,0 +1,290 @@
+[
+  {
+    "file": "modis_2003_Indonesia.csv",
+    "year": 2003,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 7390,
+    "retained_detections": 7386,
+    "active_cell_days": 7078,
+    "sha256": "aa64834a096c7d8c73a2d77fb02ef599158d33563423ca67c431719dc41334d0"
+  },
+  {
+    "file": "modis_2004_Indonesia.csv",
+    "year": 2004,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 12035,
+    "retained_detections": 12024,
+    "active_cell_days": 11598,
+    "sha256": "0e6a418dbed38654e13186897006409bb9508d6e9eb460acad35c913f8b8c576"
+  },
+  {
+    "file": "modis_2005_Indonesia.csv",
+    "year": 2005,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 9900,
+    "retained_detections": 9891,
+    "active_cell_days": 9455,
+    "sha256": "d4f9134c67b220136d0d4de12434b675c6c8476fba9464bfe9531d76ec69188b"
+  },
+  {
+    "file": "modis_2006_Indonesia.csv",
+    "year": 2006,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 16789,
+    "retained_detections": 16780,
+    "active_cell_days": 16143,
+    "sha256": "a94389d5be532e5c2f7048230f2c1d90a2187a4455f6c1674bafa2500db53133"
+  },
+  {
+    "file": "modis_2007_Indonesia.csv",
+    "year": 2007,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 5005,
+    "retained_detections": 4996,
+    "active_cell_days": 4827,
+    "sha256": "61e8dabddc4043e194edb972c40d01c29dcb9471eebaa3682835feeac24de801"
+  },
+  {
+    "file": "modis_2008_Indonesia.csv",
+    "year": 2008,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 3188,
+    "retained_detections": 3186,
+    "active_cell_days": 3093,
+    "sha256": "24fba3b1a40ea19b72e9d2830355af13029ea2650b031da9e808fe23003e2072"
+  },
+  {
+    "file": "modis_2009_Indonesia.csv",
+    "year": 2009,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 9940,
+    "retained_detections": 9937,
+    "active_cell_days": 9620,
+    "sha256": "c45f4871fc9d3090fec52d5293d7475d3624472a8828abfcccd0979337b9fe47"
+  },
+  {
+    "file": "modis_2010_Indonesia.csv",
+    "year": 2010,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 2098,
+    "retained_detections": 2097,
+    "active_cell_days": 2031,
+    "sha256": "12a3ac027fec3870c8a9caba4415d34ffa0a28e4960e121b2fdb7c1c55f1aa56"
+  },
+  {
+    "file": "modis_2011_Indonesia.csv",
+    "year": 2011,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 8256,
+    "retained_detections": 8249,
+    "active_cell_days": 7982,
+    "sha256": "4a0cffe94dc448061fff1a9bb8120b714fb56e33f1bb6291968fd8d3d876295a"
+  },
+  {
+    "file": "modis_2012_Indonesia.csv",
+    "year": 2012,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 7234,
+    "retained_detections": 7226,
+    "active_cell_days": 6964,
+    "sha256": "2c4e88d3b132f9ed94d75b24cfafccf347bac343f2a7c50cd6ba47b0f5bfacf5"
+  },
+  {
+    "file": "modis_2013_Indonesia.csv",
+    "year": 2013,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 2589,
+    "retained_detections": 2585,
+    "active_cell_days": 2514,
+    "sha256": "c1287263311b2829411c586a5eb1fccbb8484f1b10356f0be847fea97eba3c9b"
+  },
+  {
+    "file": "modis_2014_Indonesia.csv",
+    "year": 2014,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 11778,
+    "retained_detections": 11769,
+    "active_cell_days": 11176,
+    "sha256": "3c6c51a63ba857d81e30e8017864cf457e0736dcfe4971b7669be9ec6b40f32f"
+  },
+  {
+    "file": "modis_2015_Indonesia.csv",
+    "year": 2015,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 17223,
+    "retained_detections": 17216,
+    "active_cell_days": 16487,
+    "sha256": "986e4a768333b229fbf48759f7ca7b019b9eb4192f85251946ea6ac3220199b0"
+  },
+  {
+    "file": "modis_2016_Indonesia.csv",
+    "year": 2016,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 3263,
+    "retained_detections": 3260,
+    "active_cell_days": 3165,
+    "sha256": "47a08f058c57baa2ea725ec980e67a1089d7583eb3e2a042fc019cf35589d1a6"
+  },
+  {
+    "file": "modis_2017_Indonesia.csv",
+    "year": 2017,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 1501,
+    "retained_detections": 1501,
+    "active_cell_days": 1465,
+    "sha256": "054a1cccca3da84fc35fee962d5f4167ea2a3ce221be3be7884d4c4b5aa89061"
+  },
+  {
+    "file": "modis_2018_Indonesia.csv",
+    "year": 2018,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 4520,
+    "retained_detections": 4516,
+    "active_cell_days": 4357,
+    "sha256": "3e7b488cf08c3043fe0ebf0db447d10e57cc6c25aadf900ca8183eae73300a0e"
+  },
+  {
+    "file": "modis_2019_Indonesia.csv",
+    "year": 2019,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 10942,
+    "retained_detections": 10937,
+    "active_cell_days": 10426,
+    "sha256": "049f010fb65375c1bd5020a0aeb00f0c0a93630585c8439e4979894bafee35ec"
+  },
+  {
+    "file": "modis_2020_Indonesia.csv",
+    "year": 2020,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 1942,
+    "retained_detections": 1935,
+    "active_cell_days": 1894,
+    "sha256": "e00db019742905232b11f56bb5cfb9158d5d10479c3d895202376b1046baf19f"
+  },
+  {
+    "file": "modis_2021_Indonesia.csv",
+    "year": 2021,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 1219,
+    "retained_detections": 1218,
+    "active_cell_days": 1194,
+    "sha256": "62d0c407f9e9ebbecdddeae1529cc405e254e0aaa4a01f7a427929a186e3d0a0"
+  },
+  {
+    "file": "modis_2022_Indonesia.csv",
+    "year": 2022,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 1308,
+    "retained_detections": 1308,
+    "active_cell_days": 1282,
+    "sha256": "7ba203f76f72e96d73b03abb76a08613d59edb2c90fe17aaf580a18648f6fd33"
+  },
+  {
+    "file": "modis_2023_Indonesia.csv",
+    "year": 2023,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 4286,
+    "retained_detections": 4283,
+    "active_cell_days": 4156,
+    "sha256": "9f9d79cc84eefab271fc82e63b7c49309547a1c31639bfd8590be91d1eea7f1e"
+  },
+  {
+    "file": "modis_2024_Indonesia.csv",
+    "year": 2024,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 2017,
+    "retained_detections": 2008,
+    "active_cell_days": 1948,
+    "sha256": "ac90c680c1d0cd493b6997388ea5084037b2f1104c415a4570e4a05c6ef359d2"
+  },
+  {
+    "file": "modis_2025_Indonesia.csv",
+    "year": 2025,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 1285,
+    "retained_detections": 1284,
+    "active_cell_days": 1243,
+    "sha256": "949bf85a132fe817d0778e164c92ec0378a6045c0f72e684a70b2d16a3c3a19a"
+  },
+  {
+    "file": "viirs-jpss1_2019_Indonesia.csv",
+    "year": 2019,
+    "sensor": "noaa20",
+    "selected_dates_before_mask": 81779,
+    "retained_detections": 81621,
+    "active_cell_days": 48559,
+    "sha256": "4a895f42a8a58e8715691d02c5ec524bdeb85bfac19a54f66ad983c91c3998c5"
+  },
+  {
+    "file": "viirs-jpss1_2020_Indonesia.csv",
+    "year": 2020,
+    "sensor": "noaa20",
+    "selected_dates_before_mask": 13687,
+    "retained_detections": 13597,
+    "active_cell_days": 10801,
+    "sha256": "78f2c93862e9b2eb81b88ce0f1e3c6b9ac4dda8bb35057823e3f3224fb3141d6"
+  },
+  {
+    "file": "viirs-jpss1_2021_Indonesia.csv",
+    "year": 2021,
+    "sensor": "noaa20",
+    "selected_dates_before_mask": 10341,
+    "retained_detections": 10274,
+    "active_cell_days": 8316,
+    "sha256": "b9ce13a8a47ab46864c1dfbabf2c6e9ab2f3acc1b11f3f5ca63ade05700b87cf"
+  },
+  {
+    "file": "viirs-jpss1_2022_Indonesia.csv",
+    "year": 2022,
+    "sensor": "noaa20",
+    "selected_dates_before_mask": 11635,
+    "retained_detections": 11566,
+    "active_cell_days": 9224,
+    "sha256": "fdff1fa25cd0a271b9dfe094fbe0134ce9cc364746045663e3069e2447fa975b"
+  },
+  {
+    "file": "viirs-jpss1_2023_Indonesia.csv",
+    "year": 2023,
+    "sensor": "noaa20",
+    "selected_dates_before_mask": 31209,
+    "retained_detections": 31034,
+    "active_cell_days": 23243,
+    "sha256": "99969d975480ab57a129b02502b4b968ced195dc2c7fcaf947eb693ef7010fd7"
+  },
+  {
+    "file": "viirs-jpss1_2024_Indonesia.csv",
+    "year": 2024,
+    "sensor": "noaa20",
+    "selected_dates_before_mask": 14223,
+    "retained_detections": 14114,
+    "active_cell_days": 11122,
+    "sha256": "f978dc06ac3d14c3852ab3a0410422346678a4f221179d8f2f891695caeeaaad"
+  },
+  {
+    "file": "viirs-jpss1_2025_Indonesia.csv",
+    "year": 2025,
+    "sensor": "noaa20",
+    "selected_dates_before_mask": 10308,
+    "retained_detections": 10235,
+    "active_cell_days": 8170,
+    "sha256": "3034d45ce3b106e9a507be3936f445df0e762d9d6cf4318244bb44b30a794b8e"
+  },
+  {
+    "file": "recent.json:aqua",
+    "year": 2026,
+    "sensor": "aqua",
+    "selected_dates_before_mask": 581,
+    "retained_detections": 581,
+    "active_cell_days": 559,
+    "sha256": "1bea9858f5ebc73f85711350eedd9eb80248f012e3fea0aab6991568aeb860b0"
+  },
+  {
+    "file": "recent.json:noaa20",
+    "year": 2026,
+    "sensor": "noaa20",
+    "selected_dates_before_mask": 4775,
+    "retained_detections": 4775,
+    "active_cell_days": 3614,
+    "sha256": "1bea9858f5ebc73f85711350eedd9eb80248f012e3fea0aab6991568aeb860b0"
+  }
+]
