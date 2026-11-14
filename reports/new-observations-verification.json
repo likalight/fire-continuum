@@ -1,0 +1,37 @@
+{
+  "native_mask_checks": [
+    {
+      "sensor": "aqua",
+      "native_pixel_partition_verified": true,
+      "bbox_verified": true,
+      "source_hashes_verified": true
+    },
+    {
+      "sensor": "noaa20",
+      "native_pixel_partition_verified": true,
+      "bbox_verified": true,
+      "source_hashes_verified": true
+    }
+  ],
+  "october_countries_verified": [
+    "mexico",
+    "australia"
+  ],
+  "daily_files_verified": 62,
+  "frozen_weights_verified": true,
+  "frozen_spatial_coefficient_hash_verified": true,
+  "new_aqua_perturbation_cannot_change_predictions": true,
+  "geolocation_sparse_fire_crosscheck": {
+    "aqua": {
+      "points": 220,
+      "maximum_latitude_degree_error": 0.0,
+      "maximum_longitude_degree_error": 0.0
+    },
+    "noaa20": {
+      "points": 2155,
+      "maximum_latitude_degree_error": 0.0,
+      "maximum_longitude_degree_error": 0.0
+    }
+  },
+  "note": "Sparse fire/geolocation crosscheck separately executed directly against native products; all coordinates exact. No matched-exposure normalization."
+}

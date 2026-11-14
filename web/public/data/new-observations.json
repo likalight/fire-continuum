@@ -1,0 +1,72 @@
+{
+  "schema": "fire-continuum-new-observations-v1",
+  "period": "October 2026",
+  "countries": [
+    {
+      "id": "mexico",
+      "monthly": {
+        "year": 2026,
+        "month": 10,
+        "aqua": 412,
+        "noaa20": 2626,
+        "raw_aqua": 422,
+        "raw_noaa20": 3907,
+        "adjusted": 441.89132121003183
+      },
+      "evaluation": {
+        "original_quarter": {
+          "kind": "quarter_ratio",
+          "prediction": 441.89132121003183,
+          "period_absolute_relative_difference": 0.072551750509786,
+          "signed_relative_difference": 0.072551750509786,
+          "daily_wape": 0.5021617275077002,
+          "category": "above_median",
+          "same_category_as_aqua": true
+        },
+        "preselected": {
+          "kind": "spatial_shrink",
+          "prediction": 482.0258559172035,
+          "period_absolute_relative_difference": 0.16996566970195023,
+          "signed_relative_difference": 0.16996566970195023,
+          "daily_wape": 0.518995896471951,
+          "category": "above_median",
+          "same_category_as_aqua": true
+        }
+      },
+      "scope": "New-to-us October NRT evaluation; no fitting. One month cannot validate national calibration."
+    },
+    {
+      "id": "australia",
+      "monthly": {
+        "year": 2026,
+        "month": 10,
+        "aqua": 9672,
+        "noaa20": 52271,
+        "raw_aqua": 10010,
+        "raw_noaa20": 102083,
+        "adjusted": 13288.429936312235
+      },
+      "evaluation": {
+        "original_quarter": {
+          "kind": "quarter_ratio",
+          "prediction": 13288.429936312235,
+          "period_absolute_relative_difference": 0.37390714808852726,
+          "signed_relative_difference": 0.37390714808852726,
+          "daily_wape": 0.38018666888918334,
+          "category": "at_or_below_median",
+          "same_category_as_aqua": true
+        },
+        "preselected": {
+          "kind": "quarter_ratio",
+          "prediction": 13288.429936312235,
+          "period_absolute_relative_difference": 0.37390714808852726,
+          "signed_relative_difference": 0.37390714808852726,
+          "daily_wape": 0.38018666888918334,
+          "category": "at_or_below_median",
+          "same_category_as_aqua": true
+        }
+      },
+      "scope": "New-to-us October NRT evaluation; no fitting. One month cannot validate national calibration."
+    }
+  ]
+}

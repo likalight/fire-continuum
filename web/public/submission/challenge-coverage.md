@@ -30,3 +30,10 @@ The [geographic workbench](../atlas.html) loads 185 independently screened natio
 ## What remains partial
 
 Continuous 2026 history, paired clear-sky/overpass normalization, full sensor interchangeability and external practitioner validation remain incomplete. The world map switches between national calibration outcomes and recent observations; neither represents danger. Imported packages are not authenticated scientific products. Arbitrary-day analytics are implemented for available supplied-country dates, but arbitrary-day historical anomaly estimation is not inferred automatically. The 46.8% earlier short-window discrepancy remains unresolved.
+
+
+## Guided experience and new observations
+
+The default homepage now provides plain-language national briefings, saved places, task execution in the assistant, a compact imagery story and an opt-in usability test. [Complete implementation, October extension and full-mask audit](guided-experience.html).
+
+October 2026 is additionally available for Mexico and Australia in the guide; a complete global 2026 calendar remains unavailable. A newly acquired May Mexico full-mask pair failed the predeclared 30-minute timing match (actual125minutes), so coverage normalization remains withheld. The new October transfer test retains both countries' errors. These changes do not overwrite the original nine national full passes or the retrospective correction study.

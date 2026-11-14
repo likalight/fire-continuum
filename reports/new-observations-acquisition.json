@@ -1,0 +1,60 @@
+[
+  {
+    "kind": "MYD14",
+    "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2026121.2205.061.2026122112850/MYD14.A2026121.2205.061.2026122112850.hdf",
+    "http": 200,
+    "retrieved_utc": "2026-11-14T13:09:10.968970+00:00",
+    "bytes": 357087,
+    "content_type": "binary/octet-stream",
+    "status": "downloaded",
+    "file": "MYD14.A2026121.2205.061.2026122112850.hdf",
+    "sha256": "21a5d89c269e6763b9aa7e71752d3fbf6145bb2b682c93fe92c9ced295077927"
+  },
+  {
+    "kind": "VJ114IMG",
+    "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ114IMG.002/VJ114IMG.A2026121.2000.002.2026122031117/VJ114IMG.A2026121.2000.002.2026122031117.nc",
+    "http": 200,
+    "retrieved_utc": "2026-11-14T13:09:11.686992+00:00",
+    "bytes": 2153784,
+    "content_type": "binary/octet-stream",
+    "status": "downloaded",
+    "file": "VJ114IMG.A2026121.2000.002.2026122031117.nc",
+    "sha256": "560fe23d4caa27a9651555ab4fd9389afc8280cc0a49488969c6ec08d008c874"
+  },
+  {
+    "kind": "Mexico-modis",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2026_Mexico.csv",
+    "http": 404,
+    "retrieved_utc": "2026-11-14T13:09:05.908810+00:00",
+    "bytes": 207,
+    "content_type": "application/json",
+    "status": "not_valid_product"
+  },
+  {
+    "kind": "Mexico-viirs-jpss1",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2026_Mexico.csv",
+    "http": 404,
+    "retrieved_utc": "2026-11-14T13:09:05.917300+00:00",
+    "bytes": 213,
+    "content_type": "application/json",
+    "status": "not_valid_product"
+  },
+  {
+    "kind": "Australia-modis",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2026_Australia.csv",
+    "http": 404,
+    "retrieved_utc": "2026-11-14T13:09:06.853238+00:00",
+    "bytes": 210,
+    "content_type": "application/json",
+    "status": "not_valid_product"
+  },
+  {
+    "kind": "Australia-viirs-jpss1",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2026_Australia.csv",
+    "http": 404,
+    "retrieved_utc": "2026-11-14T13:09:06.872463+00:00",
+    "bytes": 216,
+    "content_type": "application/json",
+    "status": "not_valid_product"
+  }
+]

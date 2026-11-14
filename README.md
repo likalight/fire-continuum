@@ -131,3 +131,8 @@ Rebuild the geographic extension after downloading the existing annual sources a
 ## Retrospective correction study
 
 Five declared candidates were tested for every country. [Full results and limitations](submission/correction-study.md). A rule using 2021 alone raises full passes from 9 to 11, with gains and regressions published. Original production models remain unchanged. Run `python pipeline/25_global_corrections.py` to reproduce.
+
+
+## Guided release
+
+The default homepage now offers simple national briefings, saved places, deterministic assistant tasks and a real-event walkthrough. October 2026 is available for Mexico/Australia, with a new full-mask audit that preserves its failed time match. [Methods, scope and reproducibility](submission/guided-experience.md). Existing research hash links and the detailed atlas remain available.

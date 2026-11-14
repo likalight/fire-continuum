@@ -1,0 +1,189 @@
+{
+  "schema": "fire-continuum-matched-mask-audit-v1",
+  "protocol": "protocol.json",
+  "bounds": [
+    -105,
+    20,
+    -103,
+    22
+  ],
+  "date": "2026-05-01",
+  "status": "full_masks_obtained_but_time_match_failed",
+  "time_separation_minutes": 125,
+  "declared_maximum_time_separation_minutes": 30,
+  "eligible_for_matched_observation_normalization": false,
+  "products": [
+    {
+      "sensor": "aqua",
+      "time_start": "2026-05-01T22:05:00Z",
+      "native_swath_shape": [
+        2030,
+        1354
+      ],
+      "native_pixels_inside_bounds": 45810,
+      "class_counts": [
+        0,
+        0,
+        0,
+        941,
+        80,
+        44738,
+        0,
+        1,
+        25,
+        25
+      ],
+      "class_legend": "Classes:\n0 missing input data\n1 not processed (obsolete)\n2 not processed (obsolete)\n3 non-fire water\n4 cloud\n5 non-fire land\n6 unknown\n7 fire (low confidence)\n8 fire (nominal confidence)\n9 fire (high confidence)",
+      "cloud_pixels": 80,
+      "clear_nonfire_land_pixels": 44738,
+      "fire_pixels_all_confidences": 51,
+      "fire_pixels_nominal_high": 50,
+      "unprocessed_or_unclassified_pixels": 0,
+      "sun_glint_pixels": 0,
+      "obsolete_unprocessed_class2_pixels": 0,
+      "water_pixels": 941,
+      "qa_bit_set_counts": [
+        261,
+        44867,
+        45776,
+        0,
+        45810,
+        68,
+        0,
+        0,
+        68,
+        0,
+        0,
+        5,
+        55,
+        57,
+        54,
+        64,
+        33,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qa_unique_values": 19,
+      "qa_interpretation": "Raw complete algorithm-QA values retained per native pixel. Bit positions are not interpreted as a common cross-product coverage score.",
+      "native_pixel_archive": "aqua-mexico-may01-native-pixels.json.gz",
+      "native_pixel_archive_sha256": "349e555c01b1814cdfdff53efc5bc5e19691bf39252c65b21182c0cc83d5f40e",
+      "source_files": [
+        {
+          "filename": "MYD14.A2026121.2205.061.2026122112850.hdf",
+          "sha256": "21a5d89c269e6763b9aa7e71752d3fbf6145bb2b682c93fe92c9ced295077927",
+          "bytes": 357087,
+          "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2026121.2205.061.2026122112850/MYD14.A2026121.2205.061.2026122112850.hdf"
+        },
+        {
+          "filename": "MYD03.A2026121.2205.061.2026122151605.hdf",
+          "sha256": "7b6fb5568fa226a8e0061bd4543ea43ab969fd153dacaca2dcad6c96d550b448",
+          "bytes": 32015964,
+          "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2026121.2205.061.2026122151605.hdf"
+        }
+      ]
+    },
+    {
+      "sensor": "noaa20",
+      "time_start": "2026-05-01T20:00:00Z",
+      "native_swath_shape": [
+        6432,
+        6400
+      ],
+      "native_pixels_inside_bounds": 311588,
+      "class_counts": [
+        0,
+        0,
+        264467,
+        4099,
+        78,
+        42864,
+        0,
+        41,
+        36,
+        3
+      ],
+      "class_legend": "0 not-processed (non-zero QF)\n1 bowtie\n2 glint\n3 water\n4 clouds\n5 clear land\n6 unclassified pixel\n7 low confidence fire pixel\n8 nominal confidence fire pixel\n9 high confidence fire pixel",
+      "cloud_pixels": 78,
+      "clear_nonfire_land_pixels": 42864,
+      "fire_pixels_all_confidences": 80,
+      "fire_pixels_nominal_high": 39,
+      "unprocessed_or_unclassified_pixels": 0,
+      "sun_glint_pixels": 264467,
+      "obsolete_unprocessed_class2_pixels": 0,
+      "water_pixels": 4099,
+      "qa_bit_set_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        116,
+        0,
+        91,
+        28539,
+        289,
+        83,
+        83,
+        83,
+        82,
+        71,
+        6,
+        69,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qa_unique_values": 19,
+      "qa_interpretation": "Raw complete algorithm-QA values retained per native pixel. Bit positions are not interpreted as a common cross-product coverage score.",
+      "native_pixel_archive": "noaa20-mexico-may01-native-pixels.json.gz",
+      "native_pixel_archive_sha256": "11eab0022d202a29990fdd14f62f66b4e64b10abd06f42c4e3aab39886c61918",
+      "source_files": [
+        {
+          "filename": "VJ114IMG.A2026121.2000.002.2026122031117.nc",
+          "sha256": "560fe23d4caa27a9651555ab4fd9389afc8280cc0a49488969c6ec08d008c874",
+          "bytes": 2153784,
+          "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ114IMG.002/VJ114IMG.A2026121.2000.002.2026122031117/VJ114IMG.A2026121.2000.002.2026122031117.nc"
+        },
+        {
+          "filename": "VJ103IMG.A2026121.2000.021.2026122015921.nc",
+          "sha256": "30c990a986bf912ef5249eff14ee2844193187791405b1324570ea564db4c07f",
+          "bytes": 145365869,
+          "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VJ103IMG/VJ103IMG.A2026121.2000.021.2026122015921.nc"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "The predeclared same-date pair is 125 minutes apart and fails the 30-minute timing criterion. No alternate place/date was substituted.",
+    "Counts are native pixels from different resolutions and swath footprints, not comparable areas or counts of distinct fires.",
+    "Cloud/nonfire/unprocessed partition describes these two individual swaths only, not a whole day or the entire country.",
+    "QA is retained but no paired observation denominator or coverage normalization has been estimated.",
+    "This is not independent ground truth or validation of the October country totals."
+  ],
+  "guide": "https://www.earthdata.nasa.gov/s3fs-public/2025-06/VIIRS_C2_AF-375m_User_Guide_1.2.pdf"
+}

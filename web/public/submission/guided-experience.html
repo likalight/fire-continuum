@@ -1,0 +1,105 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fire Continuum — Guided experience</title><style>body{max-width:1080px;margin:40px auto;padding:0 24px;background:#f7f7ef;color:#203638;font:17px/1.75 system-ui}h1{font-size:44px;line-height:1.2;letter-spacing:-2px}h2{margin-top:42px}a{color:#205f63}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid #cad3c0;padding:12px;text-align:left;vertical-align:top}code{font-size:13px}nav{font-size:14px}@media(max-width:700px){table{display:block;overflow:auto}h1{font-size:33px}}</style><nav><a href="../atlas.html">Global atlas</a> · <a href="./">Submission overview</a></nav><main><h1>A simpler way to read the fire season</h1>
+<p><a href="../">Open the guided experience</a> · <a href="../atlas.html">Detailed atlas</a> · <a href="../#evidence-hub">Original research workspace</a></p>
+<p>The new default homepage asks the user to choose a place and period, then answers: what normally happens, whether the selected period differs, and how much the evidence supports the comparison. This is a simpler interface over the existing data, not a claim that its scientific limits disappeared.</p>
+<h2>What works</h2>
+<ul>
+<li><strong>185 national briefings:</strong> all historical packages are preserved. Lightweight precomputed summaries make country switching and November comparisons quick. The default snapshot is explicitly November 1–13, 2026, not live.</li>
+<li><strong>Seasonal context:</strong> a 12-month median profile and the highest consecutive three-month window, using Aqua 2003–2017. The selected historical year is excluded from its own baseline and peak calculation. Anomaly categories use median/p90, not severity or danger.</li>
+<li><strong>Historical months and evidence:</strong> 2003–2025, the known 2020 August/September outage withheld from the headline comparison, sensor-specific numerical views, source links and hash receipts.</li>
+<li><strong>Saved places:</strong> up to six country IDs in localStorage, with open/remove actions and a same-date comparison against each country's own historical baseline. No account, cross-device sync, automatic alerts or background monitoring.</li>
+<li><strong>Briefings:</strong> downloadable HTML includes selected dates, measurements, sources, limits and a link that restores the same place and period. Share links contain only country/period parameters.</li>
+<li><strong>Task-capable assistant:</strong> explicit supported commands open the current comparison or sensor views, save the selected place, compare saved places, open the event story or download a briefing. Actions are deterministic functions; existing local MiniLM semantic retrieval handles explanation topics. No generative model fabricates scientific quantities. Commands naming another country require selecting it first. Unknown tasks do not execute.</li>
+<li><strong>Real-event story:</strong> a natural-color/infrared reveal of the same Landsat scene, followed by the regional seasonal context and timing limitations. This preserves the curated Borneo event and all original failed imagery checks.</li>
+<li><strong>Usability test:</strong> a voluntary three-task form with a timer and local JSON export. No data are sent to the team. It is a testing instrument, not completed usability validation.</li>
+</ul>
+<h2>New observations: October 2026</h2>
+<p>We obtained and checked all 62 daily files (31 dates × two instruments) for October 1–31, 2026. Mexico and Australia now offer that complete October in the guided historical-month selector. The detailed atlas retains its original availability contract; the extension is not silently injected into its daily shards.</p>
+<p>Annual 2026 FIRMS country files were not advertised in the checked catalogue and the attempted Mexico/Australia annual paths returned 404. Daily NRT directories exposed September 15–November 14 only. Therefore January–August and continuous global 2026 coverage remain incomplete. We did not fill absent months with zeros.</p>
+<p>The October window was selected from availability before inspecting its counts. Original quarterly and previously 2021-selected models were frozen; no new fitting or post-result substitution occurred. Inputs and frozen coefficient hashes are checked in reproducible code. This is first evaluation on a newly inspected period, not blind validation of the entire development process or independent ground truth.</p>
+<table>
+<thead>
+<tr>
+<th>Country</th>
+<th style="text-align: right;">Aqua occupied cell-days</th>
+<th style="text-align: right;">Original quarterly prediction</th>
+<th style="text-align: right;">Original monthly difference</th>
+<th style="text-align: right;">Previously selected prediction</th>
+<th style="text-align: right;">Selected monthly difference</th>
+<th style="text-align: right;">Selected daily WAPE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mexico</td>
+<td style="text-align: right;">412</td>
+<td style="text-align: right;">441.89</td>
+<td style="text-align: right;">7.3%</td>
+<td style="text-align: right;">482.03</td>
+<td style="text-align: right;">17.0%</td>
+<td style="text-align: right;">51.9%</td>
+</tr>
+<tr>
+<td>Australia</td>
+<td style="text-align: right;">9,672</td>
+<td style="text-align: right;">13,288.43</td>
+<td style="text-align: right;">37.4%</td>
+<td style="text-align: right;">13,288.43</td>
+<td style="text-align: right;">37.4%</td>
+<td style="text-align: right;">38.0%</td>
+</tr>
+</tbody>
+</table>
+<p>Both instruments give the same descriptive seasonal category in both countries, but the count discrepancies remain. Daily WAPE sums absolute daily errors; monthly totals can cancel errors of opposing signs. One month does not establish rare-category recall or change a national pass/fail status. NRT-to-standard-processing transfer remains a limitation. Mexico's main briefing retains Aqua-only policy; Australia retains its documented original quarterly model, with current accuracy explicitly unvalidated.</p>
+<p><a href="../data/october-transfer.json">Full October daily evidence and source receipts</a> · <a href="../?place=mexico&amp;period=history&amp;year=2026&amp;month=10">Mexico October briefing</a> · <a href="../?place=australia&amp;period=history&amp;year=2026&amp;month=10">Australia October briefing</a></p>
+<h2>Full masks and quality: what absent hotspots can hide</h2>
+<p>For a predeclared western Mexico box (105–103°W, 20–22°N) on May 1, 2026, we acquired MYD14 + MYD03 and VJ114IMG + VJ103IMG. The full masks, geolocation and raw algorithm QA were retained, including pixels that are not hotspots.</p>
+<table>
+<thead>
+<tr>
+<th>Native-pixel category</th>
+<th style="text-align: right;">Aqua, 22:05 UTC</th>
+<th style="text-align: right;">NOAA-20, 20:00 UTC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cloud</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">78</td>
+</tr>
+<tr>
+<td>Clear nonfire land</td>
+<td style="text-align: right;">44,738</td>
+<td style="text-align: right;">42,864</td>
+</tr>
+<tr>
+<td>Sun glint</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">264,467</td>
+</tr>
+<tr>
+<td>Fire, all confidence</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">80</td>
+</tr>
+<tr>
+<td>Water</td>
+<td style="text-align: right;">941</td>
+<td style="text-align: right;">4,099</td>
+</tr>
+<tr>
+<td>Total pixel centres in fixed box</td>
+<td style="text-align: right;">45,810</td>
+<td style="text-align: right;">311,588</td>
+</tr>
+</tbody>
+</table>
+<p>Product class legends differ: NOAA-20 class 2 is sun glint, while the MODIS legend calls class 2 obsolete/unprocessed. The pipeline does not relabel glint as cloud or clear nonfire. Raw QA values are preserved without inventing a common quality score. Resolution and footprint differ, so native pixel counts are not comparable area fractions or distinct fires.</p>
+<p>The passes are <strong>125 minutes apart</strong>, failing the declared <strong>30-minute</strong> matching rule. No alternative location/date was substituted. We therefore <strong>did not estimate a matched observation denominator or normalize the fire record by coverage</strong>. The audit is useful evidence about observation conditions, not validation of October totals. Geolocation was cross-checked against sparse fire coordinates from each product (220 Aqua and 2,155 VIIRS points; exact coordinate agreement in this check).</p>
+<p><a href="../data/matched-mask-audit.json">Mask audit, class legends and hashes</a> · <a href="../data/aqua-mexico-may01-native-pixels.json.gz">Aqua native pixels + QA</a> · <a href="../data/noaa20-mexico-may01-native-pixels.json.gz">NOAA-20 native pixels + QA</a></p>
+<h2>Reproduce and inspect</h2>
+<p><code>python pipeline/26_guided_briefs.py</code> builds all 185 compact summaries from the unchanged pinned packages and daily shards. <code>pipeline/new_observations/README.md</code> documents acquisition and analysis for the October and full-mask audits. Raw input products require authorized Earthdata access and are not committed; public derived data, source URLs, hashes and protocols permit inspection. The rolling NRT retention window may make later re-download unavailable. Pinned input hashes fail closed if upstream contents change.</p>
+<p>Tests cover all 185 briefings against original package values, exact-date baselines, missing sensors, outage behavior, source hashes, October daily reconciliation, command negation, saved-place input validation and unavailable 2026 months. Browser checks exercise tasks, exports, saved comparisons, historical deep links and narrow layouts.</p>
+<h2>Privacy and remaining limits</h2>
+<p>Saved country IDs remain on this browser. Questions are processed locally. The AI model and static site assets are downloaded from the published site; standard hosting requests still occur. Feedback is downloaded only on the participant's action, with no automatic submission. Removing a saved place removes it from the browser list; clearing site storage removes all saved places.</p>
+<p>Practitioner validation has not been performed. The testing form is ready for voluntary use; no participant results, time savings or adoption claims are invented. Whole-year 2026, globally matched observation coverage and full sensor interchangeability remain unresolved. The app provides historical research context, not operational warnings or forecasts.</p></main></html>

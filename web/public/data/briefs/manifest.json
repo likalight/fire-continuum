@@ -1,0 +1,930 @@
+{
+  "countries": [
+    {
+      "id": "afghanistan",
+      "sha256": "d67aed6f72a194266831510e8afe560b172e174c7b68279d06b92636cc8cfc0a",
+      "bytes": 8054
+    },
+    {
+      "id": "albania",
+      "sha256": "d9c73a234ed8ea317de3298ccbe2b2cc2c730082704e46a0a6846d6905d892c2",
+      "bytes": 8197
+    },
+    {
+      "id": "algeria",
+      "sha256": "01a24a412aaa8a7ae9a41c17dc064a2772490721ef2d681050aeb633b672981b",
+      "bytes": 9554
+    },
+    {
+      "id": "angola",
+      "sha256": "a9074765cf595006a77791399b65dcb9b2e046dd22115d099160760e9fe85163",
+      "bytes": 10293
+    },
+    {
+      "id": "argentina",
+      "sha256": "7fcfebcc488de5d8821a741544b4778f0921c37d07512a217ff72a61a2493c64",
+      "bytes": 10275
+    },
+    {
+      "id": "armenia",
+      "sha256": "f513104890a49a2994f1ece53580208beac5a68cb9962d5f3622163e391877da",
+      "bytes": 8144
+    },
+    {
+      "id": "australia",
+      "sha256": "1ca726bae47daee015e91d7694fb8fd69c48d7fc1af0a07633e57753f647ae9b",
+      "bytes": 10695
+    },
+    {
+      "id": "austria",
+      "sha256": "7f3dcae88c152d7ae937d6f4ceb30d70dad2c735950336b652501ba7e8964f87",
+      "bytes": 8353
+    },
+    {
+      "id": "azerbaijan",
+      "sha256": "2142fbb7b31150c699d0da47c8f9c2bf84aedf9c9b17698987d1bb32bb539f5d",
+      "bytes": 8929
+    },
+    {
+      "id": "bahamas",
+      "sha256": "939e37f084edf28c4b78a70219b4d32d9fc48ac690e56ff160f0e3972ee1603e",
+      "bytes": 7866
+    },
+    {
+      "id": "bangladesh",
+      "sha256": "2438edc78ed4f5b828c60888a2d951a13529898681bef93a16adb20c4fba87ba",
+      "bytes": 8598
+    },
+    {
+      "id": "barbados",
+      "sha256": "3c8fd0c741d1f25683db61e1b58a6a01e152b569e88e56e91880772a703b98e7",
+      "bytes": 6288
+    },
+    {
+      "id": "belarus",
+      "sha256": "5585c108f1291fb982e6b3fc50cecb4e2f9e0294f1ea71f5346fc9eab638dcb4",
+      "bytes": 8640
+    },
+    {
+      "id": "belgium",
+      "sha256": "66ce7b83605d3c5773635f432bc1869ca1945802b35153ce0c8fae6d663bdf2e",
+      "bytes": 8453
+    },
+    {
+      "id": "belize",
+      "sha256": "bde0cfc4a4219520ebfd41c4d4b5839d3cb376f3edbd67b03393fc32de8c9f5e",
+      "bytes": 8682
+    },
+    {
+      "id": "benin",
+      "sha256": "bfb566b9026285ebee1c5ef958397c45eaf7283d818bc73e68f7df80a1e94f14",
+      "bytes": 9045
+    },
+    {
+      "id": "bhutan",
+      "sha256": "4298784b0cb59d9facb0a84ac3eb9f2d71b3189e99c85a77052e060527698658",
+      "bytes": 7376
+    },
+    {
+      "id": "bolivia",
+      "sha256": "76d93ce0b4706da46ca3f3deeb84db7724f60a55d73b5f7270742948847f717f",
+      "bytes": 10137
+    },
+    {
+      "id": "bosnia-and-herzegovina",
+      "sha256": "a5d2101552f9d6a74d2b8313118043c534092111d472772155aa0578955a1491",
+      "bytes": 8431
+    },
+    {
+      "id": "botswana",
+      "sha256": "76bf6a19669405edee950a4c11b9849c41ad1e468383c7954023365f3f3a0ef7",
+      "bytes": 9504
+    },
+    {
+      "id": "brazil",
+      "sha256": "ec30014700f4c996ba6d9d969de111afd8a606aaa6f1e734bc4cb84b9e4cd796",
+      "bytes": 10705
+    },
+    {
+      "id": "brunei-darussalam",
+      "sha256": "ade1fb9df12fa6d2185d40c2c6148e9c7d288929926a8e49ee3aa8bd978d33b0",
+      "bytes": 6831
+    },
+    {
+      "id": "bulgaria",
+      "sha256": "96083163b0a1ad2b8e0239563792ec10542f08eaefea625d3172a18485599fcd",
+      "bytes": 8936
+    },
+    {
+      "id": "burkina-faso",
+      "sha256": "41423777515a226dfce3f760372914adf2d0764dbfc36c1d7041db4a9e1bc589",
+      "bytes": 9125
+    },
+    {
+      "id": "burundi",
+      "sha256": "dd7d622db6101fb9d3a6ce29227bbd95b8b41c08fc04bbfd8226c3e28e7380da",
+      "bytes": 7416
+    },
+    {
+      "id": "cambodia",
+      "sha256": "38335aaa9a93d96eb5f6443e338e985ee421c3872796763ca70a9e71ea0e26e1",
+      "bytes": 9546
+    },
+    {
+      "id": "cameroon",
+      "sha256": "1d88c47e15e0ccaaec371dbca9dc6f20f0e5e14aefef3f3b05e0782b9a7017eb",
+      "bytes": 9733
+    },
+    {
+      "id": "canada",
+      "sha256": "6487df246c9739f177337b18ff54e1897119361df8e274e7346dd628201f7991",
+      "bytes": 10002
+    },
+    {
+      "id": "cape-verde",
+      "sha256": "8b06ffadfcb9ecc8d1ad8304632bbabd0956166f2f936a534f4a8589b098daa3",
+      "bytes": 5948
+    },
+    {
+      "id": "central-african-republic",
+      "sha256": "c29f581b3ac399e7b35942322c77e809493cd9f607a4df2be37671d1684311e6",
+      "bytes": 9957
+    },
+    {
+      "id": "chad",
+      "sha256": "95e6392b0d17453e2b8f725e2bc9ec8b81bfe53651c0deb89bab204ffae5ea4c",
+      "bytes": 9840
+    },
+    {
+      "id": "chile",
+      "sha256": "e93b682eb4aeaae16002b89c835278a3fbbda230e0d0f522431f103632b00516",
+      "bytes": 9618
+    },
+    {
+      "id": "china",
+      "sha256": "2cce5ae8f8d663106ac50d9bff3ee1b21f1b6136b572b720a892e1f404e14303",
+      "bytes": 10387
+    },
+    {
+      "id": "colombia",
+      "sha256": "494d9a2d84e77c2ec6699d565fc7000736853d845842e8c99aeec3b3780b13f4",
+      "bytes": 9953
+    },
+    {
+      "id": "comoros",
+      "sha256": "e265038b132e0ce33a0c8f3403bd9547d3156689d7d6673aa5042290956792f8",
+      "bytes": 6699
+    },
+    {
+      "id": "costa-rica",
+      "sha256": "c2a14fe2fee562b3e544fe2e0939ad864175eb0c43dbb6ee414b38417c69e36d",
+      "bytes": 8345
+    },
+    {
+      "id": "cote-d-ivoire",
+      "sha256": "59b1bf09e562b375a5428f06b790ce5e07ec0636084c7e0fdc1bc8fefc9a0773",
+      "bytes": 9638
+    },
+    {
+      "id": "croatia",
+      "sha256": "33055c857025673be2848c4444b22e857c3c88e216ef3f40c602b992265eac56",
+      "bytes": 8165
+    },
+    {
+      "id": "cuba",
+      "sha256": "16e8fba101b2db21fad02526909874348bc7b597c129106390916bceed3a97fe",
+      "bytes": 9309
+    },
+    {
+      "id": "cyprus",
+      "sha256": "740c8d33d16b2a40fc7f44083ec91c8c9cc21bf10b3020e4bab993af7f1c72d8",
+      "bytes": 7121
+    },
+    {
+      "id": "czech-republic",
+      "sha256": "b8c87060f54ce52dde6d6ba110e02fe8415f7242b54270e6f7220df7785768e0",
+      "bytes": 7835
+    },
+    {
+      "id": "dem-rep-korea",
+      "sha256": "f89a9fb4d932080b63ee850ad9809cb1988f6889f51c781f4714fda72eaed47b",
+      "bytes": 8423
+    },
+    {
+      "id": "democratic-republic-of-the-congo",
+      "sha256": "a93a271d5ff592a5e15b8e9ad8f3972bda8607496d5347cd8c25995bf1649f77",
+      "bytes": 10899
+    },
+    {
+      "id": "denmark",
+      "sha256": "481b95e4f95aa2a2afccbc2bb851f8c65dd5e7ffc857a0bb9e08c9a63a4ed0b8",
+      "bytes": 7168
+    },
+    {
+      "id": "djibouti",
+      "sha256": "d6efa846d35514a7e2ea960d7cf671cad45884d8ec3f57709f1de408cc18f38e",
+      "bytes": 6405
+    },
+    {
+      "id": "dominican-republic",
+      "sha256": "ccd711440df36c4768e499700fd646febb5dc0a69c81152fd7e4d9425e214969",
+      "bytes": 9155
+    },
+    {
+      "id": "ecuador",
+      "sha256": "40a965849bc1075bf39caf91f429828e28b869b4cb466e5a5250262be5d2da50",
+      "bytes": 9353
+    },
+    {
+      "id": "egypt",
+      "sha256": "47b7e83eec946d52670d48ac5cb3f267da00ff2e2dcac30dd9bb424bd5ae477a",
+      "bytes": 8831
+    },
+    {
+      "id": "el-salvador",
+      "sha256": "697eefbe0b3a629b39b00670b00e7c8ce6b6a1b157869be3f35cdd4668ab42fb",
+      "bytes": 8470
+    },
+    {
+      "id": "equatorial-guinea",
+      "sha256": "58924a4b173a1d8cb55c84133f2fa4f163e542ea4db8f9fe2c07de119b72211b",
+      "bytes": 7340
+    },
+    {
+      "id": "eritrea",
+      "sha256": "69a6ca86fa1c89fb9aff7abf883f9dba01fb9b9382378309e273d45c9fb719af",
+      "bytes": 8002
+    },
+    {
+      "id": "estonia",
+      "sha256": "25488d742278fc637bb68976f56438585f9fbe71170c6b39951267a61dbf69e6",
+      "bytes": 6479
+    },
+    {
+      "id": "ethiopia",
+      "sha256": "027f019406136e17df6789b82b74c3275fe072085f98694ee0950e3eb9733705",
+      "bytes": 9965
+    },
+    {
+      "id": "fiji",
+      "sha256": "9da60c834f7f1ea453848c3fd35137dcbe1a5e2ad950a977c1aa0051cee522c9",
+      "bytes": 7794
+    },
+    {
+      "id": "finland",
+      "sha256": "e59e8e10dd33e848dadafad3e195fe58a804f0e100c2a050f5d1e0dc25b75478",
+      "bytes": 7181
+    },
+    {
+      "id": "france",
+      "sha256": "b6fb148a522649eb1b76a56e9b0717946f45d3d572af761ed60bd2b971a6f8c3",
+      "bytes": 9184
+    },
+    {
+      "id": "french-guiana",
+      "sha256": "6f637836211ecb4bad2fcfa4be8e6909d513392b567800ecf6d1a37c5008c293",
+      "bytes": 7671
+    },
+    {
+      "id": "french-polynesia",
+      "sha256": "d5a1e8d4bed46d75fec7414cda2302aadb39a07b6a0c42732dab1efdb500a4fd",
+      "bytes": 6090
+    },
+    {
+      "id": "gabon",
+      "sha256": "696dbcc9ed423a334c8cb049e7002a89e3f077364c186f7bd0fbaea30946e6db",
+      "bytes": 9179
+    },
+    {
+      "id": "georgia",
+      "sha256": "04499f3d2ed11a7d2bdb65ff5b26f36a1f56902ee369b027cf86a93283a544fe",
+      "bytes": 8423
+    },
+    {
+      "id": "germany",
+      "sha256": "73cd8429f789ad6f88ed7437efd1fbcf00f1990e2b0959eaf50157e4bb684dd2",
+      "bytes": 9130
+    },
+    {
+      "id": "ghana",
+      "sha256": "7395cd31744793a4ddde99797d9e3c5579c3999b699459066c66b9bc2cc99107",
+      "bytes": 9667
+    },
+    {
+      "id": "greece",
+      "sha256": "f02b995fb64ba0b7a749da321b4edd5a0fe71555e3299052169a26d3376aac57",
+      "bytes": 8710
+    },
+    {
+      "id": "greenland",
+      "sha256": "ae87c5c5e0387a46524881b2e10c1fc5cf458accdbc3f614d248b4f3c77e0a10",
+      "bytes": 5651
+    },
+    {
+      "id": "guam",
+      "sha256": "19efaaae4b2367f1bccd4b58a004d324b429bdedb04cae247f1a7a54769262e4",
+      "bytes": 6096
+    },
+    {
+      "id": "guatemala",
+      "sha256": "fc25e077534af7b79613abc4cb1d4ee45d39981e947a89c453c015c599ceb5c6",
+      "bytes": 9477
+    },
+    {
+      "id": "guinea",
+      "sha256": "3c6447fa6a8c7e29cfd5bc88830dcbef05285f0877a243e9bcb003a7fc729784",
+      "bytes": 9527
+    },
+    {
+      "id": "guinea-bissau",
+      "sha256": "b3df4a8c70811567108c2618b8f801906311d57f7c38a21c4f01f93cdd24d325",
+      "bytes": 8801
+    },
+    {
+      "id": "guyana",
+      "sha256": "64f2f02c41a7689eecba5103624bec9f114c322369b8889c6482872e8643dc3a",
+      "bytes": 9017
+    },
+    {
+      "id": "haiti",
+      "sha256": "f390455ed2704fb3b8577787eef2bcb428dbb791117d898a18eaa9b6d0c8057c",
+      "bytes": 8136
+    },
+    {
+      "id": "honduras",
+      "sha256": "8c4769496fdf46744eb5c7c65a819fa994e5944242f687a242146206921f6dea",
+      "bytes": 9281
+    },
+    {
+      "id": "hong-kong",
+      "sha256": "d0e35b532fa1c43d7434290f7d038215f2273d7766fb2d4e7fa6f3c2a0d7c1af",
+      "bytes": 6318
+    },
+    {
+      "id": "hungary",
+      "sha256": "b061f7a39484d06bdc67869a3c115c1cc336a0f3877b23a78a37513dc76e7b62",
+      "bytes": 8306
+    },
+    {
+      "id": "india",
+      "sha256": "3f022819a474eb83a32e21a311efe61748811e53b0cd32fd49aef93473d397d7",
+      "bytes": 10213
+    },
+    {
+      "id": "indonesia",
+      "sha256": "6d236223a7ef6988bb2ff9cd4e0bfc5230942afcb269657e21c33084eea6c14f",
+      "bytes": 10100
+    },
+    {
+      "id": "iran",
+      "sha256": "53b3a791e32b975266180cbf69dbd793996766d07c9301afaddd20b2a5c8e506",
+      "bytes": 9839
+    },
+    {
+      "id": "iraq",
+      "sha256": "eff44c29ceee15d8384731385ddad8501479d8d88baebda18026e67a31510c43",
+      "bytes": 9874
+    },
+    {
+      "id": "ireland",
+      "sha256": "fd4ad2dc9ab682fe5bde6d3c17a762a4d03bfdee34e4ed4f4e29b7d0da91ab99",
+      "bytes": 6917
+    },
+    {
+      "id": "israel",
+      "sha256": "d764ba5aff9928e66ea9437cb5ee1f8c4f93f94ba25dee678b35177981f41d43",
+      "bytes": 7941
+    },
+    {
+      "id": "italy",
+      "sha256": "4de83f15f5515ee1ece89c4defef581fcd97a1d240bf51ba57ae7123eb40d2bf",
+      "bytes": 9372
+    },
+    {
+      "id": "jamaica",
+      "sha256": "0fa3a3dd267ceacaf904fd78089d96b9003f0d092e8f1d8b921e5386d0056c5a",
+      "bytes": 8015
+    },
+    {
+      "id": "japan",
+      "sha256": "e01b66f235efb21ca959d1411670eb6e8e88b6932f4996f00dafa4011ca3a978",
+      "bytes": 8954
+    },
+    {
+      "id": "jordan",
+      "sha256": "1425ffa4a0bf91efe176e393832b2fca91fe41dda3736a42537a9bf68857592d",
+      "bytes": 6892
+    },
+    {
+      "id": "kazakhstan",
+      "sha256": "c7eb354c0a2d5d3cffd54e0cfc9882420b379798c1a818fd73faa7690a047e51",
+      "bytes": 9884
+    },
+    {
+      "id": "kenya",
+      "sha256": "bced29e0be16e507a0e4a9171de717368b88750758c8cc9367ebc05e02dad1bb",
+      "bytes": 9282
+    },
+    {
+      "id": "kosovo",
+      "sha256": "43b2319f25a0ede3f06f07f6ddf10a16154fbc15022632f1b950afd119e7f832",
+      "bytes": 7736
+    },
+    {
+      "id": "kuwait",
+      "sha256": "e6da35c49085640f9aa8aaabc1e8ed506d139eebf3793919251d53e96d57d412",
+      "bytes": 8663
+    },
+    {
+      "id": "kyrgyzstan",
+      "sha256": "1fd5e415e03c5267d3b4002816a87e3ad19b784437e68ca53deb12a0fc338cf7",
+      "bytes": 8324
+    },
+    {
+      "id": "lao-pdr",
+      "sha256": "55fe880fb245fe4351f6e7d976354c850afca2ab2fa6ca4adf564eba2af23e7d",
+      "bytes": 9473
+    },
+    {
+      "id": "latvia",
+      "sha256": "b3f0a6d8d53408a5ae26fa0fe02b345c6eb88f513f442d0ae2344e611149deff",
+      "bytes": 6747
+    },
+    {
+      "id": "lebanon",
+      "sha256": "a92ba116b2ef8cef1291ed1a5eff45ea13520cb9479a3fc09f0abb4afcf0f8be",
+      "bytes": 7221
+    },
+    {
+      "id": "lesotho",
+      "sha256": "73ca7483a49d2f7f8fb3338da3bf04347f2b06c94d01c8aa914103aea29027ac",
+      "bytes": 7817
+    },
+    {
+      "id": "liberia",
+      "sha256": "56397f540c4870e63aba8c39419cd82af535c5b39cca62f224b7dc0bd9996636",
+      "bytes": 8705
+    },
+    {
+      "id": "libya",
+      "sha256": "6ee1e5fba4c0c23d68a9b30c3c53097c685162dcd6555afd49ade5c660d5d44b",
+      "bytes": 9295
+    },
+    {
+      "id": "lithuania",
+      "sha256": "7b422d4ad149b3a8d388e72b238741200eec20ef189db3074b223840eed93bbd",
+      "bytes": 6766
+    },
+    {
+      "id": "luxembourg",
+      "sha256": "6ab95399af8c42593b1db2024ba927cdb1c4706866029d27155368ff14ed18df",
+      "bytes": 6832
+    },
+    {
+      "id": "macedonia-former-yugoslav-republic-of",
+      "sha256": "0cd10b0ce6555115510b9dda061e35ab9dd77b0654a1248af68bb4e7b52c365c",
+      "bytes": 8653
+    },
+    {
+      "id": "madagascar",
+      "sha256": "07d3f6380e0d75886f91968534639077a7aa87fe5e276f157eda17c1075ca16a",
+      "bytes": 10266
+    },
+    {
+      "id": "malawi",
+      "sha256": "c04e395f55afb284a31c71b789bc496eacea59bb8c0d5f5ffca8d7e72dc9067a",
+      "bytes": 8994
+    },
+    {
+      "id": "malaysia",
+      "sha256": "8e907955a0150f08093579606141b90cb4494aaec447fb595da06f9fe1a57b18",
+      "bytes": 9318
+    },
+    {
+      "id": "mali",
+      "sha256": "7739ed86a748e59a280b4feecbf3e901e577e9f49ea86323500bda31f8b43dfe",
+      "bytes": 9864
+    },
+    {
+      "id": "mauritania",
+      "sha256": "501a7d32812bd0f2709b422701947d0f275c2d84201bb4331366659ac4226e87",
+      "bytes": 8408
+    },
+    {
+      "id": "mauritius",
+      "sha256": "0fe5afe8866e9dd892925c80d86b2d9d3ad9b33dba6a9f8d55078c7aa3e93c49",
+      "bytes": 6504
+    },
+    {
+      "id": "mexico",
+      "sha256": "be55392193f708921ba8af5351252022f0286af48e975388ce91b6b51dfee62a",
+      "bytes": 10138
+    },
+    {
+      "id": "moldova",
+      "sha256": "647bed0bd0ff5bf1bbbc3e3669e9ce07920b22efb6a2a42bb77e7f3f54de9f23",
+      "bytes": 8179
+    },
+    {
+      "id": "mongolia",
+      "sha256": "e8d80386565c160dabb1841f881ab92141bbe048077e83459d187ee94c34203d",
+      "bytes": 8369
+    },
+    {
+      "id": "montenegro",
+      "sha256": "56af8dcf5835a087e394712f782222464499cea574401fa6d9ad4e40f6cbab1b",
+      "bytes": 7803
+    },
+    {
+      "id": "morocco",
+      "sha256": "59b74e006f67627df1c4342d3a1fc66e1f64fa2ebb5390524d545268e7d4ddaf",
+      "bytes": 8322
+    },
+    {
+      "id": "mozambique",
+      "sha256": "765075e8c25821fb6ba503aa3264ab4c3da2688c43accd72be1a3ae3273d8bb5",
+      "bytes": 10253
+    },
+    {
+      "id": "myanmar",
+      "sha256": "8025d544177e69fda24312b8544345cf5b43dfadd209e73ab92c1433f5581b31",
+      "bytes": 9551
+    },
+    {
+      "id": "namibia",
+      "sha256": "26d98b1caa799aea1648b04dcfe1df9d05f3fae33f9719a9390671a378e1f208",
+      "bytes": 9504
+    },
+    {
+      "id": "nepal",
+      "sha256": "685a9e8ff5a39abb8bb7c196fdd8e55842ef34c03c4b9085a4acc172f09982a1",
+      "bytes": 8620
+    },
+    {
+      "id": "netherlands",
+      "sha256": "474af457949277a65e076e6798114f320c2b563b523d4940803b144e51aaf028",
+      "bytes": 7877
+    },
+    {
+      "id": "new-caledonia",
+      "sha256": "2180e3b21d8b6523187393bd5905ad10665e182599231418c57bf3b9280a1863",
+      "bytes": 8122
+    },
+    {
+      "id": "new-zealand",
+      "sha256": "ee1e8c440b3bd22a4bc90d3acd8ff71b6fc5c1693825e5504ea9cd76a0aa8dab",
+      "bytes": 8750
+    },
+    {
+      "id": "nicaragua",
+      "sha256": "e0a1fa3146ae55e744cb3c115aa5a3111e4860d4d559f0ecad6b784ad443af03",
+      "bytes": 9214
+    },
+    {
+      "id": "niger",
+      "sha256": "0b61a64f9357353e4e5e9809fd19de2072d17b4eadefef6ca59ffa37e834246c",
+      "bytes": 8487
+    },
+    {
+      "id": "nigeria",
+      "sha256": "cb662519b106d006508c4eecd79c9ff003ab02cb7c08e4a38fe66a389e5b3fb2",
+      "bytes": 9977
+    },
+    {
+      "id": "northern-mariana-islands",
+      "sha256": "8b069c3e315dc430197e0d6f45a16b21e0533a39593a92482403cd7c072d45f7",
+      "bytes": 6104
+    },
+    {
+      "id": "norway",
+      "sha256": "c096db276bee917b3516e75fd4b9c5703389bef85213a4399038f398ba51211d",
+      "bytes": 7029
+    },
+    {
+      "id": "oman",
+      "sha256": "eb59c487949eb1aa394ded1ad85d66737c400d25ab56aba9202f43fc8a566d66",
+      "bytes": 8680
+    },
+    {
+      "id": "pakistan",
+      "sha256": "aabeb2cc208bc7467b87434827c9946de1e49bdf2cdf479ec6a1cc253bebde39",
+      "bytes": 9698
+    },
+    {
+      "id": "palestine",
+      "sha256": "ce7a2bb209032b0cd4123ea81061bb6cf859a5fd685bb017338565f6f41ddd94",
+      "bytes": 7250
+    },
+    {
+      "id": "panama",
+      "sha256": "eb48a3d512e6b0ad562fa3c47947c3a2e1157a92ea5a73e1b08425af8e574831",
+      "bytes": 7860
+    },
+    {
+      "id": "papua-new-guinea",
+      "sha256": "d62562e044cac93470c914b8b75407fa20e266da9c468068b95db73fb8f8a413",
+      "bytes": 9631
+    },
+    {
+      "id": "paraguay",
+      "sha256": "70be54b0192e1678a3b15c2853a1267b98916467473fd74e4a83db2bb48878c4",
+      "bytes": 10139
+    },
+    {
+      "id": "peru",
+      "sha256": "b44aa49197a19fa030c494b635b860c20c4054be373eedad6d2d8933c76415c4",
+      "bytes": 9745
+    },
+    {
+      "id": "philippines",
+      "sha256": "1caf3eefa63d555800ad0570c4c472b94e680141325dd8e8604b2879d0c7d96a",
+      "bytes": 9294
+    },
+    {
+      "id": "poland",
+      "sha256": "ac33cfcf5e028bd887e605ca16122b7becfc13acfb1da4a33d3bc363b0419e5e",
+      "bytes": 8622
+    },
+    {
+      "id": "portugal",
+      "sha256": "4a7ea7a3a1d82149d5e94ebb0f6362f6eb1062ccc72ccc952b792959ee396c8f",
+      "bytes": 8817
+    },
+    {
+      "id": "puerto-rico",
+      "sha256": "87ae6d12a0ba0cab42d96af9c33c5282439fe8289a701a0c4cf522919ccb0100",
+      "bytes": 7088
+    },
+    {
+      "id": "qatar",
+      "sha256": "3bfc0bb911412c39af232282aec8880408b4defdb66e06538827e385fae3b05a",
+      "bytes": 8398
+    },
+    {
+      "id": "republic-of-congo",
+      "sha256": "3f740e29afb2bf988a0cc6c27e8099313c67b009a83433a9bd87e8682a37e8c5",
+      "bytes": 10019
+    },
+    {
+      "id": "republic-of-korea",
+      "sha256": "28fa819e0b91831032025254b9109b007aa8bf0db914db1aaa80ed646a2fe4eb",
+      "bytes": 8707
+    },
+    {
+      "id": "reunion",
+      "sha256": "a5fe6fa01334a23c371efea7e34ee59e895dc311a49be9b54537bb5380dd26ee",
+      "bytes": 7003
+    },
+    {
+      "id": "romania",
+      "sha256": "50588d14ae05348748b3607b9a0d591dec3a0f0090389ca4785dcdc2425272e3",
+      "bytes": 9212
+    },
+    {
+      "id": "russian-federation",
+      "sha256": "bcec5b5074365a81de12cc6ff9a8b22249b05403240bbdecb480fae27eb9ce28",
+      "bytes": 10546
+    },
+    {
+      "id": "rwanda",
+      "sha256": "28a2b04fe8861549ce88024f5909e44228699ae82bb8bb1023cff9867f60469f",
+      "bytes": 7257
+    },
+    {
+      "id": "saint-kitts-and-nevis",
+      "sha256": "1b69f401ed142585c860b175a9acb7ecb4e17457a697ca2e1415fa5098e02691",
+      "bytes": 5950
+    },
+    {
+      "id": "samoa",
+      "sha256": "05374df608c9cc7363b8e8440e27ca082aff70ad2fb013ce788ffdb38b6a5600",
+      "bytes": 6029
+    },
+    {
+      "id": "sao-tome-and-principe",
+      "sha256": "e57d08d4ced585125089757c24cab8d7ac9b49b8e9a0cb607f29e61a8bb65a4b",
+      "bytes": 6068
+    },
+    {
+      "id": "saudi-arabia",
+      "sha256": "bfadee7f9f507f7f8e1e6d8907e290537d988b03066ecb01a0c433b66b25ba78",
+      "bytes": 9121
+    },
+    {
+      "id": "senegal",
+      "sha256": "158c48817cae4ff914d27d3e03e07a18b0ec1de0623a49a328c472c9477dcccc",
+      "bytes": 9681
+    },
+    {
+      "id": "serbia",
+      "sha256": "8b3ce0d74748383a383f87da9718f0867416c2147fb58f7e226ca646923866d4",
+      "bytes": 8895
+    },
+    {
+      "id": "sierra-leone",
+      "sha256": "268182615e7b7d7054fa3c2265a3671f3d9ef8261e2570f97461aed89288124a",
+      "bytes": 8839
+    },
+    {
+      "id": "singapore",
+      "sha256": "8449977486f6e4cfb0f53faa77cc31d56b38e86c96d888aed8d487884ef82a01",
+      "bytes": 5543
+    },
+    {
+      "id": "slovakia",
+      "sha256": "8afa168e28fcd8746bff21fa905c3386dddcfaaf4443ad0b13978927919cfcf6",
+      "bytes": 8085
+    },
+    {
+      "id": "slovenia",
+      "sha256": "0ea86548a09e956300bb409496442bdfed527496104a34b811b1d2e84c41f9b9",
+      "bytes": 6518
+    },
+    {
+      "id": "solomon-islands",
+      "sha256": "175920f60d8dc4fef43d037b54da3c52947304d4f0d928c8e581cbb8f88b6952",
+      "bytes": 6503
+    },
+    {
+      "id": "somalia",
+      "sha256": "9d46429c3fcb479e6bfe14257d992eade0bbabaf969d1f43ee4f49bf2d03db31",
+      "bytes": 8279
+    },
+    {
+      "id": "south-africa",
+      "sha256": "f0309388c336f33860914ad8bf81dd616fd0bd894a1d5c84e66585259da53679",
+      "bytes": 10147
+    },
+    {
+      "id": "south-sudan",
+      "sha256": "0645e9dd3e273ab68083b722c2ff348896af86484d2cea886c31b519c750c782",
+      "bytes": 10179
+    },
+    {
+      "id": "spain",
+      "sha256": "9ba115d9cbb287e73367a24b8094e274de00695354cdc118d49b3019a0965db9",
+      "bytes": 9356
+    },
+    {
+      "id": "sri-lanka",
+      "sha256": "e44be39ec72df0365f4c1c6b28816093212655fb3fc6e81a2b33f32531e4e4e0",
+      "bytes": 8737
+    },
+    {
+      "id": "sudan",
+      "sha256": "d1024fa18c23f86f976e2f65c36f007c010f50f811da8145b0083a9431e4dd48",
+      "bytes": 9865
+    },
+    {
+      "id": "suriname",
+      "sha256": "92bf6eef2791c98c71b328b64b6f1737c21772adf9ebd370c3c87f766ebb05a6",
+      "bytes": 8330
+    },
+    {
+      "id": "swaziland",
+      "sha256": "2cd9ad39c419cad5a5e1791bf7376f70f54f278a7b23d7d84315b14fcac88e7d",
+      "bytes": 8863
+    },
+    {
+      "id": "sweden",
+      "sha256": "17f08fd4709a658e93dc8ee78bac843c77d842da53d20a9458bd6dc00db1e290",
+      "bytes": 7406
+    },
+    {
+      "id": "switzerland",
+      "sha256": "015bcb0327d41fd756a8341953ecc687e8c8ac8f5e43aea2b284885a56cb188a",
+      "bytes": 6908
+    },
+    {
+      "id": "syria",
+      "sha256": "41d56bab8bb812880f9c7c39da48324700c46d0789967c7fa0176d78c8855dda",
+      "bytes": 8886
+    },
+    {
+      "id": "taiwan",
+      "sha256": "5be4c07ee83c68579045c45f153917fced6df21dfce54ab5e2001c30b46e5872",
+      "bytes": 7964
+    },
+    {
+      "id": "tajikistan",
+      "sha256": "c95f23dca986fc4ed407e987ed6e87c8615981a937d76fb9f2a795c237a22f75",
+      "bytes": 7876
+    },
+    {
+      "id": "tanzania",
+      "sha256": "8b3dad256e1f628ec2b7478e0cdf19bdcd59ec4e33aec0f183c48558715e6b0b",
+      "bytes": 10141
+    },
+    {
+      "id": "thailand",
+      "sha256": "014cf30d10b83938e8a966e1186dbad2db01518c6d3a48eab5180688c5f55d2c",
+      "bytes": 9648
+    },
+    {
+      "id": "the-gambia",
+      "sha256": "05dcc21a5fb4394a619554b363c8dbc5a68c43bb3ecdfc0c3326e0a35228a2fc",
+      "bytes": 8295
+    },
+    {
+      "id": "timor-leste",
+      "sha256": "5424d8507cbc1718a975d57addbe1d6e1418f67c78c706c457c1c9f2131fa0fa",
+      "bytes": 7929
+    },
+    {
+      "id": "togo",
+      "sha256": "cee52ee01060e28a6d1f003284c0d819731c354ae77d5cdde43965c241294d78",
+      "bytes": 8794
+    },
+    {
+      "id": "tonga",
+      "sha256": "2792c0ec0604b3f1c7c73d80cfbf296941e17a83469c5e1e5a6a4ecdcece9189",
+      "bytes": 6204
+    },
+    {
+      "id": "trinidad-and-tobago",
+      "sha256": "05f62296f4c4226a4d24fc561d279bf6e6818153538d1f9798829b7679fe6a6c",
+      "bytes": 7408
+    },
+    {
+      "id": "tunisia",
+      "sha256": "c4e928f774086bced555bb1304375fabbc1903a70f2a9a87ee68005cc5ef1229",
+      "bytes": 7625
+    },
+    {
+      "id": "turkey",
+      "sha256": "3ad2afd085d04388afc6b6e32d8ab0388fd088388b00e97299ecb77e17b467fd",
+      "bytes": 9659
+    },
+    {
+      "id": "turkmenistan",
+      "sha256": "de6112335e49433fe92cbeb3e707572a5a04034557444660fe87edba2ee190eb",
+      "bytes": 9355
+    },
+    {
+      "id": "uganda",
+      "sha256": "9f04d1e7b06133d50763115e692bb03df5c3cc5a4508ae2a845bb6fd5177b5e8",
+      "bytes": 9770
+    },
+    {
+      "id": "ukraine",
+      "sha256": "08d686481878ee38342dc247022bf761dc8e3a46b06e30b14b5606cebfaadb4c",
+      "bytes": 9781
+    },
+    {
+      "id": "united-arab-emirates",
+      "sha256": "d909b59f160f9a0f7a872a9ddf2ace70de3c75443736357af3b361670d511df4",
+      "bytes": 8328
+    },
+    {
+      "id": "united-kingdom",
+      "sha256": "afcdc6426157efe06f652442233481f68e74299207ec6b02179a8ad7304ba437",
+      "bytes": 8693
+    },
+    {
+      "id": "united-states",
+      "sha256": "0fe144f18a786c7ccef1de8818f28f5c0a18fabdd01563404ce04e39e4f69ef4",
+      "bytes": 10355
+    },
+    {
+      "id": "uruguay",
+      "sha256": "d68a362ca20f71edcc5a779687dda897ae2184ef32fa9f15da36d862ca22ed35",
+      "bytes": 8891
+    },
+    {
+      "id": "uzbekistan",
+      "sha256": "fa74917ce4aa0eb8b207c9c534e5d68563fa2d85443247dba3605bef453df065",
+      "bytes": 9334
+    },
+    {
+      "id": "vanuatu",
+      "sha256": "dace5f0c465c3a099b76007331e6b7a32d439b095d2fb858f0edda2eb8af6d66",
+      "bytes": 7902
+    },
+    {
+      "id": "venezuela",
+      "sha256": "b3caeb76a10820f6be2d5b2ce83598e5e83f89bc6ce35498aaaa31ef8ca0b9b1",
+      "bytes": 10103
+    },
+    {
+      "id": "vietnam",
+      "sha256": "93fe201d5f816e992b5077a909bd4c76eec1b1fc53192b8df9cdf126b770cedb",
+      "bytes": 9790
+    },
+    {
+      "id": "yemen",
+      "sha256": "9bce935815d42d977960239e9b1233d2a89d03234d2fdc00a2f3c2ea2f0da2d3",
+      "bytes": 8259
+    },
+    {
+      "id": "zambia",
+      "sha256": "7523c0657972b47311140d55aed4328953abd584e576771299bd3e1a4492e34e",
+      "bytes": 9992
+    },
+    {
+      "id": "zimbabwe",
+      "sha256": "80d17ab19b579ed90c5308f558a1d566ceb8ff45cd60e9f5985871f2b36a91a1",
+      "bytes": 9651
+    }
+  ],
+  "scope": "Unchanged national models; exact-date November snapshot; observation completeness unknown"
+}

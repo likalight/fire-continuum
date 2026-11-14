@@ -1,0 +1,32 @@
+[
+  {
+    "product": "MYD03",
+    "id": "MYD03.A2026121.2205.061.2026122151605.hdf",
+    "time": "2026-05-01T22:05:00.000Z",
+    "size_mb": "30.5328025817871",
+    "links": [
+      "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2026121.2205.061.2026122151605.hdf",
+      "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/MYD03--61",
+      "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/MYD03/",
+      "https://search.earthdata.nasa.gov/search/granules?p=C1379841358-LAADS"
+    ],
+    "sha256": "7b6fb5568fa226a8e0061bd4543ea43ab969fd153dacaca2dcad6c96d550b448",
+    "bytes": 32015964,
+    "status": "downloaded"
+  },
+  {
+    "product": "VJ103IMG",
+    "id": "VJ103IMG.A2026121.2000.021.2026122015921.nc",
+    "time": "2026-05-01T20:00:00.000Z",
+    "size_mb": "138.631695747375",
+    "links": [
+      "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VJ103IMG/VJ103IMG.A2026121.2000.021.2026122015921.nc",
+      "https://ladsweb.modaps.eosdis.nasa.gov/search/order/2/VJ103IMG--5201",
+      "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/5201/VJ103IMG/",
+      "https://search.earthdata.nasa.gov/search/granules?p=C2105086226-LAADS"
+    ],
+    "sha256": "30c990a986bf912ef5249eff14ee2844193187791405b1324570ea564db4c07f",
+    "bytes": 145365869,
+    "status": "downloaded"
+  }
+]

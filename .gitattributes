@@ -8,6 +8,9 @@ web/public/ai-runtime/** -text whitespace=cr-at-eol
 
 reports/global-evaluation-protocol.json -text
 reports/correction-study-protocol.json -text
+reports/new-observations-*.json -text
+pipeline/new_observations/*.json -text
+web/public/data/briefs/** -text
 reports/global-eligible-catalog.csv -text
 web/public/data/global/** -text
 
