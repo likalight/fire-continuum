@@ -100,6 +100,7 @@ export function mountWorkspace(onView:()=>void){
  window.addEventListener('popstate',()=>navigate(location.hash.slice(1)||'start'));
  window.addEventListener('hashchange',()=>navigate(location.hash.slice(1)||'start'));
  navigate(location.hash.slice(1)||(location.search?'explore':'start'),false);
+ if(location.hash)requestAnimationFrame(()=>navigate(location.hash.slice(1),true));
  return (id:string)=>{history.replaceState(null,'','#'+id);navigate(id);};
 }
 

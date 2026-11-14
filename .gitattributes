@@ -1,4 +1,4 @@
 # Preserve exact bytes of hashed scientific artifacts across operating systems.
-web/public/data/metadata.json -text
-web/public/data/confirmed-case* -text
-reports/confirmed-case* -text
+web/public/data/metadata.json -text whitespace=cr-at-eol
+web/public/data/confirmed-case* -text whitespace=cr-at-eol
+reports/confirmed-case* -text whitespace=cr-at-eol

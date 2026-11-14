@@ -2,14 +2,14 @@
 
 Actual prototype screens, six five-second scenes. Synthetic Microsoft Zira narration.
 
-**0–5s:** Same place. Same month. Different satellites can change the apparent story.
+**0–5s:** Read the fire season across twenty-three years of NASA observations.
 
-**5–10s:** Fire Continuum connects NASA records and tests whether conclusions survive.
+**5–10s:** In Borneo, smoke hides the ground from ordinary view.
 
-**10–15s:** Inspect observation quality. Missing data must never become zero fire.
+**10–15s:** Landsat reveals a fire front. Later hotspots follow the same area.
 
-**15–20s:** Test other regions. Better counts can still mean worse seasonal categories.
+**15–20s:** Explore the calendar to see whether the season was unusual.
 
-**20–25s:** Open independent Landsat scenes, including evidence that remains inconclusive.
+**20–25s:** Compare this November with exactly the same dates in past years.
 
-**25–30s:** Choose what to investigate. Export the finding, its sources, and its limits.
+**25–30s:** Open every claim. Export the data, methods, sources, and limitations.
