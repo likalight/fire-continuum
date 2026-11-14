@@ -31,3 +31,12 @@ This verifies implementation and internal consistency, not independent ground-tr
 - Java/Bali shows 4/5 sensitivity checks, 101.2% all-month-window WAPE and 224.9% same-calendar-window WAPE. Expanded tables show the category disagreement when 8 November is omitted. An empty custom rectangle displays insufficient baseline and no supported anomaly.
 - All six guide steps work, including the recent comparison and final failed-validation step; Finish closes the guide. Desktop layout checked at 1280 × 900; mobile 390 × 844 has no document horizontal overflow.
 - Browser review caught a date-label formatting error (full end date used where end day belongs). Corrected it and added an assertion for days 8–12. Current 46.8% count disagreement is now explicitly stated beside category agreement.
+
+## Correction trials and timing audit — 14 November 2026
+
+- Twenty-two scientific tests and fourteen frontend tests pass. Release CI run 43575823021 successfully built and deployed commit 106df43. Replaying the pinned day/night source files with --cached reproduced the exact audit SHA-256.
+- Live Kalimantan audit shows all seven methods; original current disagreement is 46.8%, and the development-selected local model is 80.3%. All seven retain the above-typical current category. The numerical result has not been silently replaced.
+- The 2025 replay displays 52 observed Aqua cell-days and the original adjusted estimate of 27.6, exposing the different categories. Changing to Sumatra updates the trial results; custom bounds display unavailable local validation.
+- Downloaded evidence JSON contains the original current result, selected area/bounds, exact source snapshot, model audit results and two refreshed source manifests. The downloaded HTML briefing includes correction history, 46.8% and 80.3%, the non-blind-audit limitation and Aqua timing context.
+- Live timing panel shows approximate daytime detection medians of Aqua 13:33/15:40 and NOAA-20 13:31/13:38 in 2019/2026, explicitly labeled as a fixed Kalimantan detected-point sample.
+- Mobile 390 x 844 has no document horizontal overflow; correction cards and download control are readable, with tables in contained horizontal scrollers. No production JavaScript errors were captured.
