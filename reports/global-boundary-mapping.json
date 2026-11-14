@@ -1,0 +1,6074 @@
+{
+  "audited_utc": "2026-11-14T11:45:02.145242+00:00",
+  "eligible_count": 185,
+  "mapped_count": 185,
+  "country_layer_sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+  "map_units_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+  "map_units_latest_file_commit": "117488dc884bad03366ff727eca013e434615127",
+  "normalization": "NFKD, remove accents, lowercase, remove all non-ASCII alphanumeric. No fuzzy or sovereign-name matching.",
+  "rows": [
+    {
+      "firms_name": "Afghanistan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Afghanistan",
+        "GEOUNIT": "Afghanistan",
+        "ADM0_A3": "AFG",
+        "GU_A3": "AFG",
+        "ISO_A3": "AFG",
+        "ISO_A3_EH": "AFG",
+        "NE_ID": 1159320319,
+        "SOV_A3": "AFG"
+      },
+      "geometry_bounds": [
+        60.486778,
+        29.386605,
+        74.892307,
+        38.473673
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Albania",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Albania",
+        "GEOUNIT": "Albania",
+        "ADM0_A3": "ALB",
+        "GU_A3": "ALB",
+        "ISO_A3": "ALB",
+        "ISO_A3_EH": "ALB",
+        "NE_ID": 1159320325,
+        "SOV_A3": "ALB"
+      },
+      "geometry_bounds": [
+        19.272033,
+        39.637013,
+        21.036679,
+        42.654814
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Algeria",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Algeria",
+        "GEOUNIT": "Algeria",
+        "ADM0_A3": "DZA",
+        "GU_A3": "DZA",
+        "ISO_A3": "DZA",
+        "ISO_A3_EH": "DZA",
+        "NE_ID": 1159320565,
+        "SOV_A3": "DZA"
+      },
+      "geometry_bounds": [
+        -8.682385,
+        18.975561,
+        11.968861,
+        37.09394
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Angola",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Angola",
+        "GEOUNIT": "Angola",
+        "ADM0_A3": "AGO",
+        "GU_A3": "AGO",
+        "ISO_A3": "AGO",
+        "ISO_A3_EH": "AGO",
+        "NE_ID": 1159320323,
+        "SOV_A3": "AGO"
+      },
+      "geometry_bounds": [
+        11.669394,
+        -18.031405,
+        24.061714,
+        -4.391204
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Argentina",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Argentina",
+        "GEOUNIT": "Argentina",
+        "ADM0_A3": "ARG",
+        "GU_A3": "ARG",
+        "ISO_A3": "ARG",
+        "ISO_A3_EH": "ARG",
+        "NE_ID": 1159320331,
+        "SOV_A3": "ARG"
+      },
+      "geometry_bounds": [
+        -73.57274,
+        -55.052016,
+        -53.661552,
+        -21.786938
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Armenia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Armenia",
+        "GEOUNIT": "Armenia",
+        "ADM0_A3": "ARM",
+        "GU_A3": "ARM",
+        "ISO_A3": "ARM",
+        "ISO_A3_EH": "ARM",
+        "NE_ID": 1159320333,
+        "SOV_A3": "ARM"
+      },
+      "geometry_bounds": [
+        43.436294,
+        38.863701,
+        46.602612,
+        41.290452
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Australia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Australia",
+        "GEOUNIT": "Australia",
+        "ADM0_A3": "AUS",
+        "GU_A3": "AUS",
+        "ISO_A3": "AUS",
+        "ISO_A3_EH": "AUS",
+        "NE_ID": 1159320355,
+        "SOV_A3": "AU1"
+      },
+      "geometry_bounds": [
+        112.919444,
+        -54.750421,
+        159.106456,
+        -9.240167
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Austria",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Austria",
+        "GEOUNIT": "Austria",
+        "ADM0_A3": "AUT",
+        "GU_A3": "AUT",
+        "ISO_A3": "AUT",
+        "ISO_A3_EH": "AUT",
+        "NE_ID": 1159320379,
+        "SOV_A3": "AUT"
+      },
+      "geometry_bounds": [
+        9.521155,
+        46.378643,
+        17.148338,
+        49.009774
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Azerbaijan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Azerbaijan",
+        "GEOUNIT": "Azerbaijan",
+        "ADM0_A3": "AZE",
+        "GU_A3": "AZE",
+        "ISO_A3": "AZE",
+        "ISO_A3_EH": "AZE",
+        "NE_ID": 1159320381,
+        "SOV_A3": "AZE"
+      },
+      "geometry_bounds": [
+        44.774559,
+        38.392645,
+        50.625743,
+        41.890442
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Bahamas",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME",
+        "NAME_LONG"
+      ],
+      "feature": {
+        "ADMIN": "The Bahamas",
+        "GEOUNIT": "The Bahamas",
+        "ADM0_A3": "BHS",
+        "GU_A3": "BHS",
+        "ISO_A3": "BHS",
+        "ISO_A3_EH": "BHS",
+        "NE_ID": 1159320415,
+        "SOV_A3": "BHS"
+      },
+      "geometry_bounds": [
+        -79.59435,
+        20.912399,
+        -72.746165,
+        26.928412
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Bangladesh",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Bangladesh",
+        "GEOUNIT": "Bangladesh",
+        "ADM0_A3": "BGD",
+        "GU_A3": "BGD",
+        "ISO_A3": "BGD",
+        "ISO_A3_EH": "BGD",
+        "NE_ID": 1159320407,
+        "SOV_A3": "BGD"
+      },
+      "geometry_bounds": [
+        88.02179,
+        20.738715,
+        92.642851,
+        26.623544
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Barbados",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Barbados",
+        "GEOUNIT": "Barbados",
+        "ADM0_A3": "BRB",
+        "GU_A3": "BRB",
+        "ISO_A3": "BRB",
+        "ISO_A3_EH": "BRB",
+        "NE_ID": 1159320449,
+        "SOV_A3": "BRB"
+      },
+      "geometry_bounds": [
+        -59.654205,
+        13.051174,
+        -59.42691,
+        13.34455
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Belarus",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Belarus",
+        "GEOUNIT": "Belarus",
+        "ADM0_A3": "BLR",
+        "GU_A3": "BLR",
+        "ISO_A3": "BLR",
+        "ISO_A3_EH": "BLR",
+        "NE_ID": 1159320427,
+        "SOV_A3": "BLR"
+      },
+      "geometry_bounds": [
+        23.165645,
+        51.235168,
+        32.719532,
+        56.156806
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Belgium",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Belgium",
+        "GEOUNIT": "Belgium",
+        "ADM0_A3": "BEL",
+        "GU_A3": "BEL",
+        "ISO_A3": "BEL",
+        "ISO_A3_EH": "BEL",
+        "NE_ID": 1159320389,
+        "SOV_A3": "BEL"
+      },
+      "geometry_bounds": [
+        2.5218,
+        49.495223,
+        6.374525,
+        51.496238
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Belize",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Belize",
+        "GEOUNIT": "Belize",
+        "ADM0_A3": "BLZ",
+        "GU_A3": "BLZ",
+        "ISO_A3": "BLZ",
+        "ISO_A3_EH": "BLZ",
+        "NE_ID": 1159320431,
+        "SOV_A3": "BLZ"
+      },
+      "geometry_bounds": [
+        -89.236512,
+        15.879652,
+        -87.78307,
+        18.490759
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Benin",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Benin",
+        "GEOUNIT": "Benin",
+        "ADM0_A3": "BEN",
+        "GU_A3": "BEN",
+        "ISO_A3": "BEN",
+        "ISO_A3_EH": "BEN",
+        "NE_ID": 1159320399,
+        "SOV_A3": "BEN"
+      },
+      "geometry_bounds": [
+        0.759881,
+        6.213894,
+        3.837419,
+        12.399244
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Bhutan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Bhutan",
+        "GEOUNIT": "Bhutan",
+        "ADM0_A3": "BTN",
+        "GU_A3": "BTN",
+        "ISO_A3": "BTN",
+        "ISO_A3_EH": "BTN",
+        "NE_ID": 1159320453,
+        "SOV_A3": "BTN"
+      },
+      "geometry_bounds": [
+        88.730067,
+        26.696149,
+        92.088776,
+        28.358399
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Bolivia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Bolivia",
+        "GEOUNIT": "Bolivia",
+        "ADM0_A3": "BOL",
+        "GU_A3": "BOL",
+        "ISO_A3": "BOL",
+        "ISO_A3_EH": "BOL",
+        "NE_ID": 1159320439,
+        "SOV_A3": "BOL"
+      },
+      "geometry_bounds": [
+        -69.666492,
+        -22.897258,
+        -57.465661,
+        -9.679821
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Bosnia_and_Herzegovina",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Bosnia and Herzegovina",
+        "GEOUNIT": "Bosnia and Herzegovina",
+        "ADM0_A3": "BIH",
+        "GU_A3": "BIH",
+        "ISO_A3": "BIH",
+        "ISO_A3_EH": "BIH",
+        "NE_ID": 1159320417,
+        "SOV_A3": "BIH"
+      },
+      "geometry_bounds": [
+        15.716074,
+        42.559212,
+        19.618885,
+        45.284524
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Botswana",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Botswana",
+        "GEOUNIT": "Botswana",
+        "ADM0_A3": "BWA",
+        "GU_A3": "BWA",
+        "ISO_A3": "BWA",
+        "ISO_A3_EH": "BWA",
+        "NE_ID": 1159320461,
+        "SOV_A3": "BWA"
+      },
+      "geometry_bounds": [
+        19.978346,
+        -26.891794,
+        29.350074,
+        -17.781808
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Brazil",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Brazil",
+        "GEOUNIT": "Brazil",
+        "ADM0_A3": "BRA",
+        "GU_A3": "BRA",
+        "ISO_A3": "BRA",
+        "ISO_A3_EH": "BRA",
+        "NE_ID": 1159320441,
+        "SOV_A3": "BRA"
+      },
+      "geometry_bounds": [
+        -74.018475,
+        -33.74228,
+        -28.877065,
+        5.267225
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Brunei_Darussalam",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_LONG"
+      ],
+      "feature": {
+        "ADMIN": "Brunei",
+        "GEOUNIT": "Brunei",
+        "ADM0_A3": "BRN",
+        "GU_A3": "BRN",
+        "ISO_A3": "BRN",
+        "ISO_A3_EH": "BRN",
+        "NE_ID": 1159320451,
+        "SOV_A3": "BRN"
+      },
+      "geometry_bounds": [
+        113.99879,
+        4.016681,
+        115.360741,
+        5.057196
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Bulgaria",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Bulgaria",
+        "GEOUNIT": "Bulgaria",
+        "ADM0_A3": "BGR",
+        "GU_A3": "BGR",
+        "ISO_A3": "BGR",
+        "ISO_A3_EH": "BGR",
+        "NE_ID": 1159320409,
+        "SOV_A3": "BGR"
+      },
+      "geometry_bounds": [
+        22.345023,
+        41.238104,
+        28.603526,
+        44.228435
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Burkina_Faso",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Burkina Faso",
+        "GEOUNIT": "Burkina Faso",
+        "ADM0_A3": "BFA",
+        "GU_A3": "BFA",
+        "ISO_A3": "BFA",
+        "ISO_A3_EH": "BFA",
+        "NE_ID": 1159320405,
+        "SOV_A3": "BFA"
+      },
+      "geometry_bounds": [
+        -5.522578,
+        9.391883,
+        2.390169,
+        15.079908
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Burundi",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Burundi",
+        "GEOUNIT": "Burundi",
+        "ADM0_A3": "BDI",
+        "GU_A3": "BDI",
+        "ISO_A3": "BDI",
+        "ISO_A3_EH": "BDI",
+        "NE_ID": 1159320387,
+        "SOV_A3": "BDI"
+      },
+      "geometry_bounds": [
+        28.986892,
+        -4.463344,
+        30.833962,
+        -2.303062
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Cambodia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Cambodia",
+        "GEOUNIT": "Cambodia",
+        "ADM0_A3": "KHM",
+        "GU_A3": "KHM",
+        "ISO_A3": "KHM",
+        "ISO_A3_EH": "KHM",
+        "NE_ID": 1159320979,
+        "SOV_A3": "KHM"
+      },
+      "geometry_bounds": [
+        102.313424,
+        10.415774,
+        107.610516,
+        14.704582
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Cameroon",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Cameroon",
+        "GEOUNIT": "Cameroon",
+        "ADM0_A3": "CMR",
+        "GU_A3": "CMR",
+        "ISO_A3": "CMR",
+        "ISO_A3_EH": "CMR",
+        "NE_ID": 1159320509,
+        "SOV_A3": "CMR"
+      },
+      "geometry_bounds": [
+        8.505056,
+        1.654551,
+        16.207723,
+        13.081141
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Canada",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Canada",
+        "GEOUNIT": "Canada",
+        "ADM0_A3": "CAN",
+        "GU_A3": "CAN",
+        "ISO_A3": "CAN",
+        "ISO_A3_EH": "CAN",
+        "NE_ID": 1159320467,
+        "SOV_A3": "CAN"
+      },
+      "geometry_bounds": [
+        -141.005564,
+        41.669086,
+        -52.616607,
+        83.116523
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Cape_Verde",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_EN"
+      ],
+      "feature": {
+        "ADMIN": "Cabo Verde",
+        "GEOUNIT": "Cabo Verde",
+        "ADM0_A3": "CPV",
+        "GU_A3": "CPV",
+        "ISO_A3": "CPV",
+        "ISO_A3_EH": "CPV",
+        "NE_ID": 1159320523,
+        "SOV_A3": "CPV"
+      },
+      "geometry_bounds": [
+        -25.360422,
+        14.803941,
+        -22.666575,
+        17.196601
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Central_African_Republic",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Central African Republic",
+        "GEOUNIT": "Central African Republic",
+        "ADM0_A3": "CAF",
+        "GU_A3": "CAF",
+        "ISO_A3": "CAF",
+        "ISO_A3_EH": "CAF",
+        "NE_ID": 1159320463,
+        "SOV_A3": "CAF"
+      },
+      "geometry_bounds": [
+        14.387266,
+        2.236454,
+        27.441301,
+        11.000828
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Chad",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Chad",
+        "GEOUNIT": "Chad",
+        "ADM0_A3": "TCD",
+        "GU_A3": "TCD",
+        "ISO_A3": "TCD",
+        "ISO_A3_EH": "TCD",
+        "NE_ID": 1159321301,
+        "SOV_A3": "TCD"
+      },
+      "geometry_bounds": [
+        13.449184,
+        7.455567,
+        23.984406,
+        23.44472
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Chile",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Chile",
+        "GEOUNIT": "Chile",
+        "ADM0_A3": "CHL",
+        "GU_A3": "CHL",
+        "ISO_A3": "CHL",
+        "ISO_A3_EH": "CHL",
+        "NE_ID": 1159320493,
+        "SOV_A3": "CHL"
+      },
+      "geometry_bounds": [
+        -109.453725,
+        -55.918504,
+        -66.420806,
+        -17.506588
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "China",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "China",
+        "GEOUNIT": "China",
+        "ADM0_A3": "CHN",
+        "GU_A3": "CHN",
+        "ISO_A3": "CHN",
+        "ISO_A3_EH": "CHN",
+        "NE_ID": 1159320471,
+        "SOV_A3": "CH1"
+      },
+      "geometry_bounds": [
+        73.602256,
+        15.775377,
+        134.772579,
+        53.569444
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Colombia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Colombia",
+        "GEOUNIT": "Colombia",
+        "ADM0_A3": "COL",
+        "GU_A3": "COL",
+        "ISO_A3": "COL",
+        "ISO_A3_EH": "COL",
+        "NE_ID": 1159320517,
+        "SOV_A3": "COL"
+      },
+      "geometry_bounds": [
+        -81.723704,
+        -4.236484,
+        -66.875061,
+        13.578355
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Comoros",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Comoros",
+        "GEOUNIT": "Comoros",
+        "ADM0_A3": "COM",
+        "GU_A3": "COM",
+        "ISO_A3": "COM",
+        "ISO_A3_EH": "COM",
+        "NE_ID": 1159320521,
+        "SOV_A3": "COM"
+      },
+      "geometry_bounds": [
+        43.213227,
+        -12.380304,
+        44.529063,
+        -11.361261
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Costa_Rica",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Costa Rica",
+        "GEOUNIT": "Costa Rica",
+        "ADM0_A3": "CRI",
+        "GU_A3": "CRI",
+        "ISO_A3": "CRI",
+        "ISO_A3_EH": "CRI",
+        "NE_ID": 1159320525,
+        "SOV_A3": "CRI"
+      },
+      "geometry_bounds": [
+        -87.117665,
+        5.515082,
+        -82.562837,
+        11.209937
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Cote_d_Ivoire",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME",
+        "NAME_LONG",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Ivory Coast",
+        "GEOUNIT": "Ivory Coast",
+        "ADM0_A3": "CIV",
+        "GU_A3": "CIV",
+        "ISO_A3": "CIV",
+        "ISO_A3_EH": "CIV",
+        "NE_ID": 1159320507,
+        "SOV_A3": "CIV"
+      },
+      "geometry_bounds": [
+        -8.61872,
+        4.344062,
+        -2.506328,
+        10.726478
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Croatia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Croatia",
+        "GEOUNIT": "Croatia",
+        "ADM0_A3": "HRV",
+        "GU_A3": "HRV",
+        "ISO_A3": "HRV",
+        "ISO_A3_EH": "HRV",
+        "NE_ID": 1159320833,
+        "SOV_A3": "HRV"
+      },
+      "geometry_bounds": [
+        13.501475,
+        42.416327,
+        19.407838,
+        46.546979
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Cuba",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Cuba",
+        "GEOUNIT": "Cuba",
+        "ADM0_A3": "CUB",
+        "GU_A3": "CUB",
+        "ISO_A3": "CUB",
+        "ISO_A3_EH": "CUB",
+        "NE_ID": 1159320527,
+        "SOV_A3": "CU1"
+      },
+      "geometry_bounds": [
+        -84.949615,
+        19.827826,
+        -74.132883,
+        23.26557
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Cyprus",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Cyprus",
+        "GEOUNIT": "Cyprus",
+        "ADM0_A3": "CYP",
+        "GU_A3": "CYP",
+        "ISO_A3": "CYP",
+        "ISO_A3_EH": "CYP",
+        "NE_ID": 1159320533,
+        "SOV_A3": "CYP"
+      },
+      "geometry_bounds": [
+        32.271739,
+        34.625019,
+        34.099132,
+        35.187082
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Czech_Republic",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_LONG",
+        "NAME_EN",
+        "FORMAL_EN"
+      ],
+      "feature": {
+        "ADMIN": "Czechia",
+        "GEOUNIT": "Czechia",
+        "ADM0_A3": "CZE",
+        "GU_A3": "CZE",
+        "ISO_A3": "CZE",
+        "ISO_A3_EH": "CZE",
+        "NE_ID": 1159320535,
+        "SOV_A3": "CZE"
+      },
+      "geometry_bounds": [
+        12.076141,
+        48.557916,
+        18.837434,
+        51.040012
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Dem_Rep_Korea",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_LONG"
+      ],
+      "feature": {
+        "ADMIN": "North Korea",
+        "GEOUNIT": "North Korea",
+        "ADM0_A3": "PRK",
+        "GU_A3": "PRK",
+        "ISO_A3": "PRK",
+        "ISO_A3_EH": "PRK",
+        "NE_ID": 1159321181,
+        "SOV_A3": "PRK"
+      },
+      "geometry_bounds": [
+        124.211316,
+        37.675605,
+        130.699962,
+        43.01027
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Democratic_Republic_of_the_Congo",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN"
+      ],
+      "feature": {
+        "ADMIN": "Democratic Republic of the Congo",
+        "GEOUNIT": "Democratic Republic of the Congo",
+        "ADM0_A3": "COD",
+        "GU_A3": "COD",
+        "ISO_A3": "COD",
+        "ISO_A3_EH": "COD",
+        "NE_ID": 1159320513,
+        "SOV_A3": "COD"
+      },
+      "geometry_bounds": [
+        12.210541,
+        -13.458351,
+        31.280447,
+        5.37528
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Denmark",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Denmark",
+        "GEOUNIT": "Denmark",
+        "ADM0_A3": "DNK",
+        "GU_A3": "DNK",
+        "ISO_A3": "DNK",
+        "ISO_A3_EH": "DNK",
+        "NE_ID": 1159320547,
+        "SOV_A3": "DN1"
+      },
+      "geometry_bounds": [
+        8.094005,
+        54.56859,
+        15.151378,
+        57.751166
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Djibouti",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Djibouti",
+        "GEOUNIT": "Djibouti",
+        "ADM0_A3": "DJI",
+        "GU_A3": "DJI",
+        "ISO_A3": "DJI",
+        "ISO_A3_EH": "DJI",
+        "NE_ID": 1159320541,
+        "SOV_A3": "DJI"
+      },
+      "geometry_bounds": [
+        41.74911,
+        10.929825,
+        43.418712,
+        12.707913
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Dominican_Republic",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Dominican Republic",
+        "GEOUNIT": "Dominican Republic",
+        "ADM0_A3": "DOM",
+        "GU_A3": "DOM",
+        "ISO_A3": "DOM",
+        "ISO_A3_EH": "DOM",
+        "NE_ID": 1159320563,
+        "SOV_A3": "DOM"
+      },
+      "geometry_bounds": [
+        -72.009838,
+        17.545559,
+        -68.328603,
+        19.93769
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Ecuador",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Ecuador",
+        "GEOUNIT": "Ecuador",
+        "ADM0_A3": "ECU",
+        "GU_A3": "ECU",
+        "ISO_A3": "ECU",
+        "ISO_A3_EH": "ECU",
+        "NE_ID": 1159320567,
+        "SOV_A3": "ECU"
+      },
+      "geometry_bounds": [
+        -92.011586,
+        -5.011373,
+        -75.227264,
+        1.664374
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Egypt",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Egypt",
+        "GEOUNIT": "Egypt",
+        "ADM0_A3": "EGY",
+        "GU_A3": "EGY",
+        "ISO_A3": "EGY",
+        "ISO_A3_EH": "EGY",
+        "NE_ID": 1159320575,
+        "SOV_A3": "EGY"
+      },
+      "geometry_bounds": [
+        24.688343,
+        21.994369,
+        36.899181,
+        31.65648
+      ],
+      "geometry_valid": false,
+      "warnings": [
+        "Geometry is invalid before repair; record make_valid transformation and resulting geometry hash."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "El_Salvador",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "El Salvador",
+        "GEOUNIT": "El Salvador",
+        "ADM0_A3": "SLV",
+        "GU_A3": "SLV",
+        "ISO_A3": "SLV",
+        "ISO_A3_EH": "SLV",
+        "NE_ID": 1159321253,
+        "SOV_A3": "SLV"
+      },
+      "geometry_bounds": [
+        -90.114779,
+        13.158637,
+        -87.693194,
+        14.445373
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Equatorial_Guinea",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Equatorial Guinea",
+        "GEOUNIT": "Equatorial Guinea",
+        "ADM0_A3": "GNQ",
+        "GU_A3": "GNQ",
+        "ISO_A3": "GNQ",
+        "ISO_A3_EH": "GNQ",
+        "NE_ID": 1159320801,
+        "SOV_A3": "GNQ"
+      },
+      "geometry_bounds": [
+        5.61199,
+        -1.475681,
+        11.336341,
+        3.772406
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Eritrea",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Eritrea",
+        "GEOUNIT": "Eritrea",
+        "ADM0_A3": "ERI",
+        "GU_A3": "ERI",
+        "ISO_A3": "ERI",
+        "ISO_A3_EH": "ERI",
+        "NE_ID": 1159320581,
+        "SOV_A3": "ERI"
+      },
+      "geometry_bounds": [
+        36.423647,
+        12.360022,
+        43.123871,
+        18.004828
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Estonia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Estonia",
+        "GEOUNIT": "Estonia",
+        "ADM0_A3": "EST",
+        "GU_A3": "EST",
+        "ISO_A3": "EST",
+        "ISO_A3_EH": "EST",
+        "NE_ID": 1159320615,
+        "SOV_A3": "EST"
+      },
+      "geometry_bounds": [
+        21.832367,
+        57.515819,
+        28.186475,
+        59.670885
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Ethiopia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Ethiopia",
+        "GEOUNIT": "Ethiopia",
+        "ADM0_A3": "ETH",
+        "GU_A3": "ETH",
+        "ISO_A3": "ETH",
+        "ISO_A3_EH": "ETH",
+        "NE_ID": 1159320617,
+        "SOV_A3": "ETH"
+      },
+      "geometry_bounds": [
+        32.9898,
+        3.403333,
+        47.979169,
+        14.879532
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Fiji",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Fiji",
+        "GEOUNIT": "Fiji",
+        "ADM0_A3": "FJI",
+        "GU_A3": "FJI",
+        "ISO_A3": "FJI",
+        "ISO_A3_EH": "FJI",
+        "NE_ID": 1159320625,
+        "SOV_A3": "FJI"
+      },
+      "geometry_bounds": [
+        -180.0,
+        -21.711114,
+        180.0,
+        -12.475274
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Wide longitude extent; use wrap-aware AOI/viewport and polygon filtering, not ordinary bounding-box classification."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Finland",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Finland",
+        "GEOUNIT": "Finland",
+        "ADM0_A3": "FIN",
+        "GU_A3": "FIN",
+        "ISO_A3": "FIN",
+        "ISO_A3_EH": "FIN",
+        "NE_ID": 1159320623,
+        "SOV_A3": "FI1"
+      },
+      "geometry_bounds": [
+        20.623165,
+        59.811225,
+        31.569525,
+        70.07531
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "France",
+      "source_layer": "map_units",
+      "match_method": "explicit GU_A3 override",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT"
+      ],
+      "feature": {
+        "ADMIN": "France",
+        "GEOUNIT": "France",
+        "ADM0_A3": "FRA",
+        "GU_A3": "FXX",
+        "ISO_A3": "FRA",
+        "ISO_A3_EH": "FRA",
+        "NE_ID": 1159320651,
+        "SOV_A3": "FR1"
+      },
+      "geometry_bounds": [
+        -5.132802,
+        41.365912,
+        9.559581,
+        51.087541
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Metropolitan France including Corsica only. Excludes all separately represented overseas map units; audit excluded archive points explicitly."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "French_Guiana",
+      "source_layer": "map_units",
+      "match_method": "explicit GU_A3 override",
+      "matched_name_fields": [
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "France",
+        "GEOUNIT": "French Guiana",
+        "ADM0_A3": "FRA",
+        "GU_A3": "GUF",
+        "ISO_A3": "GUF",
+        "ISO_A3_EH": "GUF",
+        "NE_ID": 1159320655,
+        "SOV_A3": "FR1"
+      },
+      "geometry_bounds": [
+        -54.615292,
+        2.110673,
+        -51.649037,
+        5.744765
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "French_Polynesia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "French Polynesia",
+        "GEOUNIT": "French Polynesia",
+        "ADM0_A3": "PYF",
+        "GU_A3": "PYF",
+        "ISO_A3": "PYF",
+        "ISO_A3_EH": "PYF",
+        "NE_ID": 1159320643,
+        "SOV_A3": "FR1"
+      },
+      "geometry_bounds": [
+        -154.536977,
+        -27.641209,
+        -134.942983,
+        -7.950128
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Gabon",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Gabon",
+        "GEOUNIT": "Gabon",
+        "ADM0_A3": "GAB",
+        "GU_A3": "GAB",
+        "ISO_A3": "GAB",
+        "ISO_A3_EH": "GAB",
+        "NE_ID": 1159320693,
+        "SOV_A3": "GAB"
+      },
+      "geometry_bounds": [
+        8.695567,
+        -3.936856,
+        14.498991,
+        2.322495
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Georgia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Georgia",
+        "GEOUNIT": "Georgia",
+        "ADM0_A3": "GEO",
+        "GU_A3": "GEO",
+        "ISO_A3": "GEO",
+        "ISO_A3_EH": "GEO",
+        "NE_ID": 1159320779,
+        "SOV_A3": "GEO"
+      },
+      "geometry_bounds": [
+        39.985976,
+        41.044111,
+        46.694803,
+        43.575843
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Germany",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Germany",
+        "GEOUNIT": "Germany",
+        "ADM0_A3": "DEU",
+        "GU_A3": "DEU",
+        "ISO_A3": "DEU",
+        "ISO_A3_EH": "DEU",
+        "NE_ID": 1159320539,
+        "SOV_A3": "DEU"
+      },
+      "geometry_bounds": [
+        5.85249,
+        47.271121,
+        15.022059,
+        55.065334
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Ghana",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Ghana",
+        "GEOUNIT": "Ghana",
+        "ADM0_A3": "GHA",
+        "GU_A3": "GHA",
+        "ISO_A3": "GHA",
+        "ISO_A3_EH": "GHA",
+        "NE_ID": 1159320793,
+        "SOV_A3": "GHA"
+      },
+      "geometry_bounds": [
+        -3.262509,
+        4.737128,
+        1.187968,
+        11.162937
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Greece",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Greece",
+        "GEOUNIT": "Greece",
+        "ADM0_A3": "GRC",
+        "GU_A3": "GRC",
+        "ISO_A3": "GRC",
+        "ISO_A3_EH": "GRC",
+        "NE_ID": 1159320811,
+        "SOV_A3": "GRC"
+      },
+      "geometry_bounds": [
+        19.626475,
+        34.815009,
+        28.239757,
+        41.750476
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Greenland",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Greenland",
+        "GEOUNIT": "Greenland",
+        "ADM0_A3": "GRL",
+        "GU_A3": "GRL",
+        "ISO_A3": "GRL",
+        "ISO_A3_EH": "GRL",
+        "NE_ID": 1159320551,
+        "SOV_A3": "DN1"
+      },
+      "geometry_bounds": [
+        -73.05724,
+        59.792629,
+        -11.37682,
+        83.634101
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Guam",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Guam",
+        "GEOUNIT": "Guam",
+        "ADM0_A3": "GUM",
+        "GU_A3": "GUM",
+        "ISO_A3": "GUM",
+        "ISO_A3_EH": "GUM",
+        "NE_ID": 1159321359,
+        "SOV_A3": "US1"
+      },
+      "geometry_bounds": [
+        144.624197,
+        13.241034,
+        144.952159,
+        13.65412
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Guatemala",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Guatemala",
+        "GEOUNIT": "Guatemala",
+        "ADM0_A3": "GTM",
+        "GU_A3": "GTM",
+        "ISO_A3": "GTM",
+        "ISO_A3_EH": "GTM",
+        "NE_ID": 1159320815,
+        "SOV_A3": "GTM"
+      },
+      "geometry_bounds": [
+        -92.246257,
+        13.731404,
+        -88.220937,
+        17.81602
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Guinea",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Guinea",
+        "GEOUNIT": "Guinea",
+        "ADM0_A3": "GIN",
+        "GU_A3": "GIN",
+        "ISO_A3": "GIN",
+        "ISO_A3_EH": "GIN",
+        "NE_ID": 1159320795,
+        "SOV_A3": "GIN"
+      },
+      "geometry_bounds": [
+        -15.081125,
+        7.190208,
+        -7.662447,
+        12.673388
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Guinea-Bissau",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Guinea-Bissau",
+        "GEOUNIT": "Guinea-Bissau",
+        "ADM0_A3": "GNB",
+        "GU_A3": "GNB",
+        "ISO_A3": "GNB",
+        "ISO_A3_EH": "GNB",
+        "NE_ID": 1159320799,
+        "SOV_A3": "GNB"
+      },
+      "geometry_bounds": [
+        -16.728437,
+        10.927639,
+        -13.660712,
+        12.679434
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Guyana",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Guyana",
+        "GEOUNIT": "Guyana",
+        "ADM0_A3": "GUY",
+        "GU_A3": "GUY",
+        "ISO_A3": "GUY",
+        "ISO_A3_EH": "GUY",
+        "NE_ID": 1159320817,
+        "SOV_A3": "GUY"
+      },
+      "geometry_bounds": [
+        -61.396713,
+        1.18582,
+        -56.481819,
+        8.55801
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Haiti",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Haiti",
+        "GEOUNIT": "Haiti",
+        "ADM0_A3": "HTI",
+        "GU_A3": "HTI",
+        "ISO_A3": "HTI",
+        "ISO_A3_EH": "HTI",
+        "NE_ID": 1159320839,
+        "SOV_A3": "HTI"
+      },
+      "geometry_bounds": [
+        -74.489166,
+        18.025946,
+        -71.639111,
+        20.089789
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Honduras",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Honduras",
+        "GEOUNIT": "Honduras",
+        "ADM0_A3": "HND",
+        "GU_A3": "HND",
+        "ISO_A3": "HND",
+        "ISO_A3_EH": "HND",
+        "NE_ID": 1159320827,
+        "SOV_A3": "HND"
+      },
+      "geometry_bounds": [
+        -89.363791,
+        12.979777,
+        -83.130444,
+        17.418647
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Hong_Kong",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Hong Kong S.A.R.",
+        "GEOUNIT": "Hong Kong S.A.R.",
+        "ADM0_A3": "HKG",
+        "GU_A3": "HKG",
+        "ISO_A3": "HKG",
+        "ISO_A3_EH": "HKG",
+        "NE_ID": 1159320473,
+        "SOV_A3": "CH1"
+      },
+      "geometry_bounds": [
+        113.837332,
+        22.177069,
+        114.401296,
+        22.563946
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Hungary",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Hungary",
+        "GEOUNIT": "Hungary",
+        "ADM0_A3": "HUN",
+        "GU_A3": "HUN",
+        "ISO_A3": "HUN",
+        "ISO_A3_EH": "HUN",
+        "NE_ID": 1159320841,
+        "SOV_A3": "HUN"
+      },
+      "geometry_bounds": [
+        16.094035,
+        45.741343,
+        22.877601,
+        48.569233
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "India",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "India",
+        "GEOUNIT": "India",
+        "ADM0_A3": "IND",
+        "GU_A3": "IND",
+        "ISO_A3": "IND",
+        "ISO_A3_EH": "IND",
+        "NE_ID": 1159320847,
+        "SOV_A3": "IND"
+      },
+      "geometry_bounds": [
+        68.143403,
+        6.745551,
+        97.362253,
+        35.495406
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Indonesia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Indonesia",
+        "GEOUNIT": "Indonesia",
+        "ADM0_A3": "IDN",
+        "GU_A3": "IDN",
+        "ISO_A3": "IDN",
+        "ISO_A3_EH": "IDN",
+        "NE_ID": 1159320845,
+        "SOV_A3": "IDN"
+      },
+      "geometry_bounds": [
+        95.012706,
+        -10.922621,
+        140.977627,
+        5.910102
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Iran",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Iran",
+        "GEOUNIT": "Iran",
+        "ADM0_A3": "IRN",
+        "GU_A3": "IRN",
+        "ISO_A3": "IRN",
+        "ISO_A3_EH": "IRN",
+        "NE_ID": 1159320881,
+        "SOV_A3": "IRN"
+      },
+      "geometry_bounds": [
+        44.014863,
+        25.059408,
+        63.319628,
+        39.771527
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Iraq",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Iraq",
+        "GEOUNIT": "Iraq",
+        "ADM0_A3": "IRQ",
+        "GU_A3": "IRQ",
+        "ISO_A3": "IRQ",
+        "ISO_A3_EH": "IRQ",
+        "NE_ID": 1159320887,
+        "SOV_A3": "IRQ"
+      },
+      "geometry_bounds": [
+        38.774511,
+        29.063137,
+        48.559255,
+        37.375498
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Ireland",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Ireland",
+        "GEOUNIT": "Ireland",
+        "ADM0_A3": "IRL",
+        "GU_A3": "IRL",
+        "ISO_A3": "IRL",
+        "ISO_A3_EH": "IRL",
+        "NE_ID": 1159320877,
+        "SOV_A3": "IRL"
+      },
+      "geometry_bounds": [
+        -10.478179,
+        51.445705,
+        -5.99352,
+        55.386379
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Israel",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Israel",
+        "GEOUNIT": "Israel",
+        "ADM0_A3": "ISR",
+        "GU_A3": "ISR",
+        "ISO_A3": "ISR",
+        "ISO_A3_EH": "ISR",
+        "NE_ID": 1159320895,
+        "SOV_A3": "IS1"
+      },
+      "geometry_bounds": [
+        34.248351,
+        29.489691,
+        35.888073,
+        33.406722
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Italy",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Italy",
+        "GEOUNIT": "Italy",
+        "ADM0_A3": "ITA",
+        "GU_A3": "ITA",
+        "ISO_A3": "ITA",
+        "ISO_A3_EH": "ITA",
+        "NE_ID": 1159320919,
+        "SOV_A3": "ITA"
+      },
+      "geometry_bounds": [
+        6.602728,
+        35.489244,
+        18.517426,
+        47.085215
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Jamaica",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Jamaica",
+        "GEOUNIT": "Jamaica",
+        "ADM0_A3": "JAM",
+        "GU_A3": "JAM",
+        "ISO_A3": "JAM",
+        "ISO_A3_EH": "JAM",
+        "NE_ID": 1159320931,
+        "SOV_A3": "JAM"
+      },
+      "geometry_bounds": [
+        -78.374664,
+        17.703192,
+        -76.187978,
+        18.525092
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Japan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Japan",
+        "GEOUNIT": "Japan",
+        "ADM0_A3": "JPN",
+        "GU_A3": "JPN",
+        "ISO_A3": "JPN",
+        "ISO_A3_EH": "JPN",
+        "NE_ID": 1159320937,
+        "SOV_A3": "JPN"
+      },
+      "geometry_bounds": [
+        122.938162,
+        24.212104,
+        153.985606,
+        45.520413
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Jordan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Jordan",
+        "GEOUNIT": "Jordan",
+        "ADM0_A3": "JOR",
+        "GU_A3": "JOR",
+        "ISO_A3": "JOR",
+        "ISO_A3_EH": "JOR",
+        "NE_ID": 1159320935,
+        "SOV_A3": "JOR"
+      },
+      "geometry_bounds": [
+        34.949385,
+        29.189951,
+        39.291999,
+        33.371685
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Kazakhstan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Kazakhstan",
+        "GEOUNIT": "Kazakhstan",
+        "ADM0_A3": "KAZ",
+        "GU_A3": "KAZ",
+        "ISO_A3": "KAZ",
+        "ISO_A3_EH": "KAZ",
+        "NE_ID": 1159320967,
+        "SOV_A3": "KA1"
+      },
+      "geometry_bounds": [
+        46.478279,
+        40.584656,
+        87.323796,
+        55.43455
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Kenya",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Kenya",
+        "GEOUNIT": "Kenya",
+        "ADM0_A3": "KEN",
+        "GU_A3": "KEN",
+        "ISO_A3": "KEN",
+        "ISO_A3_EH": "KEN",
+        "NE_ID": 1159320971,
+        "SOV_A3": "KEN"
+      },
+      "geometry_bounds": [
+        33.890468,
+        -4.677504,
+        41.885019,
+        5.030376
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Kosovo",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Kosovo",
+        "GEOUNIT": "Kosovo",
+        "ADM0_A3": "KOS",
+        "GU_A3": "KOS",
+        "ISO_A3": "-99",
+        "ISO_A3_EH": "-99",
+        "NE_ID": 1159321007,
+        "SOV_A3": "KOS"
+      },
+      "geometry_bounds": [
+        20.024751,
+        41.84401,
+        21.772758,
+        43.263071
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Kuwait",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Kuwait",
+        "GEOUNIT": "Kuwait",
+        "ADM0_A3": "KWT",
+        "GU_A3": "KWT",
+        "ISO_A3": "KWT",
+        "ISO_A3_EH": "KWT",
+        "NE_ID": 1159321009,
+        "SOV_A3": "KWT"
+      },
+      "geometry_bounds": [
+        46.532436,
+        28.533505,
+        48.432781,
+        30.098216
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Kyrgyzstan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Kyrgyzstan",
+        "GEOUNIT": "Kyrgyzstan",
+        "ADM0_A3": "KGZ",
+        "GU_A3": "KGZ",
+        "ISO_A3": "KGZ",
+        "ISO_A3_EH": "KGZ",
+        "NE_ID": 1159320977,
+        "SOV_A3": "KGZ"
+      },
+      "geometry_bounds": [
+        69.226296,
+        39.189237,
+        80.257561,
+        43.261702
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Lao_PDR",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_LONG",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Laos",
+        "GEOUNIT": "Laos",
+        "ADM0_A3": "LAO",
+        "GU_A3": "LAO",
+        "ISO_A3": "LAO",
+        "ISO_A3_EH": "LAO",
+        "NE_ID": 1159321011,
+        "SOV_A3": "LAO"
+      },
+      "geometry_bounds": [
+        100.097073,
+        13.915457,
+        107.664363,
+        22.496044
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Latvia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Latvia",
+        "GEOUNIT": "Latvia",
+        "ADM0_A3": "LVA",
+        "GU_A3": "LVA",
+        "ISO_A3": "LVA",
+        "ISO_A3_EH": "LVA",
+        "NE_ID": 1159321033,
+        "SOV_A3": "LVA"
+      },
+      "geometry_bounds": [
+        20.968598,
+        55.666991,
+        28.217275,
+        58.075138
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Lebanon",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Lebanon",
+        "GEOUNIT": "Lebanon",
+        "ADM0_A3": "LBN",
+        "GU_A3": "LBN",
+        "ISO_A3": "LBN",
+        "ISO_A3_EH": "LBN",
+        "NE_ID": 1159321013,
+        "SOV_A3": "LBN"
+      },
+      "geometry_bounds": [
+        35.09962,
+        33.05558,
+        36.604101,
+        34.687548
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Lesotho",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Lesotho",
+        "GEOUNIT": "Lesotho",
+        "ADM0_A3": "LSO",
+        "GU_A3": "LSO",
+        "ISO_A3": "LSO",
+        "ISO_A3_EH": "LSO",
+        "NE_ID": 1159321027,
+        "SOV_A3": "LSO"
+      },
+      "geometry_bounds": [
+        27.002155,
+        -30.658799,
+        29.435908,
+        -28.570761
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Liberia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Liberia",
+        "GEOUNIT": "Liberia",
+        "ADM0_A3": "LBR",
+        "GU_A3": "LBR",
+        "ISO_A3": "LBR",
+        "ISO_A3_EH": "LBR",
+        "NE_ID": 1159321015,
+        "SOV_A3": "LBR"
+      },
+      "geometry_bounds": [
+        -11.476186,
+        4.347235,
+        -7.384118,
+        8.565396
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Libya",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Libya",
+        "GEOUNIT": "Libya",
+        "ADM0_A3": "LBY",
+        "GU_A3": "LBY",
+        "ISO_A3": "LBY",
+        "ISO_A3_EH": "LBY",
+        "NE_ID": 1159321017,
+        "SOV_A3": "LBY"
+      },
+      "geometry_bounds": [
+        9.286544,
+        19.496124,
+        25.156261,
+        33.181225
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Lithuania",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Lithuania",
+        "GEOUNIT": "Lithuania",
+        "ADM0_A3": "LTU",
+        "GU_A3": "LTU",
+        "ISO_A3": "LTU",
+        "ISO_A3_EH": "LTU",
+        "NE_ID": 1159321029,
+        "SOV_A3": "LTU"
+      },
+      "geometry_bounds": [
+        20.924569,
+        53.886841,
+        26.80072,
+        56.442602
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Luxembourg",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Luxembourg",
+        "GEOUNIT": "Luxembourg",
+        "ADM0_A3": "LUX",
+        "GU_A3": "LUX",
+        "ISO_A3": "LUX",
+        "ISO_A3_EH": "LUX",
+        "NE_ID": 1159321031,
+        "SOV_A3": "LUX"
+      },
+      "geometry_bounds": [
+        5.714927,
+        49.441324,
+        6.502579,
+        50.174975
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Macedonia_Former_Yugoslav_Republic_of",
+      "source_layer": "countries",
+      "match_method": "explicit historical-name alias",
+      "matched_name_fields": [],
+      "feature": {
+        "ADMIN": "North Macedonia",
+        "GEOUNIT": "North Macedonia",
+        "ADM0_A3": "MKD",
+        "GU_A3": "MKD",
+        "ISO_A3": "MKD",
+        "ISO_A3_EH": "MKD",
+        "NE_ID": 1159321061,
+        "SOV_A3": "MKD"
+      },
+      "geometry_bounds": [
+        20.444157,
+        40.849394,
+        23.009582,
+        42.370335
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Madagascar",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Madagascar",
+        "GEOUNIT": "Madagascar",
+        "ADM0_A3": "MDG",
+        "GU_A3": "MDG",
+        "ISO_A3": "MDG",
+        "ISO_A3_EH": "MDG",
+        "NE_ID": 1159321051,
+        "SOV_A3": "MDG"
+      },
+      "geometry_bounds": [
+        43.222911,
+        -25.598565,
+        50.503917,
+        -11.943617
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Malawi",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Malawi",
+        "GEOUNIT": "Malawi",
+        "ADM0_A3": "MWI",
+        "GU_A3": "MWI",
+        "ISO_A3": "MWI",
+        "ISO_A3_EH": "MWI",
+        "NE_ID": 1159321081,
+        "SOV_A3": "MWI"
+      },
+      "geometry_bounds": [
+        32.663308,
+        -17.135335,
+        35.904299,
+        -9.381235
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Malaysia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Malaysia",
+        "GEOUNIT": "Malaysia",
+        "ADM0_A3": "MYS",
+        "GU_A3": "MYS",
+        "ISO_A3": "MYS",
+        "ISO_A3_EH": "MYS",
+        "NE_ID": 1159321083,
+        "SOV_A3": "MYS"
+      },
+      "geometry_bounds": [
+        99.645228,
+        0.85137,
+        119.278087,
+        7.35578
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Mali",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Mali",
+        "GEOUNIT": "Mali",
+        "ADM0_A3": "MLI",
+        "GU_A3": "MLI",
+        "ISO_A3": "MLI",
+        "ISO_A3_EH": "MLI",
+        "NE_ID": 1159321063,
+        "SOV_A3": "MLI"
+      },
+      "geometry_bounds": [
+        -12.26413,
+        10.140054,
+        4.235638,
+        24.995065
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Mauritania",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Mauritania",
+        "GEOUNIT": "Mauritania",
+        "ADM0_A3": "MRT",
+        "GU_A3": "MRT",
+        "ISO_A3": "MRT",
+        "ISO_A3_EH": "MRT",
+        "NE_ID": 1159321075,
+        "SOV_A3": "MRT"
+      },
+      "geometry_bounds": [
+        -17.081175,
+        14.734399,
+        -4.821613,
+        27.285416
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Mauritius",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Mauritius",
+        "GEOUNIT": "Mauritius",
+        "ADM0_A3": "MUS",
+        "GU_A3": "MUS",
+        "ISO_A3": "MUS",
+        "ISO_A3_EH": "MUS",
+        "NE_ID": 1159321079,
+        "SOV_A3": "MUS"
+      },
+      "geometry_bounds": [
+        56.524181,
+        -20.517348,
+        63.493907,
+        -10.323907
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Mexico",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Mexico",
+        "GEOUNIT": "Mexico",
+        "ADM0_A3": "MEX",
+        "GU_A3": "MEX",
+        "ISO_A3": "MEX",
+        "ISO_A3_EH": "MEX",
+        "NE_ID": 1159321055,
+        "SOV_A3": "MEX"
+      },
+      "geometry_bounds": [
+        -118.368804,
+        14.546279,
+        -86.700592,
+        32.712836
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Moldova",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Moldova",
+        "GEOUNIT": "Moldova",
+        "ADM0_A3": "MDA",
+        "GU_A3": "MDA",
+        "ISO_A3": "MDA",
+        "ISO_A3_EH": "MDA",
+        "NE_ID": 1159321045,
+        "SOV_A3": "MDA"
+      },
+      "geometry_bounds": [
+        26.617889,
+        45.461774,
+        30.131576,
+        48.486034
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Mongolia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Mongolia",
+        "GEOUNIT": "Mongolia",
+        "ADM0_A3": "MNG",
+        "GU_A3": "MNG",
+        "ISO_A3": "MNG",
+        "ISO_A3_EH": "MNG",
+        "NE_ID": 1159321071,
+        "SOV_A3": "MNG"
+      },
+      "geometry_bounds": [
+        87.735709,
+        41.586145,
+        119.907027,
+        52.129584
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Montenegro",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Montenegro",
+        "GEOUNIT": "Montenegro",
+        "ADM0_A3": "MNE",
+        "GU_A3": "MNE",
+        "ISO_A3": "MNE",
+        "ISO_A3_EH": "MNE",
+        "NE_ID": 1159321069,
+        "SOV_A3": "MNE"
+      },
+      "geometry_bounds": [
+        18.433531,
+        41.852362,
+        20.355171,
+        43.547886
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Morocco",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Morocco",
+        "GEOUNIT": "Morocco",
+        "ADM0_A3": "MAR",
+        "GU_A3": "MAR",
+        "ISO_A3": "MAR",
+        "ISO_A3_EH": "MAR",
+        "NE_ID": 1159321035,
+        "SOV_A3": "MAR"
+      },
+      "geometry_bounds": [
+        -17.013743,
+        21.419971,
+        -1.031999,
+        35.926519
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Mozambique",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Mozambique",
+        "GEOUNIT": "Mozambique",
+        "ADM0_A3": "MOZ",
+        "GU_A3": "MOZ",
+        "ISO_A3": "MOZ",
+        "ISO_A3_EH": "MOZ",
+        "NE_ID": 1159321073,
+        "SOV_A3": "MOZ"
+      },
+      "geometry_bounds": [
+        30.213845,
+        -26.860272,
+        40.847992,
+        -10.469008
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Myanmar",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Myanmar",
+        "GEOUNIT": "Myanmar",
+        "ADM0_A3": "MMR",
+        "GU_A3": "MMR",
+        "ISO_A3": "MMR",
+        "ISO_A3_EH": "MMR",
+        "NE_ID": 1159321067,
+        "SOV_A3": "MMR"
+      },
+      "geometry_bounds": [
+        92.174973,
+        9.790717,
+        101.173855,
+        28.538466
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Namibia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Namibia",
+        "GEOUNIT": "Namibia",
+        "ADM0_A3": "NAM",
+        "GU_A3": "NAM",
+        "ISO_A3": "NAM",
+        "ISO_A3_EH": "NAM",
+        "NE_ID": 1159321085,
+        "SOV_A3": "NAM"
+      },
+      "geometry_bounds": [
+        11.717621,
+        -28.959368,
+        25.259781,
+        -16.951057
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Nepal",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Nepal",
+        "GEOUNIT": "Nepal",
+        "ADM0_A3": "NPL",
+        "GU_A3": "NPL",
+        "ISO_A3": "NPL",
+        "ISO_A3_EH": "NPL",
+        "NE_ID": 1159321121,
+        "SOV_A3": "NPL"
+      },
+      "geometry_bounds": [
+        80.030288,
+        26.343768,
+        88.169067,
+        30.416904
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Netherlands",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Netherlands",
+        "GEOUNIT": "Netherlands",
+        "ADM0_A3": "NLD",
+        "GU_A3": "NLD",
+        "ISO_A3": "NLD",
+        "ISO_A3_EH": "NLD",
+        "NE_ID": 1159321101,
+        "SOV_A3": "NL1"
+      },
+      "geometry_bounds": [
+        -68.417388,
+        12.02204,
+        7.198506,
+        53.558092
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Country feature includes geographically separated map units. Preserve union unless NASA archive evidence supports a narrower documented domain."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "New_Caledonia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "New Caledonia",
+        "GEOUNIT": "New Caledonia",
+        "ADM0_A3": "NCL",
+        "GU_A3": "NCL",
+        "ISO_A3": "NCL",
+        "ISO_A3_EH": "NCL",
+        "NE_ID": 1159320641,
+        "SOV_A3": "FR1"
+      },
+      "geometry_bounds": [
+        163.615733,
+        -22.670668,
+        171.343765,
+        -19.623712
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "New_Zealand",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "New Zealand",
+        "GEOUNIT": "New Zealand",
+        "ADM0_A3": "NZL",
+        "GU_A3": "NZL",
+        "ISO_A3": "NZL",
+        "ISO_A3_EH": "NZL",
+        "NE_ID": 1159321135,
+        "SOV_A3": "NZ1"
+      },
+      "geometry_bounds": [
+        -177.957997,
+        -52.600313,
+        178.843923,
+        -8.543227
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Wide longitude extent; use wrap-aware AOI/viewport and polygon filtering, not ordinary bounding-box classification.",
+        "Country feature includes geographically separated map units. Preserve union unless NASA archive evidence supports a narrower documented domain."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Nicaragua",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Nicaragua",
+        "GEOUNIT": "Nicaragua",
+        "ADM0_A3": "NIC",
+        "GU_A3": "NIC",
+        "ISO_A3": "NIC",
+        "ISO_A3_EH": "NIC",
+        "NE_ID": 1159321091,
+        "SOV_A3": "NIC"
+      },
+      "geometry_bounds": [
+        -87.685821,
+        10.713482,
+        -82.725697,
+        15.03097
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Niger",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Niger",
+        "GEOUNIT": "Niger",
+        "ADM0_A3": "NER",
+        "GU_A3": "NER",
+        "ISO_A3": "NER",
+        "ISO_A3_EH": "NER",
+        "NE_ID": 1159321087,
+        "SOV_A3": "NER"
+      },
+      "geometry_bounds": [
+        0.152941,
+        11.695773,
+        15.970322,
+        23.517351
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Nigeria",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Nigeria",
+        "GEOUNIT": "Nigeria",
+        "ADM0_A3": "NGA",
+        "GU_A3": "NGA",
+        "ISO_A3": "NGA",
+        "ISO_A3_EH": "NGA",
+        "NE_ID": 1159321089,
+        "SOV_A3": "NGA"
+      },
+      "geometry_bounds": [
+        2.671082,
+        4.272162,
+        14.669936,
+        13.880291
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Northern_Mariana_Islands",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Northern Mariana Islands",
+        "GEOUNIT": "Northern Mariana Islands",
+        "ADM0_A3": "MNP",
+        "GU_A3": "MNP",
+        "ISO_A3": "MNP",
+        "ISO_A3_EH": "MNP",
+        "NE_ID": 1159321361,
+        "SOV_A3": "US1"
+      },
+      "geometry_bounds": [
+        144.90211,
+        14.110663,
+        145.868907,
+        20.555406
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Norway",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Norway",
+        "GEOUNIT": "Norway",
+        "ADM0_A3": "NOR",
+        "GU_A3": "NOR",
+        "ISO_A3": "-99",
+        "ISO_A3_EH": "NOR",
+        "NE_ID": 1159321109,
+        "SOV_A3": "NOR"
+      },
+      "geometry_bounds": [
+        -9.117421,
+        -54.462498,
+        33.640391,
+        80.770087
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Country feature includes geographically separated map units. Preserve union unless NASA archive evidence supports a narrower documented domain."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Oman",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Oman",
+        "GEOUNIT": "Oman",
+        "ADM0_A3": "OMN",
+        "GU_A3": "OMN",
+        "ISO_A3": "OMN",
+        "ISO_A3_EH": "OMN",
+        "NE_ID": 1159321151,
+        "SOV_A3": "OMN"
+      },
+      "geometry_bounds": [
+        51.978615,
+        16.642401,
+        59.844574,
+        26.385972
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Pakistan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Pakistan",
+        "GEOUNIT": "Pakistan",
+        "ADM0_A3": "PAK",
+        "GU_A3": "PAK",
+        "ISO_A3": "PAK",
+        "ISO_A3_EH": "PAK",
+        "NE_ID": 1159321153,
+        "SOV_A3": "PAK"
+      },
+      "geometry_bounds": [
+        60.844379,
+        23.694525,
+        77.048971,
+        37.054484
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Palestine",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT"
+      ],
+      "feature": {
+        "ADMIN": "Palestine",
+        "GEOUNIT": "Palestine",
+        "ADM0_A3": "PSX",
+        "GU_A3": "PSX",
+        "ISO_A3": "PSE",
+        "ISO_A3_EH": "PSE",
+        "NE_ID": 1159320899,
+        "SOV_A3": "IS1"
+      },
+      "geometry_bounds": [
+        34.200269,
+        31.211449,
+        35.572536,
+        32.54264
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Panama",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Panama",
+        "GEOUNIT": "Panama",
+        "ADM0_A3": "PAN",
+        "GU_A3": "PAN",
+        "ISO_A3": "PAN",
+        "ISO_A3_EH": "PAN",
+        "NE_ID": 1159321161,
+        "SOV_A3": "PAN"
+      },
+      "geometry_bounds": [
+        -83.053246,
+        7.205715,
+        -77.16327,
+        9.629292
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Papua_New_Guinea",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Papua New Guinea",
+        "GEOUNIT": "Papua New Guinea",
+        "ADM0_A3": "PNG",
+        "GU_A3": "PNG",
+        "ISO_A3": "PNG",
+        "ISO_A3_EH": "PNG",
+        "NE_ID": 1159321173,
+        "SOV_A3": "PNG"
+      },
+      "geometry_bounds": [
+        140.849211,
+        -11.636326,
+        155.96754,
+        -1.346368
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Paraguay",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Paraguay",
+        "GEOUNIT": "Paraguay",
+        "ADM0_A3": "PRY",
+        "GU_A3": "PRY",
+        "ISO_A3": "PRY",
+        "ISO_A3_EH": "PRY",
+        "NE_ID": 1159321195,
+        "SOV_A3": "PRY"
+      },
+      "geometry_bounds": [
+        -62.650357,
+        -27.586842,
+        -54.245289,
+        -19.286729
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Peru",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Peru",
+        "GEOUNIT": "Peru",
+        "ADM0_A3": "PER",
+        "GU_A3": "PER",
+        "ISO_A3": "PER",
+        "ISO_A3_EH": "PER",
+        "NE_ID": 1159321163,
+        "SOV_A3": "PER"
+      },
+      "geometry_bounds": [
+        -81.337558,
+        -18.337746,
+        -68.684252,
+        -0.029093
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Philippines",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Philippines",
+        "GEOUNIT": "Philippines",
+        "ADM0_A3": "PHL",
+        "GU_A3": "PHL",
+        "ISO_A3": "PHL",
+        "ISO_A3_EH": "PHL",
+        "NE_ID": 1159321169,
+        "SOV_A3": "PHL"
+      },
+      "geometry_bounds": [
+        116.954926,
+        4.655707,
+        126.617686,
+        21.122382
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Poland",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Poland",
+        "GEOUNIT": "Poland",
+        "ADM0_A3": "POL",
+        "GU_A3": "POL",
+        "ISO_A3": "POL",
+        "ISO_A3_EH": "POL",
+        "NE_ID": 1159321179,
+        "SOV_A3": "POL"
+      },
+      "geometry_bounds": [
+        14.123923,
+        48.994013,
+        24.143156,
+        54.838324
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Portugal",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Portugal",
+        "GEOUNIT": "Portugal",
+        "ADM0_A3": "PRT",
+        "GU_A3": "PRT",
+        "ISO_A3": "PRT",
+        "ISO_A3_EH": "PRT",
+        "NE_ID": 1159321187,
+        "SOV_A3": "PRT"
+      },
+      "geometry_bounds": [
+        -31.284901,
+        30.029242,
+        -6.205947,
+        42.15363
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Country feature includes geographically separated map units. Preserve union unless NASA archive evidence supports a narrower documented domain."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Puerto_Rico",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Puerto Rico",
+        "GEOUNIT": "Puerto Rico",
+        "ADM0_A3": "PRI",
+        "GU_A3": "PRI",
+        "ISO_A3": "PRI",
+        "ISO_A3_EH": "PRI",
+        "NE_ID": 1159321363,
+        "SOV_A3": "US1"
+      },
+      "geometry_bounds": [
+        -67.937815,
+        17.922919,
+        -65.244618,
+        18.522773
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Qatar",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Qatar",
+        "GEOUNIT": "Qatar",
+        "ADM0_A3": "QAT",
+        "GU_A3": "QAT",
+        "ISO_A3": "QAT",
+        "ISO_A3_EH": "QAT",
+        "NE_ID": 1159321197,
+        "SOV_A3": "QAT"
+      },
+      "geometry_bounds": [
+        50.750987,
+        24.559872,
+        51.616547,
+        26.160102
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Republic_of_Congo",
+      "source_layer": "countries",
+      "match_method": "explicit historical-name alias",
+      "matched_name_fields": [],
+      "feature": {
+        "ADMIN": "Republic of the Congo",
+        "GEOUNIT": "Republic of the Congo",
+        "ADM0_A3": "COG",
+        "GU_A3": "COG",
+        "ISO_A3": "COG",
+        "ISO_A3_EH": "COG",
+        "NE_ID": 1159320515,
+        "SOV_A3": "COG"
+      },
+      "geometry_bounds": [
+        11.114016,
+        -5.019631,
+        18.642407,
+        3.708276
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Republic_of_Korea",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_LONG",
+        "FORMAL_EN"
+      ],
+      "feature": {
+        "ADMIN": "South Korea",
+        "GEOUNIT": "South Korea",
+        "ADM0_A3": "KOR",
+        "GU_A3": "KOR",
+        "ISO_A3": "KOR",
+        "ISO_A3_EH": "KOR",
+        "NE_ID": 1159320985,
+        "SOV_A3": "KOR"
+      },
+      "geometry_bounds": [
+        124.613617,
+        33.197577,
+        131.862522,
+        38.624335
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Reunion",
+      "source_layer": "map_units",
+      "match_method": "explicit GU_A3 override",
+      "matched_name_fields": [
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "France",
+        "GEOUNIT": "Reunion",
+        "ADM0_A3": "FRA",
+        "GU_A3": "REU",
+        "ISO_A3": "REU",
+        "ISO_A3_EH": "REU",
+        "NE_ID": 1159320661,
+        "SOV_A3": "FR1"
+      },
+      "geometry_bounds": [
+        55.225434,
+        -21.370782,
+        55.854503,
+        -20.861423
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Romania",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Romania",
+        "GEOUNIT": "Romania",
+        "ADM0_A3": "ROU",
+        "GU_A3": "ROU",
+        "ISO_A3": "ROU",
+        "ISO_A3_EH": "ROU",
+        "NE_ID": 1159321199,
+        "SOV_A3": "ROU"
+      },
+      "geometry_bounds": [
+        20.242826,
+        43.65005,
+        29.699555,
+        48.274832
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Russian_Federation",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_LONG",
+        "FORMAL_EN",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Russia",
+        "GEOUNIT": "Russia",
+        "ADM0_A3": "RUS",
+        "GU_A3": "RUS",
+        "ISO_A3": "RUS",
+        "ISO_A3_EH": "RUS",
+        "NE_ID": 1159321201,
+        "SOV_A3": "RUS"
+      },
+      "geometry_bounds": [
+        -180.0,
+        41.192681,
+        180.0,
+        81.85871
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Wide longitude extent; use wrap-aware AOI/viewport and polygon filtering, not ordinary bounding-box classification.",
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Rwanda",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Rwanda",
+        "GEOUNIT": "Rwanda",
+        "ADM0_A3": "RWA",
+        "GU_A3": "RWA",
+        "ISO_A3": "RWA",
+        "ISO_A3_EH": "RWA",
+        "NE_ID": 1159321219,
+        "SOV_A3": "RWA"
+      },
+      "geometry_bounds": [
+        28.857236,
+        -2.826855,
+        30.887809,
+        -1.058694
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Saint_Kitts_and_Nevis",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Saint Kitts and Nevis",
+        "GEOUNIT": "Saint Kitts and Nevis",
+        "ADM0_A3": "KNA",
+        "GU_A3": "KNA",
+        "ISO_A3": "KNA",
+        "ISO_A3_EH": "KNA",
+        "NE_ID": 1159320983,
+        "SOV_A3": "KNA"
+      },
+      "geometry_bounds": [
+        -62.861073,
+        17.100531,
+        -62.536773,
+        17.415839
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Samoa",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Samoa",
+        "GEOUNIT": "Samoa",
+        "ADM0_A3": "WSM",
+        "GU_A3": "WSM",
+        "ISO_A3": "WSM",
+        "ISO_A3_EH": "WSM",
+        "NE_ID": 1159321423,
+        "SOV_A3": "WSM"
+      },
+      "geometry_bounds": [
+        -172.782582,
+        -14.05283,
+        -171.437693,
+        -13.462823
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Sao_Tome_and_Principe",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "S\u00e3o Tom\u00e9 and Principe",
+        "GEOUNIT": "S\u00e3o Tom\u00e9 and Principe",
+        "ADM0_A3": "STP",
+        "GU_A3": "STP",
+        "ISO_A3": "STP",
+        "ISO_A3_EH": "STP",
+        "NE_ID": 1159321273,
+        "SOV_A3": "STP"
+      },
+      "geometry_bounds": [
+        6.461681,
+        0.024115,
+        7.462738,
+        1.699774
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Saudi_Arabia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Saudi Arabia",
+        "GEOUNIT": "Saudi Arabia",
+        "ADM0_A3": "SAU",
+        "GU_A3": "SAU",
+        "ISO_A3": "SAU",
+        "ISO_A3_EH": "SAU",
+        "NE_ID": 1159321225,
+        "SOV_A3": "SAU"
+      },
+      "geometry_bounds": [
+        34.572765,
+        16.370958,
+        55.637565,
+        32.121348
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Senegal",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Senegal",
+        "GEOUNIT": "Senegal",
+        "ADM0_A3": "SEN",
+        "GU_A3": "SEN",
+        "ISO_A3": "SEN",
+        "ISO_A3_EH": "SEN",
+        "NE_ID": 1159321243,
+        "SOV_A3": "SEN"
+      },
+      "geometry_bounds": [
+        -17.536041,
+        12.305607,
+        -11.377776,
+        16.691385
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Serbia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Republic of Serbia",
+        "GEOUNIT": "Republic of Serbia",
+        "ADM0_A3": "SRB",
+        "GU_A3": "SRB",
+        "ISO_A3": "SRB",
+        "ISO_A3_EH": "SRB",
+        "NE_ID": 1159321267,
+        "SOV_A3": "SRB"
+      },
+      "geometry_bounds": [
+        18.844978,
+        42.234945,
+        22.984571,
+        46.173875
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Sierra_Leone",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Sierra Leone",
+        "GEOUNIT": "Sierra Leone",
+        "ADM0_A3": "SLE",
+        "GU_A3": "SLE",
+        "ISO_A3": "SLE",
+        "ISO_A3_EH": "SLE",
+        "NE_ID": 1159321251,
+        "SOV_A3": "SLE"
+      },
+      "geometry_bounds": [
+        -13.301096,
+        6.91942,
+        -10.282236,
+        9.996006
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Singapore",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Singapore",
+        "GEOUNIT": "Singapore",
+        "ADM0_A3": "SGP",
+        "GU_A3": "SGP",
+        "ISO_A3": "SGP",
+        "ISO_A3_EH": "SGP",
+        "NE_ID": 1159321247,
+        "SOV_A3": "SGP"
+      },
+      "geometry_bounds": [
+        103.640391,
+        1.264309,
+        104.003429,
+        1.448635
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Slovakia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Slovakia",
+        "GEOUNIT": "Slovakia",
+        "ADM0_A3": "SVK",
+        "GU_A3": "SVK",
+        "ISO_A3": "SVK",
+        "ISO_A3_EH": "SVK",
+        "NE_ID": 1159321283,
+        "SOV_A3": "SVK"
+      },
+      "geometry_bounds": [
+        16.84448,
+        47.750006,
+        22.539637,
+        49.60178
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Slovenia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Slovenia",
+        "GEOUNIT": "Slovenia",
+        "ADM0_A3": "SVN",
+        "GU_A3": "SVN",
+        "ISO_A3": "SVN",
+        "ISO_A3_EH": "SVN",
+        "NE_ID": 1159321285,
+        "SOV_A3": "SVN"
+      },
+      "geometry_bounds": [
+        13.365261,
+        45.423637,
+        16.515302,
+        46.863962
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Solomon_Islands",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Solomon Islands",
+        "GEOUNIT": "Solomon Islands",
+        "ADM0_A3": "SLB",
+        "GU_A3": "SLB",
+        "ISO_A3": "SLB",
+        "ISO_A3_EH": "SLB",
+        "NE_ID": 1159321249,
+        "SOV_A3": "SLB"
+      },
+      "geometry_bounds": [
+        155.507986,
+        -12.290623,
+        168.825857,
+        -6.599867
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Somalia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Somalia",
+        "GEOUNIT": "Somalia",
+        "ADM0_A3": "SOM",
+        "GU_A3": "SOM",
+        "ISO_A3": "SOM",
+        "ISO_A3_EH": "SOM",
+        "NE_ID": 1159321261,
+        "SOV_A3": "SOM"
+      },
+      "geometry_bounds": [
+        40.965385,
+        -1.696303,
+        51.417038,
+        11.989119
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "South_Africa",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "South Africa",
+        "GEOUNIT": "South Africa",
+        "ADM0_A3": "ZAF",
+        "GU_A3": "ZAF",
+        "ISO_A3": "ZAF",
+        "ISO_A3_EH": "ZAF",
+        "NE_ID": 1159321431,
+        "SOV_A3": "ZAF"
+      },
+      "geometry_bounds": [
+        16.469981,
+        -46.965753,
+        37.977794,
+        -22.126452
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "South_Sudan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "South Sudan",
+        "GEOUNIT": "South Sudan",
+        "ADM0_A3": "SDS",
+        "GU_A3": "SDS",
+        "ISO_A3": "SSD",
+        "ISO_A3_EH": "SSD",
+        "NE_ID": 1159321235,
+        "SOV_A3": "SDS"
+      },
+      "geometry_bounds": [
+        24.121556,
+        3.490202,
+        35.920835,
+        12.216155
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Spain",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Spain",
+        "GEOUNIT": "Spain",
+        "ADM0_A3": "ESP",
+        "GU_A3": "ESP",
+        "ISO_A3": "ESP",
+        "ISO_A3_EH": "ESP",
+        "NE_ID": 1159320587,
+        "SOV_A3": "ESP"
+      },
+      "geometry_bounds": [
+        -18.167226,
+        27.642239,
+        4.337087,
+        43.793443
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Sri_Lanka",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Sri Lanka",
+        "GEOUNIT": "Sri Lanka",
+        "ADM0_A3": "LKA",
+        "GU_A3": "LKA",
+        "ISO_A3": "LKA",
+        "ISO_A3_EH": "LKA",
+        "NE_ID": 1159321025,
+        "SOV_A3": "LKA"
+      },
+      "geometry_bounds": [
+        79.655772,
+        5.923733,
+        81.89031,
+        9.829576
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Sudan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Sudan",
+        "GEOUNIT": "Sudan",
+        "ADM0_A3": "SDN",
+        "GU_A3": "SDN",
+        "ISO_A3": "SDN",
+        "ISO_A3_EH": "SDN",
+        "NE_ID": 1159321229,
+        "SOV_A3": "SDN"
+      },
+      "geometry_bounds": [
+        21.809449,
+        8.681642,
+        38.603852,
+        22.226965
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Suriname",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Suriname",
+        "GEOUNIT": "Suriname",
+        "ADM0_A3": "SUR",
+        "GU_A3": "SUR",
+        "ISO_A3": "SUR",
+        "ISO_A3_EH": "SUR",
+        "NE_ID": 1159321281,
+        "SOV_A3": "SUR"
+      },
+      "geometry_bounds": [
+        -58.067691,
+        1.833507,
+        -53.986357,
+        6.011574
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Swaziland",
+      "source_layer": "countries",
+      "match_method": "explicit historical-name alias",
+      "matched_name_fields": [],
+      "feature": {
+        "ADMIN": "eSwatini",
+        "GEOUNIT": "eSwatini",
+        "ADM0_A3": "SWZ",
+        "GU_A3": "SWZ",
+        "ISO_A3": "SWZ",
+        "ISO_A3_EH": "SWZ",
+        "NE_ID": 1159321289,
+        "SOV_A3": "SWZ"
+      },
+      "geometry_bounds": [
+        30.782906,
+        -27.316264,
+        32.117398,
+        -25.735999
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Sweden",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Sweden",
+        "GEOUNIT": "Sweden",
+        "ADM0_A3": "SWE",
+        "GU_A3": "SWE",
+        "ISO_A3": "SWE",
+        "ISO_A3_EH": "SWE",
+        "NE_ID": 1159321287,
+        "SOV_A3": "SWE"
+      },
+      "geometry_bounds": [
+        11.108165,
+        55.342678,
+        24.163414,
+        69.036356
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Switzerland",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Switzerland",
+        "GEOUNIT": "Switzerland",
+        "ADM0_A3": "CHE",
+        "GU_A3": "CHE",
+        "ISO_A3": "CHE",
+        "ISO_A3_EH": "CHE",
+        "NE_ID": 1159320491,
+        "SOV_A3": "CHE"
+      },
+      "geometry_bounds": [
+        5.954809,
+        45.820718,
+        10.466627,
+        47.801166
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Syria",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Syria",
+        "GEOUNIT": "Syria",
+        "ADM0_A3": "SYR",
+        "GU_A3": "SYR",
+        "ISO_A3": "SYR",
+        "ISO_A3_EH": "SYR",
+        "NE_ID": 1159321295,
+        "SOV_A3": "SYR"
+      },
+      "geometry_bounds": [
+        35.723399,
+        32.313042,
+        42.377186,
+        37.324906
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Taiwan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Taiwan",
+        "GEOUNIT": "Taiwan",
+        "ADM0_A3": "TWN",
+        "GU_A3": "TWN",
+        "ISO_A3": "TWN",
+        "ISO_A3_EH": "TWN",
+        "NE_ID": 1159321335,
+        "SOV_A3": "TWN"
+      },
+      "geometry_bounds": [
+        118.279552,
+        21.904608,
+        122.005382,
+        25.287421
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Tajikistan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Tajikistan",
+        "GEOUNIT": "Tajikistan",
+        "ADM0_A3": "TJK",
+        "GU_A3": "TJK",
+        "ISO_A3": "TJK",
+        "ISO_A3_EH": "TJK",
+        "NE_ID": 1159321307,
+        "SOV_A3": "TJK"
+      },
+      "geometry_bounds": [
+        67.34269,
+        36.678641,
+        75.164125,
+        41.039977
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Tanzania",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "United Republic of Tanzania",
+        "GEOUNIT": "Tanzania",
+        "ADM0_A3": "TZA",
+        "GU_A3": "TZA",
+        "ISO_A3": "TZA",
+        "ISO_A3_EH": "TZA",
+        "NE_ID": 1159321337,
+        "SOV_A3": "TZA"
+      },
+      "geometry_bounds": [
+        29.321032,
+        -11.731272,
+        40.449392,
+        -0.98583
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Thailand",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Thailand",
+        "GEOUNIT": "Thailand",
+        "ADM0_A3": "THA",
+        "GU_A3": "THA",
+        "ISO_A3": "THA",
+        "ISO_A3_EH": "THA",
+        "NE_ID": 1159321305,
+        "SOV_A3": "THA"
+      },
+      "geometry_bounds": [
+        97.351401,
+        5.62989,
+        105.650998,
+        20.445006
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "The_Gambia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_LONG",
+        "NAME_EN"
+      ],
+      "feature": {
+        "ADMIN": "Gambia",
+        "GEOUNIT": "Gambia",
+        "ADM0_A3": "GMB",
+        "GU_A3": "GMB",
+        "ISO_A3": "GMB",
+        "ISO_A3_EH": "GMB",
+        "NE_ID": 1159320797,
+        "SOV_A3": "GMB"
+      },
+      "geometry_bounds": [
+        -16.829701,
+        13.065009,
+        -13.818713,
+        13.819984
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Timor-Leste",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME",
+        "NAME_LONG",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "East Timor",
+        "GEOUNIT": "East Timor",
+        "ADM0_A3": "TLS",
+        "GU_A3": "TLS",
+        "ISO_A3": "TLS",
+        "ISO_A3_EH": "TLS",
+        "NE_ID": 1159321313,
+        "SOV_A3": "TLS"
+      },
+      "geometry_bounds": [
+        124.03004,
+        -9.501228,
+        127.313243,
+        -8.135024
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Togo",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Togo",
+        "GEOUNIT": "Togo",
+        "ADM0_A3": "TGO",
+        "GU_A3": "TGO",
+        "ISO_A3": "TGO",
+        "ISO_A3_EH": "TGO",
+        "NE_ID": 1159321303,
+        "SOV_A3": "TGO"
+      },
+      "geometry_bounds": [
+        -0.166109,
+        6.100491,
+        1.782351,
+        11.13498
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Tonga",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Tonga",
+        "GEOUNIT": "Tonga",
+        "ADM0_A3": "TON",
+        "GU_A3": "TON",
+        "ISO_A3": "TON",
+        "ISO_A3_EH": "TON",
+        "NE_ID": 1159321319,
+        "SOV_A3": "TON"
+      },
+      "geometry_bounds": [
+        -176.219309,
+        -22.3388,
+        -173.914255,
+        -15.559503
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Trinidad_and_Tobago",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Trinidad and Tobago",
+        "GEOUNIT": "Trinidad and Tobago",
+        "ADM0_A3": "TTO",
+        "GU_A3": "TTO",
+        "ISO_A3": "TTO",
+        "ISO_A3_EH": "TTO",
+        "NE_ID": 1159321321,
+        "SOV_A3": "TTO"
+      },
+      "geometry_bounds": [
+        -61.9287,
+        10.04206,
+        -60.522084,
+        11.35106
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Tunisia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Tunisia",
+        "GEOUNIT": "Tunisia",
+        "ADM0_A3": "TUN",
+        "GU_A3": "TUN",
+        "ISO_A3": "TUN",
+        "ISO_A3_EH": "TUN",
+        "NE_ID": 1159321327,
+        "SOV_A3": "TUN"
+      },
+      "geometry_bounds": [
+        7.479832,
+        30.228905,
+        11.564131,
+        37.345201
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Turkey",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Turkey",
+        "GEOUNIT": "Turkey",
+        "ADM0_A3": "TUR",
+        "GU_A3": "TUR",
+        "ISO_A3": "TUR",
+        "ISO_A3_EH": "TUR",
+        "NE_ID": 1159321331,
+        "SOV_A3": "TUR"
+      },
+      "geometry_bounds": [
+        25.663259,
+        35.819779,
+        44.806993,
+        42.098782
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Turkmenistan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Turkmenistan",
+        "GEOUNIT": "Turkmenistan",
+        "ADM0_A3": "TKM",
+        "GU_A3": "TKM",
+        "ISO_A3": "TKM",
+        "ISO_A3_EH": "TKM",
+        "NE_ID": 1159321309,
+        "SOV_A3": "TKM"
+      },
+      "geometry_bounds": [
+        52.437671,
+        35.140647,
+        66.645782,
+        42.791188
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Uganda",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Uganda",
+        "GEOUNIT": "Uganda",
+        "ADM0_A3": "UGA",
+        "GU_A3": "UGA",
+        "ISO_A3": "UGA",
+        "ISO_A3_EH": "UGA",
+        "NE_ID": 1159321343,
+        "SOV_A3": "UGA"
+      },
+      "geometry_bounds": [
+        29.54846,
+        -1.475206,
+        35.006473,
+        4.219692
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Ukraine",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Ukraine",
+        "GEOUNIT": "Ukraine",
+        "ADM0_A3": "UKR",
+        "GU_A3": "UKR",
+        "ISO_A3": "UKR",
+        "ISO_A3_EH": "UKR",
+        "NE_ID": 1159321345,
+        "SOV_A3": "UKR"
+      },
+      "geometry_bounds": [
+        22.13284,
+        45.213568,
+        40.159543,
+        52.368949
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Natural Earth boundary convention may differ from NASA archive country assignment; matching name does not establish identical geography. Report pre/post-mask counts and excluded spatial cells."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "United_Arab_Emirates",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "FORMAL_EN",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "United Arab Emirates",
+        "GEOUNIT": "United Arab Emirates",
+        "ADM0_A3": "ARE",
+        "GU_A3": "ARE",
+        "ISO_A3": "ARE",
+        "ISO_A3_EH": "ARE",
+        "NE_ID": 1159320329,
+        "SOV_A3": "ARE"
+      },
+      "geometry_bounds": [
+        51.569347,
+        22.620946,
+        56.383637,
+        26.074792
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "United_Kingdom",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "United Kingdom",
+        "GEOUNIT": "United Kingdom",
+        "ADM0_A3": "GBR",
+        "GU_A3": "GBR",
+        "ISO_A3": "GBR",
+        "ISO_A3_EH": "GBR",
+        "NE_ID": 1159320713,
+        "SOV_A3": "GB1"
+      },
+      "geometry_bounds": [
+        -13.691314,
+        49.909613,
+        1.771169,
+        60.847886
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "United_States",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "NAME_LONG",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "United States of America",
+        "GEOUNIT": "United States of America",
+        "ADM0_A3": "USA",
+        "GU_A3": "USA",
+        "ISO_A3": "USA",
+        "ISO_A3_EH": "USA",
+        "NE_ID": 1159321369,
+        "SOV_A3": "US1"
+      },
+      "geometry_bounds": [
+        -179.143503,
+        18.906117,
+        179.780935,
+        71.412502
+      ],
+      "geometry_valid": true,
+      "warnings": [
+        "Wide longitude extent; use wrap-aware AOI/viewport and polygon filtering, not ordinary bounding-box classification."
+      ],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Uruguay",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Uruguay",
+        "GEOUNIT": "Uruguay",
+        "ADM0_A3": "URY",
+        "GU_A3": "URY",
+        "ISO_A3": "URY",
+        "ISO_A3_EH": "URY",
+        "NE_ID": 1159321353,
+        "SOV_A3": "URY"
+      },
+      "geometry_bounds": [
+        -58.439361,
+        -34.973403,
+        -53.110836,
+        -30.09687
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Uzbekistan",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Uzbekistan",
+        "GEOUNIT": "Uzbekistan",
+        "ADM0_A3": "UZB",
+        "GU_A3": "UZB",
+        "ISO_A3": "UZB",
+        "ISO_A3_EH": "UZB",
+        "NE_ID": 1159321405,
+        "SOV_A3": "UZB"
+      },
+      "geometry_bounds": [
+        55.975839,
+        37.185147,
+        73.148641,
+        45.558719
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Vanuatu",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Vanuatu",
+        "GEOUNIT": "Vanuatu",
+        "ADM0_A3": "VUT",
+        "GU_A3": "VUT",
+        "ISO_A3": "VUT",
+        "ISO_A3_EH": "VUT",
+        "NE_ID": 1159321421,
+        "SOV_A3": "VUT"
+      },
+      "geometry_bounds": [
+        166.520518,
+        -20.253106,
+        169.898936,
+        -13.064874
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Venezuela",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Venezuela",
+        "GEOUNIT": "Venezuela",
+        "ADM0_A3": "VEN",
+        "GU_A3": "VEN",
+        "ISO_A3": "VEN",
+        "ISO_A3_EH": "VEN",
+        "NE_ID": 1159321411,
+        "SOV_A3": "VEN"
+      },
+      "geometry_bounds": [
+        -73.391149,
+        0.649315,
+        -59.815595,
+        15.702948
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Vietnam",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Vietnam",
+        "GEOUNIT": "Vietnam",
+        "ADM0_A3": "VNM",
+        "GU_A3": "VNM",
+        "ISO_A3": "VNM",
+        "ISO_A3_EH": "VNM",
+        "NE_ID": 1159321417,
+        "SOV_A3": "VNM"
+      },
+      "geometry_bounds": [
+        102.118655,
+        8.565579,
+        109.472423,
+        23.366275
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Yemen",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF"
+      ],
+      "feature": {
+        "ADMIN": "Yemen",
+        "GEOUNIT": "Yemen",
+        "ADM0_A3": "YEM",
+        "GU_A3": "YEM",
+        "ISO_A3": "YEM",
+        "ISO_A3_EH": "YEM",
+        "NE_ID": 1159321425,
+        "SOV_A3": "YEM"
+      },
+      "geometry_bounds": [
+        42.545746,
+        12.111444,
+        54.540294,
+        18.995638
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Zambia",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Zambia",
+        "GEOUNIT": "Zambia",
+        "ADM0_A3": "ZMB",
+        "GU_A3": "ZMB",
+        "ISO_A3": "ZMB",
+        "ISO_A3_EH": "ZMB",
+        "NE_ID": 1159321439,
+        "SOV_A3": "ZMB"
+      },
+      "geometry_bounds": [
+        21.979878,
+        -18.069232,
+        33.674203,
+        -8.194124
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    },
+    {
+      "firms_name": "Zimbabwe",
+      "source_layer": "countries",
+      "match_method": "unique normalized exact name",
+      "matched_name_fields": [
+        "ADMIN",
+        "NAME",
+        "NAME_LONG",
+        "NAME_EN",
+        "GEOUNIT",
+        "NAME_CIAWF",
+        "NAME_SORT"
+      ],
+      "feature": {
+        "ADMIN": "Zimbabwe",
+        "GEOUNIT": "Zimbabwe",
+        "ADM0_A3": "ZWE",
+        "GU_A3": "ZWE",
+        "ISO_A3": "ZWE",
+        "ISO_A3_EH": "ZWE",
+        "NE_ID": 1159321441,
+        "SOV_A3": "ZWE"
+      },
+      "geometry_bounds": [
+        25.21937,
+        -22.39734,
+        33.042768,
+        -15.614808
+      ],
+      "geometry_valid": true,
+      "warnings": [],
+      "calibration_status": "not established by geographic mapping"
+    }
+  ],
+  "country_layer_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/9380cca83db5f9aef52d5e762765100745f84b27/geojson/ne_10m_admin_0_countries.geojson",
+  "map_units_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/117488dc884bad03366ff727eca013e434615127/geojson/ne_10m_admin_0_map_units.geojson"
+}

@@ -1,4 +1,6 @@
-# One question. Many fire seasons.
+# Earlier geographic model and local AI
+
+**Superseded coverage:** the current atlas has 185 country/territory entries. This document preserves the earlier three-country model and AI design. [Current global evaluation, fallback policy and v2 contract](global-validation.html).
 
 Fire Continuum now separates a reusable geographic workbench from its original Indonesia research case. Indonesia was a prototype choice, not a challenge requirement. The workbench loads India, Australia and Indonesia histories, worldwide recent observations, exact-date analytics and an evidence assistant.
 

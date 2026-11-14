@@ -1,0 +1,31 @@
+{
+  "version": "global-185-v1",
+  "frozen_before_global_country_results": true,
+  "prior_information": "The original Indonesia, India and Australia results have already been inspected. This global expansion is exploratory, not a blind external validation study.",
+  "countries": 185,
+  "archive_years": [2003, 2025],
+  "fit_years": [2019, 2021],
+  "excluded_fit_months": ["2020-08", "2020-09"],
+  "test_years": [2022, 2025],
+  "baseline_years": [2003, 2017],
+  "spatial_grid": "EPSG:6933, occupied 1 km cell per UTC day; 0.5-degree display bins",
+  "training_support": {
+    "minimum_each_instrument_cell_days_per_quarter": 20,
+    "minimum_paired_nonzero_months_per_quarter": 3
+  },
+  "test_support": {
+    "minimum_total_aqua_cell_days": 200,
+    "minimum_months_with_positive_historical_median": 24
+  },
+  "agreement_checks": {
+    "maximum_wape": 0.25,
+    "maximum_absolute_signed_bias": 0.15,
+    "minimum_category_agreement": 0.8,
+    "must_improve_wape_over_unadjusted_cell_days": true,
+    "minimum_recall_for_each_category_with_at_least_five_reference_months": 0.7,
+    "minimum_above_p90_reference_months_for_full_pass": 5
+  },
+  "statuses": ["agreement_checks_passed", "limited_event_evidence", "mixed_or_poor_agreement", "insufficient_support"],
+  "primary_policy": "Use Aqua 2003-2025 if support is insufficient or agreement checks fail. Otherwise use Aqua through 2021 and adjusted NOAA-20 from 2022. Publish every candidate and its failures separately.",
+  "interpretation": "Predeclared prototype screening thresholds, not agency standards, statistical confidence bounds, operational certification or validation against all ground fires. Passing nationally does not validate small selected regions. Observation completeness and NRT transfer remain unresolved."
+}

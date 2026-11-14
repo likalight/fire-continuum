@@ -6,11 +6,21 @@ A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots
 
 **App:** https://likalight.github.io/fire-continuum/
 
-## Geographic extension
+## Global evidence atlas
 
-[Open the workbench](https://likalight.github.io/fire-continuum/atlas.html): India, Australia and Indonesia, 2003–2025, with worldwide November 1–13, 2026 observations. Ninety annual files support three separately evaluated national models. Arbitrary-day analytics, original-point CSVs, importable geography packages and a local MiniLM evidence assistant are included. [Methods, model results, schema and AI evaluation](submission/geography-and-ai.md). The original Indonesia research application below remains a separate model.
+[Explore 185 countries and territories](https://likalight.github.io/fire-continuum/atlas.html), with 2003–2025 histories compiled from 5,550 annual NASA FIRMS files and a separate November 1–13, 2026 snapshot. Search countries, inspect the validation map, select an area and month, compare identical recent dates, ask the source-citing local AI assistant, or export a season briefing and the underlying analysis.
 
-## What works
+The frozen national evaluation found **9 passes, 7 with limited rare-event evidence, 109 failed checks and 60 with insufficient support**. The 169 failed/unsupported cases use Aqua-only histories. Candidate errors remain visible. These are agreement screens against Aqua, not ground-truth accuracy or NASA certification.
+
+[Global methods, results and reproducibility](submission/global-validation.md) · [Challenge requirements](submission/challenge-coverage.md) · [Lessons from the 2025 winners](submission/award-positioning.md)
+
+Country packages retain sources, hashes, factors, support, held-out diagnostics and exclusion audits. Annual daily shards power exact-date analytics. Original NASA annual CSVs are linked separately; they are not filtered point exports. The earlier [three-country model and AI evaluation](submission/geography-and-ai.md) are retained as experiment history.
+
+## Original Indonesia research application
+
+The application below supplies the independently corroborated Borneo story and earlier processing/transfer experiments; it uses a separate model from the global atlas.
+
+### Capabilities
 
 - Indonesia, island study areas or a custom rectangle; 2003–2025 monthly calendar and map.
 - Raw detections, common-grid cell-days and empirically harmonized activity, with one primary platform per period.
@@ -21,7 +31,7 @@ A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots
 - Source URLs, hashes, version audit, exact method and held-out validation.
 - Separate dated November 2026 NRT snapshot; missing archive months are not filled with zeros.
 
-## Evidence
+### Original-model evidence
 
 45 NASA FIRMS annual country files supply MODIS Aqua, Suomi NPP VIIRS and NOAA-20 VIIRS observations. On held-out 2022–2025 national months, the NOAA-20 adjustment reduces WAPE against Aqua from **451.04% to 13.45%**. NPP gives **434.09% to 13.70%** over 2018–2025. These are cross-sensor agreement scores, **not accuracy against all fires on the ground**. Additional testing finds poor transfer to some excluded regions and inadequate nominal NPP interval coverage. These failures are displayed, not hidden. Cloud/coverage correction and complete independent ground validation remain unresolved. Separate Landsat imagery corroborates the September 2019 case event, not our aggregate counts.
 

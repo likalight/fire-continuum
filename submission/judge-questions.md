@@ -1,3 +1,21 @@
+# Global release: questions judges can test
+
+**Did you harmonize all 185 countries successfully?** No. All 185 were processed and screened; 9 passed all checks, 7 had limited rare-event evidence, 109 failed checks and 60 lacked support. Failed/unsupported models keep an Aqua-only history, with the candidate diagnostics exposed.
+
+**Why can a country fail even with low count error?** Similar totals can conceal a different seasonal conclusion. We also test bias, category agreement, per-category recall and rare-month support. The protocol was fixed before this global run; the three previously explored countries are disclosed.
+
+**What should judges try first?** Open the Borneo imagery story, then the global atlas. Compare Australia (passed), Brazil (limited rare-event evidence), India (failed checks) and Singapore (insufficient support). Download the country package and inspect the same-date recent comparison. These examples demonstrate the four outcomes, not four ground-truth studies.
+
+**What did the 2025 winners teach you?** Our interpretation of official descriptions: make a scientific capability understandable in one workflow, tied to a concrete question. Our primary award fit is Best Use of Data, supported by transparent science and storytelling. We do not know the judges' unpublished deliberations or claim a guarantee.
+
+**Which NASA portals matter?** FIRMS supplies actual hotspot observations. Data.nasa.gov helps discover products; Earthdata Search supplies full fire masks/quality and other science granules. An extra unrelated NASA API would not resolve coverage or independent-validation gaps.
+
+[Full global protocol and limits](global-validation.html).
+
+---
+
+## Earlier experiment questions
+
 # Questions we can answer with evidence
 
 **What is new compared with a hotspot map?**

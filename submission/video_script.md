@@ -12,4 +12,4 @@ Actual prototype screens, six five-second scenes. Synthetic Microsoft Zira narra
 
 **20–25s:** Compare this November with exactly the same dates in past years.
 
-**25–30s:** Open every claim. Export the data, methods, sources, and limitations.
+**25–30s:** Across one hundred eighty-five countries, keep failed models visible. Export the evidence.

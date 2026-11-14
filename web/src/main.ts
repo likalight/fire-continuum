@@ -187,7 +187,7 @@ async function main(){
   {target:'sensor-lab',title:'Make the comparison fair',text:'One fire can produce different counts in different instruments. Calibration puts occupied cell-days on the historical Aqua scale. It does not create a count of distinct fires.'},
   {target:'explore',title:'Ask about your area',text:'Choose a place and date range. Read the seasonal pattern, click a month, and download the measurements and the evidence pack.'},
   {target:'current',title:'Check the recent period',text:'Compare matching dates, not a partial current month against a complete historical month. Source availability and sensor disagreement remain visible.'},
-  {target:'evidence-hub',title:'Challenge the conclusion',text:'Open any question to inspect its methods and results. All failed tests and inconclusive reviews are retained. Technical documentation and challenge coverage are linked here.'}
+  {target:'evidence-hub',title:'Challenge the conclusion',text:'Open any question to inspect its methods and results. All failed tests and inconclusive reviews are retained. Technical documentation and challenge coverage are linked here. <a href="./atlas.html">Then inspect all 185 country evaluations in the global atlas →</a>'}
  ];
  function showGuide(){
   document.getElementById('guide-panel')?.remove();if(guideIndex<0)return;

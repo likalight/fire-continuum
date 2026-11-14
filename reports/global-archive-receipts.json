@@ -1,0 +1,242 @@
+[
+  {
+    "filename": "modis_2003_all_countries.zip",
+    "size": "90378077",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2003_all_countries.zip",
+    "sha256": "a199e68b9d4beacba7b527e7e9111f162e329f1de7f582c9966d4f1dcdb4f9f3",
+    "retrieved_utc": "2026-11-14T11:45:26.657449+00:00"
+  },
+  {
+    "filename": "modis_2004_all_countries.zip",
+    "size": "89357956",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2004_all_countries.zip",
+    "sha256": "8b0af457b85c0831e996b172520b30c97db005704b1dbe45953e4e965cd1ac07",
+    "retrieved_utc": "2026-11-14T11:45:49.445403+00:00"
+  },
+  {
+    "filename": "modis_2005_all_countries.zip",
+    "size": "89941181",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2005_all_countries.zip",
+    "sha256": "0beba8973ae3f0abd6556a44b7d1974f9a8d5b3d8af5cd43394ce803ccbedc28",
+    "retrieved_utc": "2026-11-14T11:45:23.286266+00:00"
+  },
+  {
+    "filename": "modis_2006_all_countries.zip",
+    "size": "82443496",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2006_all_countries.zip",
+    "sha256": "732206f60d73d92fd294dea01ad149da1dfe92536136b80f562b43a3df0d79bd",
+    "retrieved_utc": "2026-11-14T11:45:05.579907+00:00"
+  },
+  {
+    "filename": "modis_2007_all_countries.zip",
+    "size": "90015477",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2007_all_countries.zip",
+    "sha256": "98789eb5e0ad509d96908cb173845648a4e9f122519006c461870fb48adca5c0",
+    "retrieved_utc": "2026-11-14T11:45:15.293096+00:00"
+  },
+  {
+    "filename": "modis_2008_all_countries.zip",
+    "size": "84590452",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2008_all_countries.zip",
+    "sha256": "141ca567bc38537c8888206bdfa04202836607b6f17fd2017945d1900ca4e8fa",
+    "retrieved_utc": "2026-11-14T11:45:26.722954+00:00"
+  },
+  {
+    "filename": "modis_2009_all_countries.zip",
+    "size": "78288906",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2009_all_countries.zip",
+    "sha256": "b60e69f721b962d681aa5e02e50ff574bf3ac81857b41aad347407182baf5c2c",
+    "retrieved_utc": "2026-11-14T11:45:32.099371+00:00"
+  },
+  {
+    "filename": "modis_2010_all_countries.zip",
+    "size": "82694466",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2010_all_countries.zip",
+    "sha256": "2c33683a2acab74efdef433c573d3342b7876eb1dc5d39318e833795fbf22999",
+    "retrieved_utc": "2026-11-14T11:45:38.881109+00:00"
+  },
+  {
+    "filename": "modis_2011_all_countries.zip",
+    "size": "82526410",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2011_all_countries.zip",
+    "sha256": "c26c94231b37745a73821a5a6ca60629f20c5e53b35122a8935a632de5b015f4",
+    "retrieved_utc": "2026-11-14T11:45:37.039303+00:00"
+  },
+  {
+    "filename": "modis_2012_all_countries.zip",
+    "size": "87107469",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2012_all_countries.zip",
+    "sha256": "73fc214cdeb6dd924272b4bb9f34f80b90cda14b007f484a5dd3c4768e917386",
+    "retrieved_utc": "2026-11-14T11:45:49.180055+00:00"
+  },
+  {
+    "filename": "modis_2013_all_countries.zip",
+    "size": "74279102",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2013_all_countries.zip",
+    "sha256": "75047fa996f73eaa3608250da171a2af445992aebad9ee5bbe8ce5cf532ac79d",
+    "retrieved_utc": "2026-11-14T11:45:57.814159+00:00"
+  },
+  {
+    "filename": "modis_2014_all_countries.zip",
+    "size": "77920777",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2014_all_countries.zip",
+    "sha256": "4c07401117af1cde8c2ede482152b030669a0bff76a077dd9b8b4c36341bf853",
+    "retrieved_utc": "2026-11-14T11:46:07.236715+00:00"
+  },
+  {
+    "filename": "modis_2015_all_countries.zip",
+    "size": "83177469",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2015_all_countries.zip",
+    "sha256": "9a48028c03a79ed4fb7f6a807dfe42458b070f437a92716cf300cd3f4454150f",
+    "retrieved_utc": "2026-11-14T11:46:07.546508+00:00"
+  },
+  {
+    "filename": "modis_2016_all_countries.zip",
+    "size": "77490915",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2016_all_countries.zip",
+    "sha256": "a43708defea6302f9bcaed1bb8172d39778f856be2bbf1adf61cdcb724b1a09d",
+    "retrieved_utc": "2026-11-14T11:46:23.431949+00:00"
+  },
+  {
+    "filename": "modis_2017_all_countries.zip",
+    "size": "78290700",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2017_all_countries.zip",
+    "sha256": "d8725fc74e3587abb8679a828a39cc2431902bf99509f372ec5ce0c24200ef05",
+    "retrieved_utc": "2026-11-14T11:46:16.219765+00:00"
+  },
+  {
+    "filename": "modis_2018_all_countries.zip",
+    "size": "73887176",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2018_all_countries.zip",
+    "sha256": "a9c0db7b8b022eeb0186c25ae8deec4d3ed5e70ed71c125b83c9b59d292b532a",
+    "retrieved_utc": "2026-11-14T11:46:28.702989+00:00"
+  },
+  {
+    "filename": "modis_2019_all_countries.zip",
+    "size": "80447291",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2019_all_countries.zip",
+    "sha256": "13a581b5d6b28741c81bf01bd27195cf3226b85a29102337f2cd3b2cabf1a517",
+    "retrieved_utc": "2026-11-14T11:46:17.246545+00:00"
+  },
+  {
+    "filename": "modis_2020_all_countries.zip",
+    "size": "77958638",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2020_all_countries.zip",
+    "sha256": "bb4c7012b8f4d89dbf24da49143c4cecbaef90cc5f504433642189201d6c0ddb",
+    "retrieved_utc": "2026-11-14T11:46:26.317791+00:00"
+  },
+  {
+    "filename": "modis_2021_all_countries.zip",
+    "size": "77277752",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2021_all_countries.zip",
+    "sha256": "3bef964afea2d29506ede25b2299a478fa7d96a06b93bc7fc20297794979710e",
+    "retrieved_utc": "2026-11-14T11:46:26.177928+00:00"
+  },
+  {
+    "filename": "modis_2022_all_countries.zip",
+    "size": "66472304",
+    "updated": "2023-12-14 11:15:07",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2022_all_countries.zip",
+    "sha256": "99b365825aa9df0638e64006af7ecadc38ccc7c14bb91bc7b16aa541be8377a0",
+    "retrieved_utc": "2026-11-14T11:46:41.313761+00:00"
+  },
+  {
+    "filename": "modis_2023_all_countries.zip",
+    "size": "81766470",
+    "updated": "2024-06-03 14:08:30",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2023_all_countries.zip",
+    "sha256": "1fdd2cb87c6303dd609e2aa197e5d0ec5057921e240db51fed2f24b6d971a2e4",
+    "retrieved_utc": "2026-11-14T11:47:00.722437+00:00"
+  },
+  {
+    "filename": "modis_2024_all_countries.zip",
+    "size": "84548676",
+    "updated": "2025-06-23 14:45:30",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2024_all_countries.zip",
+    "sha256": "034f357da2022202fec7c4a2916e4128f29536cc1578aef9b04bbf7fd6901389",
+    "retrieved_utc": "2026-11-14T11:46:43.473047+00:00"
+  },
+  {
+    "filename": "modis_2025_all_countries.zip",
+    "size": "64771492",
+    "updated": "2026-10-10 09:04:56",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2025_all_countries.zip",
+    "sha256": "e4dfcfe082422625aa858c8fb0672eb8b3d0b881f3cc4b6960a85a7666ca9ab7",
+    "retrieved_utc": "2026-11-14T11:46:36.522649+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2019_all_countries.zip",
+    "size": "370806690",
+    "updated": "2025-06-23 13:48:48",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2019_all_countries.zip",
+    "sha256": "57b710c98b70defbd4bf28304704adbdb64a9621f54fac651908556c71204320",
+    "retrieved_utc": "2026-11-14T11:48:07.809173+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2020_all_countries.zip",
+    "size": "365551116",
+    "updated": "2025-06-23 13:50:05",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2020_all_countries.zip",
+    "sha256": "3ef226fc817647c1f5c276eaaf732a8bf1b2fbcf0c89eecd7d8ca0ee81aa8325",
+    "retrieved_utc": "2026-11-14T11:47:49.955799+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2021_all_countries.zip",
+    "size": "358433386",
+    "updated": "2025-06-23 13:51:21",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2021_all_countries.zip",
+    "sha256": "875468c497227aad8fbe9c6967c9eb05e5a37a2255085a26ef9748b65f48202e",
+    "retrieved_utc": "2026-11-14T11:48:37.250459+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2022_all_countries.zip",
+    "size": "324844239",
+    "updated": "2025-06-23 13:52:29",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2022_all_countries.zip",
+    "sha256": "e6144d08da0a2c2dfb4acb989b89c68193c2207881eaba6a92b9663e1e1dc224",
+    "retrieved_utc": "2026-11-14T11:48:11.490392+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2023_all_countries.zip",
+    "size": "379557198",
+    "updated": "2025-06-23 13:53:50",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2023_all_countries.zip",
+    "sha256": "644215a51e5acdd1834376be5730371471dd7beb5e1b2a5e722d8dd44c39c2f6",
+    "retrieved_utc": "2026-11-14T11:49:07.434524+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2024_all_countries.zip",
+    "size": "401156384",
+    "updated": "2025-06-23 13:55:15",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2024_all_countries.zip",
+    "sha256": "43a49b1d5ffd7607662c936909fa4761af3b382976145e2cfa86563a252e585c",
+    "retrieved_utc": "2026-11-14T11:49:05.930090+00:00"
+  },
+  {
+    "filename": "viirs-jpss1_2025_all_countries.zip",
+    "size": "328649496",
+    "updated": "2026-10-10 09:05:04",
+    "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2025_all_countries.zip",
+    "sha256": "c52dcf311ff809adb2be0cfd5f169634a7c465d0eb55de4088cc5ebe95a6b50c",
+    "retrieved_utc": "2026-11-14T11:49:13.563489+00:00"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-11-14T12:28:25.613946+00:00",
+  "environment": "Local Vite browser; public deployment verified separately after CI",
+  "country_entries": 185,
+  "annual_source_files": 5550,
+  "python_tests": 69,
+  "frontend_tests": 52,
+  "browser_checks": {
+    "all_185_country_options": true,
+    "search_and_status_directory": true,
+    "world_calibration_map": true,
+    "map_country_click": true,
+    "australia_passed_history_and_november_comparison": true,
+    "brazil_limited_event_history": true,
+    "india_failed_calibration_aqua_only_and_candidate_wape": true,
+    "singapore_null_coefficients_and_zero_baseline_withheld": true,
+    "fiji_wrapped_camera": true,
+    "original_nasa_annual_csv_links": true,
+    "exact_date_analytics": true,
+    "same_date_2022_2025_diagnostic": true,
+    "local_minilm_global_answer": true,
+    "share_link_copies_selection": true,
+    "downloaded_brazil_briefing_inspected": true,
+    "mobile_390_no_horizontal_overflow": true,
+    "desktop_1280_no_horizontal_overflow": true
+  },
+  "limits": [
+    "Imported files are covered by schema/unit tests; the browser file-picker flow was not retested.",
+    "No external practitioner validation.",
+    "Browser QA samples four screening outcomes; automated math reconciles all 185 countries."
+  ],
+  "screenshot_sha256": "086e625afdaad07852fb61ab377686598463f3a9543fa2042d94831937f9b680"
+}
