@@ -126,3 +126,8 @@ Continuous 2026 history, global arbitrary AOIs and external practitioner validat
 
 
 Rebuild the geographic extension after downloading the existing annual sources and current receipts with `python pipeline/21_geographic_workbench.py`. See its manifest dependencies and country-registration instructions in the extension documentation. Evaluate the local AI from `web/` with `node --experimental-strip-types evaluate-assistant.mjs`. Model files are pinned and hosted locally; no AI API key is needed.
+
+
+## Retrospective correction study
+
+Five declared candidates were tested for every country. [Full results and limitations](submission/correction-study.md). A rule using 2021 alone raises full passes from 9 to 11, with gains and regressions published. Original production models remain unchanged. Run `python pipeline/25_global_corrections.py` to reproduce.

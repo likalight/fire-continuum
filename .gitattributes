@@ -7,5 +7,8 @@ web/public/models/** -text whitespace=cr-at-eol
 web/public/ai-runtime/** -text whitespace=cr-at-eol
 
 reports/global-evaluation-protocol.json -text
+reports/correction-study-protocol.json -text
 reports/global-eligible-catalog.csv -text
 web/public/data/global/** -text
+
+web/public/data/correction-study-protocol.json -text

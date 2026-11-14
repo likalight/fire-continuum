@@ -1,0 +1,21 @@
+{
+  "version": "global-corrections-v1",
+  "prior_information": "All 185 original 2022-2025 evaluations and November 2026 summaries have already been inspected. This is a retrospective correction study, not new blind validation or independent ground truth.",
+  "selection_fit_years": [2019, 2020],
+  "selection_validation_year": 2021,
+  "final_fit_years": [2019, 2021],
+  "retrospective_evaluation_years": [2022, 2025],
+  "baseline_years": [2003, 2017],
+  "excluded_fit_months": ["2020-08", "2020-09"],
+  "candidates_in_tie_order": ["quarter_ratio", "annual_ratio", "month_shrink", "robust_quarter", "spatial_shrink"],
+  "month_shrink_prior_months": 6,
+  "spatial_shrink_prior_noaa_cell_days": 100,
+  "minimum_development_classifiable_months": 8,
+  "selection_score": "WAPE + (1 - category agreement), all 12 months of 2021; no test-year metric is used for selection",
+  "minimum_relative_selection_score_improvement": 0.1,
+  "selection_rule": "Choose the lowest development score, tie order as listed. Retain quarter_ratio unless the candidate improves that score by at least 10%. If development support is insufficient or any candidate lacks complete predictions, retain quarter_ratio. Refit the selected model on 2019-2021 without altering its declared parameters.",
+  "support_and_acceptance": "Apply the original global-185-v1 training/test support, WAPE, signed bias, category agreement, per-category recall and rare-event thresholds unchanged. Pooled/shrunken models cannot bypass insufficient national quarterly support.",
+  "additional_diagnostics": ["overlapping failure reasons", "per-category recall and sample sizes", "threshold-distance sensitivity, not a relaxed acceptance test", "country improvements and regressions", "paired country bootstrap with seed 20261114, 2000 resamples; exploratory uncertainty, not external validation"],
+  "deployment_policy": "Preserve every original atlas model and fallback. Publish all candidates and the locked selector as a separate research panel. Do not promote a model by choosing the best result from the 2022-2025 outcomes.",
+  "data_policy": "Use the identical pinned source corpus, polygon masks, confidence filters and occupied-cell/day metric. Spatial predictions may use only earlier fit-year Aqua observations, never same-year Aqua. Unseen spatial cells fall back to the national quarterly ratio. Zero NOAA observations predict zero for supported factors; missing coefficients remain null. No cloud or observation-coverage normalization is claimed."
+}

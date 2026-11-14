@@ -9,3 +9,20 @@
 .geo-answer .large-number{font-size:65px;line-height:1.05}@media(max-width:650px){.geo-answer .large-number{font-size:56px}}
 
 .map-legend{display:flex;flex-wrap:wrap;gap:5px 16px;margin-bottom:10px}.map-legend>span{font-size:10px;white-space:nowrap}.map-legend i{display:inline-block;width:9px;height:9px;margin-right:6px}
+
+/* Correction research */
+#correction-lab{margin-top:54px;padding:32px;background:#edf0e4;border-top:3px solid #37665c;scroll-margin-top:24px}
+#correction-lab h2{font-size:clamp(26px,3vw,39px);line-height:1.15;max-width:760px}
+#correction-lab>p{max-width:920px;line-height:1.7}
+.correction-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:28px 0}
+.correction-stats article{border-top:1px solid #b8c3ad;padding-top:18px}
+.correction-stats strong{display:block;font-size:clamp(26px,3vw,40px);font-weight:500;margin:12px 0}
+.correction-stats small{font-size:13px}.correction-stats p{font-size:13px}
+.correction-controls{display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin:24px 0}
+#correction-lab details{margin:20px 0}#correction-lab summary{cursor:pointer;font-weight:600;line-height:1.5}
+#correction-lab table{width:100%;border-collapse:collapse;min-width:720px;font-size:14px}
+#correction-lab td,#correction-lab th{padding:13px 12px;text-align:left;border-bottom:1px solid #c6cfbe}
+#correction-lab caption{text-align:left;margin:18px 0;font-size:13px}
+.correction-selected{background:#dce5d4}#correction-country label{display:grid;gap:8px;max-width:400px}
+#correction-country h3{font-size:24px;margin-top:28px}.correction-link{margin:20px 0}
+@media(max-width:650px){#correction-lab{padding:22px 16px}.correction-stats{grid-template-columns:1fr;gap:10px}.correction-stats strong{font-size:32px}.correction-stats article{padding-top:12px}}

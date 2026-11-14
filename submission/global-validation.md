@@ -70,3 +70,8 @@ Reproduction prerequisites: the pinned 26 NRT source files in `reports/month-to-
 [Data.nasa.gov](https://data.nasa.gov/) is a metadata catalogue that links to the actual archives. [API.nasa.gov](https://api.nasa.gov/) is an API directory; a generic API key does not replace an archive's access requirements. [Earthdata Search](https://search.earthdata.nasa.gov/) is the relevant route to complete science granules. The actual hotspot observations here come from [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/download/).
 
 The valuable next data expansion is paired MODIS MYD14 and NOAA-20 VJ114IMG fire masks and quality, not extra unrelated APIs. [MODIS documentation](https://www.earthdata.nasa.gov/s3fs-public/2023-09/MODIS_C6_C6.1_Fire_User_Guide_1.0.pdf) distinguishes cloud, unknown and other mask states; [the VJ114IMG catalogue](https://data.nasa.gov/dataset/viirs-jpss1-active-fires-6-min-l2-swath-375m-v002-747d6) identifies the fire-mask product. These are research directions, not globally ingested coverage in this release. [MCD64 burned area](https://modis-land.gsfc.nasa.gov/burn.html) uses active-fire information as well as reflectance, so it is complementary evidence rather than completely independent validation of those same active-fire inputs.
+
+
+## Follow-up correction experiment
+
+[Inspect the five-model retrospective study across all 185 countries](correction-study.html). The 2021-selected rule yields 11 full passes, six limited-event results, 108 failures and 60 unsupported countries. Original atlas policies and the 9/7/109/60 results above remain unchanged. All gains and regressions are published.
