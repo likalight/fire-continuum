@@ -22,3 +22,12 @@ This verifies implementation and internal consistency, not independent ground-tr
 - Raw calendar mode suppresses the cross-sensor anomaly ratio while explicitly retaining a harmonized briefing. Selecting September 2005 excludes that year (n=14) and says Aqua-only period. An empty custom rectangle shows insufficient baseline and peak window not established.
 - Selected case hotspot CSV downloads successfully with 106,138 detections. No production JavaScript errors were captured.
 - These checks verify behavior, not independent accuracy of regional fire totals. Landsat corroborates the event and broad timing only.
+
+## Recent same-date comparison — 14 November 2026
+
+- Six new Python checks bring the suite to 16 passing tests: settled-date selection, rejecting unsuitable windows, deterministic cell-day deduplication, browser/scientific aggregate reconciliation, direct point-to-cell counts and zero-baseline handling. Ten frontend tests pass, including all five region results and day-omission classifications. Production build and initial release CI run 43574132444 passed.
+- Public default Kalimantan view shows 8–12 November 2026, 2.70 times the Aqua historical median after adjustment, concurrent Aqua 1.84 times, and 5/5 category-preserving day omissions. The selected September 2019 historical briefing remains separate.
+- Downloaded same-date CSV has 24 rows (2003–2026), identical November 8–12 dates in each year, blank unavailable pre-2019 NOAA-20 values, current 79 Aqua cell-days and 115.9782 adjusted NOAA-20 cell-days. Current raw detections are 85 Aqua and 941 NOAA-20. The HTML briefing includes the recent dates, source snapshot identity, 48-window error and NRT/coverage limitations.
+- Java/Bali shows 4/5 sensitivity checks, 101.2% all-month-window WAPE and 224.9% same-calendar-window WAPE. Expanded tables show the category disagreement when 8 November is omitted. An empty custom rectangle displays insufficient baseline and no supported anomaly.
+- All six guide steps work, including the recent comparison and final failed-validation step; Finish closes the guide. Desktop layout checked at 1280 × 900; mobile 390 × 844 has no document horizontal overflow.
+- Browser review caught a date-label formatting error (full end date used where end day belongs). Corrected it and added an assertion for days 8–12. Current 46.8% count disagreement is now explicitly stated beside category agreement.

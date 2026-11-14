@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
-import {recentAssessment,recentLines} from '../src/recent.ts';
+import {recentAssessment,recentLines,recentMarkup} from '../src/recent.ts';
 const meta=JSON.parse(readFileSync(new URL('../public/data/recent-comparison.json',import.meta.url)));
 const rows=JSON.parse(gunzipSync(readFileSync(new URL('../public/data/recent-history.json.gz',import.meta.url))));
 
@@ -27,6 +27,9 @@ test('recent sample never enters the historical baseline',()=>{
 test('brief export carries dates, short-window limits and processing boundary',()=>{
  const r=recentAssessment(meta,rows,meta.regions.kalimantan.bbox),text=recentLines(meta,r,'Kalimantan').join('\n');
  for(const term of ['2026-11-08','2026-11-12','48 windows','NRT','cloud','not distinct fires','SHA-256'])assert.ok(text.includes(term),term);
+ const markup=recentMarkup(meta,r,'Kalimantan','data/');
+ assert.ok(markup.includes('days 8–12 of each month'));
+ assert.ok(markup.includes('46.8% relative to Aqua'));
  assert.equal(r.stable,5);
 });
 test('a less stable region is not labeled as five stable checks',()=>{
