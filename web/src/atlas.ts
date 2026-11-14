@@ -17,6 +17,7 @@ async function textGz(url:string){return (await decodedResponse(await fetch(url)
 let pkg:GeoPackage|undefined,data:GeoMonth[]=[],bbox=[-180,-86,180,86],year=2023,month=11,from=2003,to=2025,mode='adjusted',country='world',imported=false,globalRows:GeoRow[]=[],map:any,mapReady=false,selectionFirst:number[]|null=null,draw=false,job=0,selectionVersion=0;
 let recentContext:{area:string;adjustedRatio:number|null;aquaRatio:number|null;sameCategory:boolean}|undefined;
 const params=new URLSearchParams(location.search);if(params.get('country'))country=params.get('country')!;
+if(params.get('embedded')==='1')document.documentElement.classList.add('embedded-tools');
 if(Number.isInteger(+params.get('year')!)&&+params.get('year')!>=2003&&+params.get('year')!<=2025)year=+params.get('year')!;
 if(Number.isInteger(+params.get('month')!)&&+params.get('month')!>=1&&+params.get('month')!<=12)month=+params.get('month')!;
 if(Number.isInteger(+params.get('from')!)&&+params.get('from')!>=2003&&+params.get('from')!<=2025)from=+params.get('from')!;

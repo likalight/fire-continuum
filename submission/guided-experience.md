@@ -2,7 +2,27 @@
 
 [Open the guided experience](../) · [Detailed atlas](../atlas.html) · [Original research workspace](../#evidence-hub)
 
-The new default homepage asks the user to choose a place and period, then answers: what normally happens, whether the selected period differs, and how much the evidence supports the comparison. This is a simpler interface over the existing data, not a claim that its scientific limits disappeared.
+The default screen now asks one question: **Is there more burning here than usual?** Choose a country and dates; read the plain-language answer beside the clickable calendar. The interface changes how the evidence is presented. It does not improve sensor accuracy or remove scientific limitations.
+
+## The three-step experience
+
+1. **Place:** choose any of 185 country/territory records.
+2. **Dates:** click a month in the calendar or select the latest November 1–13 snapshot. The calendar initially shows recent years; “Show 2003–2026” exposes the full available history. Gray missing months are never filled with zeros. Calendar months support arrow-key navigation, with exact descriptions for screen readers.
+3. **Answer:** read a percentage above/below the same-period historical median, with the place, dates, baseline definition and material limitation alongside it. A missing baseline or outage produces no percentage. The usual three-month peak is visible; its seasonal chart expands on request.
+
+“Why this answer?” opens exact values, the source policy, sensor disagreement, year-by-year records and NASA source receipts. The main screen also downloads the report, same-month comparison CSV and complete calendar SVG, and copies a link that restores the place and dates. Exported graphics include dates, missingness, source policy and interpretation limits. Every calendar/CSV row omits its own year from the 2003–2017 baseline, where applicable.
+
+Four navigation choices replace the long feature page: **Explore**, **See an example**, **Saved places**, and **How it works**. The imagery case is a three-step Look/Compare/Check explanation. Methods, correction experiments, the full-mask audit and the voluntary feedback form remain accessible without crowding the initial task. The evidence assistant is optional under “Ask a question,” not a floating overlay over the result.
+
+“Smaller area or custom dates” opens the existing regional map and date tools within the app, with an explicit country-versus-region boundary and a back button. These tools retain their original availability: 2003–2025 plus the separate November snapshot. They do not silently inherit the national October extension. The initial regional date is stated before the map; recent selections open the historical November 2025 view with a separate control for the November 2026 snapshot.
+
+## A short demonstration
+
+- Open the homepage: point out the one question and the place/date controls.
+- Select Mexico, then October 2026: the answer is **1.2% above usual**, from 412 Aqua cell-days versus a historical median of 407. This is a small descriptive difference, not proof of a significant increase; current-period accuracy remains unvalidated.
+- Open “Why this answer?” to inspect the exact values and Aqua-only policy. The failed adjustment is not substituted into the headline.
+- Show “See an example,” reveal the same-scene infrared image, then “3. Check” for its timing and spatial limits.
+- Download the report or CSV. No account or AI model is required for these calculations.
 
 ## What works
 
