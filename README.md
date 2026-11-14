@@ -11,7 +11,7 @@ A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots
 - Indonesia, island study areas or a custom rectangle; 2003–2025 monthly calendar and map.
 - Raw detections, common-grid cell-days and empirically harmonized activity, with one primary platform per period.
 - A season briefing using a consistent Aqua baseline, descriptive seasonal categories, original observations and an export carrying sources and limitations.
-- A six-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
+- A eight-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
 - Same-month historical medians, seasonal profiles, animation and concurrent-sensor comparisons.
 - Monthly analytics CSV, filtered original hotspot CSV and calendar SVG downloads.
 - Source URLs, hashes, version audit, exact method and held-out validation.
@@ -72,3 +72,10 @@ Seven methods (the original plus six alternatives) now appear alongside their la
 The app includes an audited-window replay, a downloadable evidence passport and a fixed Kalimantan timing comparison. Detected daytime observations move from roughly 13:33 to 15:40 for Aqua, while NOAA-20 remains near 13:30. NASA documents Aqua's orbital drift; the point sample does not prove the cause of the count gap. See [correction findings](reports/correction-findings.md), [model protocol](reports/correction_protocol.json) and [day/night protocol](reports/daynight_protocol.json).
 
 Reproduce with `python pipeline/10_correction_trials.py` and `python pipeline/11_daynight_audit.py --cached` when the pinned recheck files are available. Omitting `--cached` explicitly downloads new rolling feed files; later dates may no longer include the fixed study window.
+
+
+## Observation-aware case and submission materials
+
+[Project overview and demo](https://likalight.github.io/fire-continuum/submission/) introduce the challenge, supported findings and limits. The app now adds daily NASA MYD14A1 observation classes for a fixed southern Kalimantan case, seasonal-window sensitivity, exact analysis links and keyboard calendar navigation. The map loads separately from the analysis code.
+
+Read [daily-mask methods](reports/observation-context.md). Reproduce with `python pipeline/12_observation_context.py` (existing Earthdata access required) or `--cached` after downloading the pinned sources. Native masks provide observation context; no coverage correction is applied to the current comparison. NASA daily product: https://doi.org/10.5067/MODIS/MYD14A1.061.

@@ -1,11 +1,13 @@
-# Project summary — draft
+# Fire Continuum — project summary
 
-**Fire Continuum: Would changing the satellite change your conclusion?**
+**Would changing the satellite change your conclusion?**
 
-Fire Continuum helps analysts distinguish a change in burning activity from a change in how satellites observe it. Our Indonesia prototype connects 23 years of NASA FIRMS observations through an inspectable burning calendar, a consistent historical baseline and an exportable season briefing.
+Fire Continuum helps fire analysts distinguish changes in burning activity from changes in satellite observation. Our working Indonesia prototype connects 23 years of NASA FIRMS MODIS and VIIRS observations through an interactive burning calendar, seasonal planning context and an exportable evidence-backed briefing.
 
-Users can hold the region and date constant, compare original observations with calibrated activity, and inspect where the conclusion is sensitive to the method. A documented September 2019 Kalimantan case is corroborated by NASA-published Landsat 8 imagery. Six independently recomputed processing variants all retain the above-median classification; only one crosses the historical 90th-percentile threshold. The app therefore distinguishes evidence of fire, above-typical activity and a filter-dependent extreme label.
+Users select an area and period, compare calibrated activity with original observations, and test how grid size, confidence filters and sensor choices affect the conclusion. Calibration uses overlap years; validation uses later years excluded from fitting. The national monthly results improve substantially, while failed regional and recent-period tests remain visible.
 
-We tested the harmonization on later years, excluded regions, quiet and high-activity months, grid sizes, confidence filters, source types and day/night selection. Some tests fail: geographic transfer is uneven and nominal uncertainty coverage is not universal. Those failures appear in the product and constrain its claims.
+A September 2019 southern Borneo case has separate Landsat corroboration. Both Aqua and adjusted VIIRS show above-typical burning, while the extreme label depends on filtering. New NASA daily fire-mask data distinguish cloud, non-fire and missing classifications in a fixed local case. A dated November 2026 comparison matches the same dates in past years, with its unresolved 46.8% sensor discrepancy displayed.
 
-The result is a working, reproducible prototype that makes both the evidence and its limits usable. NASA data power every historical calendar value, comparison and case-study result. The app includes source manifests, validation reports, downloadable observations and a five-step guided demonstration.
+The app includes a seasonal-window sensitivity check, eight-step guided demo, shareable analysis links, original hotspot CSVs, calendar visuals, an evidence passport and source hashes. It supports historical interpretation and planning discussions; it does not claim complete fire detection or operational forecasting.
+
+NASA data power the analysis. Our contribution is a more comparable record whose evidence and limitations travel with every finding.

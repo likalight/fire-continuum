@@ -1,0 +1,31 @@
+# Questions we can answer with evidence
+
+**What is new compared with a hotspot map?**
+The product connects sensor eras on a documented reference scale, tests whether switching sensors changes a seasonal conclusion, and carries uncertainty and provenance into the briefing. It includes a real daily observation-context example rather than treating empty hotspot lists as proof of no fire.
+
+**Does 13.45% WAPE mean you detect 86.55% of fires?**
+No. It is aggregate monthly disagreement with Aqua in Indonesia during held-out 2022–2025. Aqua is a reference instrument, not complete ground truth. The recent Kalimantan five-day result still differs by 46.8%.
+
+**Did you select a correction to make the current result look good?**
+No. Five main methods use earlier-year selection and later-year auditing; two day/night diagnostics are separate. All six alternatives increase the current gap. We keep the original result and publish the alternatives.
+
+**What independent validation do you have?**
+NASA-published Landsat 8 imagery corroborates the September 2019 southern Borneo event. It does not validate our total, anomaly size or fire boundaries. The daily Aqua masks are not independent of the Aqua instrument.
+
+**Why not correct by the observed fraction?**
+Daily compositing does not supply a clear-sky overpass denominator, and our native mask grid, local area and product differ from the hotspot comparison. Applying that fraction would manufacture a precision we have not validated.
+
+**Can users trust the current comparison?**
+Use its above-typical category cautiously: concurrent Aqua and all tested adjustments share that category. They are not independent confirmations. Counts remain uncertain, the snapshot is dated, and seven agreeing methods can still share a failure—as the 2025 replay shows.
+
+**Does this work everywhere?**
+The implemented archive covers Indonesia and a few study rectangles plus arbitrary in-country rectangles. Small-area and excluded-region transfer can fail. The architecture can ingest other countries, but global validity is not demonstrated.
+
+**How would a land manager use this?**
+Choose an area, inspect its typical peak window and sensitivity to historical years, compare a selected period against the reference, inspect sensor and observation limitations, and share or export the analysis for local review. We have not completed an external land-manager usability study and make no operational warning claim.
+
+**What would you build next?**
+Paired overpass/quality data with matched geometry and time, independently mapped events and systematically sampled controls, then prospective validation of current-period transfer. User studies would test whether the briefing improves interpretation and planning.
+
+**Where did AI contribute?**
+OpenAI Codex assisted research, code, analysis, tests and writing. The video uses synthetic narration. NASA source observations and recorded results are not generated examples.

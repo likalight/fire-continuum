@@ -1,0 +1,11 @@
+{
+  "purpose": "A fixed daily observation-context case, not a fitted correction",
+  "specified_before_mask_counts": true,
+  "product": "MYD14A1.061",
+  "bounds_west_south_east_north": [113, -3, 114, -2],
+  "selection_reason": "Fixed one-degree southern Kalimantan rectangle within the established September 2019 regional case; not selected for the resulting cloud or fire counts.",
+  "periods": [["2019-09-14", "2019-09-21"], ["2020-09-14", "2020-09-21"]],
+  "sample": "All native sinusoidal grid-cell centres within the rectangle, same cells each date. No resampling or threshold-based region selection.",
+  "metrics": "Daily counts of all ten FireMask classes; exhaustive partition of the fixed grid. Fire classes 7, 8 and 9 retained separately.",
+  "guardrails": ["Do not infer clear-sky overpass counts from daily composites", "Do not divide FIRMS cell-days by a different product's observed fraction", "Do not treat a non-fire classification as proof of no fire", "Do not apply this local historical case to the current Kalimantan comparison", "Same MODIS instrument: observation context, not independent fire validation"]
+}
