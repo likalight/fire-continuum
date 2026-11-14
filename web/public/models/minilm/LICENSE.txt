@@ -1,0 +1,4 @@
+Model: Xenova/all-MiniLM-L6-v2 (ONNX conversion of sentence-transformers/all-MiniLM-L6-v2). Apache License 2.0.
+Model card: https://huggingface.co/Xenova/all-MiniLM-L6-v2
+Original model: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+License text: https://www.apache.org/licenses/LICENSE-2.0

@@ -2,16 +2,20 @@
 
 **One fire history. Different satellites.**
 
-A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots](https://www.spaceappschallenge.org/2026/challenges/modis-and-viirs-hot-spots/?tab=details). Fire analysts need to distinguish a change in burning from a change in the observing satellite. Fire Continuum makes that distinction inspectable through Indonesia's monthly burning-activity calendar, original observations and an explicit sensor-switch experiment.
+A NASA Space Apps 2026 prototype for [Harmonization of MODIS and VIIRS Hot Spots](https://www.spaceappschallenge.org/2026/challenges/modis-and-viirs-hot-spots/?tab=details). Fire analysts need to distinguish a change in burning from a change in the observing satellite. Fire Continuum makes that distinction inspectable through geographic burning-activity calendars, original observations and an explicit sensor-switch experiment.
 
 **App:** https://likalight.github.io/fire-continuum/
+
+## Geographic extension
+
+[Open the workbench](https://likalight.github.io/fire-continuum/atlas.html): India, Australia and Indonesia, 2003–2025, with worldwide November 1–13, 2026 observations. Ninety annual files support three separately evaluated national models. Arbitrary-day analytics, original-point CSVs, importable geography packages and a local MiniLM evidence assistant are included. [Methods, model results, schema and AI evaluation](submission/geography-and-ai.md). The original Indonesia research application below remains a separate model.
 
 ## What works
 
 - Indonesia, island study areas or a custom rectangle; 2003–2025 monthly calendar and map.
 - Raw detections, common-grid cell-days and empirically harmonized activity, with one primary platform per period.
 - A season briefing using a consistent Aqua baseline, descriptive seasonal categories, original observations and an export carrying sources and limitations.
-- A fourteen-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
+- A six-step guided demo, a separately corroborated Landsat case study, six interactive processing variants and 13 weekly case-study windows.
 - Same-month historical medians, seasonal profiles, animation and concurrent-sensor comparisons.
 - Monthly analytics CSV, filtered original hotspot CSV and calendar SVG downloads.
 - Source URLs, hashes, version audit, exact method and held-out validation.
@@ -109,3 +113,6 @@ The app now separates the story, calendar, current comparison and evidence libra
 - `web/src/export-pack.ts`: versioned analysis ZIP with a calendar visual, model/source provenance and hashes; original-point UTC date-range exports preserve sensor identity.
 
 Continuous 2026 history, global arbitrary AOIs and external practitioner validation remain incomplete. Raw credentials, raw archive files and signed asset URLs are not published.
+
+
+Rebuild the geographic extension after downloading the existing annual sources and current receipts with `python pipeline/21_geographic_workbench.py`. See its manifest dependencies and country-registration instructions in the extension documentation. Evaluate the local AI from `web/` with `node --experimental-strip-types evaluate-assistant.mjs`. Model files are pinned and hosted locally; no AI API key is needed.

@@ -1,0 +1,27 @@
+{
+  "runtime": "onnxruntime-web",
+  "version": "1.31.0-dev.20260914-8d85527a0",
+  "license": "MIT",
+  "files": [
+    {
+      "file": "LICENSE",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "file": "ort-wasm-simd-threaded.asyncify.mjs",
+      "bytes": 53057,
+      "sha256": "0966b6105cd936744498aa60df7a22cbd47af3374dbc64a9ab561c08a71e3611"
+    },
+    {
+      "file": "ort-wasm-simd-threaded.asyncify.wasm",
+      "bytes": 26861777,
+      "sha256": "49871f5a4409519797e127440868a6d1923339d9185907f301a5b2a1d90af082"
+    },
+    {
+      "file": "ThirdPartyNotices.txt",
+      "bytes": 338088,
+      "sha256": "143764b952fdb1a7c69ce653bfba74a7744d6a8a573bfb73e235fba356c83de3"
+    }
+  ]
+}

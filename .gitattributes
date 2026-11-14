@@ -2,3 +2,6 @@
 web/public/data/metadata.json -text whitespace=cr-at-eol
 web/public/data/confirmed-case* -text whitespace=cr-at-eol
 reports/confirmed-case* -text whitespace=cr-at-eol
+
+web/public/models/** -text whitespace=cr-at-eol
+web/public/ai-runtime/** -text whitespace=cr-at-eol
