@@ -1,0 +1,473 @@
+{
+  "window": {
+    "start": "2026-11-08",
+    "end": "2026-11-12",
+    "days": 5,
+    "month": 11,
+    "start_day": 8,
+    "end_day": 12
+  },
+  "sources": [
+    {
+      "sensor": "aqua",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/modis-c6.1/csv/MODIS_C6_1_Global_7d.csv",
+      "retrieved_utc": "2026-11-14T08:17:07.426978+00:00",
+      "sha256": "34b5ebf5f9c9b0a9c31319f67243ea5bbdbe3c41c1237894d5f59d84da53a04f",
+      "saved_window_points": 581,
+      "refreshed_window_points": 581,
+      "added_points": 0,
+      "removed_points": 0,
+      "official_daynight_matched": 581,
+      "versions": [
+        "6.1NRT"
+      ]
+    },
+    {
+      "sensor": "noaa20",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-20-viirs-c2/csv/J1_VIIRS_C2_Global_7d.csv",
+      "retrieved_utc": "2026-11-14T08:17:10.707844+00:00",
+      "sha256": "da5d5c462ddb93a97fd428320302c8beb4a8494a3758d3c6eb40ed8162a058c2",
+      "saved_window_points": 4775,
+      "refreshed_window_points": 4775,
+      "added_points": 0,
+      "removed_points": 0,
+      "official_daynight_matched": 4775,
+      "versions": [
+        "2.0NRT"
+      ]
+    }
+  ],
+  "fit": [
+    2019,
+    2023
+  ],
+  "audit": [
+    2024,
+    2025
+  ],
+  "models": {
+    "sector_daynight": {
+      "regions": {
+        "indonesia": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.26429464597131347,
+            "mae": 35.140175637269216
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": 0.11315606266585862,
+            "mae": 11.937964611248084
+          },
+          "current": {
+            "aqua": 559,
+            "value": 609.49005794485,
+            "relative_disagreement": 0.09032210723586769,
+            "category": "Above typical"
+          }
+        },
+        "sumatra": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.4455352943643081,
+            "mae": 11.156946329706216
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": 0.5156318402372033,
+            "mae": 8.507925363913856
+          },
+          "current": {
+            "aqua": 62,
+            "value": 54.85246686309486,
+            "relative_disagreement": 0.11528279253072805,
+            "category": "Above typical"
+          }
+        },
+        "kalimantan": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.301711495919977,
+            "mae": 14.356438680858906
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": 0.2989982332729191,
+            "mae": 10.614437281188627
+          },
+          "current": {
+            "aqua": 79,
+            "value": 120.43099934534484,
+            "relative_disagreement": 0.5244430296879095,
+            "category": "Above typical"
+          }
+        },
+        "java": {
+          "audit": {
+            "windows": 24,
+            "wape": 1.1754633154949594,
+            "mae": 8.962907780649067
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": null,
+            "mae": 5.489880210044689
+          },
+          "current": {
+            "aqua": 13,
+            "value": 22.613074276185422,
+            "relative_disagreement": 0.7394672520142632,
+            "category": "Unusually high"
+          }
+        },
+        "papua": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.5469397923537438,
+            "mae": 3.6462652823582915
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": 0.3599544917361932,
+            "mae": 2.5196814421533524
+          },
+          "current": {
+            "aqua": 163,
+            "value": 171.32311643412768,
+            "relative_disagreement": 0.05106206401305328,
+            "category": "Unusually high"
+          }
+        }
+      },
+      "macro_wape": 0.617412474533247
+    },
+    "local_daynight": {
+      "regions": {
+        "indonesia": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.2620864209660638,
+            "mae": 34.84657372094623
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": 0.14022228739972348,
+            "mae": 14.793451320670826
+          },
+          "current": {
+            "aqua": 559,
+            "value": 636.1133609062286,
+            "relative_disagreement": 0.13794876727411207,
+            "category": "Above typical"
+          }
+        },
+        "sumatra": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.4459491402034134,
+            "mae": 11.167309719260478
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": 0.5295935691870158,
+            "mae": 8.73829389158576
+          },
+          "current": {
+            "aqua": 62,
+            "value": 57.93145732200648,
+            "relative_disagreement": 0.06562165609666967,
+            "category": "Above typical"
+          }
+        },
+        "kalimantan": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.33903455895821516,
+            "mae": 16.132394430428405
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": 0.24232422895670205,
+            "mae": 8.602510127962923
+          },
+          "current": {
+            "aqua": 79,
+            "value": 148.7885273939596,
+            "relative_disagreement": 0.8833990809361976,
+            "category": "Above typical"
+          }
+        },
+        "java": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.3653908668629961,
+            "mae": 2.7861053598303456
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": null,
+            "mae": 2.578259829176698
+          },
+          "current": {
+            "aqua": 13,
+            "value": 10.343713526685647,
+            "relative_disagreement": 0.20432972871648866,
+            "category": "Unusually high"
+          }
+        },
+        "papua": {
+          "audit": {
+            "windows": 24,
+            "wape": 0.6620753124796235,
+            "mae": 4.413835416530823
+          },
+          "same_dates": {
+            "windows": 2,
+            "wape": 0.8644359756502252,
+            "mae": 6.051051829551577
+          },
+          "current": {
+            "aqua": 163,
+            "value": 232.38585976844882,
+            "relative_disagreement": 0.42568012127882715,
+            "category": "Unusually high"
+          }
+        }
+      },
+      "macro_wape": 0.45311246962606205
+    }
+  },
+  "fallbacks": [],
+  "kalimantan_detected_passage_times": [
+    {
+      "year": 2019,
+      "sensor": "aqua",
+      "daynight": "D",
+      "occupied_cell_days": 472,
+      "median_local_solar_hour_of_detected_points": 13.545803333333334
+    },
+    {
+      "year": 2019,
+      "sensor": "aqua",
+      "daynight": "N",
+      "occupied_cell_days": 103,
+      "median_local_solar_hour_of_detected_points": 1.61792
+    },
+    {
+      "year": 2019,
+      "sensor": "noaa20",
+      "daynight": "D",
+      "occupied_cell_days": 1590,
+      "median_local_solar_hour_of_detected_points": 13.519186333333332
+    },
+    {
+      "year": 2019,
+      "sensor": "noaa20",
+      "daynight": "N",
+      "occupied_cell_days": 605,
+      "median_local_solar_hour_of_detected_points": 1.5357559999999997
+    },
+    {
+      "year": 2020,
+      "sensor": "aqua",
+      "daynight": "D",
+      "occupied_cell_days": 160,
+      "median_local_solar_hour_of_detected_points": 13.457786666666667
+    },
+    {
+      "year": 2020,
+      "sensor": "aqua",
+      "daynight": "N",
+      "occupied_cell_days": 1,
+      "median_local_solar_hour_of_detected_points": 1.8554733333333313
+    },
+    {
+      "year": 2020,
+      "sensor": "noaa20",
+      "daynight": "D",
+      "occupied_cell_days": 366,
+      "median_local_solar_hour_of_detected_points": 13.428742333333332
+    },
+    {
+      "year": 2020,
+      "sensor": "noaa20",
+      "daynight": "N",
+      "occupied_cell_days": 66,
+      "median_local_solar_hour_of_detected_points": 1.2836793333333314
+    },
+    {
+      "year": 2021,
+      "sensor": "aqua",
+      "daynight": "D",
+      "occupied_cell_days": 3,
+      "median_local_solar_hour_of_detected_points": 13.29622
+    },
+    {
+      "year": 2021,
+      "sensor": "aqua",
+      "daynight": "N",
+      "occupied_cell_days": 0,
+      "median_local_solar_hour_of_detected_points": null
+    },
+    {
+      "year": 2021,
+      "sensor": "noaa20",
+      "daynight": "D",
+      "occupied_cell_days": 16,
+      "median_local_solar_hour_of_detected_points": 13.382454666666666
+    },
+    {
+      "year": 2021,
+      "sensor": "noaa20",
+      "daynight": "N",
+      "occupied_cell_days": 7,
+      "median_local_solar_hour_of_detected_points": 1.6265206666666663
+    },
+    {
+      "year": 2022,
+      "sensor": "aqua",
+      "daynight": "D",
+      "occupied_cell_days": 10,
+      "median_local_solar_hour_of_detected_points": 13.607796666666667
+    },
+    {
+      "year": 2022,
+      "sensor": "aqua",
+      "daynight": "N",
+      "occupied_cell_days": 0,
+      "median_local_solar_hour_of_detected_points": null
+    },
+    {
+      "year": 2022,
+      "sensor": "noaa20",
+      "daynight": "D",
+      "occupied_cell_days": 55,
+      "median_local_solar_hour_of_detected_points": 13.581501333333334
+    },
+    {
+      "year": 2022,
+      "sensor": "noaa20",
+      "daynight": "N",
+      "occupied_cell_days": 19,
+      "median_local_solar_hour_of_detected_points": 1.2100593333333336
+    },
+    {
+      "year": 2023,
+      "sensor": "aqua",
+      "daynight": "D",
+      "occupied_cell_days": 44,
+      "median_local_solar_hour_of_detected_points": 14.039076666666665
+    },
+    {
+      "year": 2023,
+      "sensor": "aqua",
+      "daynight": "N",
+      "occupied_cell_days": 16,
+      "median_local_solar_hour_of_detected_points": 1.9116500000000012
+    },
+    {
+      "year": 2023,
+      "sensor": "noaa20",
+      "daynight": "D",
+      "occupied_cell_days": 298,
+      "median_local_solar_hour_of_detected_points": 13.503901666666666
+    },
+    {
+      "year": 2023,
+      "sensor": "noaa20",
+      "daynight": "N",
+      "occupied_cell_days": 140,
+      "median_local_solar_hour_of_detected_points": 1.6110820000000008
+    },
+    {
+      "year": 2024,
+      "sensor": "aqua",
+      "daynight": "D",
+      "occupied_cell_days": 13,
+      "median_local_solar_hour_of_detected_points": 14.32076
+    },
+    {
+      "year": 2024,
+      "sensor": "aqua",
+      "daynight": "N",
+      "occupied_cell_days": 6,
+      "median_local_solar_hour_of_detected_points": 2.415070000000001
+    },
+    {
+      "year": 2024,
+      "sensor": "noaa20",
+      "daynight": "D",
+      "occupied_cell_days": 62,
+      "median_local_solar_hour_of_detected_points": 13.508459666666665
+    },
+    {
+      "year": 2024,
+      "sensor": "noaa20",
+      "daynight": "N",
+      "occupied_cell_days": 82,
+      "median_local_solar_hour_of_detected_points": 1.2983836666666662
+    },
+    {
+      "year": 2025,
+      "sensor": "aqua",
+      "daynight": "D",
+      "occupied_cell_days": 51,
+      "median_local_solar_hour_of_detected_points": 14.847406666666666
+    },
+    {
+      "year": 2025,
+      "sensor": "aqua",
+      "daynight": "N",
+      "occupied_cell_days": 1,
+      "median_local_solar_hour_of_detected_points": 2.7911999999999995
+    },
+    {
+      "year": 2025,
+      "sensor": "noaa20",
+      "daynight": "D",
+      "occupied_cell_days": 143,
+      "median_local_solar_hour_of_detected_points": 13.359539333333334
+    },
+    {
+      "year": 2025,
+      "sensor": "noaa20",
+      "daynight": "N",
+      "occupied_cell_days": 28,
+      "median_local_solar_hour_of_detected_points": 1.4079393333333314
+    },
+    {
+      "year": 2026,
+      "sensor": "aqua",
+      "daynight": "D",
+      "occupied_cell_days": 72,
+      "median_local_solar_hour_of_detected_points": 15.667073999999998
+    },
+    {
+      "year": 2026,
+      "sensor": "aqua",
+      "daynight": "N",
+      "occupied_cell_days": 7,
+      "median_local_solar_hour_of_detected_points": 3.854520666666667
+    },
+    {
+      "year": 2026,
+      "sensor": "noaa20",
+      "daynight": "D",
+      "occupied_cell_days": 474,
+      "median_local_solar_hour_of_detected_points": 13.633962
+    },
+    {
+      "year": 2026,
+      "sensor": "noaa20",
+      "daynight": "N",
+      "occupied_cell_days": 244,
+      "median_local_solar_hour_of_detected_points": 1.532713666666666
+    }
+  ],
+  "limits": [
+    "Day/night flag belongs to the earliest detected observation of a cell/day, preserving total cell-days.",
+    "Observed hotspot timestamps are not overpass or cloud-coverage denominators.",
+    "New diagnostics specified after earlier correction results; not part of the earlier method selection.",
+    "Exact data refresh comparison covers only the fixed analysis window, not every feed date."
+  ]
+}

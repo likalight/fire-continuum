@@ -39,3 +39,11 @@ The season briefing now uses only the same-month Aqua 2003–2017 baseline, excl
 ## Continuity into the present
 
 A provisional 8–12 November 2026 comparison now matches the exact UTC dates in historical years, rather than comparing a partial month against full months. Original NOAA-20 coefficients are frozen from 2019–2021. Forty-eight held-out five-day windows and four exact November windows quantify short-window disagreement, with all regional failures exposed. Kalimantan gives 2.70 times the 15-year Aqua median after adjustment; concurrent Aqua gives 1.84 times. Both descriptive categories survive all five day-omission checks. NRT processing and observational completeness remain unvalidated. The recent result, source dates and limits accompany the season briefing, downloadable analytics and guided demo. See reports/recent-validation.md.
+
+## Correction audit and sensor timing
+
+The recent comparison is stress-tested with six additional corrections. None reduces current Kalimantan disagreement. Methods are evaluated using chronological fit, selection and later audit periods; known prior diagnostics are disclosed. A local calibration improves the macro-average across four regions while worsening Kalimantan's recent count agreement. The prototype preserves the original and exposes all alternatives rather than claiming a solved harmonization problem.
+
+A judge can replay an excluded historical November window, inspect changes in the category, and download an evidence passport containing source identity, model results and unresolved limits. A separate NASA feed recheck finds no changed points in the fixed analysis window. Approximate daytime detection times in the Kalimantan sample show Aqua much later than NOAA-20 in 2026, consistent with NASA's documented orbital drift. This suggests a sampling issue to investigate, not a demonstrated causal correction.
+
+The next scientific priority is a coverage- and observation-time-aware calendar using full fire-mask/quality data and an independently observed diurnal reference. This remains future work. Hotspot-only CSVs cannot establish clear-sky exposure, and the project does not claim that it already corrects for it.

@@ -1,0 +1,11 @@
+{
+  "purpose": "Test alternatives without fitting to the known 46.8% recent Kalimantan discrepancy.",
+  "prior_information": "2022–2025 original-model diagnostics and 2026 counts were already seen. This is a prespecified additional comparison, not a blind benchmark or independent validation study.",
+  "candidates": ["original frozen sector/quarter fit", "sector/quarter refit", "local monthly quarter ratio", "local five-day quarter ratio", "equal blend of local monthly and five-day quarter ratios"],
+  "development": "Fit candidate rules on 2019–2021; select the lowest macro-average five-day WAPE on 2022–2023 across Sumatra, Kalimantan, Java/Bali and Papua. Indonesia is reported separately and is not a second vote in selection.",
+  "audit": "Freeze the selected rule, refit that rule using 2019–2023 only, and evaluate 2024–2025. Show every candidate for transparency, but do not reselect on audit or current results.",
+  "promotion_rule": "Require at least 10% lower macro-average audit WAPE than the existing frozen model, no preset region with more than 20% relative WAPE degradation, and no degradation of Kalimantan's two same-November audit-window WAPE. These are conservative engineering guardrails, not confidence levels. If the selected rule fails, retain the existing default.",
+  "extra_diagnostics": "Report MAE, signed bias, yearly errors, same-calendar-date errors, category agreement, current count disagreement and leave-one-date-out categories. Do not interpret current agreement as ground truth or pick a candidate because it matches 79 current Aqua cells.",
+  "data_check": "Inspect NASA documentation and available input fields for physically motivated corrections. Never infer clear-sky exposure from hotspot counts. Do not discard VIIRS-only observations as false fires solely because MODIS missed them.",
+  "scope": "Local coefficients apply to predefined study rectangles only; arbitrary custom areas retain the existing exploratory method. Do not silently rewrite the historical calendar. Preserve raw observations and original published results."
+}

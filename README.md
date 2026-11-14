@@ -64,3 +64,11 @@ Code is MIT licensed; data retain their source terms. OpenAI Codex assisted rese
 The saved NRT snapshot now supports an explicitly provisional **8–12 November 2026** comparison against those same dates in historical years, using the frozen NOAA-20 calibration. Kalimantan is 2.70 times the historical Aqua median; concurrent Aqua is 1.84 times. Both are above typical, and all five day-omission checks preserve that category. Count agreement is weaker than category agreement. Short-window tests, failed regional diagnostics, same-instrument history, sources and limitations are shown with the result.
 
 Read [recent validation](reports/recent-validation.md) and [the protocol](reports/recent_protocol.json). This extends the product to a dated recent window; it does not provide complete 2026 monthly coverage or validate NRT-versus-standard processing continuity. The saved snapshot is not a live feed. Its compact matched-date history adds about 48 KB compressed.
+
+## Correction audit and observation timing
+
+Seven methods (the original plus six alternatives) now appear alongside their later-year performance and recent disagreement. None reduces the original 46.8% Kalimantan discrepancy. A local method improves a four-region average historical score but worsens this recent comparison; it does not replace the published result. A fresh NASA data check finds no point additions/removals within the fixed window.
+
+The app includes an audited-window replay, a downloadable evidence passport and a fixed Kalimantan timing comparison. Detected daytime observations move from roughly 13:33 to 15:40 for Aqua, while NOAA-20 remains near 13:30. NASA documents Aqua's orbital drift; the point sample does not prove the cause of the count gap. See [correction findings](reports/correction-findings.md), [model protocol](reports/correction_protocol.json) and [day/night protocol](reports/daynight_protocol.json).
+
+Reproduce with `python pipeline/10_correction_trials.py` and `python pipeline/11_daynight_audit.py --cached` when the pinned recheck files are available. Omitting `--cached` explicitly downloads new rolling feed files; later dates may no longer include the fixed study window.

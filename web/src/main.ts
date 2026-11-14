@@ -6,6 +6,8 @@ import './style.css';
 import { makeBrief } from './briefing';
 import {recentAssessment,recentMarkup,recentBriefMarkup,recentLines} from './recent';
 import type {RecentComparison,RecentResult} from './recent';
+import {correctionMarkup,correctionLines,replayMarkup} from './corrections';
+import type {Trials,Daynight} from './corrections';
 import { evidenceMarkup, mountEvidence } from './evidence';
 import type { Robustness, Sensitivity, CaseWeeks } from './evidence';
 ml.setWorkerUrl(workerUrl);
@@ -35,6 +37,8 @@ async function main(){
  let recent:Recent|undefined;try{recent=await(await response('recent.json')).json();}catch{/* The historical record remains usable if the optional snapshot is unavailable. */}
  let recentMeta:RecentComparison|undefined,recentRows:number[][]=[],recentResult:RecentResult|undefined;
  try{[recentMeta,recentRows]=await Promise.all([(await response('recent-comparison.json')).json(),(await uncompress('recent-history.json.gz')).json()]);if(recentMeta&&recent&&recentMeta.retrieved_utc!==recent.retrieved_utc)throw Error('Snapshot mismatch');}catch{recentMeta=undefined;recentRows=[];}
+ let correctionTrials:Trials|undefined,daynightAudit:Daynight|undefined;
+ try{[correctionTrials,daynightAudit]=await Promise.all([(await response('correction-trials.json')).json(),(await response('daynight-audit.json')).json()]);}catch{correctionTrials=undefined;daynightAudit=undefined;}
  let bbox=[...regions[2].bbox],regionName='Kalimantan study area',selectedYear=2019,selectedMonth=9,startYear=2003,endYear=2025,mode:Mode='adjusted';
  let data:Month[]=[],filtered:number[][]=[],map:ml.Map|undefined,mapReady=false,draw=false,corner:number[]|undefined,playing:ReturnType<typeof setInterval>|undefined;
  const validation=meta.validation.noaa20;
@@ -106,6 +110,16 @@ async function main(){
  function matchedRecent(){
   if(!recentMeta){recentResult=undefined;el('recent-comparison').innerHTML='<h2>Recent comparison unavailable</h2><p>The matched-date evidence could not load. The historical calendar remains usable; missing recent data are not zero activity.</p>';return;}
   recentResult=recentAssessment(recentMeta,recentRows,bbox);el('recent-comparison').innerHTML=recentMarkup(recentMeta,recentResult,esc(regionName),base);
+  const regionKey=regions.find(r=>r.bbox.every((v,i)=>v===bbox[i]))?.id;
+  if(correctionTrials&&daynightAudit){
+   el('recent-comparison').insertAdjacentHTML('beforeend','<section id="correction-audit" class="correction-audit">'+correctionMarkup(correctionTrials,daynightAudit,regionKey,base)+'</section>');
+   if(regionKey){
+    const replayView=()=>el('audit-replay-values').innerHTML=replayMarkup(correctionTrials!,regionKey,+el<HTMLSelectElement>('audit-replay-year').value);
+    el('audit-replay-year').onchange=replayView;replayView();
+    el('passport-export').onclick=()=>save(JSON.stringify({schema:'fire-continuum-evidence-passport-v1',area:regionName,bounds:bbox,snapshot:recentMeta!.retrieved_utc,window:recentMeta!.window,source_snapshot_sha256:recentMeta!.snapshot_sha256,current_result:recentResult!.current,claim:{category:recentResult!.adjustedClass,aqua_category:recentResult!.aquaClass,baseline_median:recentResult!.median,baseline_p90:recentResult!.p90},audit:correctionLines(correctionTrials!,daynightAudit!,regionKey),correction_results:correctionTrials!.current[regionKey],audit_results:Object.fromEntries(Object.entries(correctionTrials!.audit.results).map(([id,v])=>[id,v.regions[regionKey]])),sources:daynightAudit!.sources,limits:recentMeta!.limits,nasa_orbit_source:'https://science.nasa.gov/mission/aqua/'},null,2),'fire-continuum-evidence-passport.json','application/json');
+   }
+  }
+
   el('recent-export').onclick=()=>{
    const m=recentMeta!,r=recentResult!,header='year,start_date,end_date,processing,aqua_detections,noaa20_detections,aqua_cell_days,noaa20_cell_days,adjusted_noaa20_cell_days,baseline_median,baseline_p90,west,south,east,north';
    const lines=r.series.map(y=>[y.year,y.year+m.window.start.slice(4),y.year+m.window.end.slice(4),y.year===r.current.year?'NRT':'archive',y.rawAqua,y.year>=2019?y.rawNoaa:'',y.aqua,y.year>=2019?y.noaa:'',y.year>=2019?y.adjusted.toFixed(4):'',r.median,r.p90,...bbox].join(','));
@@ -125,7 +139,8 @@ async function main(){
   el('brief-export').onclick=()=>{
    const lines=[`Fire Continuum — ${regionName}`,`${months[selectedMonth-1]} ${selectedYear}`,`Typical peak window: ${b.hasRhythm?peak.join(', '):'not established'} (historical context, not forecast).`,`Adjusted activity: ${b.value.toFixed(4)} Aqua-equivalent active 1 km cell-days; source ${names[sensor]}.`,`Aqua observed: ${b.aqua} active cell-days.`,`Historical Aqua median: ${b.median}; 90th percentile: ${b.p90}; years: 2003–2017 excluding ${selectedYear}; n=${b.baselineYears}.`,`Adjusted classification: ${b.adjustedClass}. Aqua classification: ${b.referenceClass}.`,agree,`Area bounds [west,south,east,north]: ${bbox.join(', ')}.`,period,'Observation completeness is unknown. No cloud or overpass normalization; no detections do not prove no fire.','Source-specific confidence filters; all thermal-source types retained. Hotspots are not distinct fires or burned area.','Small areas remain exploratory. National/region WAPE is not a per-month confidence bound.','Case-study Landsat corroboration applies only to the documented September 2019 southern Borneo event, not to arbitrary selected areas.'];
    lines.push(...(recentMeta&&recentResult?recentLines(recentMeta,recentResult,regionName):['Recent same-date comparison unavailable; no recent anomaly is inferred.']));
-   const body=`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Fire Continuum season briefing</title><style>body{font:16px/1.6 system-ui;max-width:850px;margin:40px auto;padding:25px;color:#203638}h1{font-size:32px}p{border-bottom:1px solid #ddd;padding-bottom:10px}a{color:#245e60}@media print{body{margin:0;font-size:11pt}}</style><h1>${esc(lines[0])}</h1>${lines.slice(1).map(t=>`<p>${esc(t)}</p>`).join('')}<h2>Follow the evidence</h2><p><a href="https://likalight.github.io/fire-continuum/">Interactive project</a> · <a href="https://likalight.github.io/fire-continuum/data/method.md">Method and limits</a> · <a href="https://likalight.github.io/fire-continuum/data/sources.json">NASA source manifest</a> · <a href="https://likalight.github.io/fire-continuum/data/robustness.json">Historical validation</a> · <a href="https://likalight.github.io/fire-continuum/data/recent-comparison.json">Recent comparison validation</a> · <a href="https://likalight.github.io/fire-continuum/data/recent_protocol.json">Recent protocol</a></p><p>NASA LANCE FIRMS / ESDIS. NASA does not endorse this project. Prepared from the archive snapshot retrieved 14 November 2026. Code and reports: github.com/likalight/fire-continuum. OpenAI Codex assisted implementation and analysis.</p></html>`;
+   if(correctionTrials&&daynightAudit)lines.push(...correctionLines(correctionTrials,daynightAudit,regions.find(r=>r.bbox.every((v,i)=>v===bbox[i]))?.id));
+   const body=`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Fire Continuum season briefing</title><style>body{font:16px/1.6 system-ui;max-width:850px;margin:40px auto;padding:25px;color:#203638}h1{font-size:32px}p{border-bottom:1px solid #ddd;padding-bottom:10px}a{color:#245e60}@media print{body{margin:0;font-size:11pt}}</style><h1>${esc(lines[0])}</h1>${lines.slice(1).map(t=>`<p>${esc(t)}</p>`).join('')}<h2>Follow the evidence</h2><p><a href="https://likalight.github.io/fire-continuum/">Interactive project</a> · <a href="https://likalight.github.io/fire-continuum/data/method.md">Method and limits</a> · <a href="https://likalight.github.io/fire-continuum/data/sources.json">NASA source manifest</a> · <a href="https://likalight.github.io/fire-continuum/data/robustness.json">Historical validation</a> · <a href="https://likalight.github.io/fire-continuum/data/recent-comparison.json">Recent comparison validation</a> · <a href="https://likalight.github.io/fire-continuum/data/recent_protocol.json">Recent protocol</a> · <a href="https://likalight.github.io/fire-continuum/data/correction-trials.json">Correction audit</a> · <a href="https://science.nasa.gov/mission/aqua/">NASA Aqua timing context</a></p><p>NASA LANCE FIRMS / ESDIS. NASA does not endorse this project. Prepared from the archive snapshot retrieved 14 November 2026. Code and reports: github.com/likalight/fire-continuum. OpenAI Codex assisted implementation and analysis.</p></html>`;
    save(body,'fire-continuum-season-briefing.html','text/html;charset=utf-8');
   };
  }
@@ -136,7 +151,7 @@ async function main(){
   {target:'sensor-lab',title:'2 · Hold place and time constant',text:'Unadjusted VIIRS versus an Aqua baseline exaggerates the comparison. The adjusted and Aqua readings both remain above the historical median.'},
   {target:'stress-test',title:'3 · Try to break the conclusion',text:'Choose any of the six recomputed variants. Above-typical activity persists; the extreme label changes with the confidence filter.'},
   {target:'season-briefing',title:'4 · Read and export the briefing',text:'See the usual seasonal window, the selected month and sensor agreement. Download a briefing carrying its baseline, sources and limits.'},
-  {target:'recent-comparison',title:'5 · Match the recent dates fairly',text:'Compare the recent UTC window with the identical dates in past years. Inspect both satellites, day-omission checks and short-window error. Near-real-time processing and coverage remain provisional.'},
+  {target:'recent-comparison',title:'5 · Match the recent dates fairly',text:'Compare the recent UTC window with the identical dates in past years. Inspect both satellites, day-omission checks and the correction audit below. Replay a held-out year and export its evidence passport. Timing and coverage remain unresolved.'},
   {target:'stress-evidence',title:'6 · Inspect the tests that failed',text:'Some years and unseen regions perform poorly. Range coverage is not universal. These limits constrain what the product claims.'}
  ];
  function showGuide(){

@@ -1,0 +1,7 @@
+{
+  "sequence": "Specified after the local-calibration trial, before inspecting refreshed point records or day/night-model results. The earlier trial improved historical macro-WAPE but worsened current Kalimantan disagreement.",
+  "data_audit": "Download the two official FIRMS seven-day files without overwriting the saved snapshot. Match the fixed 8–12 November window and country mask. Quantify additions/removals; attach official daynight flags to saved points only through exact coordinate/date/acquisition-time matches. No inferred solar-time labels.",
+  "models": "Two fixed alternatives: region/quarter/daynight and sector/quarter/daynight, each fit to 5-day window counts from 2019–2023. Evaluate 2024–2025 before inspecting current predictions. No hyperparameter sweep or current-period fitting.",
+  "definition": "Deduplicate occupied 1 km UTC-day cells across day and night before attributing the cell to its earliest observation, preserving the original total. Repeat exactly for historical and current data. The component labels describe first-detection sampling, not complete daytime/nighttime fire exposure.",
+  "limits": "Report zero-support fallbacks explicitly. Matching detections cannot establish cloud/overpass completeness. No rejection of VIIRS-only detections. Day/night experiments are additional diagnostics after seeing prior results; do not merge with the earlier candidate-selection competition or silently replace the released default."
+}
