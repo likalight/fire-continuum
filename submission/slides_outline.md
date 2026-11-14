@@ -9,3 +9,6 @@
 7. **A clear result and an honest next step.** Working public demo, reproducible evidence and an accessible guided route. Next: coverage-aware processing, systematic independent spatial validation and tested geographic expansion. Show demo, repository and NASA attribution.
 
 This is an outline, not a rendered presentation. Keep the eventual submission to seven slides and confirm the current submission form.
+
+
+The finished submission demo is the 30-second MP4 at `/submission/fire-continuum-demo.mp4`. This outline is an optional alternative, not a completed slide deck. New daily-mask context, seasonal sensitivity and shareable links appear in the app and public overview.

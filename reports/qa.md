@@ -40,3 +40,14 @@ This verifies implementation and internal consistency, not independent ground-tr
 - Downloaded evidence JSON contains the original current result, selected area/bounds, exact source snapshot, model audit results and two refreshed source manifests. The downloaded HTML briefing includes correction history, 46.8% and 80.3%, the non-blind-audit limitation and Aqua timing context.
 - Live timing panel shows approximate daytime detection medians of Aqua 13:33/15:40 and NOAA-20 13:31/13:38 in 2019/2026, explicitly labeled as a fixed Kalimantan detected-point sample.
 - Mobile 390 x 844 has no document horizontal overflow; correction cards and download control are readable, with tables in contained horizontal scrollers. No production JavaScript errors were captured.
+
+
+## Observation context and submission release — 14 November 2026
+
+- 25 Python tests and 19 browser-logic tests pass (44 total); production TypeScript/Vite build passes.
+- Daily mask partitions conserve all 14,386 native cells for each of 16 days. Native-coordinate selection agrees with an independent PROJ inverse transform. Cached replay verifies source hashes.
+- Public browser checks: both observation years load; shared links restore Kalimantan/September 2019 after selecting Sumatra; seasonal planner shows Aug–Oct and 15/15 baseline omissions for this case.
+- Mobile planner is readable at 390×844; document width 375 px equals its client width, with contained tables.
+- A transient public asset request failed during deployment. Retry succeeded. Added bounded retries before showing the recovery screen. Local preview data fetches failed in the browser environment despite HTTP 200 from the local server; public deployment used for visual QA.
+- Split MapLibre into an on-demand chunk. Main compressed JS falls from roughly 317 KB to 29 KB; map loading remains a separate ~300 KB download. This is a bundle-size measurement, not a measured user speedup.
+- 30-second narrated demo: actual screenshots, English captions, H.264 1280×720 and AAC audio. FFprobe verifies exactly 30.000 seconds after timestamp normalization. Microsoft Zira synthetic narration disclosed.
