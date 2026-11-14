@@ -2,14 +2,14 @@
 
 Actual prototype screens, six five-second scenes. Synthetic Microsoft Zira narration.
 
-**0–5s:** Would changing the satellite change your conclusion?
+**0–5s:** Same place. Same month. Different satellites can change the apparent story.
 
-**5–10s:** Compare twenty-three years of NASA observations for your chosen region.
+**5–10s:** Fire Continuum connects NASA records and tests whether conclusions survive.
 
-**10–15s:** A documented Borneo event anchors the story, with separate Landsat evidence.
+**10–15s:** Inspect observation quality. Missing data must never become zero fire.
 
-**15–20s:** Test the adjustment, and see where it fails.
+**15–20s:** Test other regions. Better counts can still mean worse seasonal categories.
 
-**20–25s:** Daily masks distinguish clouds from non-fire classifications.
+**20–25s:** Open independent Landsat scenes, including evidence that remains inconclusive.
 
-**25–30s:** Share the seasonal briefing with its sources and limitations.
+**25–30s:** Choose what to investigate. Export the finding, its sources, and its limits.
