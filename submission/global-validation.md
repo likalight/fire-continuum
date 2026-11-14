@@ -57,6 +57,8 @@ No detection does not establish no burning. Full FireMask/QA coverage exists onl
 
 `fire-continuum-geography-v2` retains the v1 monthly/daily row layouts and adds `primary_policy`, nullable unsupported factors, status/support/recall, input exclusion audits and `map_bounds`. Primary policy is `aqua_only` or `aqua_then_adjusted_noaa20`. Imports cannot stitch a null coefficient. Imported claims are user-supplied and are not authenticated by this application.
 
+In numeric spatial rows, NOAA-20 columns before 2019 contain storage padding zeros because that instrument series is unavailable; consumers must apply the year availability rule. The interface and analysis CSV expose those unavailable NOAA-20 values as missing, and never use them as zero-fire evidence.
+
 Country packages contain all 276 monthly totals, spatial rows, source SHA-256 hashes, quarterly factors, test results and the current snapshot. Annual daily shards power arbitrary UTC date windows; available windows are 2003–2025 or the separate November 1–13, 2026 interval. An arbitrary-date total does not automatically claim an arbitrary-date historical anomaly. Each country loads on demand.
 
 Download analysis CSV, calendar SVG, reusable package JSON, exact-date analysis JSON, same-date comparison JSON or the all-country evaluation CSV. Original NASA annual CSVs are linked directly and are full-year country files, not date/area-filtered point downloads. Original MODIS files contain both Terra and Aqua; this analysis retains Aqua. The original Indonesia research app preserves its filtered point-export workflow. No overlapping satellites are summed into a trend or global anomaly.
