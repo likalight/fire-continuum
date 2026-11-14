@@ -1,0 +1,509 @@
+[
+  {
+    "sensor": "aqua",
+    "date": "2026-11-01",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026305.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:37.696194+00:00",
+    "sha256": "85719aca7671e244c98825ed75b089fe6787f3db425e4557508f9c26adb7b774",
+    "bytes": 700349,
+    "file": "mtd-aqua-2026-11-01.txt",
+    "rows": 8942,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 206,
+    "occupied_cell_days": 200
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-02",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026306.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:36.797856+00:00",
+    "sha256": "b5b08d9773552fee34190501af701a3e268b095f075e2dc41dddb619a9007424",
+    "bytes": 549516,
+    "file": "mtd-aqua-2026-11-02.txt",
+    "rows": 7025,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 341,
+    "occupied_cell_days": 332
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-03",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026307.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:37.265457+00:00",
+    "sha256": "358cdb3a1493799c31722ccada668b74424cbc07397cbe1154dbe4fb596980e6",
+    "bytes": 921176,
+    "file": "mtd-aqua-2026-11-03.txt",
+    "rows": 11806,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 161,
+    "occupied_cell_days": 153
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-04",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026308.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:38.697668+00:00",
+    "sha256": "0dbe1c553766e0d65f5e50f88c205a021a6380707eb3508fd18f7e1f3c582648",
+    "bytes": 813784,
+    "file": "mtd-aqua-2026-11-04.txt",
+    "rows": 10386,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 482,
+    "occupied_cell_days": 466
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-05",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026309.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:41.353068+00:00",
+    "sha256": "d24389f5e34a52604dea626f342ec06863f51c4c4bc197c83e934b0eacc7808d",
+    "bytes": 904954,
+    "file": "mtd-aqua-2026-11-05.txt",
+    "rows": 11560,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 474,
+    "occupied_cell_days": 469
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-06",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026310.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:42.023206+00:00",
+    "sha256": "32f0f10c86570f97c2eb15130e8917630e0b3b2383dcd8f7c86162707b39bfcb",
+    "bytes": 1060908,
+    "file": "mtd-aqua-2026-11-06.txt",
+    "rows": 13520,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 181,
+    "occupied_cell_days": 173
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-07",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026311.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:43.647317+00:00",
+    "sha256": "60a21bbce5f4903897d91d8bbd95c9e95325e75b5b2037368e1f3d62aa12b4cd",
+    "bytes": 938864,
+    "file": "mtd-aqua-2026-11-07.txt",
+    "rows": 11966,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 259,
+    "occupied_cell_days": 250
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-08",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026312.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:43.472563+00:00",
+    "sha256": "6ba553326d3e241f32b623e0979e2ac4d4205c685baca483dbb9b9d61b9e0d66",
+    "bytes": 930829,
+    "file": "mtd-aqua-2026-11-08.txt",
+    "rows": 11964,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 44,
+    "occupied_cell_days": 42
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-09",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026313.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:45.488481+00:00",
+    "sha256": "b65790792dfcf63524d0ca2bb98f30d5b3bbdf22ff9719406ea96eb8612b40f2",
+    "bytes": 752060,
+    "file": "mtd-aqua-2026-11-09.txt",
+    "rows": 9620,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 181,
+    "occupied_cell_days": 175
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-10",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026314.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:46.355750+00:00",
+    "sha256": "72bb10dfe335bc7a6649de3b1b75116f3095653f6d499850459b7b83e3ce43e6",
+    "bytes": 860410,
+    "file": "mtd-aqua-2026-11-10.txt",
+    "rows": 11022,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 118,
+    "occupied_cell_days": 114
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-11",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026315.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:48.629138+00:00",
+    "sha256": "be0f01b4ad50d7039cc9a1f877d0092f1b4890c8aebfb08ceefe6dc20c4eaea5",
+    "bytes": 868559,
+    "file": "mtd-aqua-2026-11-11.txt",
+    "rows": 11147,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 127,
+    "occupied_cell_days": 120
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-12",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026316.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:47.755103+00:00",
+    "sha256": "ec76763c190919083a7476d2efa4701fc14195a323669fbd3f09a0d436cd3b94",
+    "bytes": 723714,
+    "file": "mtd-aqua-2026-11-12.txt",
+    "rows": 9252,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 111,
+    "occupied_cell_days": 108
+  },
+  {
+    "sensor": "aqua",
+    "date": "2026-11-13",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026317.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:49.577882+00:00",
+    "sha256": "27ff7fb9a217838d5350761e3e7872f796f9e42a085c1129246f00f229024afe",
+    "bytes": 708612,
+    "file": "mtd-aqua-2026-11-13.txt",
+    "rows": 9089,
+    "versions": [
+      "6.1NRT"
+    ],
+    "satellites": [
+      "A",
+      "T"
+    ],
+    "retained_detections": 25,
+    "occupied_cell_days": 23
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-01",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026305.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:51.407502+00:00",
+    "sha256": "c212d01f780a22e36699c7798018f8bdef47631347e10329ad625348a74c46e7",
+    "bytes": 3740894,
+    "file": "mtd-noaa20-2026-11-01.txt",
+    "rows": 44372,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 1465,
+    "occupied_cell_days": 1065
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-02",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026306.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:53.030552+00:00",
+    "sha256": "378b0af6a1d771c63e69cb12269d5f270183bb6eb4409a5345a6a5cb6cb87119",
+    "bytes": 3937195,
+    "file": "mtd-noaa20-2026-11-02.txt",
+    "rows": 46751,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 1804,
+    "occupied_cell_days": 1285
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-03",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026307.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:53.458681+00:00",
+    "sha256": "85632d8bc9738839503d66ca7d5b7770180ccc32f4701cbd57731ab8b550f05d",
+    "bytes": 4651046,
+    "file": "mtd-noaa20-2026-11-03.txt",
+    "rows": 55277,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 2609,
+    "occupied_cell_days": 1633
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-04",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026308.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:16:01.017958+00:00",
+    "sha256": "455ce1c839f79ebcfcd02cbff3f622eca8937ce1d8f3bd32e11abac54ff71096",
+    "bytes": 5388936,
+    "file": "mtd-noaa20-2026-11-04.txt",
+    "rows": 63959,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 2573,
+    "occupied_cell_days": 1712
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-05",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026309.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:57.221962+00:00",
+    "sha256": "28794a43d348e59b775ee22e15fe40dd9f118535ec2f17f6a7b7c9fa2154a017",
+    "bytes": 5670347,
+    "file": "mtd-noaa20-2026-11-05.txt",
+    "rows": 67369,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 3080,
+    "occupied_cell_days": 2173
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-06",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026310.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:57.985585+00:00",
+    "sha256": "125af2799d266125ab93a26218d26eef608f570d29a9604e38893d040f3bc755",
+    "bytes": 4654386,
+    "file": "mtd-noaa20-2026-11-06.txt",
+    "rows": 55252,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 558,
+    "occupied_cell_days": 385
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-07",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026311.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:15:59.119794+00:00",
+    "sha256": "241f39ea1b99b7d1ca3aa55b45b9be2edbfcfd71d967003b767f2572f3313353",
+    "bytes": 5119237,
+    "file": "mtd-noaa20-2026-11-07.txt",
+    "rows": 60653,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 1725,
+    "occupied_cell_days": 1267
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-08",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026312.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:16:03.064227+00:00",
+    "sha256": "6fa4e05d680eaa5fc1bbb80c9fb6a0fc7eb096b6d51b6c96f4a550e37eb5000d",
+    "bytes": 4960584,
+    "file": "mtd-noaa20-2026-11-08.txt",
+    "rows": 58739,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 976,
+    "occupied_cell_days": 730
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-09",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026313.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:16:03.364389+00:00",
+    "sha256": "42bde47512ab76b3996fe4e0784e6000b01e22230e1cb5adeb20b15f62d81128",
+    "bytes": 5356310,
+    "file": "mtd-noaa20-2026-11-09.txt",
+    "rows": 63638,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 840,
+    "occupied_cell_days": 665
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-10",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026314.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:16:04.374010+00:00",
+    "sha256": "c65b9f5c8a215738765c090c7e8c58f462f1d2fd6a3092f63843b806fb453ff9",
+    "bytes": 5564233,
+    "file": "mtd-noaa20-2026-11-10.txt",
+    "rows": 66193,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 1161,
+    "occupied_cell_days": 851
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-11",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026315.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:16:06.072017+00:00",
+    "sha256": "b0e5a35a6ac3c88dc674a1bd007c20d6d41f0f8cb1a6479a3507aac00ff7d5f3",
+    "bytes": 4242073,
+    "file": "mtd-noaa20-2026-11-11.txt",
+    "rows": 50326,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 1105,
+    "occupied_cell_days": 811
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-12",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026316.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:16:08.554731+00:00",
+    "sha256": "18a9d782585ea4b075e344af3135e1079e71776be19c3742fd17baaa5eb801d5",
+    "bytes": 4126231,
+    "file": "mtd-noaa20-2026-11-12.txt",
+    "rows": 49061,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 693,
+    "occupied_cell_days": 557
+  },
+  {
+    "sensor": "noaa20",
+    "date": "2026-11-13",
+    "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026317.txt",
+    "status": "available",
+    "retrieved_utc": "2026-11-14T10:16:09.424298+00:00",
+    "sha256": "540dd84657b355359758cb1b0a400557e1e8c3d6208066d912d7ba5463a5abfc",
+    "bytes": 3604426,
+    "file": "mtd-noaa20-2026-11-13.txt",
+    "rows": 42827,
+    "versions": [
+      "2.0NRT"
+    ],
+    "satellites": [
+      "N20"
+    ],
+    "retained_detections": 533,
+    "occupied_cell_days": 424
+  }
+]

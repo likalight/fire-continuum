@@ -1,0 +1,43 @@
+{
+  "selection_type": "Retrospective, non-blinded, outcome-informed demonstration; not a held-out validation sample",
+  "protocol": "confirmed-case-protocol.json",
+  "event_source": "https://science.nasa.gov/earth/earth-observatory/smoke-blankets-borneo-145614/",
+  "scene": "LC08_L2SP_118062_20190915_02_T1",
+  "searches": [
+    {
+      "order": 1,
+      "name": "Public Landsat Level 1 availability",
+      "result": "Planetary Computer landsat-c2-l1 returned zero scenes for this date and area. Its collection is historical MSS rather than Landsat 8 OLI. Use available C2 L2 only as a qualitative visual composite, not as input to a Level 1 active-fire algorithm."
+    },
+    {
+      "order": 2,
+      "name": "east-river",
+      "bounds": [114.0, -3.25, 114.25, -3.0],
+      "bands": "Natural color 4/3/2 and SWIR 7/6/2",
+      "visual_observation": "Pale smoke across natural color; SWIR reveals bright pink linear edges west of the large river. Plausible active burning, but diffuse and less visually clear than the later west-river region.",
+      "selected": false
+    },
+    {
+      "order": 3,
+      "name": "north-fields",
+      "bounds": [114.25, -2.5, 114.5, -2.25],
+      "bands": "Natural color 4/3/2 and SWIR 7/6/2",
+      "visual_observation": "Bright pink edges are visible through haze, but substantial white cloud and smoke obscure natural-color context. Less suitable for a clearly communicated demonstration.",
+      "selected": false
+    },
+    {
+      "order": 4,
+      "name": "west-river",
+      "bounds": [113.75, -3.25, 114.0, -3.0],
+      "bands": "Natural color 4/3/2 and SWIR 7/6/2",
+      "visual_observation": "A coherent bright pink/orange front appears near 113.927E, 3.025S, beside agricultural grids, with a pale natural-color plume extending westward. This is more interpretable active-burning context than NBR change.",
+      "selected": true,
+      "published_crop": [113.85, -3.1, 113.95, -3.0],
+      "crop_reason": "Show the bright front and its immediate smoke context in the same geographic window. Crop selected after imagery inspection, not an unbiased sample.",
+      "same_date_result": "Aqua 2, S-NPP 27, Terra 4, NOAA-20 51 confidence-filtered observations in the crop. Closest pass is NOAA-20 06:22 UTC (16 points), 227.16 minutes after Landsat. Zero observations meet the predefined +/-60-minute rule. No window was widened."
+    }
+  ],
+  "reviewer": "AI-assisted visual review, non-blinded; no external expert or practitioner validation",
+  "interpretation": "Corroboration is limited to burning at this place and UTC date. The independent instrument and NASA-documented scene support that interpretation; later FIRMS passes are neither simultaneous nor individual-pixel truth.",
+  "earlier_audit": "The earlier six-cell NBR comparison remains unchanged: 0 corroborated, 0 contradicted, 6 inconclusive. This deliberately selected SWIR event example is not a replacement outcome or accuracy estimate."
+}

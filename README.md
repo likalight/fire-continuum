@@ -97,3 +97,15 @@ Two additional fixed regions use 60 real NASA annual files: [Punjab and southeas
 [Six-cell Landsat audit](reports/imagery-findings.md): 12 independent scene subsets, 3 candidates + 3 lower-activity comparisons, source/QA/hash verification, and 6 inconclusive fire-attribution outcomes. Actual images are inspectable; passing QA does not establish haze-free observations or validate hotspot counts. External practitioners were not contacted.
 
 Reproduce: `python pipeline/16_decision_benchmark.py`, `python pipeline/17_transfer_cases.py --cached`, and `python pipeline/18_imagery_audit.py --cached`. The imagery pipeline additionally uses `requirements-imagery.txt`. Derived imagery adds about 5.7 MB and loads lazily. See each predefined protocol and published source manifest. New results do not change the released coefficients or resolve the 46.8% recent discrepancy.
+
+
+## Clearer workspace, independent event and month-to-date release
+
+The app now separates the story, calendar, current comparison and evidence library. The six-step tour and glossary introduce concepts without removing the technical detail. Public technical handbook: https://likalight.github.io/fire-continuum/submission/technical-handbook.html . Requirement matrix: https://likalight.github.io/fire-continuum/submission/challenge-coverage.html .
+
+- `pipeline/19_confirmed_case.py`: curated same-place Landsat/FIRMS event demonstration, fixed search log, exact acquisition offsets and original observations. `--cached` reproduces pinned outputs. No ±60-minute match; nearest NOAA-20 is3h47m later. The original six-cell audit is unchanged.
+- `pipeline/20_month_to_date.py`: 26 authenticated NASA daily files for November1–13,2026; exact-date history, frozen coefficients, source/date ledger and validation. This is a new date window, not a correction of the older five-day discrepancy.
+- `web/src/workspace.ts`, `story.ts`, `current.ts`: four-view navigation, readable case, glossary and current comparison.
+- `web/src/export-pack.ts`: versioned analysis ZIP with a calendar visual, model/source provenance and hashes; original-point UTC date-range exports preserve sensor identity.
+
+Continuous 2026 history, global arbitrary AOIs and external practitioner validation remain incomplete. Raw credentials, raw archive files and signed asset URLs are not published.

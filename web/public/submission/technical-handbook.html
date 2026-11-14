@@ -1,0 +1,509 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Technical handbook · Fire Continuum</title><style>*{box-sizing:border-box}body{margin:0;color:#203638;background:#f7f7ef;font:16px/1.8 system-ui,sans-serif}header,main,footer{max-width:1080px;margin:auto;padding:25px 35px}header{border-bottom:1px solid #cbd3c0;display:flex;justify-content:space-between;gap:25px}a{color:#285e62;text-underline-offset:4px}h1{font-size:46px;line-height:1.15;letter-spacing:-2px;margin:28px 0}h2{font-size:29px;line-height:1.3;margin-top:38px}h3{font-size:21px}p{max-width:900px}table{border-collapse:collapse;display:block;overflow:auto;font-size:14px}th,td{border:1px solid #ccd4c1;padding:12px;text-align:left;vertical-align:top;min-width:100px}th{background:#e9eddf}code{overflow-wrap:anywhere;background:#e9eddf;padding:2px 4px}pre{white-space:pre-wrap;background:#e9eddf;padding:18px;overflow:auto}summary{cursor:pointer;font-weight:650;padding:18px 0;border-top:1px solid #cbd3c0}details{margin-top:20px}.eyebrow{font-size:11px;letter-spacing:2px;color:#63765c}.notice{border-left:3px solid #a34b29;padding:16px 22px;background:#f0ead8}.toc{display:grid;grid-template-columns:1fr 1fr;gap:9px 25px;padding:20px 0}.toc a{font-size:14px}section{scroll-margin-top:20px;margin:35px 0 55px}img{max-width:100%;border:1px solid #ccd4c1}footer{font-size:13px;border-top:1px solid #cbd3c0}@media(max-width:650px){header,main,footer{padding:20px}h1{font-size:35px}.toc{grid-template-columns:1fr}th,td{padding:9px;font-size:12px}}</style><header><a href="../#start">Fire Continuum</a><nav><a href="../#evidence-hub">Evidence library</a> · <a href="./">Submission</a></nav></header><main><p class="eyebrow">TECHNICAL HANDBOOK / REPRODUCIBLE RESEARCH</p><h1>Simple to read.<br>Possible to inspect.</h1><p>Methods, definitions, evidence boundaries and data contracts in one place.</p><nav class="toc"><a href="#overview">01 · The question and the units</a><a href="#workflow">02 · User journey and scope</a><a href="#processing">03 · Harmonization and source conventions</a><a href="#confirmed">04 · Independent known-event case</a><a href="#mtd">05 · Current month-to-date comparison</a><a href="#decision">06 · Decision benchmark</a><a href="#transfer">07 · External-region transfer</a><a href="#imagery">08 · Original six-cell audit</a><a href="#coverage">09 · Observation masks and time matching</a><a href="#exports">10 · Exports and reproducibility</a><a href="#adoption">11 · What would be needed for agency use</a></nav><section id="overview"><h2>The question and the units</h2><p>Fire Continuum helps users inspect seasonal patterns across a change in satellite instruments. It does not estimate the number of distinct fires, burned area, damage or danger.</p>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Meaning</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Original detections</td>
+<td>Retained thermal-anomaly pixels, with original date, time, platform, confidence, FRP and version</td>
+<td>Inspect and download observations; do not directly compare instruments as a trend</td>
+</tr>
+<tr>
+<td>Occupied cell-days</td>
+<td>At least one retained detection in a 1 km equal-area cell on one UTC day, per platform</td>
+<td>Reduce repeat sampling and some resolution differences</td>
+</tr>
+<tr>
+<td>Aqua-equivalent activity</td>
+<td>VIIRS occupied cell-days multiplied by a fitted positive overlap ratio</td>
+<td>Estimate a common historical activity scale; uncertainty remains</td>
+</tr>
+<tr>
+<td>Median ratio</td>
+<td>Selected activity divided by the same-month or identical-date Aqua baseline median</td>
+<td>Describe relative detected activity; not danger or statistical significance</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Separate claims:</strong> independent imagery supports the presence of burning at one location/date. The regional calendar supports an above-typical activity estimate. Cross-sensor tests measure comparability. No single piece of evidence proves all three.</p></section><section id="workflow"><h2>User journey and scope</h2><ol>
+<li><strong>The story:</strong> inspect a documented Landsat fire front, reveal infrared and add later hotspot centres.</li>
+<li><strong>Explore the calendar:</strong> select an Indonesia study area or effective 0.25° rectangle; choose years and click a month. Read the typical peak, relative activity and sensor-category agreement.</li>
+<li><strong>Current comparison:</strong> November 1–13, 2026 is compared with exactly November 1–13 historically, with a 26-file date/sensor ledger. A previous November 8–12 experiment is retained separately.</li>
+<li><strong>Evidence &amp; methods:</strong> search questions and open the relevant experiments. A term guide explains units and metrics.</li>
+</ol>
+<p>Archive: 2003–2025. Current coverage: a pinned November 1–13 snapshot. <strong>January–October 2026 and November 14 onward are unavailable, not zero.</strong> Arbitrary global AOIs and a continuous 2026 archive are not implemented. Punjab and southeast Australia are separate fixed-region transfer tests.</p>
+<p>Date controls select calendar years and a month; exact UTC day ranges are supported for original observation downloads. The main harmonized calendar remains monthly.</p></section><section id="processing"><h2>Harmonization and source conventions</h2><h1>Fire Continuum: method and validation</h1>
+<p>Snapshot prepared 14 November 2026. Research prototype for <strong>Harmonization of MODIS and VIIRS Hot Spots</strong>, NASA Space Apps 2026. Geography: Indonesia. This is a sensor-comparability experiment, not a validated census of fires.</p>
+<h2>Sources and provenance</h2>
+<p>We use 45 public <a href="https://firms.modaps.eosdis.nasa.gov/country/">NASA FIRMS annual country files</a>: MODIS 2003–2025, VIIRS Suomi NPP 2012–2025, and VIIRS NOAA-20/JPSS-1 2018–2025. The <a href="https://firms.modaps.eosdis.nasa.gov/data/country/yearly_summary_files.txt">annual catalog</a> supplies filenames, sizes and modification dates. <code>sources.json</code> records each URL, advertised size, locally calculated SHA-256 and retrieval time. Hashes identify our local inputs; NASA did not provide the hashes. <code>input_audit.json</code> records retained counts, dates and source version values. Different versions occur across this record; we do not describe the entire record as a single collection.</p>
+<p>Field interpretation follows <a href="https://www.earthdata.nasa.gov/data/tools/firms/active-fire-data-attributes-modis-viirs">NASA's MODIS/VIIRS attribute definitions</a>. A hotspot is a detected thermal-anomaly pixel. It is neither a distinct fire nor a burned-area measurement. Coordinates locate a pixel center, not an exact fire perimeter. Industrial, volcanic and other thermal sources remain included.</p>
+<h2>Processing</h2>
+<ol>
+<li>Keep <strong>Aqua only</strong> from MODIS. Terra is excluded rather than adding morning and afternoon platforms. Aqua, Suomi NPP and NOAA-20 remain separate. Choosing afternoon platforms reduces a major observation-schedule difference, but does not align every overpass or correct sampling frequency.</li>
+<li>Retain MODIS confidence &gt;=30; retain VIIRS nominal/high (<code>n</code>/<code>h</code> in annual files; <code>nominal</code>/<code>high</code> in the recent feed). These are different sensor-specific screens, not identical detection probabilities. Drop exact duplicate latitude/longitude/date/time/satellite records.</li>
+<li>Project coordinates from EPSG:4326 to EPSG:6933. Floor projected x and y divided by 1,000 to define a global-origin equal-area 1 km grid. Count an occupied grid cell once per UTC date per platform, combining day and night. The result is <strong>active cell-days</strong>, not burned square kilometres. This suppresses repeated observations and part of the resolution difference; it does not turn VIIRS into a physical MODIS measurement.</li>
+<li>Assign each active cell-day to the 0.25-degree display cell of its earliest-time retained detection. At cell boundaries this representative-point convention can shift a contribution between neighboring display cells. Original detection counts use their original coordinates. Consequently a small-area point count and an active-cell measure need not have identical boundary membership.</li>
+<li>Fit positive multiplicative ratios separately for three longitude sectors (&lt;108 E, 108–120 E, &gt;=120 E) and four calendar quarters. Each ratio is <code>sum(Aqua active cell-days) / sum(VIIRS active cell-days)</code> in training months. Multiplication preserves zeros; no intercept or fabricated hotspot is introduced.</li>
+<li>Suomi NPP fits 2013–2017 and is tested on <strong>2018–2025</strong>. NOAA-20 fits 2019–2021 and is tested on <strong>2022–2025</strong>. Freeze the fitted ratios before evaluating later years. Partial launch years 2012 (NPP) and 2018 (NOAA-20) do not enter fitting or the primary VIIRS record.</li>
+<li>Display a single primary source per period: Aqua 2003–2012, NPP 2013–2021, NOAA-20 2022–2025. Do not sum overlapping platforms. Adjusted units are <strong>Aqua-equivalent active 1 km cell-days</strong>. Original detections and unadjusted cell-days remain available for comparison.</li>
+</ol>
+<p>The start year is 2003, the first full calendar year after Aqua's 2002 launch; this prototype does not extend the combined record to Terra's 2000 start. All dates and day aggregation are UTC. At Indonesia's latitudes 0.25 degrees is approximately 28 km; the display grid itself is not equal-area.</p>
+<h2>Held-out results</h2>
+<table>
+<thead>
+<tr>
+<th>Comparison with Aqua</th>
+<th>Fit years</th>
+<th>Test years</th>
+<th style="text-align: right;">Months</th>
+<th style="text-align: right;">Before WAPE</th>
+<th style="text-align: right;">After WAPE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Suomi NPP</td>
+<td>2013–2017</td>
+<td>2018–2025</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">434.09%</td>
+<td style="text-align: right;">13.70%</td>
+</tr>
+<tr>
+<td>NOAA-20</td>
+<td>2019–2021</td>
+<td>2022–2025</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">451.04%</td>
+<td style="text-align: right;">13.45%</td>
+</tr>
+</tbody>
+</table>
+<p>WAPE = <code>sum(abs(estimate - reference)) / sum(reference)</code>, evaluated on national monthly totals. “Before” already uses the common 1 km cell-day grid; it is not the original raw-pixel count. Large pre-adjustment values mean VIIRS observes substantially more occupied cells than Aqua. They do not mean NASA's VIIRS data are wrong.</p>
+<p>Regional-sector after-adjustment WAPE spans 14.82–17.72% for NPP and 14.10–17.87% for NOAA-20. National aggregation can cancel opposite regional biases. The scores are <strong>not 86.5% fire accuracy</strong>, a per-month confidence interval, or independent ground truth. Aqua itself misses events and has observation gaps. The experiment shows empirical agreement with Aqua's scale on later years. A simpler single national factor, fitted on exactly the same training years, gives held-out WAPE of 17.35% for NPP and 15.46% for NOAA-20. The regional-quarter method improves these to 13.70% and 13.45% respectively. This is one baseline comparison, not proof of superiority to all alternatives. See <code>ablation.json</code>.</p>
+<p>The browser data was independently summed back to all 1,620 sector/month/sensor ledger rows. All 276 monthly point-download counts match the ledger. Held-out WAPE recomputed from the browser export matches the pipeline result. See <code>reports/export_verification.json</code> and <code>reports/validation.json</code> in the repository.</p>
+<h2>Calendar, anomalies and exports</h2>
+<p>The seasonal baseline now uses only Aqua observations for each calendar month during 2003–2017 in the chosen area, excluding the selected year. This replaces the original mixed-sensor baseline. Raw/unadjusted views no longer show a cross-sensor anomaly ratio. The displayed anomaly is a ratio to that median. It is descriptive, not a forecast or statistical significance test. The briefing always uses adjusted activity and the consistent Aqua baseline, regardless of the calendar view. Harmonized historical estimates still depend on the calibration's transferability. Calendar colors use a logarithmic scale over the displayed years. Map colors rescale per selected month and must not be compared visually across months as an absolute scale.</p>
+<p>User-selected rectangles snap outward to 0.25 degrees. Historical points are already assigned to Indonesia by FIRMS. Sector-level calibration has not been validated for every arbitrary small rectangle. Empty cells mean no retained detections in the available input, not verified absence of fire. The CSV analytics include source platform, raw count, cell-days, adjusted estimate, Aqua reference and selected bounds. The hotspot CSV contains filtered original observations from the primary platform for the selected month; it does not adjust individual point positions or intensities.</p>
+<h2>Recent observations and gaps</h2>
+<p>Annual history ends December 2025. The separately dated seven-day FIRMS NRT snapshot is retrieved by <code>03_recent.py</code>; it is <strong>not a live service</strong>, complete 2026 archive or complete current month. Both global-file date spans and retrieval time are stored in <code>recent.json</code>. Recent records are masked to Indonesia using geoBoundaries/OSM (ODbL 1.0); that border assignment may differ from FIRMS annual country files. Recent counts remain unharmonized and are never appended to a historical full-month calendar cell.</p>
+<p><a href="https://www.earthdata.nasa.gov/data/alerts-outages/reminder-new-suomi-npp-observations-cease-november-2-2026">NASA reports cessation of new Suomi NPP observations on 2 November 2026</a>. The need for an explicit sensor handover is therefore current, but our NOAA-20 choice is not a claim of perpetual future availability.</p>
+<h2>Unresolved limitations and next validation</h2>
+<ul>
+<li>Hotspot-only files provide no clear-sky, cloud-mask, swath or overpass denominator. Cloud and observation gaps are not corrected.</li>
+<li>No exact time-of-day matching; combining UTC-day detections only partially addresses sampling differences. Diurnal fire cycles remain a confounder.</li>
+<li>Collection/version transitions, scan-angle effects, geolocation differences, fire size and intensity are not individually modeled.</li>
+<li>Ratios can hide real differences in the small/low-intensity sources detected by VIIRS. They are a reference-scale index, not a reconstruction of every fire.</li>
+<li>Quarter boundaries can produce artificial steps. Additional empirical conversion-range tests failed to establish universal nominal coverage; no per-AOI guarantee is claimed.</li>
+<li>Global expansion, 2026 full-archive ingestion, independent fire-perimeter/ground validation and coverage normalization remain future work. Single-factor ablation, rolling temporal tests, spatial exclusion tests and six processing sensitivities are now reported in validation-v2.md / robustness.json / sensitivity.json.</li>
+</ul>
+<p>We acknowledge data from LANCE FIRMS, operated by NASA's Earth Science Data and Information System with funding from NASA Headquarters. Source data retain their source terms. NASA does not endorse this project.</p>
+<h2>Additional evidence and changed claims</h2>
+<p>See <a href="https://github.com/likalight/fire-continuum/blob/main/reports/validation-v2.md">validation-v2.md</a> for year-level, spatial-transfer, range-coverage and sensitivity results, including failures. The Kalimantan September 2019 case uses a separate NASA-published Landsat observation to corroborate event existence only. See <a href="https://github.com/likalight/fire-continuum/blob/main/reports/case-study.md">case-study.md</a>. The original harmonization coefficients remain unchanged.</p></section><section id="confirmed"><h2>Independent known-event case</h2><h1>A real fire, seen by a different instrument</h1>
+<p>The 15 September 2019 Landsat 8 scene provides a defensible positive demonstration of burning in a small part of southern Borneo. The displayed shortwave-infrared composite shows a coherent bright front, while the same geographic window in natural color shows a pale plume extending westward. NOAA-20 observations acquired later that UTC date fall along and near the visible front. NASA Earth Observatory independently described active fires in this Landsat scene and used bands 7/6/2 to highlight them in its <a href="https://science.nasa.gov/earth/earth-observatory/smoke-blankets-borneo-145614/">Smoke Blankets Borneo article</a>.</p>
+<p>This corroborates <strong>burning at this place and date</strong>. It does <strong>not</strong> validate the regional anomaly, hotspot counts, calibration accuracy, burned area, or individual FIRMS detections. This example was deliberately selected after inspecting imagery from a known event; it is not a representative accuracy test.</p>
+<h2>Exact observations</h2>
+<ul>
+<li>Landsat scene: <code>LC08_L2SP_118062_20190915_02_T1</code>, OLI, <strong>02:34:50.651419 UTC</strong>.</li>
+<li>Bounds: <strong>113.85–113.95°E, 3.10–3.00°S</strong>, north up, EPSG:4326.</li>
+<li>Display: 360 × 360 grid, approximately 31 m spacing; actual band subsets, no generated imagery.</li>
+<li>Bright front: near 113.927°E, 3.025°S, with a longer bright edge continuing southward. This approximate visual location is not a digitized perimeter or a ground-truth annotation.</li>
+<li>Nearest FIRMS pass: <strong>NOAA-20, 06:22 UTC</strong>, 16 nominal/high-confidence observations in the crop, <strong>227.16 minutes later</strong>.</li>
+<li>The predefined <strong>±60-minute</strong> comparison contains <strong>zero</strong> observations. The time window was not widened to obtain a match.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th style="text-align: right;">Same-date observations in crop</th>
+<th>UTC times</th>
+<th style="text-align: right;">Closest offset after Landsat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MODIS Aqua</td>
+<td style="text-align: right;">2</td>
+<td>17:20</td>
+<td style="text-align: right;">14 h 45 m</td>
+</tr>
+<tr>
+<td>VIIRS S-NPP</td>
+<td style="text-align: right;">27</td>
+<td>18:16</td>
+<td style="text-align: right;">15 h 41 m</td>
+</tr>
+<tr>
+<td>MODIS Terra</td>
+<td style="text-align: right;">4</td>
+<td>14:22</td>
+<td style="text-align: right;">11 h 47 m</td>
+</tr>
+<tr>
+<td>VIIRS NOAA-20</td>
+<td style="text-align: right;">51</td>
+<td>06:22, 17:24, 17:25</td>
+<td style="text-align: right;">3 h 47 m</td>
+</tr>
+</tbody>
+</table>
+<p>These are sensor observations, not separate fires. The table preserves satellite identity; the counts must not be added together as a fire total. The transparent overlay contains only the nearest NOAA-20 pass and represents point centres, not pixel footprints or fire perimeters. Fire evolution and footprint differences can explain spatial offsets between acquisitions.</p>
+<h2>Display and quality limits</h2>
+<p>Natural color uses Landsat bands 4/3/2; shortwave infrared uses 7/6/2. Both use the same fixed display transform: <code>clip((DN × 0.0000275 − 0.2) / 0.45, 0, 1) ** 0.7</code>. Scaling follows <a href="https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products">USGS Level 2 documentation</a>. Cropping preserves the original subset's pixel boundaries; there is no cosmetic sharpening, generated fill, or selective masking.</p>
+<p>The displayed data are Collection 2 Level 2, accessed through the public Planetary Computer mirror. They support a qualitative visual interpretation; this pipeline does not apply a Level 1 active-fire algorithm to Level 2 surface reflectance. Burning pixels contain emitted radiation, and atmospheric correction and saturation can distort their values. The bright colors are not temperature, fire intensity, or a quantitative burn classification.</p>
+<p>QA_PIXEL flags cloud or related conditions in about <strong>0.0031%</strong> of the crop, while <strong>0.1852%</strong> carries a SWIR saturation flag. Nevertheless, natural-color imagery is visibly smoke-obscured. This is a useful reminder that low QA cloud coverage does not imply clear ground visibility. <a href="https://www.usgs.gov/landsat-missions/landsat-collection-2-quality-assessment-bands">USGS documents these QA flags</a>; they do not measure fire extent. Clouds, haze and saturated pixels remain visible in the composites rather than disappearing from the evidence.</p>
+<h2>Selection history and reproducibility</h2>
+<p>The protocol was written before the three-region imagery inspection. This was a retrospective demonstration from the outset: east-river and north-fields were inspected, then west-river was selected because its bright front and plume were visually clearer. The final crop was chosen after inspection. The public Level 1 catalog search returned no applicable Landsat 8 scene; this limitation and all three inspected regions are recorded in <code>confirmed-case-search-log.json</code>.</p>
+<p>The prior fixed six-cell NBR audit is preserved unchanged: <strong>0 corroborated, 0 contradicted, 6 inconclusive</strong>. A curated active-burning illustration does not retroactively improve that audit or provide a success rate. Review here is AI-assisted and non-blinded, with no independent practitioner review.</p>
+<p>Run <code>python pipeline/19_confirmed_case.py --cached</code> after the FIRMS archives and pinned Landsat subset are present. Without <code>--cached</code>, the pipeline can retrieve the same public Landsat subset. The script checks the scene acquisition time, verifies FIRMS archives against their download manifest, pins array and output hashes, retains exact source CSV lines, publishes unsigned asset URLs, and reports all acquisition times. The original model and its coefficients are untouched.</p>
+<p>Published artifacts are <code>confirmed-case.json</code>, <code>confirmed-case-natural.png</code>, <code>confirmed-case-swir.png</code>, <code>confirmed-case-overlay.png</code>, <code>confirmed-case-panel.png</code>, and downloadable point CSV/GeoJSON. The scene, processing, QA diagnostics, exact dates, limits and provenance are embedded in the JSON.</p></section><section id="mtd"><h2>Current month-to-date comparison</h2><h1>Month-to-date evidence: 1–13 November 2026</h1>
+<p>This closes the previous fixed five-day snapshot gap with a pinned month-to-date observation comparison. All 26 expected NASA daily source tables were downloaded and validated: Aqua/MODIS and NOAA-20/VIIRS for each UTC date from 1 through 13 November 2026. The global input files total 71,749,633 bytes. Their presence does <strong>not</strong> establish complete observations, cloud-free coverage or detection of all burning. The 13th is a completed UTC date, but late NRT delivery and processing changes remain possible. This is a saved snapshot, not a continuously refreshed service.</p>
+<p>The original Indonesia coefficients were frozen before calculation. Historical sources were checked against their recorded SHA-256 hashes. The baseline is Aqua on the same 1–13 November dates in 2003–2017. The separate audit uses 2022–2025, excluded from original calibration, with all five predefined regions reported. No region or date window was chosen to improve the observed result. Previously seen project results mean this new diagnostic is exploratory, not an untouched final benchmark.</p>
+<h2>What the data support</h2>
+<p>Indonesia has 2,710 retained Aqua detections and 19,122 retained NOAA-20 detections. After one occupied 1 km cell per UTC day is retained, these become 2,625 Aqua and 13,558 NOAA-20 cell-days. The original frozen model estimates <strong>2,253.7 Aqua-equivalent cell-days</strong> from NOAA-20, 14.1% below the concurrent Aqua count. These are different quantities; none is a count of distinct fires or area burned.</p>
+<p>Both sensors place Indonesia <strong>above its same-date historical median</strong>, but below the historical 90th percentile. The median is 558 Aqua cell-days and the 90th percentile is 3,706.6. Both classifications persist when any single date is omitted from both current and historical windows. That is a sensitivity check, not a confidence interval or independent validation.</p>
+<table>
+<thead>
+<tr>
+<th>Fixed region</th>
+<th style="text-align: right;">Current Aqua cell-days</th>
+<th style="text-align: right;">Frozen NOAA-20 estimate</th>
+<th>Aqua / estimate categories</th>
+<th style="text-align: right;">Same-date held-out WAPE</th>
+<th style="text-align: right;">All-month 1–13 audit category agreement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Indonesia</td>
+<td style="text-align: right;">2,625</td>
+<td style="text-align: right;">2,253.7</td>
+<td>Above typical / Above typical</td>
+<td style="text-align: right;">14.7%</td>
+<td style="text-align: right;">46/48</td>
+</tr>
+<tr>
+<td>Sumatra</td>
+<td style="text-align: right;">207</td>
+<td style="text-align: right;">214.1</td>
+<td>Above typical / Above typical</td>
+<td style="text-align: right;">16.6%</td>
+<td style="text-align: right;">47/48</td>
+</tr>
+<tr>
+<td>Kalimantan</td>
+<td style="text-align: right;">696</td>
+<td style="text-align: right;">620.6</td>
+<td>Above typical / Above typical</td>
+<td style="text-align: right;">16.0%</td>
+<td style="text-align: right;">41/48</td>
+</tr>
+<tr>
+<td>Java</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">72.3</td>
+<td>Above typical / Unusually high</td>
+<td style="text-align: right;">158.9%</td>
+<td style="text-align: right;">18/48</td>
+</tr>
+<tr>
+<td>Papua</td>
+<td style="text-align: right;">890</td>
+<td style="text-align: right;">595.0</td>
+<td>Unusually high / Unusually high</td>
+<td style="text-align: right;">33.3%</td>
+<td style="text-align: right;">40/48</td>
+</tr>
+</tbody>
+</table>
+<p>Same-date WAPE has only four held-out annual windows. The broader 48-window WAPE for Indonesia is 16.3%; those windows cover days 1–13 in every month of 2022–2025. Java remains a clear failure: the calibrated estimate and Aqua disagree on the current category, and the held-out error is large. Papua agrees on category despite a substantial magnitude difference. Publish these failures alongside the national result.</p>
+<p>The 14.1% current Indonesia difference must not be described as a correction that reduced the old 46.8% five-day discrepancy: the dates changed from 8–12 November to 1–13 November. The original coefficients did not change. Longer aggregation can change the result; this analysis does not isolate why.</p>
+<h2>Provenance and reuse</h2>
+<p>Run <code>pipeline/20_month_to_date.py</code> with the existing authorized Earthdata environment. Raw global daily files remain ignored. Downloads are pinned with receipts and hashes; a changed historical source or frozen model causes an error. Missing or invalid daily files withhold calculation instead of becoming zero observations. The source ledger records every requested sensor/date and validates that nonempty tables contain only that date. A valid empty table is still not evidence of clear-sky zero burning.</p>
+<p>Public outputs are <code>month-to-date.json</code>, <code>month-to-date-history.json.gz</code>, <code>month-to-date-detections.csv.gz</code> and <code>month-to-date-protocol.json</code>. The CSV preserves original latitude, longitude, acquisition date/time, confidence, product version, satellite and sensor. Acquisition times are normalized to HHMM for consistent ordering. Sparse history uses the same column layout as the original recent comparison. The <code>snapshot_sha256</code> field aliases the compressed original-point export hash.</p>
+<p>NASA identifies these current products as NRT. Historical country archives can differ in processing version and upstream country assignment; application of the same Indonesia mask cannot reverse already excluded coastal detections. No global observation denominator, cloud correction, burned-area confirmation or independently proven fire attribution is added by this comparison.</p>
+<p>Official access documentation: <a href="https://firms.modaps.eosdis.nasa.gov/content/active_fire/">NASA FIRMS data access</a>, <a href="https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/">MODIS global daily archive</a>, <a href="https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/">NOAA-20 global daily archive</a>. Exact source URLs and file hashes are in the published JSON ledger.</p></section><section id="decision"><h2>Decision benchmark</h2><h1>Decision-level benchmark findings</h1>
+<p>The follow-up protocol was recorded before computing these metrics, after earlier Indonesia count-based results were seen. Evaluation years are excluded from fitting, but this is not an untouched final benchmark. Models remain frozen. The benchmark includes Sumatra, Kalimantan, Java/Bali, Papua and Sulawesi study rectangles; overlapping rectangles and repeated months are not independent observations.</p>
+<p>Aqua calendar-month medians and p90 from 2003–2017 define three descriptive categories. The four methods are intentionally unharmonized VIIRS detections, common-grid occupied cell-days, a single national training ratio, and the released sector-quarter calibration. Aqua is a reference instrument, not ground truth. The labels do not represent significance, danger or distinct fires.</p>
+<table>
+<thead>
+<tr>
+<th>Sensor</th>
+<th style="text-align: right;">Comparisons</th>
+<th style="text-align: right;">Simple category agreement</th>
+<th style="text-align: right;">Released agreement</th>
+<th style="text-align: right;">Simple balanced accuracy</th>
+<th style="text-align: right;">Released balanced accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NOAA-20</td>
+<td style="text-align: right;">240</td>
+<td style="text-align: right;">79.6%</td>
+<td style="text-align: right;">82.9%</td>
+<td style="text-align: right;">78.7%</td>
+<td style="text-align: right;">70.6%</td>
+</tr>
+<tr>
+<td>Suomi NPP</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: right;">73.0%</td>
+<td style="text-align: right;">75.7%</td>
+<td style="text-align: right;">76.7%</td>
+<td style="text-align: right;">71.2%</td>
+</tr>
+</tbody>
+</table>
+<p>The incremental NOAA-20 gain is 8 additional matching region-month labels: 191 to 199 of 240. It is not a 3.3% improvement in ground-truth fire accuracy. Balanced accuracy gives equal weight to each reference class present; it declines with the released method.</p>
+<p>Rare-category result: of 6 NOAA-20 audit months categorized above p90 by Aqua, the released method misses 3; simple calibration misses 1. Released false above-p90 labels decline from 22 to 15, but precision remains only 3/18 (16.7%). NPP misses 6 of 17 reference above-p90 months versus 2 for simple calibration. These small samples and trade-offs prevent an operational alert claim.</p>
+<p>The shared retrospective count-support gate retains 195/240 NOAA-20 comparisons (81.25%) and 380/470 NPP comparisons (80.85%). It requires baseline median &gt;=5 and concurrent Aqua/VIIRS &gt;=20 occupied cell-days. Supported agreement is 86.7% NOAA-20 and 82.6% NPP, with the withheld denominator equally prominent. This is not clear-sky coverage, and the gate cannot operate unchanged after Aqua retires.</p>
+<p>Annual cyclic three-month peak-window start agreement improves from 70% to 75% for NOAA-20 with released versus simple calibration, but declines from 77.1% to 71.4% for NPP. Mean circular start error is 0.30 versus 0.50 months for NOAA-20 and 0.40 versus 0.34 for NPP. These windows are retrospective summaries, not onset dates or forecasts.</p>
+<p>Known Aqua outage months August–September 2020 are excluded from NPP decision comparisons, and the entire 2020 year is excluded from the annual-window test. Baseline coverage for all other dates remains unknown. Existing coefficients and the recent 46.8% discrepancy are unchanged.</p>
+<p>Reproduce: <code>python pipeline/16_decision_benchmark.py</code>, using pinned <code>history.json.gz</code> and <code>metadata.json</code>. <code>decision_benchmark_protocol.json</code> defines every rule. <code>decision-benchmark.json</code> contains input hashes, confusion matrices, regional results and all 710 records; the web CSV carries each estimate and category. Tests check boundaries, circular ties, class imbalance, support gates, exclusions and published-score reconciliation.</p></section><section id="transfer"><h2>External-region transfer</h2><h1>Two external-region transfer tests</h1>
+<p>The rectangles, sources, fits, support gate and scores were fixed in <code>transfer-protocol.json</code> before external data were downloaded or evaluated. Earlier Indonesia results had already been seen. This is a disclosed follow-up experiment, not an untouched final benchmark.</p>
+<h2>Scope and data</h2>
+<p>The fixed Punjab study rectangle is [73.8,29.5,76.9,32.6]; the southeast Australia rectangle is [147,-38,153,-30]. These are exact analysis rectangles intersected with NASA's annual country-file selection, not state borders. Punjab provides an agricultural-burning context and southeastern Australia a context with documented major wildfire episodes. <strong>Neither label classifies every hotspot.</strong> Prescribed burns, other agricultural activity and non-vegetation heat sources can contribute. In particular, the Australian audit years' peak is March–May, not proof of an extreme summer wildfire episode.</p>
+<p>60 real NASA FIRMS annual country files (1,613,455,866 bytes) supply Aqua MODIS 2003–2025 and NOAA-20 VIIRS 2019–2025. Each has a public URL, advertised size, download time and SHA256 hash. Raw files are ignored by Git. No new account, purchase or agreement was required.</p>
+<p>Sources and context:</p>
+<ul>
+<li><a href="https://firms.modaps.eosdis.nasa.gov/country/">NASA FIRMS annual archive</a></li>
+<li><a href="https://science.nasa.gov/earth/earth-observatory/smokier-and-smokier-skies-in-india-144181/">NASA: Smokier and Smokier Skies in India</a></li>
+<li><a href="https://science.nasa.gov/earth/earth-observatory/fires-and-smoke-engulf-southeastern-australia-146110/">NASA: Fires and Smoke Engulf Southeastern Australia</a></li>
+</ul>
+<p>Aqua confidence ≥30 and NOAA-20 nominal/high observations are retained. Exact duplicate observations are removed. Locations are projected to EPSG:6933 1 km cells, occupied at most once per sensor per UTC day. Raw filtered NOAA-20 detections are retained as a deliberately unharmonized comparison. All numbers represent satellite activity observations, not distinct fires, ignition times or burned area.</p>
+<h2>What is transferred and what is refitted</h2>
+<p><strong>Frozen transfer:</strong> the released Indonesia sector/quarter NOAA-20 coefficients are applied unchanged. Its existing longitude rule maps Punjab to sector0 and Australia to sector2; there is no seasonal shift, parameter tuning or local fitting. This is extrapolation outside the fitted geography.</p>
+<p><strong>Local adaptation:</strong> a separate quarterly ratio of summed Aqua occupied cell-days to NOAA-20 occupied cell-days is fitted on each external region's 2019–2021 observations. August and September 2020 are excluded conservatively because of the documented Aqua archive outage. The frozen Indonesia model is not retroactively changed. Local adaptation uses additional regional data and a different training quality restriction; it is not zero-shot transfer and does not replace the published method.</p>
+<p>Both are evaluated on all 48 months in 2022–2025, excluded from local fitting. All four comparators and every month are published.</p>
+<h2>Results against concurrent Aqua</h2>
+<p>Categories use each calendar month's 15-year Aqua baseline (2003–2017): at/below median, above median through p90, or above p90. These are descriptive satellite categories, not ground truth or significance tests.</p>
+<table>
+<thead>
+<tr>
+<th>Region / method</th>
+<th style="text-align: right;">Category agreement</th>
+<th style="text-align: right;">WAPE</th>
+<th style="text-align: right;">Mean peak-start error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Punjab: raw VIIRS detections</td>
+<td style="text-align: right;">12/48 (25.0%)</td>
+<td style="text-align: right;">402.6%</td>
+<td style="text-align: right;">2.75 months</td>
+</tr>
+<tr>
+<td>Punjab: unadjusted occupied cells</td>
+<td style="text-align: right;">13/48 (27.1%)</td>
+<td style="text-align: right;">313.1%</td>
+<td style="text-align: right;">2.75 months</td>
+</tr>
+<tr>
+<td>Punjab: frozen Indonesia model</td>
+<td style="text-align: right;">29/48 (60.4%)</td>
+<td style="text-align: right;">35.9%</td>
+<td style="text-align: right;">2.75 months</td>
+</tr>
+<tr>
+<td>Punjab: separately fitted local model</td>
+<td style="text-align: right;">34/48 (70.8%)</td>
+<td style="text-align: right;">22.6%</td>
+<td style="text-align: right;">1.25 months</td>
+</tr>
+<tr>
+<td>Southeast Australia: raw VIIRS detections</td>
+<td style="text-align: right;">2/48 (4.2%)</td>
+<td style="text-align: right;">598.8%</td>
+<td style="text-align: right;">0.00 months</td>
+</tr>
+<tr>
+<td>Southeast Australia: unadjusted occupied cells</td>
+<td style="text-align: right;">6/48 (12.5%)</td>
+<td style="text-align: right;">293.3%</td>
+<td style="text-align: right;">0.00 months</td>
+</tr>
+<tr>
+<td>Southeast Australia: frozen Indonesia model</td>
+<td style="text-align: right;">35/48 (72.9%)</td>
+<td style="text-align: right;">44.1%</td>
+<td style="text-align: right;">0.00 months</td>
+</tr>
+<tr>
+<td>Southeast Australia: separately fitted local model</td>
+<td style="text-align: right;">32/48 (66.7%)</td>
+<td style="text-align: right;">27.1%</td>
+<td style="text-align: right;">0.00 months</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The important counterexample:</strong> Australian local adaptation improves count error from 44.1% to 27.1% but reduces category agreement from 72.9% to 66.7%. Better aggregate magnitude agreement does not guarantee better threshold decisions. Both remain comparisons with Aqua, whose observing coverage and sensitivity are not complete truth.</p>
+<p>The three-month seasonal window is the highest-sum consecutive circular window in each audit year's twelve-month profile. Earliest start wins exact ties. Circular start-month distance is reported. This is a profile statistic, not a dated cross-year event or forecast. Punjab's locally adapted result matches Aqua's October start in 2024, where the frozen transfer picks April; it still differs by five months in 2025. Australia matches the Aqua March start in all four years even without calibration. No universal seasonal improvement is claimed.</p>
+<h2>Withholding and usable support</h2>
+<p>The predefined retrospective support gate requires concurrent Aqua and NOAA-20 occupied counts ≥20 and baseline median ≥5. <strong>Because it uses concurrent Aqua, it is an evaluation diagnostic, not an operational confidence gate for a future VIIRS-only period.</strong></p>
+<p>Punjab retains 38/48 months (79.2%); local-model category agreement is 28/38 (73.7%) on that subset. Ten months are withheld from this diagnostic, but remain visible in the all-month evaluation. Australia retains 47/48 (97.9%); frozen agreement is 34/47 (72.3%) and local agreement is 31/47 (66.0%). One month is withheld. Retention and accuracy must always be shown together.</p>
+<h2>Limits</h2>
+<p>Annual archive availability does not establish clear-sky observation completeness. Zero reported detections is not no fire. Full masks/QA were not collected for these external rectangles. Known 2020 outage months are marked. No operational warning, independent ground-truth accuracy, classification of burning causes, global coverage or external practitioner usefulness validation is claimed. The exact two regions were selected before outcomes and have not been changed to improve results.</p>
+<h2>Reproduce and inspect</h2>
+<p>Run <code>python pipeline/17_transfer_cases.py</code> to retrieve the catalog, verify/download all 60 files and build the report. Run <code>python pipeline/17_transfer_cases.py --cached</code> to require pinned local files and verify their hashes. The public <code>transfer-cases.json</code> contains both regions, all monthly values, baseline samples, fits, source manifests and scores. <code>transfer-months.csv</code> includes all four estimates and categorical labels. <code>reports/transfer-monthly-counts.csv</code> preserves the sensor-separated count ledger.</p>
+<p>Six tests check category boundaries, support thresholds, circular/tied peaks, absence of test-year and known-outage leakage into the local fit, original sensor/confidence filters with same-day deduplication, and reconciliation of every report score with its published monthly records. Source files remain separately hashed and untouched.</p></section><section id="imagery"><h2>Original six-cell audit</h2><h1>Six-cell independent Landsat imagery audit</h1>
+<h2>What was completed</h2>
+<p>A fixed six-cell sample now has real, georeferenced independent optical evidence: the three existing September 2019 Kalimantan review candidates and three systematically selected lower-activity comparisons. Twelve Landsat 8 Collection 2 Level 2 subsets were obtained from the public Microsoft Planetary Computer mirror of USGS data, without creating an account or accepting new terms. Full cell bounds, exact acquisition times, item identifiers, unsigned source URLs, STAC hashes and subset-array hashes are published in <code>imagery-audit.json</code>.</p>
+<p>Each scientific figure shows the same cell before and during September: a SWIR2/NIR/red reflectance composite and a change image using the normalized burn ratio (NBR). This is a systematic <strong>independent-imagery audit</strong>, not completed ground-truth validation of the hotspot estimates.</p>
+<h2>Fixed sampling and scene selection</h2>
+<p>The selection protocol was written before optical retrieval or visual inspection. The three candidate cells come from the existing published hotspot ranking. For each in rank order, choose the nearest unused 0.25° cell whose historical September Aqua median is at least five cell-days and whose September 2019 Aqua and adjusted NPP counts are both at or below that median. Ties use longitude then latitude. Comparisons are lower-activity cells; they are <strong>not known fire-free controls</strong>.</p>
+<p>For each cell, search Landsat 8 in August and September 2019. Require at least 95% scene-footprint overlap. Select the lowest scene cloud fraction, then proximity to the 15th and item ID. Scene choices were never replaced based on visual outcomes. Dates differ between cells because the satellite paths and scene availability differ.</p>
+<h2>Results</h2>
+<table>
+<thead>
+<tr>
+<th>Cell</th>
+<th>Before → during</th>
+<th style="text-align: right;">Paired QA-valid fraction</th>
+<th>Fire-attribution outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Candidate 1</td>
+<td>5 Aug → 6 Sep</td>
+<td style="text-align: right;">28.38%</td>
+<td>Inconclusive: localized disturbance-like changes, cloud gaps and ambiguous attribution</td>
+</tr>
+<tr>
+<td>Candidate 2</td>
+<td>14 Aug → 15 Sep</td>
+<td style="text-align: right;">45.04%</td>
+<td>Inconclusive: substantial cloud and haze/smoke contamination</td>
+</tr>
+<tr>
+<td>Candidate 3</td>
+<td>14 Aug → 15 Sep</td>
+<td style="text-align: right;">93.01%</td>
+<td>Inconclusive: visible haze despite passing pixel QA; surface-change attribution remains ambiguous</td>
+</tr>
+<tr>
+<td>Comparison 1</td>
+<td>5 Aug → 6 Sep</td>
+<td style="text-align: right;">4.17%</td>
+<td>Inconclusive: fails the predefined 20% paired-valid engineering gate</td>
+</tr>
+<tr>
+<td>Comparison 2</td>
+<td>23 Aug → 8 Sep</td>
+<td style="text-align: right;">27.64%</td>
+<td>Inconclusive: no unambiguous fire evidence, but limited coverage cannot establish absence</td>
+</tr>
+<tr>
+<td>Comparison 3</td>
+<td>14 Aug → 15 Sep</td>
+<td style="text-align: right;">55.50%</td>
+<td>Inconclusive: coastal water, haze and atmospheric effects confound change</td>
+</tr>
+</tbody>
+</table>
+<p><strong>0 corroborated, 0 contradicted, 6 inconclusive</strong> for cell-level fire attribution from these fixed image pairs. These outcomes are not an accuracy estimate or proof that the underlying hotspot detections are wrong. The audit does not upgrade the three review candidates into independently verified fires. The existing NASA Earth Observatory account remains separate corroboration of the broader regional event.</p>
+<p>The useful finding is that a high proportion of QA-valid pixels can coexist with visibly hazy imagery. Candidate 3 has 93% paired QA-valid pixels, yet substantial haze remains. QA flags alone therefore cannot establish clean independent validation. Reviewers can inspect the images instead of trusting a summary score.</p>
+<h2>Processing and interpretation</h2>
+<p>USGS surface-reflectance scaling is applied: DN × 0.0000275 − 0.2. Each cell is resampled with nearest neighbour to a 900×900 EPSG:4326 grid, approximately 31 m at this latitude. This is a display/diagnostic grid, not an area measurement or a fire perimeter. Composites use SWIR2/NIR/red reflectance divided by 0.45 and gamma 0.7; clouds/haze remain visible. The fixed display mapping is identical across scenes.</p>
+<p>For the paired diagnostic, exclude QA_PIXEL bits 0–5 (fill, dilated cloud, cirrus, cloud, shadow, snow), any QA_RADSAT flag, zero band values and reflectances outside [0,1]. NBR = (NIR − SWIR2)/(NIR + SWIR2); the denominator must be positive. Gray change pixels are unavailable under these checks. The 20% paired-valid threshold is an engineering gate, not a statistical validity guarantee.</p>
+<p>NBR decreases can reflect burning, vegetation removal, moisture changes, clouds, haze and other effects. The descriptive &gt;0.1 decrease fraction is <strong>not</strong> a burn classifier. The primary diagnostic includes water. After initial inspection exposed water effects in comparison 3, a separate land-only median was added by excluding QA_PIXEL water bit 7 in either image; the original diagnostic was retained. This post-inspection amendment is explicitly recorded in the protocol. No sample, scene, gate or classification rule changed.</p>
+<p>The visual review was performed by an AI assistant with knowledge of the cell roles; it was <strong>not blinded</strong>, and no external analyst participated. Burn scars cannot establish an active-fire timestamp. The selected pairs do not isolate burning within September from changes since August. No hotspot total, harmonization coefficient, error bound or investigation priority is validated by this audit.</p>
+<h2>Reproduce and inspect</h2>
+<p>Run <code>python pipeline/18_imagery_audit.py</code> after installing rasterio 1.4.4 and matplotlib 3.11.2 alongside the existing scientific dependencies. <code>--cached</code> uses the saved catalog and raster subsets and verifies their published array hashes. The first run queries the public STAC API; public asset-access tokens stay in memory and are never written into outputs. Twelve raw subsets and the full STAC response remain in ignored <code>data/raw/</code>; only six scientific figures, compact provenance, protocols and results are published.</p>
+<p><code>imagery_reviews.json</code> records the explicit visual findings and reviewer status. <code>imagery-verification.json</code> records numerical/artifact checks. Reproducing imagery figures can change PNG hashes across plotting-library versions; raw array hashes preserve the actual input values.</p>
+<p>Primary references: <a href="https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products">USGS scale factors</a>, <a href="https://www.usgs.gov/landsat-missions/landsat-collection-2-quality-assessment-bands">USGS QA definitions</a>, <a href="https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products">USGS Collection 2 Level 2</a>, <a href="https://planetarycomputer.microsoft.com/docs/">Planetary Computer public access</a>.</p></section><section id="coverage"><h2>Observation masks and time matching</h2><h1>Observation quality, time matching and decision case</h1>
+<p>This follow-up was specified after earlier calibration results and the 16-day mask pilot, before the new computations. It is exploratory, not an untouched final benchmark. See <code>decision_protocol.json</code> for fixed dates, gates and selection rules.</p>
+<h2>Full masks and quality</h2>
+<p>24 NASA MYD14A1.061 granules cover the requested August–October 2019 and 2020 periods for 113–114° E, 3–2° S. Of 184 requested dates, 167 have daily layers and 17 (17 August–2 September 2020) are absent. Every available date retains all FireMask and QA values for 14,386 selected native sinusoidal cells, without resampling. The 391 KB gzip pixel archive uses 255 only as an outside-rectangle sentinel. The daily CSV and JSON use empty/null values for absent days, never zero counts.</p>
+<p>Dates MUST come from the HDF <code>Dates</code> attribute. For example, A2020241 has an eight-day StartDate/EndDate range but contains only 3 and 4 September. Deriving dates by adding slice offsets to StartDate would incorrectly assign these observations to 28 and 29 August. A regression test preserves the correct mapping.</p>
+<p>QA bits 0–1 retain water/coast/land/missing; bit 2 is the representative classification's day/night flag. Missing QA can carry a zero day/night bit; it must not be interpreted as a night observation. Daily class proportions do not measure clear-sky overpass exposure. We neither divide hotspots by these proportions nor claim paired MODIS/VIIRS coverage normalization. Zero cloud in a daily composite does not establish a cloud-free day.</p>
+<p>NASA documents the Aqua FMU/SSR outage beginning 16 August 2020, with recovery on 2 September. Direct-broadcast observations existed during the outage, so an archive gap does not establish that the instrument never observed. Our selected daily archive still lacks 17 dates. The UI flags 2020 annual timing as coverage-affected, and warns about affected-period comparisons.</p>
+<p>Sources: <a href="https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/6/MYD14A1">NASA MYD14A1 specification</a>, <a href="https://landweb.modaps.eosdis.nasa.gov/displayissue?id=262">NASA outage</a>, <a href="https://doi.org/10.5067/MODIS/MYD14A1.061">product DOI</a>. Full granule URLs, hashes and layer dates are in <code>quality-calendar.json</code>.</p>
+<h2>Time-matching experiment</h2>
+<p>Restrict approximate local mean solar time (UTC minutes + longitude × 4, modulo 1440) before occupied-cell/day deduplication. Fixed windows: unrestricted, 12:00–15:00, 13:00–14:00. Use 8–12 of every month, regional quarterly ratios fitted on 2019–2021, and 48 excluded-year windows in 2022–2025. These are new regional five-day models, distinct from the released sector/monthly calibration.</p>
+<table>
+<thead>
+<tr>
+<th>Restriction</th>
+<th style="text-align: right;">Held-out WAPE</th>
+<th style="text-align: right;">Recent Aqua</th>
+<th style="text-align: right;">Recent NOAA-20</th>
+<th>Current support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All detected times</td>
+<td style="text-align: right;">37.81%</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">718</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>12:00–15:00</td>
+<td style="text-align: right;">38.98%</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">474</td>
+<td>Fail</td>
+</tr>
+<tr>
+<td>13:00–14:00</td>
+<td style="text-align: right;">101.16%</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">344</td>
+<td>Fail</td>
+</tr>
+</tbody>
+</table>
+<p>Current window: 8–12 November 2026. The predefined gate requires both sensors to retain ≥20 cell-days and ≥50% of their unrestricted totals. Failed gates produce null estimates and disagreements, not artificial agreement from empty samples. Zero retained detections is not zero overpasses. Different time restrictions also change the quantity being measured, so their errors are not interchangeable estimates of the same target. No causal partition of orbit drift, sensitivity and burning behaviour is established. The released model and its 46.8% discrepancy remain unchanged.</p>
+<p>The all-time experimental control estimates 170.09 Aqua-equivalent cell-days, a 115.3% discrepancy; it is not the released estimate of 115.98 with 46.8% discrepancy. All model results, hourly detection histograms, input hashes and individual audit windows are retained in <code>time-comparison.json</code> and <code>time-window-counts.csv</code>.</p>
+<p>JAXA's 10-minute Himawari wildfire product is an independent time-resolved candidate. No product data were obtained. Separate registration and public-release conditions remain unresolved; no account or terms acceptance was performed. <a href="https://www.eorc.jaxa.jp/ptree/registration_top.html">Access conditions</a>, <a href="https://www.eorc.jaxa.jp/ptree/userguide.html">product guide</a>.</p>
+<h2>Decision case</h2>
+<p>Fixed question: what deserves retrospective imagery review in Kalimantan in September 2019?</p>
+<ul>
+<li>Earlier burning: not established. The date at which 10% of full-year observed activity accumulates is 9 August for Aqua and 6 August for adjusted NPP, respectively 17 and 14 days later than the 2003–2017 Aqua median of 23 July. The 5% and 20% markers also shift later. These are retrospective accumulation markers, not ignition dates, operational onset or a forecast. Baseline observation completeness remains unknown. The 2020 marker is explicitly coverage-affected and cannot support an earlier-season claim.</li>
+<li>Unusual period: both sensors support above-median September activity. The default values remain below historical p90. All six processing variants retain the above-median conclusion; the stricter-confidence variant alone moves both sensors above p90. An extreme label is method-sensitive.</li>
+<li>Where to review: screen 0.25° cells with median reference activity ≥5 and both Aqua and adjusted NPP above the cell's September p90. Rank by the smaller excess above the median and retain three centres ≥0.5° apart. Publish every threshold, eligible count, cell bounds and values. This is exploratory regional calibration applied locally, not validated local accuracy, severity, exposure or response priority. Each button opens the exact cell/month in the explorer.</li>
+<li>What could change the conclusion: co-observed clear-sky data, local calibration failures, independent imagery and real analyst evaluation. Landsat corroborates the regional event, not each candidate cell or numerical counts. The small daily-mask rectangle cannot normalize the larger regional brief.</li>
+</ul>
+<p>External usefulness validation: <strong>not conducted, 0 participants</strong>, by user instruction. A task-based evaluation protocol is prepared in <code>submission/analyst-evaluation.txt</code>; it contains no invented results or endorsements.</p>
+<h2>Reproduction</h2>
+<p>Use existing raw annual files and pinned recheck files from preceding pipelines. <code>python pipeline/13_quality_calendar.py</code> queries CMR and downloads the HDF products using existing Earthdata credentials; credentials never enter outputs. <code>--cached</code> uses published source identities and verifies hashes. Run <code>python pipeline/14_time_comparison.py</code> and <code>python pipeline/15_decision_case.py</code> for the timing and decision reports. Never refresh the rolling feed to reproduce the fixed November window: it may no longer contain those dates. Data files retain NASA source terms.</p>
+<p>Tests reconcile every published pixel with summary counts/QA, verify partial-granule dates and unavailable-day semantics, test local-time wraparound and support gates, and check candidate eligibility/separation and coverage warnings. Browser tests verify rendering and interpretation boundaries. External ground-truth and usefulness validation remain incomplete.</p></section><section id="exports"><h2>Exports and reproducibility</h2><p>The <strong>analysis ZIP</strong> contains monthly analytics for the chosen year range, original primary-platform observations for the selected month, a calendar SVG, effective bounds and selected state, units, the frozen model, source manifest and SHA-256 hashes. The distinction between the selected-month points and the full-range monthly analytics is explicit in README.txt and analysis.json.</p>
+<p>The <strong>exact-date original-observation CSV</strong> uses the currently selected effective rectangle and the stated inclusive UTC dates. It retrieves one primary-platform file per month, applies date/coordinate filters, retains original fields and never sums platforms. Errors/cancellation do not produce a partial file. A 150 MB browser limit directs larger jobs to the Python pipeline.</p>
+<p>The <strong>month-to-date CSV</strong> retains Aqua and NOAA-20 columns separately. Its original-observation CSV retains a sensor column. No single combined fire count is produced.</p>
+<p>Source hashes identify the retrieved input bytes; hashes do not prove scientific accuracy. The project uses MIT-licensed code; original source data retain their own terms. NASA/USGS and FIRMS attribution remains required by the source context.</p>
+<h3>Reproduce</h3>
+<pre><code class="language-text">python -m pytest tests -q
+npm --prefix web ci
+npm --prefix web test
+npm --prefix web run build
+python pipeline/19_confirmed_case.py --cached
+python pipeline/20_month_to_date.py
+</code></pre>
+<p>Read each pipeline's arguments and source requirements before running. The case pipeline uses optional imagery dependencies from requirements-imagery.txt. Daily NASA files require an authorized Earthdata session; credentials are never published. Raw archives are ignored by Git. Full pipeline order and initial downloads are documented in the repository README.</p>
+<h3>Public contracts</h3>
+<ul>
+<li><code>../data/metadata.json</code>: frozen model and original validation.</li>
+<li><code>../data/history.json.gz</code>: sparse historical display aggregates; see the pipeline for field schema and representative-point conventions.</li>
+<li><code>../data/month-to-date.json</code>: date window, source ledger, baseline, diagnostic tests, model and derived-file hashes.</li>
+<li><code>../data/month-to-date-history.json.gz</code>: nine-column sparse arrays; column names are carried in month-to-date.json.</li>
+<li><code>../data/confirmed-case.json</code>: scene identity, fixed bounds, observation offsets, display assets, separate event claim and source hashes.</li>
+<li><code>analysis.json</code> inside each user export: versioned <code>fire-continuum-analysis-pack-v1</code> selected-state contract.</li>
+</ul>
+<p>Sparse zero counts are counts of retained detections in available inputs. They must not be reinterpreted as complete clear-sky observation or proof of no burning.</p></section><section id="adoption"><h2>What would be needed for agency use</h2><p>The prototype is inspectable and reproducible, but adoption has not been established. The next validation gates are concrete:</p>
+<ol>
+<li>A task-based study with fire analysts or land managers: comprehension, correct rejection of unsupported conclusions and practical usefulness. <strong>Deferred; zero participants.</strong></li>
+<li>Prospective NRT-to-standard comparisons after final products arrive, with a frozen protocol and freshness/outage monitoring.</li>
+<li>Paired observation-opportunity masks for both sensors before estimating coverage-normalized activity.</li>
+<li>Broader geographic and regime coverage, external reference labels and uncertainty appropriate to each decision, with explicit failure cases.</li>
+<li>Production engineering: data update service, versioned releases, operational monitoring, accessibility evaluation, performance budgets and maintenance ownership.</li>
+</ol>
+<p>No NASA endorsement, agency adoption, measured time savings, operational forecasting performance or global accuracy is claimed. A curated visual success is not representative validation.</p></section></main><footer>NASA data. Independent research prototype; NASA does not endorse this project. Snapshot: 14 November 2026.</footer></html>

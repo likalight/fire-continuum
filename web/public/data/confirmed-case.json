@@ -1,0 +1,211 @@
+{
+  "title": "A real fire, seen by a different instrument",
+  "date": "2019-09-15",
+  "bounds": [
+    113.85,
+    -3.1,
+    113.95,
+    -3.0
+  ],
+  "status": "curated_event_corroboration",
+  "scene": {
+    "id": "LC08_L2SP_118062_20190915_02_T1",
+    "datetime": "2019-09-15T02:34:50.651419Z",
+    "platform": "Landsat 8",
+    "instrument": "OLI",
+    "product": "USGS Landsat Collection 2 Level 2",
+    "doi": "10.5066/P9OGBGM6"
+  },
+  "images": {
+    "natural": "confirmed-case-natural.png",
+    "swir": "confirmed-case-swir.png",
+    "overlay": "confirmed-case-overlay.png",
+    "panel": "confirmed-case-panel.png"
+  },
+  "counts": {
+    "aqua": 2,
+    "snpp": 27,
+    "terra": 4,
+    "noaa20": 51
+  },
+  "nearest_time_offsets_minutes": {
+    "aqua": 885.1558096833334,
+    "snpp": 941.1558096833334,
+    "terra": 707.1558096833334,
+    "noaa20": 227.15580968333333
+  },
+  "claim": "Landsat shows a coherent bright shortwave-infrared front and a westward pale plume; NASA independently documented active fires in this scene. Later same-date FIRMS observations occupy the same small area. Together these corroborate burning at this place and date.",
+  "selection_note": "Retrospective, outcome-informed demonstration selected from a NASA-documented event after inspecting three regions. It is separate from the fixed six-cell audit, whose six outcomes remain inconclusive.",
+  "limits": [
+    "No FIRMS observation is within the predefined \u00b160-minute window. Nearest is NOAA-20, 3 h 47 m after Landsat; this is not simultaneous validation.",
+    "Does not validate hotspot totals, anomaly magnitude, harmonization accuracy, fire perimeter, burned area, or absence of fire.",
+    "Point centres represent different sensor footprints and acquisition times; detections are not distinct fires. Do not sum satellites.",
+    "SWIR image is a qualitative display of Level 2 data, not a calibrated active-fire classification. Fire emission, smoke, saturation and atmospheric correction can distort surface-reflectance values.",
+    "AI-assisted, non-blinded visual interpretation; no external practitioner review or representative accuracy estimate."
+  ],
+  "source_urls": [
+    "https://science.nasa.gov/earth/earth-observatory/smoke-blankets-borneo-145614/",
+    "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_118062_20190915_02_T1",
+    "https://firms.modaps.eosdis.nasa.gov/country/",
+    "https://www.usgs.gov/landsat-missions/landsat-collection-2-quality-assessment-bands",
+    "https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products"
+  ],
+  "visual_review": {
+    "outcome": "corroborated_burning_at_place_and_date_only",
+    "reviewer": "AI-assisted non-blinded visual review",
+    "observations": [
+      "A bright pink/orange coherent front lies near 113.927\u00b0E, 3.025\u00b0S in the SWIR composite.",
+      "The same natural-color window contains a pale plume extending westward from this area; much ground detail is obscured.",
+      "NOAA-20 centres from 06:22 UTC lie along and near the bright SWIR front; the passes are 227.16 minutes apart."
+    ],
+    "original_audit_changed": false
+  },
+  "timing_test": {
+    "predefined_window_minutes": 60,
+    "matching_observation_count": 0,
+    "outcome": "No near-simultaneous match",
+    "date_basis": "UTC"
+  },
+  "overlay": {
+    "file": "confirmed-case-overlay.png",
+    "platform": "noaa20",
+    "datetime": "2019-09-15T06:22:00Z",
+    "count": 16,
+    "minutes_after_landsat": 227.15580968333333,
+    "meaning": "White rings: NOAA-20 observation centres, not perimeters or footprints; 3 h 47 m later."
+  },
+  "passes": [
+    {
+      "platform": "aqua",
+      "datetime": "2019-09-15T17:20:00Z",
+      "observations": 2,
+      "minutes_after_landsat": 885.1558096833334
+    },
+    {
+      "platform": "noaa20",
+      "datetime": "2019-09-15T06:22:00Z",
+      "observations": 16,
+      "minutes_after_landsat": 227.15580968333333
+    },
+    {
+      "platform": "noaa20",
+      "datetime": "2019-09-15T17:24:00Z",
+      "observations": 26,
+      "minutes_after_landsat": 889.1558096833334
+    },
+    {
+      "platform": "noaa20",
+      "datetime": "2019-09-15T17:25:00Z",
+      "observations": 9,
+      "minutes_after_landsat": 890.1558096833334
+    },
+    {
+      "platform": "snpp",
+      "datetime": "2019-09-15T18:16:00Z",
+      "observations": 27,
+      "minutes_after_landsat": 941.1558096833334
+    },
+    {
+      "platform": "terra",
+      "datetime": "2019-09-15T14:22:00Z",
+      "observations": 4,
+      "minutes_after_landsat": 707.1558096833334
+    }
+  ],
+  "points": {
+    "geojson": "confirmed-case-points.geojson",
+    "csv": "confirmed-case-points.csv",
+    "filters": "MODIS confidence >=30; VIIRS nominal/high; same UTC date; west/south inclusive, east/north exclusive bounds. Raw source lines retained."
+  },
+  "processing": {
+    "bands": [
+      "swir22",
+      "swir16",
+      "blue",
+      "red",
+      "green",
+      "qa_pixel",
+      "qa_radsat"
+    ],
+    "grid": {
+      "crs": "EPSG:4326",
+      "width": 360,
+      "height": 360,
+      "bounds": [
+        113.85,
+        -3.1,
+        113.95,
+        -3.0
+      ],
+      "north_up": true,
+      "sampling": "Pixel-aligned 360\u00d7360 crop of a 900\u00d7900 nearest-neighbour 0.25-degree scene subset (~31 m grid; OLI native optical resolution 30 m)."
+    },
+    "natural_bands": [
+      4,
+      3,
+      2
+    ],
+    "swir_bands": [
+      7,
+      6,
+      2
+    ],
+    "display": "DN \u00d7 0.0000275 \u2212 0.2; divide by 0.45; clip [0,1]; gamma 0.7. Identical fixed per-channel scale for both images. Clouds/haze and saturation retained for inspection; no quantitative reflectance inference over combustion.",
+    "qa_cloud_or_related_fraction": 3.08641975308642e-05,
+    "qa_any_radsat_flag_fraction": 0.001851851851851852,
+    "qa_swir_saturation_fraction": 0.001851851851851852,
+    "qa_note": "QA bits are diagnostics, not a guarantee of smoke-free observation; saturation flags do not measure fire extent."
+  },
+  "provenance": {
+    "protocol": "confirmed-case-protocol.json",
+    "protocol_sha256": "33a3f9d59c56469a944dea3828d37a59d533046ef6afbcc50a3716db926d351b",
+    "search_log": "confirmed-case-search-log.json",
+    "context_bounds": [
+      113.75,
+      -3.25,
+      114.0,
+      -3.0
+    ],
+    "context_array_sha256": "075e090091951f6b4702e1dd24adcd57713a54251a2b3a84e1ef6c9086abc758",
+    "crop_array_sha256": "e3119ab6a2fd3a5bac53ad55d5ceeb651ee1e3e226927d87e6c85c2080f00224",
+    "stac_item_sha256": "28ee1414a602bbd10858593bb4d7af824e9d98b467fe77fd2d2a3327d72f88ed",
+    "band_assets": {
+      "swir22": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B7.TIF",
+      "swir16": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B6.TIF",
+      "blue": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B2.TIF",
+      "red": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B4.TIF",
+      "green": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_SR_B3.TIF",
+      "qa_pixel": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_QA_PIXEL.TIF",
+      "qa_radsat": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2019/118/062/LC08_L2SP_118062_20190915_20200826_02_T1/LC08_L2SP_118062_20190915_20200826_02_T1_QA_RADSAT.TIF"
+    },
+    "firms_archives": [
+      {
+        "file": "modis_2019_Indonesia.csv",
+        "sha256": "049f010fb65375c1bd5020a0aeb00f0c0a93630585c8439e4979894bafee35ec",
+        "rows": 90475,
+        "source_url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2019_Indonesia.csv"
+      },
+      {
+        "file": "viirs-snpp_2019_Indonesia.csv",
+        "sha256": "1dd309b8ae9dd74464f6fce4e0b61c261b7f39326c2dde3f029db55e22fe1a82",
+        "rows": 437281,
+        "source_url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-snpp_2019_Indonesia.csv"
+      },
+      {
+        "file": "viirs-jpss1_2019_Indonesia.csv",
+        "sha256": "4a895f42a8a58e8715691d02c5ec524bdeb85bfac19a54f66ad983c91c3998c5",
+        "rows": 437645,
+        "source_url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2019_Indonesia.csv"
+      }
+    ],
+    "asset_sha256": {
+      "confirmed-case-natural.png": "528142b0dc797877195cce0365285454cf74e36c9f3e2b123a2f9b0f39d9d386",
+      "confirmed-case-swir.png": "4ceb8f34dd1b8d2217cebb7e9e86a5b0b3a96f81b5fbfc91b754ee1f03d5502e",
+      "confirmed-case-overlay.png": "4219d73ee0ba6ead28742e1866f595a42439f8c3d3f9dfcd358a32a6c4a30e35",
+      "confirmed-case-panel.png": "e87501e9e9de1ef3fa244477240a218c97a4d6e987d867c8f7d692b265369772",
+      "confirmed-case-points.geojson": "101ff23eed6e82a61a8bbc2774b6df1410f67bf3692f390a40120a7f0c993295",
+      "confirmed-case-points.csv": "48c3ea0214babc175d1c3465dc2dd8032e2fea81f3230491ab397ec851d579e6"
+    },
+    "reproduce": "python pipeline/19_confirmed_case.py --cached (remove --cached to retrieve the pinned public Landsat subset if absent; FIRMS annual archives must already exist)"
+  }
+}

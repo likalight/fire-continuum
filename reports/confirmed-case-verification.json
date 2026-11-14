@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checks": {
+    "cached_reproduction_byte_identical": true,
+    "targeted_pytest": "9 passed: tests/test_confirmed_case.py + tests/test_imagery.py",
+    "source_archive_hashes_checked": true,
+    "scene_id_and_timestamp_checked": true,
+    "output_image_and_points_hashes_checked": true,
+    "same_bounds_and_north_up_crop_checked": true,
+    "fixed_60_minute_rule_preserved": true,
+    "prior_six_audit_outcomes_unchanged": true,
+    "final_scientific_panel_visually_inspected": true
+  },
+  "counts_by_sensor": {
+    "aqua": 2,
+    "snpp": 27,
+    "terra": 4,
+    "noaa20": 51
+  },
+  "near_simultaneous_matches": 0,
+  "nearest_pass_platform": "noaa20",
+  "nearest_pass_minutes_after_landsat": 227.15580968333333,
+  "nearest_pass_point_count": 16,
+  "published_case_sha256": "62f4fc4de723d546ec4c215140bef900860085886931f6eb8feb23e1b80861cb",
+  "claim_scope": "Curated burning corroboration at one place/date only; not accuracy or anomaly validation"
+}

@@ -1,0 +1,16 @@
+{
+  "specified_before_new_results": true,
+  "prior_information": "Original monthly, Nov 8\u201312 snapshot, and external transfer results were seen. NOAA-20 Nov 1 file access was probed. This is an exploratory diagnostic, not a new untouched final benchmark.",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-13",
+    "reason": "Month start through last completed UTC day at the 14 November 2026 snapshot; not chosen by outcome."
+  },
+  "sources": "One global FIRMS daily file per sensor per date. Require all 26 valid tables before publishing the comparison. A present file is not proof of complete satellite observations.",
+  "reference": "Aqua 2003\u20132017 identical calendar dates, fixed median and 90th percentile. Retain 2003\u20132025 history and NOAA-20 2019\u20132025.",
+  "calibration": "Freeze original Indonesia NOAA-20 sector/quarter factors fitted 2019\u20132021; never refit on this window.",
+  "frozen_model_sha256": "33ebb6d0e99f097dd73cc3e9db2b974a1bd1be9145f87727a229fdbad35d8d78",
+  "tests": "All 48 month-start days 1\u201313 windows in 2022\u20132025, separately four November windows; publish all five predefined Indonesia regions. Leave one date out of current and historical windows together.",
+  "geography": "Apply identical existing Indonesia polygon to global NRT and Indonesia country archives. Coarse display/region assignment at 0.25 degree cell centres. Archive country assignment can exclude coastal detections before this mask.",
+  "limits": "NRT versus standard processing is unvalidated. No cloud/overpass denominator, no uncertainty interval, no forecast, no claim of distinct fires or area burned. No 2026 annual continuity implied."
+}

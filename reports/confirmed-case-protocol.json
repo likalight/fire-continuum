@@ -1,0 +1,17 @@
+{
+  "purpose": "Retrospective curated demonstration of an externally documented fire episode, not an unbiased validation sample or model-performance test. Earlier six-cell audit and its inconclusive results remain unchanged.",
+  "source_event": "NASA Earth Observatory Smoke Blankets Borneo, published 2019-09-18; Landsat image dated 2019-09-15. NASA describes active fires highlighted with bands 7-6-2.",
+  "source_url": "https://science.nasa.gov/earth/earth-observatory/smoke-blankets-borneo-145614/",
+  "scene": "LC08_L2SP_118062_20190915_02_T1",
+  "initial_search_bounds": [
+    113.75,
+    -3.25,
+    114.5,
+    -2.25
+  ],
+  "search_rule": "Inspect SWIR2/SWIR1/blue and natural-color composites over the fixed search area, then choose a bounded location with visible combustion-like SWIR features and same-date FIRMS observations. Choice is explicitly outcome-informed for demonstration; retain every inspected search region and rejected candidate in a search log. Do not modify earlier audit labels or harmonization.",
+  "match_rule": "Publish all confidence-filtered MODIS Terra/Aqua, VIIRS NPP and NOAA-20 observations on 2019-09-15 inside selected bounds, separated by platform and exact UTC acquisition time. Also evaluate |acquisition time minus Landsat time| <= 60 minutes as a stricter co-timing subset; no change to this threshold after seeing matches.",
+  "claim_limit": "Separate instruments can corroborate burning at this place/date. They cannot validate hotspot totals, absence, anomaly magnitude, calibrated model accuracy, fire perimeter, burned area or a general detection success rate.",
+  "optical_processing": "Use actual georeferenced Landsat data, band-specific metadata/scaling. A false-color SWIR feature is not alone ground truth; require coherent visible morphology and source-context plausibility. Report haze/cloud and saturation, and avoid treating fire radiance as surface reflectance.",
+  "review": "AI-assisted visual interpretation, not blinded and not expert-reviewed. If imagery is ambiguous, report inconclusive and retain search history. May examine another NASA-documented clear event if needed with explicit protocol amendment."
+}

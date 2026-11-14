@@ -47,3 +47,13 @@ We tested two preselected rectangles using 60 additional real NASA files. Local 
 
 ### Did Landsat independently validate your candidate locations?
 No. We retrieved and inspected fixed before/during scene pairs for three candidates and three comparison cells. All six fire-attribution outcomes remain inconclusive. Haze, scene timing and ambiguous surface changes prevent stronger claims. We publish the imagery and QA so others can inspect the same evidence; the separate NASA article still corroborates the regional 2019 event.
+
+
+## Do you now have a convincing independent success?
+Yes: a curated Landsat image shows a coherent fire front and smoke plume at a location also detected by NOAA-20 later that UTC day. The interactive view exposes both images and point centres. The nearest pass is 3 h 47 m later, and no observation passes the ±60-minute test. The claim is event corroboration only. It does not overwrite the fixed six-cell audit or validate counts/anomaly magnitude.
+
+## Does month-to-date solve the 46.8% disagreement?
+No. November 1–13 is a different window from November 8–12. The new source ledger closes the current-month-to-date feature gap while preserving provisional processing and observation limits. A smaller discrepancy in another window is not a successful correction of the old result.
+
+## Could an agency adopt this now?
+The data contracts, reproducible pipelines, evidence exports and public code make evaluation easier. Adoption still requires practitioner tests, broader scientific validation, maintained updates, accessibility evaluation and operational ownership. Those have not been demonstrated.

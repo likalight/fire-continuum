@@ -1,0 +1,2182 @@
+{
+  "schema_version": 1,
+  "status": "provisional",
+  "window": {
+    "start": "2026-11-01",
+    "end": "2026-11-13",
+    "days": 13,
+    "month": 11,
+    "start_day": 1,
+    "end_day": 13
+  },
+  "retrieved_utc": "2026-11-14T10:16:09.424298+00:00",
+  "baseline_years": [
+    2003,
+    2017
+  ],
+  "historical_years": [
+    2003,
+    2025
+  ],
+  "noaa20_historical_years": [
+    2019,
+    2025
+  ],
+  "training_years": [
+    2019,
+    2021
+  ],
+  "test_years": [
+    2022,
+    2025
+  ],
+  "daily_sources": [
+    {
+      "sensor": "aqua",
+      "date": "2026-11-01",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026305.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:37.696194+00:00",
+      "sha256": "85719aca7671e244c98825ed75b089fe6787f3db425e4557508f9c26adb7b774",
+      "bytes": 700349,
+      "file": "mtd-aqua-2026-11-01.txt",
+      "rows": 8942,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 206,
+      "occupied_cell_days": 200
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-02",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026306.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:36.797856+00:00",
+      "sha256": "b5b08d9773552fee34190501af701a3e268b095f075e2dc41dddb619a9007424",
+      "bytes": 549516,
+      "file": "mtd-aqua-2026-11-02.txt",
+      "rows": 7025,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 341,
+      "occupied_cell_days": 332
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-03",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026307.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:37.265457+00:00",
+      "sha256": "358cdb3a1493799c31722ccada668b74424cbc07397cbe1154dbe4fb596980e6",
+      "bytes": 921176,
+      "file": "mtd-aqua-2026-11-03.txt",
+      "rows": 11806,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 161,
+      "occupied_cell_days": 153
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-04",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026308.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:38.697668+00:00",
+      "sha256": "0dbe1c553766e0d65f5e50f88c205a021a6380707eb3508fd18f7e1f3c582648",
+      "bytes": 813784,
+      "file": "mtd-aqua-2026-11-04.txt",
+      "rows": 10386,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 482,
+      "occupied_cell_days": 466
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-05",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026309.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:41.353068+00:00",
+      "sha256": "d24389f5e34a52604dea626f342ec06863f51c4c4bc197c83e934b0eacc7808d",
+      "bytes": 904954,
+      "file": "mtd-aqua-2026-11-05.txt",
+      "rows": 11560,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 474,
+      "occupied_cell_days": 469
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-06",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026310.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:42.023206+00:00",
+      "sha256": "32f0f10c86570f97c2eb15130e8917630e0b3b2383dcd8f7c86162707b39bfcb",
+      "bytes": 1060908,
+      "file": "mtd-aqua-2026-11-06.txt",
+      "rows": 13520,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 181,
+      "occupied_cell_days": 173
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-07",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026311.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:43.647317+00:00",
+      "sha256": "60a21bbce5f4903897d91d8bbd95c9e95325e75b5b2037368e1f3d62aa12b4cd",
+      "bytes": 938864,
+      "file": "mtd-aqua-2026-11-07.txt",
+      "rows": 11966,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 259,
+      "occupied_cell_days": 250
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-08",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026312.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:43.472563+00:00",
+      "sha256": "6ba553326d3e241f32b623e0979e2ac4d4205c685baca483dbb9b9d61b9e0d66",
+      "bytes": 930829,
+      "file": "mtd-aqua-2026-11-08.txt",
+      "rows": 11964,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 44,
+      "occupied_cell_days": 42
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-09",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026313.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:45.488481+00:00",
+      "sha256": "b65790792dfcf63524d0ca2bb98f30d5b3bbdf22ff9719406ea96eb8612b40f2",
+      "bytes": 752060,
+      "file": "mtd-aqua-2026-11-09.txt",
+      "rows": 9620,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 181,
+      "occupied_cell_days": 175
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-10",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026314.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:46.355750+00:00",
+      "sha256": "72bb10dfe335bc7a6649de3b1b75116f3095653f6d499850459b7b83e3ce43e6",
+      "bytes": 860410,
+      "file": "mtd-aqua-2026-11-10.txt",
+      "rows": 11022,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 118,
+      "occupied_cell_days": 114
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-11",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026315.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:48.629138+00:00",
+      "sha256": "be0f01b4ad50d7039cc9a1f877d0092f1b4890c8aebfb08ceefe6dc20c4eaea5",
+      "bytes": 868559,
+      "file": "mtd-aqua-2026-11-11.txt",
+      "rows": 11147,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 127,
+      "occupied_cell_days": 120
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-12",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026316.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:47.755103+00:00",
+      "sha256": "ec76763c190919083a7476d2efa4701fc14195a323669fbd3f09a0d436cd3b94",
+      "bytes": 723714,
+      "file": "mtd-aqua-2026-11-12.txt",
+      "rows": 9252,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 111,
+      "occupied_cell_days": 108
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-13",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026317.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:49.577882+00:00",
+      "sha256": "27ff7fb9a217838d5350761e3e7872f796f9e42a085c1129246f00f229024afe",
+      "bytes": 708612,
+      "file": "mtd-aqua-2026-11-13.txt",
+      "rows": 9089,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 25,
+      "occupied_cell_days": 23
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-01",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026305.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:51.407502+00:00",
+      "sha256": "c212d01f780a22e36699c7798018f8bdef47631347e10329ad625348a74c46e7",
+      "bytes": 3740894,
+      "file": "mtd-noaa20-2026-11-01.txt",
+      "rows": 44372,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1465,
+      "occupied_cell_days": 1065
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-02",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026306.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:53.030552+00:00",
+      "sha256": "378b0af6a1d771c63e69cb12269d5f270183bb6eb4409a5345a6a5cb6cb87119",
+      "bytes": 3937195,
+      "file": "mtd-noaa20-2026-11-02.txt",
+      "rows": 46751,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1804,
+      "occupied_cell_days": 1285
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-03",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026307.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:53.458681+00:00",
+      "sha256": "85632d8bc9738839503d66ca7d5b7770180ccc32f4701cbd57731ab8b550f05d",
+      "bytes": 4651046,
+      "file": "mtd-noaa20-2026-11-03.txt",
+      "rows": 55277,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 2609,
+      "occupied_cell_days": 1633
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-04",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026308.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:01.017958+00:00",
+      "sha256": "455ce1c839f79ebcfcd02cbff3f622eca8937ce1d8f3bd32e11abac54ff71096",
+      "bytes": 5388936,
+      "file": "mtd-noaa20-2026-11-04.txt",
+      "rows": 63959,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 2573,
+      "occupied_cell_days": 1712
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-05",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026309.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:57.221962+00:00",
+      "sha256": "28794a43d348e59b775ee22e15fe40dd9f118535ec2f17f6a7b7c9fa2154a017",
+      "bytes": 5670347,
+      "file": "mtd-noaa20-2026-11-05.txt",
+      "rows": 67369,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 3080,
+      "occupied_cell_days": 2173
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-06",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026310.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:57.985585+00:00",
+      "sha256": "125af2799d266125ab93a26218d26eef608f570d29a9604e38893d040f3bc755",
+      "bytes": 4654386,
+      "file": "mtd-noaa20-2026-11-06.txt",
+      "rows": 55252,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 558,
+      "occupied_cell_days": 385
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-07",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026311.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:59.119794+00:00",
+      "sha256": "241f39ea1b99b7d1ca3aa55b45b9be2edbfcfd71d967003b767f2572f3313353",
+      "bytes": 5119237,
+      "file": "mtd-noaa20-2026-11-07.txt",
+      "rows": 60653,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1725,
+      "occupied_cell_days": 1267
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-08",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026312.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:03.064227+00:00",
+      "sha256": "6fa4e05d680eaa5fc1bbb80c9fb6a0fc7eb096b6d51b6c96f4a550e37eb5000d",
+      "bytes": 4960584,
+      "file": "mtd-noaa20-2026-11-08.txt",
+      "rows": 58739,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 976,
+      "occupied_cell_days": 730
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-09",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026313.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:03.364389+00:00",
+      "sha256": "42bde47512ab76b3996fe4e0784e6000b01e22230e1cb5adeb20b15f62d81128",
+      "bytes": 5356310,
+      "file": "mtd-noaa20-2026-11-09.txt",
+      "rows": 63638,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 840,
+      "occupied_cell_days": 665
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-10",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026314.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:04.374010+00:00",
+      "sha256": "c65b9f5c8a215738765c090c7e8c58f462f1d2fd6a3092f63843b806fb453ff9",
+      "bytes": 5564233,
+      "file": "mtd-noaa20-2026-11-10.txt",
+      "rows": 66193,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1161,
+      "occupied_cell_days": 851
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-11",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026315.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:06.072017+00:00",
+      "sha256": "b0e5a35a6ac3c88dc674a1bd007c20d6d41f0f8cb1a6479a3507aac00ff7d5f3",
+      "bytes": 4242073,
+      "file": "mtd-noaa20-2026-11-11.txt",
+      "rows": 50326,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1105,
+      "occupied_cell_days": 811
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-12",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026316.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:08.554731+00:00",
+      "sha256": "18a9d782585ea4b075e344af3135e1079e71776be19c3742fd17baaa5eb801d5",
+      "bytes": 4126231,
+      "file": "mtd-noaa20-2026-11-12.txt",
+      "rows": 49061,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 693,
+      "occupied_cell_days": 557
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-13",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026317.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:09.424298+00:00",
+      "sha256": "540dd84657b355359758cb1b0a400557e1e8c3d6208066d912d7ba5463a5abfc",
+      "bytes": 3604426,
+      "file": "mtd-noaa20-2026-11-13.txt",
+      "rows": 42827,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 533,
+      "occupied_cell_days": 424
+    }
+  ],
+  "sources": [
+    {
+      "sensor": "aqua",
+      "date": "2026-11-01",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026305.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:37.696194+00:00",
+      "sha256": "85719aca7671e244c98825ed75b089fe6787f3db425e4557508f9c26adb7b774",
+      "bytes": 700349,
+      "file": "mtd-aqua-2026-11-01.txt",
+      "rows": 8942,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 206,
+      "occupied_cell_days": 200
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-02",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026306.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:36.797856+00:00",
+      "sha256": "b5b08d9773552fee34190501af701a3e268b095f075e2dc41dddb619a9007424",
+      "bytes": 549516,
+      "file": "mtd-aqua-2026-11-02.txt",
+      "rows": 7025,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 341,
+      "occupied_cell_days": 332
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-03",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026307.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:37.265457+00:00",
+      "sha256": "358cdb3a1493799c31722ccada668b74424cbc07397cbe1154dbe4fb596980e6",
+      "bytes": 921176,
+      "file": "mtd-aqua-2026-11-03.txt",
+      "rows": 11806,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 161,
+      "occupied_cell_days": 153
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-04",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026308.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:38.697668+00:00",
+      "sha256": "0dbe1c553766e0d65f5e50f88c205a021a6380707eb3508fd18f7e1f3c582648",
+      "bytes": 813784,
+      "file": "mtd-aqua-2026-11-04.txt",
+      "rows": 10386,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 482,
+      "occupied_cell_days": 466
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-05",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026309.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:41.353068+00:00",
+      "sha256": "d24389f5e34a52604dea626f342ec06863f51c4c4bc197c83e934b0eacc7808d",
+      "bytes": 904954,
+      "file": "mtd-aqua-2026-11-05.txt",
+      "rows": 11560,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 474,
+      "occupied_cell_days": 469
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-06",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026310.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:42.023206+00:00",
+      "sha256": "32f0f10c86570f97c2eb15130e8917630e0b3b2383dcd8f7c86162707b39bfcb",
+      "bytes": 1060908,
+      "file": "mtd-aqua-2026-11-06.txt",
+      "rows": 13520,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 181,
+      "occupied_cell_days": 173
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-07",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026311.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:43.647317+00:00",
+      "sha256": "60a21bbce5f4903897d91d8bbd95c9e95325e75b5b2037368e1f3d62aa12b4cd",
+      "bytes": 938864,
+      "file": "mtd-aqua-2026-11-07.txt",
+      "rows": 11966,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 259,
+      "occupied_cell_days": 250
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-08",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026312.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:43.472563+00:00",
+      "sha256": "6ba553326d3e241f32b623e0979e2ac4d4205c685baca483dbb9b9d61b9e0d66",
+      "bytes": 930829,
+      "file": "mtd-aqua-2026-11-08.txt",
+      "rows": 11964,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 44,
+      "occupied_cell_days": 42
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-09",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026313.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:45.488481+00:00",
+      "sha256": "b65790792dfcf63524d0ca2bb98f30d5b3bbdf22ff9719406ea96eb8612b40f2",
+      "bytes": 752060,
+      "file": "mtd-aqua-2026-11-09.txt",
+      "rows": 9620,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 181,
+      "occupied_cell_days": 175
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-10",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026314.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:46.355750+00:00",
+      "sha256": "72bb10dfe335bc7a6649de3b1b75116f3095653f6d499850459b7b83e3ce43e6",
+      "bytes": 860410,
+      "file": "mtd-aqua-2026-11-10.txt",
+      "rows": 11022,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 118,
+      "occupied_cell_days": 114
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-11",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026315.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:48.629138+00:00",
+      "sha256": "be0f01b4ad50d7039cc9a1f877d0092f1b4890c8aebfb08ceefe6dc20c4eaea5",
+      "bytes": 868559,
+      "file": "mtd-aqua-2026-11-11.txt",
+      "rows": 11147,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 127,
+      "occupied_cell_days": 120
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-12",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026316.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:47.755103+00:00",
+      "sha256": "ec76763c190919083a7476d2efa4701fc14195a323669fbd3f09a0d436cd3b94",
+      "bytes": 723714,
+      "file": "mtd-aqua-2026-11-12.txt",
+      "rows": 9252,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 111,
+      "occupied_cell_days": 108
+    },
+    {
+      "sensor": "aqua",
+      "date": "2026-11-13",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/modis-c6.1/Global/MODIS_C6_1_Global_MCD14DL_NRT_2026317.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:49.577882+00:00",
+      "sha256": "27ff7fb9a217838d5350761e3e7872f796f9e42a085c1129246f00f229024afe",
+      "bytes": 708612,
+      "file": "mtd-aqua-2026-11-13.txt",
+      "rows": 9089,
+      "versions": [
+        "6.1NRT"
+      ],
+      "satellites": [
+        "A",
+        "T"
+      ],
+      "retained_detections": 25,
+      "occupied_cell_days": 23
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-01",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026305.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:51.407502+00:00",
+      "sha256": "c212d01f780a22e36699c7798018f8bdef47631347e10329ad625348a74c46e7",
+      "bytes": 3740894,
+      "file": "mtd-noaa20-2026-11-01.txt",
+      "rows": 44372,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1465,
+      "occupied_cell_days": 1065
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-02",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026306.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:53.030552+00:00",
+      "sha256": "378b0af6a1d771c63e69cb12269d5f270183bb6eb4409a5345a6a5cb6cb87119",
+      "bytes": 3937195,
+      "file": "mtd-noaa20-2026-11-02.txt",
+      "rows": 46751,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1804,
+      "occupied_cell_days": 1285
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-03",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026307.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:53.458681+00:00",
+      "sha256": "85632d8bc9738839503d66ca7d5b7770180ccc32f4701cbd57731ab8b550f05d",
+      "bytes": 4651046,
+      "file": "mtd-noaa20-2026-11-03.txt",
+      "rows": 55277,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 2609,
+      "occupied_cell_days": 1633
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-04",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026308.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:01.017958+00:00",
+      "sha256": "455ce1c839f79ebcfcd02cbff3f622eca8937ce1d8f3bd32e11abac54ff71096",
+      "bytes": 5388936,
+      "file": "mtd-noaa20-2026-11-04.txt",
+      "rows": 63959,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 2573,
+      "occupied_cell_days": 1712
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-05",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026309.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:57.221962+00:00",
+      "sha256": "28794a43d348e59b775ee22e15fe40dd9f118535ec2f17f6a7b7c9fa2154a017",
+      "bytes": 5670347,
+      "file": "mtd-noaa20-2026-11-05.txt",
+      "rows": 67369,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 3080,
+      "occupied_cell_days": 2173
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-06",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026310.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:57.985585+00:00",
+      "sha256": "125af2799d266125ab93a26218d26eef608f570d29a9604e38893d040f3bc755",
+      "bytes": 4654386,
+      "file": "mtd-noaa20-2026-11-06.txt",
+      "rows": 55252,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 558,
+      "occupied_cell_days": 385
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-07",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026311.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:15:59.119794+00:00",
+      "sha256": "241f39ea1b99b7d1ca3aa55b45b9be2edbfcfd71d967003b767f2572f3313353",
+      "bytes": 5119237,
+      "file": "mtd-noaa20-2026-11-07.txt",
+      "rows": 60653,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1725,
+      "occupied_cell_days": 1267
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-08",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026312.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:03.064227+00:00",
+      "sha256": "6fa4e05d680eaa5fc1bbb80c9fb6a0fc7eb096b6d51b6c96f4a550e37eb5000d",
+      "bytes": 4960584,
+      "file": "mtd-noaa20-2026-11-08.txt",
+      "rows": 58739,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 976,
+      "occupied_cell_days": 730
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-09",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026313.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:03.364389+00:00",
+      "sha256": "42bde47512ab76b3996fe4e0784e6000b01e22230e1cb5adeb20b15f62d81128",
+      "bytes": 5356310,
+      "file": "mtd-noaa20-2026-11-09.txt",
+      "rows": 63638,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 840,
+      "occupied_cell_days": 665
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-10",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026314.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:04.374010+00:00",
+      "sha256": "c65b9f5c8a215738765c090c7e8c58f462f1d2fd6a3092f63843b806fb453ff9",
+      "bytes": 5564233,
+      "file": "mtd-noaa20-2026-11-10.txt",
+      "rows": 66193,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1161,
+      "occupied_cell_days": 851
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-11",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026315.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:06.072017+00:00",
+      "sha256": "b0e5a35a6ac3c88dc674a1bd007c20d6d41f0f8cb1a6479a3507aac00ff7d5f3",
+      "bytes": 4242073,
+      "file": "mtd-noaa20-2026-11-11.txt",
+      "rows": 50326,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 1105,
+      "occupied_cell_days": 811
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-12",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026316.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:08.554731+00:00",
+      "sha256": "18a9d782585ea4b075e344af3135e1079e71776be19c3742fd17baaa5eb801d5",
+      "bytes": 4126231,
+      "file": "mtd-noaa20-2026-11-12.txt",
+      "rows": 49061,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 693,
+      "occupied_cell_days": 557
+    },
+    {
+      "sensor": "noaa20",
+      "date": "2026-11-13",
+      "url": "https://nrt3.modaps.eosdis.nasa.gov/archive/FIRMS/noaa-20-viirs-c2/Global/J1_VIIRS_C2_Global_VJ114IMGTDL_NRT_2026317.txt",
+      "status": "available",
+      "retrieved_utc": "2026-11-14T10:16:09.424298+00:00",
+      "sha256": "540dd84657b355359758cb1b0a400557e1e8c3d6208066d912d7ba5463a5abfc",
+      "bytes": 3604426,
+      "file": "mtd-noaa20-2026-11-13.txt",
+      "rows": 42827,
+      "versions": [
+        "2.0NRT"
+      ],
+      "satellites": [
+        "N20"
+      ],
+      "retained_detections": 533,
+      "occupied_cell_days": 424
+    }
+  ],
+  "historical_sources": [
+    {
+      "filename": "modis_2003_Indonesia.csv",
+      "size": "4875686",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2003_Indonesia.csv",
+      "sha256": "aa64834a096c7d8c73a2d77fb02ef599158d33563423ca67c431719dc41334d0",
+      "retrieved_utc": "2026-11-14T06:54:22.091866+00:00"
+    },
+    {
+      "filename": "modis_2004_Indonesia.csv",
+      "size": "8322604",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2004_Indonesia.csv",
+      "sha256": "0e6a418dbed38654e13186897006409bb9508d6e9eb460acad35c913f8b8c576",
+      "retrieved_utc": "2026-11-14T06:54:23.434226+00:00"
+    },
+    {
+      "filename": "modis_2005_Indonesia.csv",
+      "size": "5798891",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2005_Indonesia.csv",
+      "sha256": "d4f9134c67b220136d0d4de12434b675c6c8476fba9464bfe9531d76ec69188b",
+      "retrieved_utc": "2026-11-14T06:54:22.942846+00:00"
+    },
+    {
+      "filename": "modis_2006_Indonesia.csv",
+      "size": "12058484",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2006_Indonesia.csv",
+      "sha256": "a94389d5be532e5c2f7048230f2c1d90a2187a4455f6c1674bafa2500db53133",
+      "retrieved_utc": "2026-11-14T06:54:23.226409+00:00"
+    },
+    {
+      "filename": "modis_2007_Indonesia.csv",
+      "size": "3346298",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2007_Indonesia.csv",
+      "sha256": "61e8dabddc4043e194edb972c40d01c29dcb9471eebaa3682835feeac24de801",
+      "retrieved_utc": "2026-11-14T06:54:22.354168+00:00"
+    },
+    {
+      "filename": "modis_2008_Indonesia.csv",
+      "size": "3186516",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2008_Indonesia.csv",
+      "sha256": "24fba3b1a40ea19b72e9d2830355af13029ea2650b031da9e808fe23003e2072",
+      "retrieved_utc": "2026-11-14T06:54:22.600901+00:00"
+    },
+    {
+      "filename": "modis_2009_Indonesia.csv",
+      "size": "7945933",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2009_Indonesia.csv",
+      "sha256": "c45f4871fc9d3090fec52d5293d7475d3624472a8828abfcccd0979337b9fe47",
+      "retrieved_utc": "2026-11-14T06:54:25.125133+00:00"
+    },
+    {
+      "filename": "modis_2010_Indonesia.csv",
+      "size": "1604037",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2010_Indonesia.csv",
+      "sha256": "12a3ac027fec3870c8a9caba4415d34ffa0a28e4960e121b2fdb7c1c55f1aa56",
+      "retrieved_utc": "2026-11-14T06:54:24.738186+00:00"
+    },
+    {
+      "filename": "modis_2011_Indonesia.csv",
+      "size": "4871314",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2011_Indonesia.csv",
+      "sha256": "4a0cffe94dc448061fff1a9bb8120b714fb56e33f1bb6291968fd8d3d876295a",
+      "retrieved_utc": "2026-11-14T06:54:25.459597+00:00"
+    },
+    {
+      "filename": "modis_2012_Indonesia.csv",
+      "size": "5524163",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2012_Indonesia.csv",
+      "sha256": "2c4e88d3b132f9ed94d75b24cfafccf347bac343f2a7c50cd6ba47b0f5bfacf5",
+      "retrieved_utc": "2026-11-14T06:54:25.835432+00:00"
+    },
+    {
+      "filename": "modis_2013_Indonesia.csv",
+      "size": "4178716",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2013_Indonesia.csv",
+      "sha256": "c1287263311b2829411c586a5eb1fccbb8484f1b10356f0be847fea97eba3c9b",
+      "retrieved_utc": "2026-11-14T06:54:30.291445+00:00"
+    },
+    {
+      "filename": "modis_2014_Indonesia.csv",
+      "size": "8933232",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2014_Indonesia.csv",
+      "sha256": "3c6c51a63ba857d81e30e8017864cf457e0736dcfe4971b7669be9ec6b40f32f",
+      "retrieved_utc": "2026-11-14T06:54:26.548111+00:00"
+    },
+    {
+      "filename": "modis_2015_Indonesia.csv",
+      "size": "13914029",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2015_Indonesia.csv",
+      "sha256": "986e4a768333b229fbf48759f7ca7b019b9eb4192f85251946ea6ac3220199b0",
+      "retrieved_utc": "2026-11-14T06:54:32.912048+00:00"
+    },
+    {
+      "filename": "modis_2016_Indonesia.csv",
+      "size": "1861699",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2016_Indonesia.csv",
+      "sha256": "47a08f058c57baa2ea725ec980e67a1089d7583eb3e2a042fc019cf35589d1a6",
+      "retrieved_utc": "2026-11-14T06:54:27.829423+00:00"
+    },
+    {
+      "filename": "modis_2017_Indonesia.csv",
+      "size": "1382026",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2017_Indonesia.csv",
+      "sha256": "054a1cccca3da84fc35fee962d5f4167ea2a3ce221be3be7884d4c4b5aa89061",
+      "retrieved_utc": "2026-11-14T06:54:28.008311+00:00"
+    },
+    {
+      "filename": "modis_2018_Indonesia.csv",
+      "size": "2996769",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2018_Indonesia.csv",
+      "sha256": "3e7b488cf08c3043fe0ebf0db447d10e57cc6c25aadf900ca8183eae73300a0e",
+      "retrieved_utc": "2026-11-14T06:54:32.855549+00:00"
+    },
+    {
+      "filename": "modis_2019_Indonesia.csv",
+      "size": "7142482",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2019_Indonesia.csv",
+      "sha256": "049f010fb65375c1bd5020a0aeb00f0c0a93630585c8439e4979894bafee35ec",
+      "retrieved_utc": "2026-11-14T06:54:30.063158+00:00"
+    },
+    {
+      "filename": "modis_2020_Indonesia.csv",
+      "size": "1272113",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2020_Indonesia.csv",
+      "sha256": "e00db019742905232b11f56bb5cfb9158d5d10479c3d895202376b1046baf19f",
+      "retrieved_utc": "2026-11-14T06:54:30.593818+00:00"
+    },
+    {
+      "filename": "modis_2021_Indonesia.csv",
+      "size": "1114710",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2021_Indonesia.csv",
+      "sha256": "62d0c407f9e9ebbecdddeae1529cc405e254e0aaa4a01f7a427929a186e3d0a0",
+      "retrieved_utc": "2026-11-14T06:54:30.586432+00:00"
+    },
+    {
+      "filename": "modis_2022_Indonesia.csv",
+      "size": "883571",
+      "updated": "2023-12-14 11:15:07",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2022_Indonesia.csv",
+      "sha256": "7ba203f76f72e96d73b03abb76a08613d59edb2c90fe17aaf580a18648f6fd33",
+      "retrieved_utc": "2026-11-14T06:54:32.374821+00:00"
+    },
+    {
+      "filename": "modis_2023_Indonesia.csv",
+      "size": "4151442",
+      "updated": "2024-06-03 14:07:28",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2023_Indonesia.csv",
+      "sha256": "9f9d79cc84eefab271fc82e63b7c49309547a1c31639bfd8590be91d1eea7f1e",
+      "retrieved_utc": "2026-11-14T06:54:33.373722+00:00"
+    },
+    {
+      "filename": "modis_2024_Indonesia.csv",
+      "size": "1865779",
+      "updated": "2025-05-30 10:28:44",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2024_Indonesia.csv",
+      "sha256": "ac90c680c1d0cd493b6997388ea5084037b2f1104c415a4570e4a05c6ef359d2",
+      "retrieved_utc": "2026-11-14T06:54:33.222710+00:00"
+    },
+    {
+      "filename": "modis_2025_Indonesia.csv",
+      "size": "1409943",
+      "updated": "2026-10-10 08:56:42",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/modis_2025_Indonesia.csv",
+      "sha256": "949bf85a132fe817d0778e164c92ec0378a6045c0f72e684a70b2d16a3c3a19a",
+      "retrieved_utc": "2026-11-14T06:54:33.890877+00:00"
+    },
+    {
+      "filename": "viirs-jpss1_2019_Indonesia.csv",
+      "size": "35526723",
+      "updated": "2025-06-20 13:04:49",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2019_Indonesia.csv",
+      "sha256": "4a895f42a8a58e8715691d02c5ec524bdeb85bfac19a54f66ad983c91c3998c5",
+      "retrieved_utc": "2026-11-14T06:54:47.098048+00:00"
+    },
+    {
+      "filename": "viirs-jpss1_2020_Indonesia.csv",
+      "size": "7556481",
+      "updated": "2025-06-20 14:03:33",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2020_Indonesia.csv",
+      "sha256": "78f2c93862e9b2eb81b88ce0f1e3c6b9ac4dda8bb35057823e3f3224fb3141d6",
+      "retrieved_utc": "2026-11-14T06:54:36.443271+00:00"
+    },
+    {
+      "filename": "viirs-jpss1_2021_Indonesia.csv",
+      "size": "5760722",
+      "updated": "2025-06-20 14:38:18",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2021_Indonesia.csv",
+      "sha256": "b9ce13a8a47ab46864c1dfbabf2c6e9ab2f3acc1b11f3f5ca63ade05700b87cf",
+      "retrieved_utc": "2026-11-14T06:54:36.710734+00:00"
+    },
+    {
+      "filename": "viirs-jpss1_2022_Indonesia.csv",
+      "size": "5168954",
+      "updated": "2025-06-20 15:04:06",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2022_Indonesia.csv",
+      "sha256": "fdff1fa25cd0a271b9dfe094fbe0134ce9cc364746045663e3069e2447fa975b",
+      "retrieved_utc": "2026-11-14T06:54:36.425390+00:00"
+    },
+    {
+      "filename": "viirs-jpss1_2023_Indonesia.csv",
+      "size": "20327760",
+      "updated": "2025-06-20 15:33:41",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2023_Indonesia.csv",
+      "sha256": "99969d975480ab57a129b02502b4b968ced195dc2c7fcaf947eb693ef7010fd7",
+      "retrieved_utc": "2026-11-14T06:54:38.186747+00:00"
+    },
+    {
+      "filename": "viirs-jpss1_2024_Indonesia.csv",
+      "size": "9408241",
+      "updated": "2025-06-20 16:06:56",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2024_Indonesia.csv",
+      "sha256": "f978dc06ac3d14c3852ab3a0410422346678a4f221179d8f2f891695caeeaaad",
+      "retrieved_utc": "2026-11-14T06:54:51.959637+00:00"
+    },
+    {
+      "filename": "viirs-jpss1_2025_Indonesia.csv",
+      "size": "7646219",
+      "updated": "2026-10-10 08:57:30",
+      "url": "https://firms.modaps.eosdis.nasa.gov/data/country/viirs-jpss1_2025_Indonesia.csv",
+      "sha256": "3034d45ce3b106e9a507be3936f445df0e762d9d6cf4318244bb44b30a794b8e",
+      "retrieved_utc": "2026-11-14T06:54:42.513691+00:00"
+    }
+  ],
+  "source_availability": {
+    "expected": 26,
+    "available": 26,
+    "observation_coverage_known": false
+  },
+  "frozen_model_sha256": "33ebb6d0e99f097dd73cc3e9db2b974a1bd1be9145f87727a229fdbad35d8d78",
+  "boundary_sha256": "3ee4f6ef52fb92485bccd485e5328fc489cee25dfacdfa76243e23d31c2a8c93",
+  "protocol": {
+    "specified_before_new_results": true,
+    "prior_information": "Original monthly, Nov 8\u201312 snapshot, and external transfer results were seen. NOAA-20 Nov 1 file access was probed. This is an exploratory diagnostic, not a new untouched final benchmark.",
+    "window": {
+      "start": "2026-11-01",
+      "end": "2026-11-13",
+      "reason": "Month start through last completed UTC day at the 14 November 2026 snapshot; not chosen by outcome."
+    },
+    "sources": "One global FIRMS daily file per sensor per date. Require all 26 valid tables before publishing the comparison. A present file is not proof of complete satellite observations.",
+    "reference": "Aqua 2003\u20132017 identical calendar dates, fixed median and 90th percentile. Retain 2003\u20132025 history and NOAA-20 2019\u20132025.",
+    "calibration": "Freeze original Indonesia NOAA-20 sector/quarter factors fitted 2019\u20132021; never refit on this window.",
+    "frozen_model_sha256": "33ebb6d0e99f097dd73cc3e9db2b974a1bd1be9145f87727a229fdbad35d8d78",
+    "tests": "All 48 month-start days 1\u201313 windows in 2022\u20132025, separately four November windows; publish all five predefined Indonesia regions. Leave one date out of current and historical windows together.",
+    "geography": "Apply identical existing Indonesia polygon to global NRT and Indonesia country archives. Coarse display/region assignment at 0.25 degree cell centres. Archive country assignment can exclude coastal detections before this mask.",
+    "limits": "NRT versus standard processing is unvalidated. No cloud/overpass denominator, no uncertainty interval, no forecast, no claim of distinct fires or area burned. No 2026 annual continuity implied."
+  },
+  "regions": {
+    "indonesia": {
+      "bbox": [
+        94,
+        -12,
+        142,
+        7
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 0.16264470542479514,
+        "mae": 86.86921485365569,
+        "relative_bias": -0.010732674910720875,
+        "single_factor_wape": 0.181235317109727
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 0.14674472452912904,
+        "mae": 78.50842762308403,
+        "relative_bias": 0.14674472452912904,
+        "single_factor_wape": 0.20229326407262005
+      },
+      "category_agreement": {
+        "agree": 46,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 102,
+          "noaa20": 957,
+          "adjusted": 157.64664760909238,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 1471,
+          "noaa20": 8688,
+          "adjusted": 1480.3947595197887,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 297,
+          "noaa20": 2364,
+          "adjusted": 398.0680199452846,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 270,
+          "noaa20": 2392,
+          "adjusted": 417.9242834181704,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 2625,
+        "noaa20": 13558,
+        "adjusted": 2253.733765366648,
+        "aqua_category": "Above typical",
+        "adjusted_category": "Above typical",
+        "median": 558.0,
+        "p90": 3706.5999999999995
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 1,
+          "median": 528.0,
+          "p90": 2611.3999999999996,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 2,
+          "median": 486.0,
+          "p90": 3242.7999999999993,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 3,
+          "median": 542.0,
+          "p90": 3113.7999999999993,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 4,
+          "median": 475.0,
+          "p90": 2684.7999999999997,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 5,
+          "median": 492.0,
+          "p90": 3398.7999999999993,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 6,
+          "median": 520.0,
+          "p90": 3522.399999999999,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 7,
+          "median": 515.0,
+          "p90": 3544.5999999999995,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 8,
+          "median": 529.0,
+          "p90": 3400.7999999999993,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 9,
+          "median": 519.0,
+          "p90": 3546.5999999999995,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 10,
+          "median": 547.0,
+          "p90": 3531.999999999999,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 11,
+          "median": 487.0,
+          "p90": 3497.5999999999995,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 12,
+          "median": 551.0,
+          "p90": 3514.399999999999,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 13,
+          "median": 505.0,
+          "p90": 3527.399999999999,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        }
+      ]
+    },
+    "sumatra": {
+      "bbox": [
+        95,
+        -6,
+        106,
+        6
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 0.19966456516974473,
+        "mae": 20.374105004196036,
+        "relative_bias": 0.03173644778673668,
+        "single_factor_wape": 0.231189461970532
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 0.16586992920496382,
+        "mae": 18.577432070955947,
+        "relative_bias": 0.16213141202912268,
+        "single_factor_wape": 0.13386910794957632
+      },
+      "category_agreement": {
+        "agree": 47,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 10,
+          "noaa20": 47,
+          "adjusted": 9.47708714627622,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 281,
+          "noaa20": 1491,
+          "adjusted": 300.6454667042095,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 60,
+          "noaa20": 296,
+          "adjusted": 59.68548500633537,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 97,
+          "noaa20": 748,
+          "adjusted": 150.82683373222585,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 207,
+        "noaa20": 1062,
+        "adjusted": 214.1418414754329,
+        "aqua_category": "Above typical",
+        "adjusted_category": "Above typical",
+        "median": 76.0,
+        "p90": 657.0
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 1,
+          "median": 51.0,
+          "p90": 639.8,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 2,
+          "median": 74.0,
+          "p90": 568.5999999999999,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 3,
+          "median": 72.0,
+          "p90": 612.8,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 4,
+          "median": 76.0,
+          "p90": 622.4,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 5,
+          "median": 63.0,
+          "p90": 526.2,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 6,
+          "median": 76.0,
+          "p90": 639.8,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 7,
+          "median": 76.0,
+          "p90": 584.4,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 8,
+          "median": 63.0,
+          "p90": 642.6,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 9,
+          "median": 76.0,
+          "p90": 607.5999999999999,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 10,
+          "median": 63.0,
+          "p90": 629.6,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 11,
+          "median": 63.0,
+          "p90": 618.6,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 12,
+          "median": 63.0,
+          "p90": 570.8,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 13,
+          "median": 76.0,
+          "p90": 648.6,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        }
+      ]
+    },
+    "kalimantan": {
+      "bbox": [
+        108,
+        -5,
+        120,
+        4.5
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 0.2548087514157273,
+        "mae": 59.598705253007715,
+        "relative_bias": -0.19097704252181658,
+        "single_factor_wape": 0.27207798554238893
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 0.16042386383043683,
+        "mae": 13.515710527714303,
+        "relative_bias": 0.16042386383043683,
+        "single_factor_wape": 0.283501632771628
+      },
+      "category_agreement": {
+        "agree": 41,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 24,
+          "noaa20": 185,
+          "adjusted": 29.882951586331508,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 186,
+          "noaa20": 1269,
+          "adjusted": 204.98089493543074,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 46,
+          "noaa20": 397,
+          "adjusted": 64.12719880958707,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 81,
+          "noaa20": 570,
+          "adjusted": 92.07179677950789,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 696,
+        "noaa20": 3842,
+        "adjusted": 620.59621618749,
+        "aqua_category": "Above typical",
+        "adjusted_category": "Above typical",
+        "median": 103.0,
+        "p90": 1742.3999999999994
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 1,
+          "median": 103.0,
+          "p90": 908.7999999999998,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 2,
+          "median": 97.0,
+          "p90": 1698.3999999999996,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 3,
+          "median": 103.0,
+          "p90": 1328.1999999999996,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 4,
+          "median": 99.0,
+          "p90": 863.9999999999999,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 5,
+          "median": 99.0,
+          "p90": 1677.5999999999995,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 6,
+          "median": 103.0,
+          "p90": 1653.7999999999995,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 7,
+          "median": 83.0,
+          "p90": 1729.1999999999994,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 8,
+          "median": 101.0,
+          "p90": 1585.1999999999996,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 9,
+          "median": 88.0,
+          "p90": 1670.9999999999995,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 10,
+          "median": 102.0,
+          "p90": 1724.3999999999994,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 11,
+          "median": 87.0,
+          "p90": 1629.5999999999995,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 12,
+          "median": 103.0,
+          "p90": 1726.3999999999996,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "omitted_day": 13,
+          "median": 95.0,
+          "p90": 1658.5999999999995,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Above typical"
+        }
+      ]
+    },
+    "java": {
+      "bbox": [
+        105,
+        -9,
+        116,
+        -5
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 1.1559833720288937,
+        "mae": 26.033708857567376,
+        "relative_bias": 1.1536588428568226,
+        "single_factor_wape": 1.1219592614435634
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 1.5889540699825742,
+        "mae": 20.25916439227782,
+        "relative_bias": 1.5889540699825742,
+        "single_factor_wape": 1.690435475434893
+      },
+      "category_agreement": {
+        "agree": 18,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 6,
+          "noaa20": 70,
+          "adjusted": 11.708169602537765,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 29,
+          "noaa20": 470,
+          "adjusted": 80.85246410983277,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 10,
+          "noaa20": 186,
+          "adjusted": 32.5313434632465,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 6,
+          "noaa20": 42,
+          "adjusted": 6.944680393494249,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 28,
+        "noaa20": 417,
+        "adjusted": 72.29140230401889,
+        "aqua_category": "Above typical",
+        "adjusted_category": "Unusually high",
+        "median": 13.0,
+        "p90": 44.2
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 1,
+          "median": 12.0,
+          "p90": 41.0,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 2,
+          "median": 11.0,
+          "p90": 38.199999999999996,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 3,
+          "median": 13.0,
+          "p90": 39.2,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 4,
+          "median": 11.0,
+          "p90": 39.599999999999994,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 5,
+          "median": 11.0,
+          "p90": 40.8,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 6,
+          "median": 13.0,
+          "p90": 42.4,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 7,
+          "median": 11.0,
+          "p90": 40.0,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 8,
+          "median": 11.0,
+          "p90": 43.8,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 9,
+          "median": 11.0,
+          "p90": 41.6,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 10,
+          "median": 11.0,
+          "p90": 43.4,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 11,
+          "median": 13.0,
+          "p90": 43.2,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 12,
+          "median": 13.0,
+          "p90": 41.8,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 13,
+          "median": 13.0,
+          "p90": 37.599999999999994,
+          "aqua_category": "Above typical",
+          "adjusted_category": "Unusually high"
+        }
+      ]
+    },
+    "papua": {
+      "bbox": [
+        130,
+        -10,
+        142,
+        0.5
+      ],
+      "all_month_windows": {
+        "windows": 48,
+        "wape": 0.3139154369079639,
+        "mae": 15.90504880333684,
+        "relative_bias": -0.23264910903357075,
+        "single_factor_wape": 0.23265705879819096
+      },
+      "same_calendar_dates": {
+        "windows": 4,
+        "wape": 0.33258864724396986,
+        "mae": 53.46362504446816,
+        "relative_bias": -0.2859400942642019,
+        "single_factor_wape": 0.2795348731215188
+      },
+      "category_agreement": {
+        "agree": 40,
+        "eligible": 48
+      },
+      "matched_years": [
+        {
+          "year": 2022,
+          "month": 11,
+          "aqua": 9,
+          "noaa20": 112,
+          "adjusted": 18.248310209889723,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "aqua": 597,
+          "noaa20": 2448,
+          "adjusted": 398.8559231590182,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Above typical"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "aqua": 27,
+          "noaa20": 201,
+          "adjusted": 32.74919957310566,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "aqua": 10,
+          "noaa20": 57,
+          "adjusted": 9.287086446104588,
+          "aqua_category": "At or below typical",
+          "adjusted_category": "At or below typical"
+        }
+      ],
+      "current": {
+        "year": 2026,
+        "month": 11,
+        "aqua": 890,
+        "noaa20": 3652,
+        "adjusted": 595.0252579153328,
+        "aqua_category": "Unusually high",
+        "adjusted_category": "Unusually high",
+        "median": 116.0,
+        "p90": 413.59999999999997
+      },
+      "leave_one_day_out": [
+        {
+          "omitted_day": 1,
+          "median": 108.0,
+          "p90": 377.99999999999994,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 2,
+          "median": 89.0,
+          "p90": 374.2,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 3,
+          "median": 93.0,
+          "p90": 409.2,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 4,
+          "median": 80.0,
+          "p90": 348.59999999999997,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 5,
+          "median": 89.0,
+          "p90": 406.2,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 6,
+          "median": 104.0,
+          "p90": 403.59999999999997,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 7,
+          "median": 91.0,
+          "p90": 386.59999999999997,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 8,
+          "median": 109.0,
+          "p90": 335.5999999999999,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 9,
+          "median": 114.0,
+          "p90": 392.6,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 10,
+          "median": 114.0,
+          "p90": 399.4,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 11,
+          "median": 114.0,
+          "p90": 373.8,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 12,
+          "median": 114.0,
+          "p90": 410.2,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        },
+        {
+          "omitted_day": 13,
+          "median": 116.0,
+          "p90": 374.6,
+          "aqua_category": "Unusually high",
+          "adjusted_category": "Unusually high"
+        }
+      ]
+    }
+  },
+  "columns": [
+    "year",
+    "day",
+    "longitude_cell",
+    "latitude_cell",
+    "aqua_detections",
+    "noaa20_detections",
+    "aqua_cell_days",
+    "noaa20_cell_days",
+    "adjusted_noaa20_cell_days"
+  ],
+  "limits": [
+    "Provisional NRT-to-standard comparison; processing continuity is unvalidated.",
+    "All 26 daily files are available. This does not establish complete satellite observations, clear-sky coverage or all fires detected.",
+    "Month-to-date means 1\u201313 November 2026 only; 14 November is excluded and no other 2026 months are represented.",
+    "All thermal source types retained; detections and occupied cell-days are neither distinct fires nor area burned.",
+    "Frozen monthly calibration is evaluated on shorter windows; residuals are diagnostics, not a confidence interval.",
+    "Current inter-sensor agreement is not independent ground truth; only four same-calendar held-out years are available.",
+    "Country archive assignment may omit coastal records before the identical polygon mask.",
+    "Missing dates outside this pinned snapshot are unavailable, never zeros. This is not an automatically refreshed live feed."
+  ],
+  "history_sha256": "b27392a29cfdde70743cef665b576e16cf4059ecaf61fb807755b15ad325669b",
+  "detections_sha256": "e65fa615b1da335df164d66476fb04da63d285df27dabb294ef02648747b54ec",
+  "snapshot_sha256": "e65fa615b1da335df164d66476fb04da63d285df27dabb294ef02648747b54ec"
+}

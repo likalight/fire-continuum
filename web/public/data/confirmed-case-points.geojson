@@ -1,0 +1,2363 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    113.85,
+    -3.1,
+    113.95,
+    -3.0
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214493",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92496,
+          -3.02132
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214493",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214493,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 67.34,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214507",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93148,
+          -3.02539
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214507",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214507,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 67.34,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214513",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92655,
+          -3.0313
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214513",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214513,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 41.62,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214527",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92883,
+          -3.04628
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214527",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214527,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 24.98,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214530",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9239,
+          -3.05218
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214530",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214530,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 11.18,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214531",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92962,
+          -3.05127
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214531",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214531,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 11.95,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214539",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9247,
+          -3.05717
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214539",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214539,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 11.18,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214554",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92061,
+          -3.06804
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214554",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214554,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 8.99,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214558",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91571,
+          -3.07392
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214558",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214558,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 9.92,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214565",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92587,
+          -3.04703
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214565",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214565,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 11.32,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214566",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93156,
+          -3.04608
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214566",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214566,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 11.32,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214567",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92663,
+          -3.05202
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214567",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214567,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 11.32,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214568",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92742,
+          -3.05701
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214568",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214568,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 7.89,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214576",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91761,
+          -3.06887
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214576",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214576,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 8.16,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214584",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91843,
+          -3.07385
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214584",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214584,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 8.16,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:214587",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.90454,
+          -3.09657
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:214587",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 214587,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T06:22:00Z",
+        "minutes_after_landsat": 227.15580968333333,
+        "confidence": "n",
+        "frp_mw": 11.61,
+        "daynight": "D",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.63,
+        "track_km": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "modis:47477",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9256,
+          -3.0275
+        ]
+      },
+      "properties": {
+        "id": "modis:47477",
+        "source_file": "modis_2019_Indonesia.csv",
+        "source_csv_line": 47477,
+        "sensor": "modis",
+        "platform": "terra",
+        "satellite": "Terra",
+        "datetime": "2019-09-15T14:22:00Z",
+        "minutes_after_landsat": 707.1558096833334,
+        "confidence": "99",
+        "frp_mw": 93.0,
+        "daynight": "N",
+        "version": "6.03",
+        "type": "0",
+        "scan_km": 3.2,
+        "track_km": 1.7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "modis:47501",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9319,
+          -3.0245
+        ]
+      },
+      "properties": {
+        "id": "modis:47501",
+        "source_file": "modis_2019_Indonesia.csv",
+        "source_csv_line": 47501,
+        "sensor": "modis",
+        "platform": "terra",
+        "satellite": "Terra",
+        "datetime": "2019-09-15T14:22:00Z",
+        "minutes_after_landsat": 707.1558096833334,
+        "confidence": "100",
+        "frp_mw": 98.7,
+        "daynight": "N",
+        "version": "6.03",
+        "type": "0",
+        "scan_km": 3.2,
+        "track_km": 1.7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "modis:47502",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9032,
+          -3.0284
+        ]
+      },
+      "properties": {
+        "id": "modis:47502",
+        "source_file": "modis_2019_Indonesia.csv",
+        "source_csv_line": 47502,
+        "sensor": "modis",
+        "platform": "terra",
+        "satellite": "Terra",
+        "datetime": "2019-09-15T14:22:00Z",
+        "minutes_after_landsat": 707.1558096833334,
+        "confidence": "47",
+        "frp_mw": 36.8,
+        "daynight": "N",
+        "version": "6.03",
+        "type": "0",
+        "scan_km": 3.2,
+        "track_km": 1.7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "modis:47504",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9236,
+          -3.0122
+        ]
+      },
+      "properties": {
+        "id": "modis:47504",
+        "source_file": "modis_2019_Indonesia.csv",
+        "source_csv_line": 47504,
+        "sensor": "modis",
+        "platform": "terra",
+        "satellite": "Terra",
+        "datetime": "2019-09-15T14:22:00Z",
+        "minutes_after_landsat": 707.1558096833334,
+        "confidence": "89",
+        "frp_mw": 67.2,
+        "daynight": "N",
+        "version": "6.03",
+        "type": "0",
+        "scan_km": 3.2,
+        "track_km": 1.7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "modis:47664",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9283,
+          -3.0192
+        ]
+      },
+      "properties": {
+        "id": "modis:47664",
+        "source_file": "modis_2019_Indonesia.csv",
+        "source_csv_line": 47664,
+        "sensor": "modis",
+        "platform": "aqua",
+        "satellite": "Aqua",
+        "datetime": "2019-09-15T17:20:00Z",
+        "minutes_after_landsat": 885.1558096833334,
+        "confidence": "91",
+        "frp_mw": 95.5,
+        "daynight": "N",
+        "version": "6.03",
+        "type": "0",
+        "scan_km": 3.8,
+        "track_km": 1.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "modis:47724",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9366,
+          -3.0142
+        ]
+      },
+      "properties": {
+        "id": "modis:47724",
+        "source_file": "modis_2019_Indonesia.csv",
+        "source_csv_line": 47724,
+        "sensor": "modis",
+        "platform": "aqua",
+        "satellite": "Aqua",
+        "datetime": "2019-09-15T17:20:00Z",
+        "minutes_after_landsat": 885.1558096833334,
+        "confidence": "89",
+        "frp_mw": 89.0,
+        "daynight": "N",
+        "version": "6.03",
+        "type": "0",
+        "scan_km": 3.8,
+        "track_km": 1.8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217854",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92795,
+          -3.05056
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217854",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217854,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 0.84,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217855",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92414,
+          -3.04995
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217855",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217855,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.11,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217862",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92864,
+          -3.04638
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217862",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217862,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 0.84,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217863",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92482,
+          -3.04578
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217863",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217863,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.11,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217864",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92932,
+          -3.0422
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217864",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217864,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.22,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217865",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9255,
+          -3.0416
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217865",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217865,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.24,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217869",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92999,
+          -3.03802
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217869",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217869,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.22,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217870",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92619,
+          -3.03742
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217870",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217870,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.24,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217878",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93447,
+          -3.03445
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217878",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217878,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 4.17,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.42,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217879",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93066,
+          -3.03385
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217879",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217879,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 4.17,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217880",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92684,
+          -3.03324
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217880",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217880,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 5.65,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217881",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92303,
+          -3.03263
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217881",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217881,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 5.65,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217885",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93513,
+          -3.03027
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217885",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217885,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 4.17,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.42,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217886",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91989,
+          -3.02784
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217886",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217886,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.37,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217890",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93133,
+          -3.02967
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217890",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217890,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 4.17,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217891",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92753,
+          -3.02906
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217891",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217891,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 5.65,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217892",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92371,
+          -3.02845
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217892",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217892,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 5.65,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217900",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92821,
+          -3.02488
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217900",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217900,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "h",
+        "frp_mw": 16.06,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217901",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92441,
+          -3.02427
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217901",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217901,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 16.06,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217902",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9206,
+          -3.02367
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217902",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217902,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 4.91,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217906",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92891,
+          -3.02071
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217906",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217906,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 16.06,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217907",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9251,
+          -3.0201
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217907",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217907,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 16.06,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217908",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9213,
+          -3.01949
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217908",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217908,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 4.91,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217918",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9296,
+          -3.01653
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217918",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217918,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 22.93,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217919",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9258,
+          -3.01592
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217919",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217919,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "h",
+        "frp_mw": 22.93,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:217920",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92198,
+          -3.01531
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:217920",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 217920,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:24:00Z",
+        "minutes_after_landsat": 889.1558096833334,
+        "confidence": "n",
+        "frp_mw": 6.25,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220382",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91889,
+          -3.063
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220382",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220382,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 0.75,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220387",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91959,
+          -3.05882
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220387",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220387,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 0.75,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220398",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92408,
+          -3.05528
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220398",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220398,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 0.92,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.42,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220404",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92475,
+          -3.0511
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220404",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220404,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 0.92,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.42,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220405",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92544,
+          -3.04692
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220405",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220405,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.47,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.42,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220407",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92991,
+          -3.04338
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220407",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220407,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.92,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.42,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220435",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9175,
+          -3.07135
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220435",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220435,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 0.9,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220467",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92611,
+          -3.04275
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220467",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220467,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.47,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.42,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-jpss1:220532",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9182,
+          -3.06717
+        ]
+      },
+      "properties": {
+        "id": "viirs-jpss1:220532",
+        "source_file": "viirs-jpss1_2019_Indonesia.csv",
+        "source_csv_line": 220532,
+        "sensor": "viirs-jpss1",
+        "platform": "noaa20",
+        "satellite": "N20",
+        "datetime": "2019-09-15T17:25:00Z",
+        "minutes_after_landsat": 890.1558096833334,
+        "confidence": "n",
+        "frp_mw": 0.9,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.43,
+        "track_km": 0.46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:219963",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91634,
+          -3.07189
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:219963",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 219963,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.34,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92405,
+          -3.05384
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220003",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220003,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.62,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92477,
+          -3.04914
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220009",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220009,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.37,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92548,
+          -3.04445
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220016",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220016,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.37,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93114,
+          -3.04048
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220023",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220023,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.68,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92622,
+          -3.03975
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220024",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220024,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.81,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93682,
+          -3.0365
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220032",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220032,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.68,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92203,
+          -3.03434
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220033",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220033,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.81,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93188,
+          -3.03578
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220038",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220038,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.68,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92695,
+          -3.03506
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220039",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220039,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 2.81,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92606,
+          -3.05212
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220054",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220054,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.11,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92677,
+          -3.04743
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220062",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220062,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.64,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92747,
+          -3.04273
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220066",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220066,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.64,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92821,
+          -3.03804
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220075",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220075,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 5.99,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93877,
+          -3.03487
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220076",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220076,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 1.51,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93385,
+          -3.03411
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220082",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220082,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 5.99,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92892,
+          -3.03335
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220083",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220083,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 5.99,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92401,
+          -3.0326
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220084",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220084,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 8.09,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91981,
+          -3.02715
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220085",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220085,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 7.7,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92964,
+          -3.02866
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220091",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220091,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 11.08,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92473,
+          -3.0279
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220092",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220092,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 7.7,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93034,
+          -3.02396
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220102",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220102,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 11.08,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92541,
+          -3.02321
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220103",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220103,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 7.7,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92048,
+          -3.02245
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220104",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220104,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 7.7,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93103,
+          -3.01927
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220118",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220118,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 12.84,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9261,
+          -3.01851
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220119",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220119,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "h",
+        "frp_mw": 18.79,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "viirs-snpp:220120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92117,
+          -3.01776
+        ]
+      },
+      "properties": {
+        "id": "viirs-snpp:220120",
+        "source_file": "viirs-snpp_2019_Indonesia.csv",
+        "source_csv_line": 220120,
+        "sensor": "viirs-snpp",
+        "platform": "snpp",
+        "satellite": "N",
+        "datetime": "2019-09-15T18:16:00Z",
+        "minutes_after_landsat": 941.1558096833334,
+        "confidence": "n",
+        "frp_mw": 18.79,
+        "daynight": "N",
+        "version": "2",
+        "type": "0",
+        "scan_km": 0.54,
+        "track_km": 0.51
+      }
+    }
+  ]
+}

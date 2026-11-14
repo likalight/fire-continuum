@@ -1,4 +1,4 @@
-# Project details — draft
+# Project details
 
 Challenge: [Harmonization of MODIS and VIIRS Hot Spots](https://www.spaceappschallenge.org/2026/challenges/modis-and-viirs-hot-spots/?tab=details).
 
@@ -34,7 +34,7 @@ The revised app includes year-level diagnostics, five region-exclusion tests, wh
 
 The case is Kalimantan September 2019, outside NPP's 2013–2017 fit period, with the following year as a comparison. NASA Earth Observatory's “Smoke Blankets Borneo” supplies a separate Landsat 8 OLI observation dated 15 September 2019. It corroborates event occurrence, not complete count accuracy. The image is credited and displayed unchanged. An interactive test shows that above-median activity persists across six processing variants while the extreme label changes with the confidence filter.
 
-The season briefing now uses only the same-month Aqua 2003–2017 baseline, excluding the selected year. It compares the adjusted primary observation and concurrent Aqua category on that common scale. Historical categories are descriptive, not predictions or risk levels. A fourteen-step guided route links the published event, the sensor comparison, the sensitivity test, the exportable briefing and the failed validation tests. See reports/validation-v2.md and reports/case-study.md.
+The season briefing now uses only the same-month Aqua 2003–2017 baseline, excluding the selected year. It compares the adjusted primary observation and concurrent Aqua category on that common scale. Historical categories are descriptive, not predictions or risk levels. A six-step guided route links the published event, the sensor comparison, the sensitivity test, the exportable briefing and the failed validation tests. See reports/validation-v2.md and reports/case-study.md.
 
 ## Continuity into the present
 
@@ -73,11 +73,11 @@ Two predefined local-time restrictions (12:00–15:00 and 13:00–14:00) were fi
 
 The fixed September 2019 decision brief answers four questions: earlier burning, unusual activity, where to inspect, and what could change the conclusion. The retrospective 10%-of-annual-activity marker is 9 August for Aqua and 6 August for adjusted NPP, 17 and 14 days later than the historical Aqua median. It is not an ignition/onset date or a forecast. Three transparent 0.25° imagery-review candidates open directly in the explorer; their ranking is exploratory, not a severity or operational priority score. A downloadable decision brief carries these limits and sources.
 
-External usefulness validation has not been conducted (0 participants), as requested by the project owner. A task-based analyst evaluation plan is prepared without invented outcomes. The fourteen-step guided demo includes the quality calendar, rejected time correction and explicit decision questions. See reports/decision-quality-findings.md and reports/decision_protocol.json for reproducible methods and every limitation.
+External usefulness validation has not been conducted (0 participants), as requested by the project owner. A task-based analyst evaluation plan is prepared without invented outcomes. The six-step guided demo includes the quality calendar, rejected time correction and explicit decision questions. See reports/decision-quality-findings.md and reports/decision_protocol.json for reproducible methods and every limitation.
 
 ## Decision benchmark, external regions and systematic imagery audit
 
-The opening now gives a three-stage experience: see a same-place/same-period sensor discrepancy, inspect observation conditions, and choose a retrospective imagery-review location. The detailed analyst walkthrough has fourteen chapters; the public demonstration remains a thirty-second video.
+The opening starts with a documented event and a plain-language path into the calendar. Four workspace views separate story, historical exploration, current comparison and technical evidence. The three-stage sensor-switch experiment remains in the evidence library; the guided walkthrough has six chapters.
 
 The decision benchmark tests 710 region-month comparisons across five Indonesian study rectangles (470 NPP, 240 NOAA-20). Against Aqua categories, NOAA-20 agreement improves from 79.6% for simple calibration to 82.9% for the released method. Balanced accuracy worsens from 78.7% to 70.6%; 3 of 6 rare Aqua above-p90 months are missed versus 1 for simple calibration. NPP shows the same trade-off. All methods, confusion matrices, sample retention, regional results and critical-window errors are downloadable. This follow-up uses periods excluded from fitting whose earlier count results had already been inspected; it is not a blind benchmark. See reports/decision-benchmark-findings.md.
 
@@ -86,3 +86,22 @@ Two regions were fixed before their outputs were inspected: Punjab [73.8,29.5,76
 A fixed sample of three Kalimantan review candidates and three lower-activity comparisons now has real Landsat 8 Collection 2 Level 2 August/September scene pairs. Independent OLI reflectance is accessed through the public Microsoft Planetary Computer mirror, with USGS scaling, QA_PIXEL and QA_RADSAT masks, exact georeferencing and input/subset hashes. The published SWIR2/NIR/red panels retain visible clouds/haze; paired NBR decreases are masked for QA-invalid pixels. Five cells pass the engineering QA gate, but all six fire-attribution reviews remain inconclusive. Scene timing, haze and non-fire causes of spectral change prevent treating the pairs as confirmed ground truth. Comparison cells are not assumed fire-free. Review is AI-assisted and non-blinded; practitioner validation is deferred. See reports/imagery-findings.md and the live independent-imagery viewer.
 
 NASA/USGS Landsat data: https://doi.org/10.5066/P9OGBGM6. Source metadata and unsigned public asset URLs are retained. Reproduce with pipeline/16_decision_benchmark.py, pipeline/17_transfer_cases.py (--cached for pinned files), and pipeline/18_imagery_audit.py (--cached for pinned scene subsets; optional requirements-imagery.txt). Raw annual files, raster subsets and access tokens are not published. Code tests, pixel/QA checks, browser review and source hashes support reproducibility, not a claim of independently validated operational accuracy.
+
+
+## Curated independent success and improved task flow
+
+A separately labelled, retrospectively selected known-event demonstration uses Landsat scene LC08_L2SP_118062_20190915_02_T1 at 02:34:50 UTC, within [113.85,-3.10,113.95,-3.00]. Natural color shows a pale westward plume; a 7/6/2 SWIR display reveals a coherent bright front. Sixteen NOAA-20 observation centres at 06:22 UTC follow the same area, 227.16 minutes later. Zero observations pass the predefined ±60-minute timing check. This corroborates burning at a place/date, not simultaneity, individual count accuracy, fire perimeter or harmonization accuracy. The original six inconclusive reviews are unchanged. A selection log, raw observation CSV/GeoJSON, exact scene provenance, hashes and all temporal offsets are published. See reports/confirmed-case-findings.md.
+
+The app now provides four focused views, a six-step tour, a searchable evidence library, a plain-language glossary and a technical handbook. The calendar surfaces the largest estimated month and complete year in the chosen range, excluding known outage periods from those rankings. Short answers precede expandable methodological details. All earlier experiments remain accessible through stable section links.
+
+## November month-to-date: real daily sources
+
+The pinned current comparison covers 1–13 November 2026 inclusive, the last completed UTC date at retrieval. All 26 expected Aqua/NOAA-20 daily global files were downloaded with the existing Earthdata authorization and checked for actual acquisition dates, schema, sizes, hash and sensor identity. Terra records in the MODIS daily files are excluded. No extra 24-hour settling period is imposed; delayed NRT deliveries remain possible. File availability does not establish complete observation coverage.
+
+The same 13 dates in 2003–2017 supply the Aqua baseline. Frozen original 2019–2021 NOAA-20 coefficients are retained. Standard-archive evaluation uses 2022–2025: 48 all-month 13-day windows and four November 1–13 windows. In Kalimantan, current Aqua records 696 occupied cell-days versus an adjusted NOAA-20 estimate of 620.6; the baseline median is 103, so both categories are above typical. Their magnitude differs by 10.8% relative to Aqua. This is a new date window, not evidence that a correction reduced the earlier November 8–12 gap of 46.8%. Java retains a category disagreement. All outcomes, exact values and thirteen day-omission checks are published.
+
+## Reusable exports and explicit requirements
+
+An analysis ZIP contains selected-range monthly CSV, selected-month original points, calendar SVG, selected-state/units/limits JSON, source manifest, frozen model, input audit and SHA-256 verification. A separate exact-date CSV supports inclusive UTC dates across months and years for the effective selected rectangle; it uses one primary platform per period. Progress, cancellation, schema checks and a 150 MB browser memory bound prevent silent partial output. Original point coordinates/intensities are never individually harmonized. The MTD original-point export retains separate sensor identity.
+
+The public technical handbook documents all processing and evidence levels. A challenge coverage matrix distinguishes implemented features from partial continuous-2026 coverage, bounded geography, monthly harmonized analysis, unknown paired observation coverage and deferred practitioner validation. Code is MIT licensed; source data retain their own terms. External users have not tested usefulness; no NASA adoption, endorsement or measured operational benefit is claimed.
